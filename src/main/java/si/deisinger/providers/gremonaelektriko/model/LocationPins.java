@@ -17,5 +17,4 @@ public class LocationPins {
 		public String geo;
 		public Av av;
 	}
-
 }

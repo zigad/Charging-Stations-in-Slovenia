@@ -4,8 +4,10 @@ import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Config;
 import org.eclipse.jgit.lib.GpgConfig;
+import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import si.deisinger.business.credentials.Credentials;
 import si.deisinger.providers.enums.Providers;
 
 import java.io.File;
@@ -23,7 +25,7 @@ public class GitController {
 			LOG.info("Committing file to git");
 			git.commit().setMessage("Updated List Of Charging Stations for " + provider.getProviderName()).setGpgConfig(new GpgConfig(config)).call();
 			LOG.info("Pushing to origin");
-			git.push().call();
+			git.push().setCredentialsProvider(new UsernamePasswordCredentialsProvider(Credentials.getUsername(), Credentials.getPassword())).call();
 		} catch (IOException | GitAPIException e) {
 			e.printStackTrace();
 		}

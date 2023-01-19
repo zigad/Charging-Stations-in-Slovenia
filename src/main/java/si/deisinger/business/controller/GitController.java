@@ -22,10 +22,11 @@ public class GitController {
 			git.add().addFilepattern("currentInfoPerProvider.json").addFilepattern(provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json").call();
 			LOG.info("Committing file to git");
 			git.commit().setMessage("Updated List Of Charging Stations for " + provider.getProviderName()).setGpgConfig(new GpgConfig(config)).call();
+			LOG.info("Pushing to origin");
+			git.push().call();
 		} catch (IOException | GitAPIException e) {
 			e.printStackTrace();
 		}
-		//TODO git push
 		LOG.info("Commit successful");
 	}
 }

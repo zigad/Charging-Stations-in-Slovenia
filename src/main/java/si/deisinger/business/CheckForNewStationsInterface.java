@@ -1,7 +1,13 @@
 package si.deisinger.business;
 
-public interface CheckForNewStationsInterface {
-	void checkGremoNaElektriko();
+import com.fasterxml.jackson.core.JsonProcessingException;
+import org.eclipse.jgit.api.errors.GitAPIException;
 
-	void checkPetrol();
+import java.io.IOException;
+
+public interface CheckForNewStationsInterface {
+
+	void checkGremoNaElektriko() throws IOException, GitAPIException;
+
+	void checkPetrol() throws IOException;
 }

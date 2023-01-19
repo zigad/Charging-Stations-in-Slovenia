@@ -1,8 +1,8 @@
-package si.deisinger.providers.gremonaelektriko.model;
+package si.deisinger.providers.model.gremonaelektriko;
 
 import java.util.ArrayList;
 
-public class LocationPins {
+public class GNELocationPins {
 	public ArrayList<Pin> pins;
 
 	public static class Pin {

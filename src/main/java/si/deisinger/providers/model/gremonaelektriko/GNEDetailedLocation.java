@@ -1,8 +1,8 @@
-package si.deisinger.providers.gremonaelektriko.model;
+package si.deisinger.providers.model.gremonaelektriko;
 
 import java.util.ArrayList;
 
-public class DetailedLocation {
+public class GNEDetailedLocation {
 	public ArrayList<Locations> locations;
 
 	public static class Locations {

@@ -1,4 +1,4 @@
-package si.deisinger.providers.petrol.model;
+package si.deisinger.providers.model.petrol;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

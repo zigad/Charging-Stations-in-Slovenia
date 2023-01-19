@@ -8,9 +8,9 @@ import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Config;
 import org.eclipse.jgit.lib.GpgConfig;
 import si.deisinger.providers.enums.Providers;
-import si.deisinger.providers.gremonaelektriko.model.DetailedLocation;
-import si.deisinger.providers.gremonaelektriko.model.LocationPins;
-import si.deisinger.providers.petrol.model.PetrolLocations;
+import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
+import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
+import si.deisinger.providers.model.petrol.PetrolLocations;
 
 import javax.json.Json;
 import javax.json.JsonArray;
@@ -38,16 +38,16 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 
 	@Override
 	public void checkGremoNaElektriko() throws IOException {
-		LocationPins locationPins = OBJECT_MAPPER.readValue(getLocationsFromApi(Providers.GREMO_NA_ELEKTRIKO), LocationPins.class);
-
-		LinkedList<Integer> stationsAroundSlovenia = restrictToGeoLocation(locationPins);
+		GNELocationPins GNELocationPins = OBJECT_MAPPER.readValue(getLocationsFromApi(Providers.GREMO_NA_ELEKTRIKO), GNELocationPins.class);
+		LinkedList<Integer> stationsAroundSlovenia = restrictToGeoLocation(GNELocationPins);
 
 		Map<String, List<Integer>> diff = getDiffFrom2Arrays(getStationsFromFile(Providers.GREMO_NA_ELEKTRIKO.getProviderName()), stationsAroundSlovenia);
 		if (diff.get("new").size() > 0) {
-			DetailedLocation detailedLocation = OBJECT_MAPPER.readValue(getGremoNaElektrikoDetailedLocationsApi(buildPostRequestBody(diff.get("new"))), DetailedLocation.class);
-			writeNewDataToJsonFile(Providers.GREMO_NA_ELEKTRIKO.getProviderName(), locationPins.pins.size(), diff.get("new"));
-			writeNewStationsToFile(detailedLocation);
+			GNEDetailedLocation GNEDetailedLocation = OBJECT_MAPPER.readValue(getGremoNaElektrikoDetailedLocationsApi(buildPostRequestBody(diff.get("new"))), GNEDetailedLocation.class);
+			writeNewDataToJsonFile(Providers.GREMO_NA_ELEKTRIKO.getProviderName(), GNELocationPins.pins.size(), diff.get("new"));
+			writeNewStationsToFile(GNEDetailedLocation);
 		}
+
 		gitCommit(Providers.GREMO_NA_ELEKTRIKO);
 	}
 
@@ -57,11 +57,12 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 		LinkedList<Integer> stationsAroundSlovenia = convertToLinkedList(locations);
 
 		Map<String, List<Integer>> diff = getDiffFrom2Arrays(getStationsFromFile(Providers.PETROL.getProviderName()), stationsAroundSlovenia);
-		if (diff.get("new").size() > 0) {
 
+		if (diff.get("new").size() > 0) {
 			writeNewDataToJsonFile(Providers.PETROL.getProviderName(), locations.length, diff.get("new"));
 			writeNewStationsToFile(locations);
 		}
+
 		gitCommit(Providers.PETROL);
 	}
 
@@ -77,17 +78,17 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 	/**
 	 * Extracts the station ids that are within the desired geographical location
 	 *
-	 * @param locationPins
+	 * @param GNELocationPins
 	 * @return Ids in LinkedList<Integer> with pins around Slovenia
 	 */
-	private static LinkedList<Integer> restrictToGeoLocation(LocationPins locationPins) {
+	private static LinkedList<Integer> restrictToGeoLocation(GNELocationPins GNELocationPins) {
 		LinkedList<Integer> apiIds = new LinkedList<>();
-		for (int counter = 0; counter < locationPins.pins.size(); counter++) {
+		for (int counter = 0; counter < GNELocationPins.pins.size(); counter++) {
 			try {
-				int lat = Integer.parseInt(locationPins.pins.get(counter).geo.split(",")[0].substring(0, 2));
-				int lon = Integer.parseInt(locationPins.pins.get(counter).geo.split(",")[1].substring(0, 2));
+				int lat = Integer.parseInt(GNELocationPins.pins.get(counter).geo.split(",")[0].substring(0, 2));
+				int lon = Integer.parseInt(GNELocationPins.pins.get(counter).geo.split(",")[1].substring(0, 2));
 				if ((lat == 45 || lat == 46 || lat == 47) && (lon == 13 || lon == 14 || lon == 15 || lon == 16 || lon == 17)) {
-					apiIds.add(locationPins.pins.get(counter).id);
+					apiIds.add(GNELocationPins.pins.get(counter).id);
 				}
 			} catch (NumberFormatException ignored) {
 			}
@@ -158,15 +159,15 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 	/**
 	 * Writes new station data to a file
 	 *
-	 * @param detailedLocation
+	 * @param GNEDetailedLocation
 	 * @throws IOException
 	 */
-	private static void writeNewStationsToFile(DetailedLocation detailedLocation) throws IOException {
+	private static void writeNewStationsToFile(GNEDetailedLocation GNEDetailedLocation) throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		// Write the POJO object to the JSON file
 		mapper.writerWithDefaultPrettyPrinter()
 				.writeValue(new File(Providers.GREMO_NA_ELEKTRIKO.getProviderName() + "/" + Providers.GREMO_NA_ELEKTRIKO.getProviderName() + "_" + LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyy.MM.dd@HH.mm.ss")) + ".json"),
-						detailedLocation);
+						GNEDetailedLocation);
 
 	}
 

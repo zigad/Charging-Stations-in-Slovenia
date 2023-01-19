@@ -1,21 +1,21 @@
 {
-  "GremoNaElektriko": {
-    "numberOfStationsOnline": 0,
-    "stationIds": []
+  "GremoNaElektriko" : {
+    "numberOfStationsOnline" : 0,
+    "stationIds" : [ ]
   },
-  "Petrol": {
-    "numberOfStationsOnline": 0,
-    "stationIds": []
+  "Petrol" : {
+    "numberOfStationsOnline" : 0,
+    "stationIds" : [ ]
   },
-  "MOLPlungee": {
-    "numberOfStationsOnline": 0,
-    "stationIds": []
+  "MOLPlungee" : {
+    "numberOfStationsOnline" : 0,
+    "stationIds" : [ ]
   },
-  "MoonCharge": {
-    "numberOfStationsOnline": 0,
-    "stationIds": []
+  "MoonCharge" : {
+    "numberOfStationsOnline" : 0,
+    "stationIds" : [ ]
   },
-  "Avant2Go": {
-    "numberOfStationsOnline": 0
+  "Avant2Go" : {
+    "numberOfStationsOnline" : 0
   }
 }

@@ -26,68 +26,56 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
-import java.util.*;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class CheckForNewStationsProcessor implements CheckForNewStationsInterface {
 
-	private final HttpClient httpClient = HttpClient.newHttpClient();
 	private final ObjectMapper objectMapper = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
 	public CheckForNewStationsProcessor() {
 	}
 
 	@Override
-	public void checkGremoNaElektriko() throws IOException {
-		GNELocationPins GNELocationPins = objectMapper.readValue(getLocationsFromApi(Providers.GREMO_NA_ELEKTRIKO), GNELocationPins.class);
+	public void checkGremoNaElektriko(Providers provider) throws IOException {
+		GNELocationPins GNELocationPins = objectMapper.readValue(getLocationsFromApi(provider), GNELocationPins.class);
 		Set<Integer> stationsAroundSlovenia = restrictToGeoLocation(GNELocationPins);
 
-		Set<Integer> oldStations = getStationsFromFile(Providers.GREMO_NA_ELEKTRIKO.getProviderName());
+		Set<Integer> oldStations = getStationsFromFile(provider);
 		Set<Integer> newStations = new LinkedHashSet<>(stationsAroundSlovenia);
 		newStations.removeAll(oldStations);
 
 		if (!newStations.isEmpty()) {
 			GNEDetailedLocation GNEDetailedLocation = objectMapper.readValue(getGremoNaElektrikoDetailedLocationsApi(buildPostRequestBody(newStations)), GNEDetailedLocation.class);
-			writeNewDataToJsonFile(Providers.GREMO_NA_ELEKTRIKO.getProviderName(), GNELocationPins.pins.size(), newStations);
-			writeNewStationsToFile(GNEDetailedLocation);
+			writeNewDataToJsonFile(provider, GNELocationPins.pins.size(), newStations);
+			writeNewStationsToFile(provider, GNEDetailedLocation);
 		}
 
-		gitCommit(Providers.GREMO_NA_ELEKTRIKO);
+		gitCommit(provider);
 	}
 
 	@Override
-	public void checkPetrol() throws IOException {
-		PetrolLocations[] locations = objectMapper.readValue(getLocationsFromApi(Providers.PETROL), PetrolLocations[].class);
+	public void checkPetrol(Providers provider) throws IOException {
+		PetrolLocations[] locations = objectMapper.readValue(getLocationsFromApi(provider), PetrolLocations[].class);
 		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
 		for (PetrolLocations location : locations) {
 			stationsAroundSlovenia.add(location.id);
 		}
 
-		Set<Integer> oldStations = getStationsFromFile(Providers.PETROL.getProviderName());
+		Set<Integer> oldStations = getStationsFromFile(provider);
 		Set<Integer> newStations = new LinkedHashSet<>(stationsAroundSlovenia);
 		newStations.removeAll(oldStations);
 
 		if (!newStations.isEmpty()) {
-			writeNewDataToJsonFile(Providers.PETROL.getProviderName(), locations.length, newStations);
-			writeNewStationsToFile(locations);
+			writeNewDataToJsonFile(provider, locations.length, newStations);
+			writeNewStationsToFile(provider, locations);
 		}
 
-		gitCommit(Providers.PETROL);
-	}
-
-	private LinkedList<Integer> convertToLinkedList(PetrolLocations[] locations) {
-		LinkedList<Integer> linkedList = new LinkedList<>();
-		for (PetrolLocations location : locations) {
-			linkedList.add(location.id);
-		}
-		return linkedList;
-
+		gitCommit(provider);
 	}
 
 	/**
 	 * Extracts the station ids that are within the desired geographical location
-	 *
-	 * @param GNELocationPins
-	 * @return Ids in LinkedList<Integer> with pins around Slovenia
 	 */
 	private static Set<Integer> restrictToGeoLocation(GNELocationPins GNELocationPins) {
 		Set<Integer> apiIds = new LinkedHashSet<>();
@@ -106,54 +94,7 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 	}
 
 	/**
-	 * Finds the difference between two arrays and returns the new and removed values
-	 *
-	 * @param stationsFromFile
-	 * @param stationsAroundSlovenia
-	 * @return
-	 */
-	public static Map<String, List<Integer>> getDiffFrom2Arrays(JsonArray stationsFromFile, LinkedList<Integer> stationsAroundSlovenia) {
-		Set<Integer> localStationsSet = convertToLocalArray(stationsFromFile);
-
-		Map<String, List<Integer>> result = new HashMap<>();
-		result.put("new", new ArrayList<>());
-		result.put("removed", new ArrayList<>());
-		// Find new values
-		for (Integer value : stationsAroundSlovenia) {
-			if (!localStationsSet.contains(value)) {
-				result.get("new").add(value);
-			}
-		}
-
-		// Find removed values
-		for (Integer value : localStationsSet) {
-			if (!stationsAroundSlovenia.contains(value)) {
-				result.get("removed").add(value);
-			}
-		}
-
-		return result;
-	}
-
-	/**
-	 * Converts a JsonArray to a Set of integers
-	 *
-	 * @param stationsFromFile
-	 * @return
-	 */
-	private static Set<Integer> convertToLocalArray(JsonArray stationsFromFile) {
-		Set<Integer> localStationsSet = new LinkedHashSet<>();
-		for (int i = 0; i < stationsFromFile.size(); i++) {
-			localStationsSet.add(stationsFromFile.getInt(i));
-		}
-		return localStationsSet;
-	}
-
-	/**
 	 * Builds a post request body for the detailed location API
-	 *
-	 * @param newValues
-	 * @return
 	 */
 	private static String buildPostRequestBody(Set<Integer> newValues) {
 		StringBuilder postRequestBody = new StringBuilder("{\"locations\": {");
@@ -166,35 +107,30 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 
 	/**
 	 * Writes new station data to a file
-	 *
-	 * @param
-	 * @throws IOException
 	 */
-	private static void writeNewStationsToFile(Object data) throws IOException {
+	private static void writeNewStationsToFile(Providers providers, Object data) throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		// Write the POJO object to the JSON file
 		mapper.writerWithDefaultPrettyPrinter()
-				.writeValue(new File(Providers.GREMO_NA_ELEKTRIKO.getProviderName() + "/" + Providers.GREMO_NA_ELEKTRIKO.getProviderName() + "_" + LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyy.MM.dd@HH.mm.ss")) + ".json"),
+				.writeValue(new File(providers.getProviderName() + "/" + providers.getProviderName() + "_" + LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyy.MM.dd@HH.mm.ss")) + ".json"),
 						data);
 
 	}
 
-	private static void writeNewDataToJsonFile(String provider, int numOfStationsOnline, Set<Integer> aNew) throws IOException {
+	private static void writeNewDataToJsonFile(Providers providers, int numOfStationsOnline, Set<Integer> aNew) throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		ObjectNode root = (ObjectNode) mapper.readTree(new File("currentInfoPerProvider.json"));
-		root.with(provider).put("numberOfStationsOnline", numOfStationsOnline);
-		ArrayNode stationIds = root.get(provider).withArray("stationIds");
+		root.with(providers.getProviderName()).put("numberOfStationsOnline", numOfStationsOnline);
+		ArrayNode stationIds = root.get(providers.getProviderName()).withArray("stationIds");
 		for (Integer integer : aNew) {
 			stationIds.add(integer);
 		}
-		root.with(provider).put("numberOfStationsOnline", numOfStationsOnline);
+		root.with(providers.getProviderName()).put("numberOfStationsOnline", numOfStationsOnline);
 		mapper.writerWithDefaultPrettyPrinter().writeValue(new File("currentInfoPerProvider.json"), root);
 	}
 
 	/**
 	 * Gets location pins from the Gremo na Elektriko API
-	 *
-	 * @return
 	 */
 	private static String getLocationsFromApi(Providers providers) {
 		HttpClient client = HttpClient.newHttpClient();
@@ -214,15 +150,12 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 
 	/**
 	 * Gets detailed location information from the Gremo na Elektriko API
-	 *
-	 * @param postRequestBody
-	 * @return
 	 */
 	private static String getGremoNaElektrikoDetailedLocationsApi(String postRequestBody) {
 		HttpClient client = HttpClient.newBuilder()
 				.version(HttpClient.Version.HTTP_2)
 				.build();
-		HttpRequest request = null;
+		HttpRequest request;
 		try {
 			request = HttpRequest.newBuilder(new URI("https://cp.emobility.gremonaelektriko.si/api/v2/app/locations"))
 					.version(HttpClient.Version.HTTP_2)
@@ -232,7 +165,7 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 		} catch (URISyntaxException e) {
 			throw new RuntimeException(e);
 		}
-		HttpResponse<String> response = null;
+		HttpResponse<String> response;
 		try {
 			response = client.send(request, HttpResponse.BodyHandlers.ofString());
 		} catch (IOException | InterruptedException e) {
@@ -244,15 +177,12 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 
 	/**
 	 * Gets station data from a file
-	 *
-	 * @param providerName
-	 * @return
 	 */
-	private static Set<Integer> getStationsFromFile(String providerName) {
+	private static Set<Integer> getStationsFromFile(Providers providers) {
 		Set<Integer> stations = new LinkedHashSet<>();
 		try (FileInputStream fis = new FileInputStream("currentInfoPerProvider.json")) {
 			JsonReader jsonReader = Json.createReader(fis);
-			JsonArray jsonArray = jsonReader.readObject().getJsonObject(providerName).getJsonArray("stationIds");
+			JsonArray jsonArray = jsonReader.readObject().getJsonObject(providers.getProviderName()).getJsonArray("stationIds");
 
 			for (int i = 0; i < jsonArray.size(); i++) {
 				stations.add(jsonArray.getInt(i));

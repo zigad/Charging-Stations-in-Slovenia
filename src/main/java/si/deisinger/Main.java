@@ -20,6 +20,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
+import java.time.LocalDateTime;
 import java.util.*;
 
 public class Main {
@@ -46,11 +47,10 @@ public class Main {
 				DetailedLocation detailedLocation = OBJECT_MAPPER.readValue(getGremoNaElektrikoDetailedLocationsApi(postRequestBody.toString()), DetailedLocation.class);
 
 				writeNewDataToJsonFile(Providers.GREMO_NA_ELEKTRIKO.getProviderName(), locationPins.pins.size(), diffFrom2Arrays.get("new"));
+				writeNewStationsToFile(Providers.GREMO_NA_ELEKTRIKO, detailedLocation);
 
-				System.out.println("");
 			}
 		}
-
 	}
 
 	private static LinkedList<Integer> restrictToGeoLocation(LocationPins locationPins) {
@@ -102,14 +102,6 @@ public class Main {
 		LinkedList<Integer> linkedList = new LinkedList<>();
 		for (int i = 0; i < stationsFromFile.size(); i++) {
 			linkedList.add(stationsFromFile.getInt(i));
-		}
-		return linkedList;
-	}
-
-	private static LinkedList<Integer> convertToApiArray(LocationPins locationPins) {
-		LinkedList<Integer> linkedList = new LinkedList<>();
-		for (int i = 0; i < locationPins.pins.size(); i++) {
-			linkedList.add(locationPins.pins.get(i).id);
 		}
 		return linkedList;
 	}
@@ -180,7 +172,15 @@ public class Main {
 			stationIds.add(integer);
 		}
 		root.with(provider).put("numberOfStationsOnline", numOfStationsOnline);
-		mapper.writeValue(new File("src/main/resources/currentInfoPerProvider.json"), root);
+		mapper.writerWithDefaultPrettyPrinter().writeValue(new File("src/main/resources/currentInfoPerProvider.json"), root);
 		return null;
+	}
+
+	private static void writeNewStationsToFile(Providers provider, DetailedLocation detailedLocation) throws IOException {
+		ObjectMapper mapper = new ObjectMapper();
+		// Write the POJO object to the JSON file
+		mapper.writerWithDefaultPrettyPrinter()
+				.writeValue(new File(provider.getProviderName() + "/" + provider.getProviderName() + "_" + LocalDateTime.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyy.MM.dd@HH.mm.ss")) + ".json"), detailedLocation);
+
 	}
 }

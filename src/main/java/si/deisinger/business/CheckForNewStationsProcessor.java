@@ -1,6 +1,7 @@
 package si.deisinger.business;
 
 public class CheckForNewStationsProcessor implements CheckForNewStationsInterface {
+
 	@Override
 	public void checkGremoNaElektriko() {
 

@@ -11,6 +11,7 @@ import si.deisinger.providers.enums.Providers;
 import si.deisinger.providers.model.avant2go.Avant2GoLocations;
 import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
+import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
 import si.deisinger.providers.model.petrol.PetrolLocations;
 
 import java.util.LinkedHashSet;
@@ -64,6 +65,32 @@ public class ProviderProcessor {
 
 		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
 		for (PetrolLocations location : locations) {
+			stationsAroundSlovenia.add(location.id);
+		}
+
+		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
+
+		if (!difference.isEmpty()) {
+			LOG.info("Found " + difference.size() + " new stations");
+			FileController.writeNewDataToJsonFile(provider, locations.length, difference);
+			FileController.writeNewStationsToFile(provider, locations);
+		} else {
+			LOG.info("No new stations found");
+		}
+	}
+
+	public void checkMoonCharge(Providers provider) {
+		MoonChargeLocation[] locations;
+		try {
+			locations = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), MoonChargeLocation[].class);
+		} catch (JsonProcessingException e) {
+			LOG.error("Mapping to POJO failed");
+			throw new RuntimeException(e);
+		}
+		LOG.info("Fetched: " + locations.length + " stations");
+
+		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
+		for (MoonChargeLocation location : locations) {
 			stationsAroundSlovenia.add(location.id);
 		}
 

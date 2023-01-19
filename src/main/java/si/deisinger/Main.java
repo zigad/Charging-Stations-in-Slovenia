@@ -16,7 +16,7 @@ public class Main {
 		LOG.info("Checking provider: " + Providers.PETROL.getProviderName());
 		providerProcessor.checkPetrol(Providers.PETROL);
 		LOG.info("Checking provider: " + Providers.MOON_CHARGE.getProviderName());
-		providerProcessor.checkPetrol(Providers.MOON_CHARGE);
+		providerProcessor.checkMoonCharge(Providers.MOON_CHARGE);
 		LOG.info("Checking provider: " + Providers.AVANT2GO.getProviderName());
 		providerProcessor.checkAvant2Go(Providers.AVANT2GO);
 	}

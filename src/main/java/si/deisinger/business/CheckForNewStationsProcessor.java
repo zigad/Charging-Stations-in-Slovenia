@@ -37,7 +37,7 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 	}
 
 	@Override
-	public void checkGremoNaElektriko() throws IOException, GitAPIException {
+	public void checkGremoNaElektriko() throws IOException {
 		LocationPins locationPins = OBJECT_MAPPER.readValue(getLocationsFromApi(Providers.GREMO_NA_ELEKTRIKO), LocationPins.class);
 
 		LinkedList<Integer> stationsAroundSlovenia = restrictToGeoLocation(locationPins);
@@ -63,7 +63,6 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 			writeNewStationsToFile(locations);
 		}
 		gitCommit(Providers.PETROL);
-
 	}
 
 	private LinkedList<Integer> convertToLinkedList(PetrolLocations[] locations) {

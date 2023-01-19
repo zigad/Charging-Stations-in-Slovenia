@@ -181,14 +181,14 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 
 	private static void writeNewDataToJsonFile(String provider, int numOfStationsOnline, Set<Integer> aNew) throws IOException {
 		ObjectMapper mapper = new ObjectMapper();
-		ObjectNode root = (ObjectNode) mapper.readTree(new File("src/main/resources/currentInfoPerProvider.json"));
+		ObjectNode root = (ObjectNode) mapper.readTree(new File("currentInfoPerProvider.json"));
 		root.with(provider).put("numberOfStationsOnline", numOfStationsOnline);
 		ArrayNode stationIds = root.get(provider).withArray("stationIds");
 		for (Integer integer : aNew) {
 			stationIds.add(integer);
 		}
 		root.with(provider).put("numberOfStationsOnline", numOfStationsOnline);
-		mapper.writerWithDefaultPrettyPrinter().writeValue(new File("src/main/resources/currentInfoPerProvider.json"), root);
+		mapper.writerWithDefaultPrettyPrinter().writeValue(new File("currentInfoPerProvider.json"), root);
 	}
 
 	/**
@@ -250,7 +250,7 @@ public class CheckForNewStationsProcessor implements CheckForNewStationsInterfac
 	 */
 	private static Set<Integer> getStationsFromFile(String providerName) {
 		Set<Integer> stations = new LinkedHashSet<>();
-		try (FileInputStream fis = new FileInputStream("src/main/resources/currentInfoPerProvider.json")) {
+		try (FileInputStream fis = new FileInputStream("currentInfoPerProvider.json")) {
 			JsonReader jsonReader = Json.createReader(fis);
 			JsonArray jsonArray = jsonReader.readObject().getJsonObject(providerName).getJsonArray("stationIds");
 

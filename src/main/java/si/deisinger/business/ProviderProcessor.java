@@ -113,7 +113,7 @@ public class ProviderProcessor {
 			LOG.error("Mapping to POJO failed");
 			throw new RuntimeException(e);
 		}
-		LOG.info("Fetched: " + locations + " stations");
+		LOG.info("Fetched: " + locations.results.size() + " stations");
 
 		Integer numberOfStationsInFile = FileController.getNumberOfStationsFromFile(provider);
 

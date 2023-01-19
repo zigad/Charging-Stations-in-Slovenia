@@ -11,9 +11,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		ProviderProcessor providerProcessor = new ProviderProcessor();
-		LOG.info("Checking provider: " + Providers.GREMO_NA_ELEKTRIKO.getProviderName());
-		providerProcessor.checkGremoNaElektriko(Providers.GREMO_NA_ELEKTRIKO);
-		LOG.info("Checking provider: " + Providers.PETROL.getProviderName());
+		//providerProcessor.checkAvant2Go(Providers.AVANT2GO);
+
+		//LOG.info("Checking provider: " + Providers.GREMO_NA_ELEKTRIKO.getProviderName());
+		//providerProcessor.checkGremoNaElektriko(Providers.GREMO_NA_ELEKTRIKO);
+		//LOG.info("Checking provider: " + Providers.PETROL.getProviderName());
 		providerProcessor.checkPetrol(Providers.PETROL);
 	}
 }

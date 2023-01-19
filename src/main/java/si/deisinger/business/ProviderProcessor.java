@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
 import si.deisinger.business.controller.FileController;
 import si.deisinger.providers.enums.Providers;
+import si.deisinger.providers.model.avant2go.Avant2GoLocations;
 import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
 import si.deisinger.providers.model.petrol.PetrolLocations;
@@ -77,8 +78,29 @@ public class ProviderProcessor {
 		}
 	}
 
+	public void checkAvant2Go(Providers provider) {
+		Avant2GoLocations locations;
+		try {
+			locations = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), Avant2GoLocations.class);
+		} catch (JsonProcessingException e) {
+			LOG.error("Mapping to POJO failed");
+			throw new RuntimeException(e);
+		}
+		LOG.info("Fetched: " + locations + " stations");
+
+		Integer numberOfStationsInFile = FileController.getNumberOfStationsFromFile(provider);
+
+		if (locations.results.size() != numberOfStationsInFile) {
+			LOG.info("Change detected");
+			FileController.writeNewDataToJsonFile(provider, locations.results.size(), null);
+			FileController.writeNewStationsToFile(provider, locations);
+		} else {
+			LOG.info("No new stations found");
+		}
+	}
+
 	private Set<Integer> checkDifference(Providers provider, Set<Integer> stationsAroundSlovenia) {
-		Set<Integer> oldStations = FileController.getStationsFromFile(provider);
+		Set<Integer> oldStations = FileController.getStationIdsFromFile(provider);
 		Set<Integer> newStations = new LinkedHashSet<>(stationsAroundSlovenia);
 		LOG.info("Number of Old Stations: " + oldStations.size());
 		LOG.info("Number of New Stations: " + newStations.size());

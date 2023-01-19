@@ -54,11 +54,13 @@ public class FileController {
 			throw new RuntimeException(e);
 		}
 		root.with(providers.getProviderName()).put("numberOfStationsOnline", numOfStationsOnline);
-		ArrayNode stationIds = root.get(providers.getProviderName()).withArray("stationIds");
-		for (Integer integer : aNew) {
-			stationIds.add(integer);
+
+		if (aNew != null) {
+			ArrayNode stationIds = root.get(providers.getProviderName()).withArray("stationIds");
+			for (Integer integer : aNew) {
+				stationIds.add(integer);
+			}
 		}
-		root.with(providers.getProviderName()).put("numberOfStationsOnline", numOfStationsOnline);
 		try {
 			mapper.writerWithDefaultPrettyPrinter().writeValue(new File("currentInfoPerProvider.json"), root);
 		} catch (IOException e) {
@@ -69,10 +71,10 @@ public class FileController {
 	}
 
 	/**
-	 * Gets station data from a file
+	 * Gets IDs of stations from a file for specific provider
 	 */
-	public static Set<Integer> getStationsFromFile(Providers providers) {
-		LOG.info("Getting number of stations from file: currentInfoPerProvider.json for provider: " + providers.getProviderName());
+	public static Set<Integer> getStationIdsFromFile(Providers providers) {
+		LOG.info("Getting stations IDs from file: currentInfoPerProvider.json for provider: " + providers.getProviderName());
 		Set<Integer> stations = new LinkedHashSet<>();
 		try (FileInputStream fis = new FileInputStream("currentInfoPerProvider.json")) {
 			JsonReader jsonReader = Json.createReader(fis);
@@ -88,4 +90,21 @@ public class FileController {
 		}
 		return stations;
 	}
+
+	/**
+	 * Gets number of stations from a file for specific provider
+	 */
+	public static Integer getNumberOfStationsFromFile(Providers providers) {
+		LOG.info("Getting number of stations from file: currentInfoPerProvider.json for provider: " + providers.getProviderName());
+		Integer numberOfStationsOnline = null;
+		try (FileInputStream fis = new FileInputStream("currentInfoPerProvider.json")) {
+			JsonReader jsonReader = Json.createReader(fis);
+			numberOfStationsOnline = jsonReader.readObject().getJsonObject(providers.getProviderName()).getInt("numberOfStationsOnline");
+			LOG.info("Read from file successfully. Number of stations in file: " + numberOfStationsOnline);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return numberOfStationsOnline;
+	}
+
 }

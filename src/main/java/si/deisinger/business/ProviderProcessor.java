@@ -14,7 +14,9 @@ import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
 import si.deisinger.providers.model.petrol.PetrolLocations;
 
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 
 public class ProviderProcessor {
@@ -72,8 +74,15 @@ public class ProviderProcessor {
 
 		if (!difference.isEmpty()) {
 			LOG.info("Found " + difference.size() + " new stations");
+			List<PetrolLocations> newLocations = new ArrayList<>();
+			for (PetrolLocations location : locations) {
+				if (difference.contains(location.id)) {
+					newLocations.add(location);
+				}
+			}
+			LOG.info("Created list of stations");
 			FileController.writeNewDataToJsonFile(provider, locations.length, difference);
-			FileController.writeNewStationsToFile(provider, locations);
+			FileController.writeNewStationsToFile(provider, newLocations);
 		} else {
 			LOG.info("No new stations found");
 		}
@@ -98,8 +107,15 @@ public class ProviderProcessor {
 
 		if (!difference.isEmpty()) {
 			LOG.info("Found " + difference.size() + " new stations");
+			List<MoonChargeLocation> newLocations = new ArrayList<>();
+			for (MoonChargeLocation location : locations) {
+				if (difference.contains(location.id)) {
+					newLocations.add(location);
+				}
+			}
+			LOG.info("Created list of stations");
 			FileController.writeNewDataToJsonFile(provider, locations.length, difference);
-			FileController.writeNewStationsToFile(provider, locations);
+			FileController.writeNewStationsToFile(provider, newLocations);
 		} else {
 			LOG.info("No new stations found");
 		}
@@ -132,6 +148,7 @@ public class ProviderProcessor {
 		LOG.info("Number of Old Stations: " + oldStations.size());
 		LOG.info("Number of New Stations: " + newStations.size());
 		newStations.removeAll(oldStations);
+
 		return newStations;
 	}
 

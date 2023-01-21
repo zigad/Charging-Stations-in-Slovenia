@@ -1,0 +1,29 @@
+[ {
+  "Id" : 221,
+  "FriendlyName" : "Nacionalni Park Mljet - Punionica 1",
+  "FriendlyCode" : "HR050004",
+  "Access" : {
+    "GPSLongitude" : 17.368229,
+    "GPSLatitude" : 42.778416
+  },
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Goveđari",
+    "PostNumber" : "20226",
+    "StreetName" : "Pristanište",
+    "HouseNumber" : "2",
+    "CityDistrictName" : null
+  },
+  "AccessType" : {
+    "IsPrivate" : false,
+    "Id" : 1,
+    "Title" : "Public accessible - payable"
+  },
+  "TotalEvses" : 4
+} ]

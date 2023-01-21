@@ -1,4 +1,4 @@
-<h1>Contributing to Polnilnice</h1>
+<h1>Contributing to Charging-Stations-in-Slovenia</h1>
 
 We welcome contributions to our repository! Please read the following guidelines before submitting a pull request.
 

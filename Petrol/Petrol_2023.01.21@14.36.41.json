@@ -1,0 +1,40 @@
+[ {
+  "Id" : 191897,
+  "FriendlyName" : "Interna lokacija",
+  "FriendlyCode" : "SI*PET5001",
+  "Access" : {
+    "GPSLongitude" : 14.603025742184048,
+    "GPSLatitude" : 46.05744550465053
+  },
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Ljubljana",
+    "PostNumber" : "1000",
+    "StreetName" : "Zaloška cesta",
+    "HouseNumber" : "259",
+    "CityDistrictName" : null
+  },
+  "AccessType" : {
+    "IsPrivate" : false,
+    "Id" : 4,
+    "Title" : "Public access - payable"
+  },
+  "TotalEvses" : 2,
+  "AvailableEvses" : 2,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : "green",
+  "PinCount" : 2,
+  "GeoHash" : "u24qh29",
+  "HotlinePhoneNumber" : null
+} ]

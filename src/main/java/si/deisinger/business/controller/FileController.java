@@ -21,24 +21,29 @@ import java.util.Set;
 public class FileController {
 
 	private static final Logger LOG = LoggerFactory.getLogger(FileController.class);
+	private static final GitController GIT_CONTROLLER = new GitController();
+	private static final EmailController EMAIL_CONTROLLER = new EmailController();
 
 	/**
 	 * Writes new station data to a file
 	 */
-	public static void writeNewStationsToFile(Providers providers, Object data) {
-		LOG.info("Writing data to new file in " + providers.getProviderName() + "folder");
-		ObjectMapper mapper = new ObjectMapper();
+	public static void writeNewStationsToFile(Providers provider, Object data) {
+		LOG.info("Writing data to new file in " + provider.getProviderName() + "folder");
 		// Write the POJO object to the JSON file
+		ObjectMapper mapper = new ObjectMapper();
 		String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy.MM.dd@HH.mm.ss"));
 		try {
-			mapper.writerWithDefaultPrettyPrinter().writeValue(new File(providers.getProviderName() + "/" + providers.getProviderName() + "_" + timeStamp + ".json"), data);
+			mapper.writerWithDefaultPrettyPrinter().writeValue(new File(provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json"), data);
 		} catch (IOException e) {
 			LOG.error("Creating new file failed");
 			throw new RuntimeException(e);
 		}
 		LOG.info("File created successfully");
 		//Commit File
-		GitController.gitCommit(providers, timeStamp);
+		String urlOfCommit = GIT_CONTROLLER.gitCommit(provider, timeStamp);
+		//Send email
+		EMAIL_CONTROLLER.sendMail(provider, urlOfCommit);
+
 	}
 
 	public static void writeNewDataToJsonFile(Providers providers, int numOfStationsOnline, Set<Integer> aNew) {

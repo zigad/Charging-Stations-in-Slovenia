@@ -27,6 +27,6 @@ If you wish you can optimize the code, check for bugs and add new providers, ope
 
 ### Configuration
 
-To make sure this program runs on your computer, make sure you have `currentInfoPerProvider.json` file, and you configure `configuration.properties`. You can look at the example file in this repo. Otherwise, there should be no problems with running this. If you want to generate `.jar` file, use maven command `mvn install`, and you'll have `Charging-Stations-in-Slovenia.jar` file in the target folder
+To make sure this program runs on your computer, make sure you have `currentInfoPerProvider.json` file, and you configure `configuration.properties`. You can look at the example file in this repo. Otherwise, there should be no problems with running this. If you want to generate `.jar` file, use maven command `mvn package`, and you'll have `Charging-Stations-in-Slovenia.jar` file in the target folder
 
 Disclaimer: _This README was definitely not written with the help of ChatGPT._

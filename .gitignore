@@ -36,5 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
 *.jar
-jgit.credentials
+configuration.properties

@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
+import si.deisinger.business.controller.EmailController;
 import si.deisinger.business.controller.FileController;
 import si.deisinger.providers.enums.Providers;
 import si.deisinger.providers.model.avant2go.Avant2GoLocations;
@@ -23,6 +24,7 @@ public class ProviderProcessor {
 
 	private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
 	private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+	private static final EmailController EMAIL_CONTROLLER = new EmailController();
 
 	public void checkGremoNaElektriko(Providers provider) {
 		GNELocationPins gneLocationPins;

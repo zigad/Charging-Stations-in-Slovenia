@@ -58,8 +58,7 @@ public class FileController {
 			LOG.error("Read failed");
 			throw new RuntimeException(e);
 		}
-		root.with(providers.getProviderName()).put("numberOfStationsOnline", numOfStationsOnline);
-
+		root.withObject("/" + providers.getProviderName()).put("numberOfStationsOnline", numOfStationsOnline);
 		if (aNew != null) {
 			ArrayNode stationIds = root.get(providers.getProviderName()).withArray("stationIds");
 			for (Integer integer : aNew) {

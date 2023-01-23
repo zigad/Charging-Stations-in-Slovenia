@@ -1,4 +1,4 @@
-package si.deisinger.providers.model.generic;
+package si.deisinger.providers.model.ampecoGeneric;
 
 import java.util.ArrayList;
 

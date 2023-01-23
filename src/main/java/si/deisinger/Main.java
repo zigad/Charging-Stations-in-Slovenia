@@ -21,6 +21,8 @@ public class Main {
 		providerProcessor.checkAvant2Go(Providers.AVANT2GO);
 		LOG.info("Checking provider: " + Providers.EFREND.getProviderName());
 		providerProcessor.checkEFrend(Providers.EFREND);
+		LOG.info("Checking provider: " + Providers.IMPLERA.getProviderName());
+		providerProcessor.checkImplera(Providers.IMPLERA);
 	}
 }
 

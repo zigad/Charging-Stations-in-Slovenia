@@ -12,6 +12,7 @@ Currently, the program checks for updates from the following charging providers:
 - [Avant2Go](https://avant2go.si) (This charging stations are private and available only for Avant2Go customers!)
 - [MOL Plungee](https://molplugee.si/si) (Currently not implemented, still using Google Scripts to fetch new data)
 - [eFrend](https://efrend.si/SI)
+- [Implera](http://napolni.me)
 
 In addition, an email notification is sent out whenever a new station is added to the list. This is used for me so when a new station is added I can publish it to PlugShare as soon as possible
 This repository is intended to provide an up-to-date and accurate list of newly added charging stations for electric vehicle owners in Slovenia. The program can also be easily modified to include additional providers or to be used in other countries.

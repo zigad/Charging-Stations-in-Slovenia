@@ -37,13 +37,13 @@ public class ApiController {
 	/**
 	 * Gets detailed location information from the Gremo na Elektriko API
 	 */
-	public static String getGremoNaElektrikoDetailedLocationsApi(String postRequestBody) {
-		LOG.info("*Gremo Na Elektriko Only*");
+	public static String getAmpecoDetailedLocationsApi(String postRequestBody, Providers providers) {
+		LOG.info("*AMPECO Only*");
 		LOG.info("Fetching details about new stations");
 		HttpClient client = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).build();
 		HttpRequest request;
 		try {
-			request = HttpRequest.newBuilder(new URI("https://cp.emobility.gremonaelektriko.si/api/v2/app/locations")).version(HttpClient.Version.HTTP_2).header("Content-Type", "application/json")
+			request = HttpRequest.newBuilder(new URI(providers.getAmpecoUrl())).version(HttpClient.Version.HTTP_2).header("Content-Type", "application/json")
 					.POST(HttpRequest.BodyPublishers.ofString(postRequestBody, StandardCharsets.UTF_8)).build();
 		} catch (URISyntaxException e) {
 			throw new RuntimeException(e);

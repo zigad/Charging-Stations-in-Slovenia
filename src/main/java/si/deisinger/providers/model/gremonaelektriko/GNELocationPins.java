@@ -1,12 +1,7 @@
 package si.deisinger.providers.model.gremonaelektriko;
 
-import java.util.ArrayList;
+import si.deisinger.providers.model.generic.AmpecoLocationPins;
 
-public class GNELocationPins {
-	public ArrayList<Pin> pins;
+public class GNELocationPins extends AmpecoLocationPins {
 
-	public static class Pin {
-		public int id;
-		public String geo;
-	}
 }

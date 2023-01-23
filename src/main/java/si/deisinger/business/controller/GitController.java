@@ -15,6 +15,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Objects;
 
 public class GitController {
 	private static final Logger LOG = LoggerFactory.getLogger(GitController.class);
@@ -29,7 +30,7 @@ public class GitController {
 			LOG.info("Committing file to git");
 			git.commit().setMessage("Updated List Of Charging Stations for " + provider.getProviderName()).setGpgConfig(new GpgConfig(config)).call();
 			LOG.info("Pushing to origin");
-			git.push().setCredentialsProvider(new UsernamePasswordCredentialsProvider(ConfigUtils.getJgitUsername(), ConfigUtils.getJgitPassword())).call();
+			git.push().setCredentialsProvider(new UsernamePasswordCredentialsProvider(ConfigUtils.getJgitUsername(), Objects.requireNonNull(ConfigUtils.getJgitPassword()))).call();
 			// Get the commit hash using git.getRepository().resolve()
 			ObjectId commitHash = git.getRepository().resolve("HEAD");
 			// Use the git show command to get the commit URL

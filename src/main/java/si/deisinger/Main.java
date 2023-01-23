@@ -19,6 +19,8 @@ public class Main {
 		providerProcessor.checkMoonCharge(Providers.MOON_CHARGE);
 		LOG.info("Checking provider: " + Providers.AVANT2GO.getProviderName());
 		providerProcessor.checkAvant2Go(Providers.AVANT2GO);
+		LOG.info("Checking provider: " + Providers.EFREND.getProviderName());
+		providerProcessor.checkEFrend(Providers.EFREND);
 	}
 }
 

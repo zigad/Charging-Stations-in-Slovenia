@@ -6,10 +6,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
-import si.deisinger.business.controller.EmailController;
 import si.deisinger.business.controller.FileController;
 import si.deisinger.providers.enums.Providers;
 import si.deisinger.providers.model.avant2go.Avant2GoLocations;
+import si.deisinger.providers.model.efrend.EfrendDetailedLocation;
+import si.deisinger.providers.model.efrend.EfrendLocationPins;
+import si.deisinger.providers.model.ampeco.AmpecoLocationPins;
 import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
@@ -24,7 +26,6 @@ public class ProviderProcessor {
 
 	private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
 	private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-	private static final EmailController EMAIL_CONTROLLER = new EmailController();
 
 	public void checkGremoNaElektriko(Providers provider) {
 		GNELocationPins gneLocationPins;
@@ -44,7 +45,7 @@ public class ProviderProcessor {
 			LOG.info("Found " + difference.size() + " new stations");
 			GNEDetailedLocation gneDetailedLocation;
 			try {
-				gneDetailedLocation = OBJECT_MAPPER.readValue(ApiController.getGremoNaElektrikoDetailedLocationsApi(buildPostRequestBody(difference)), GNEDetailedLocation.class);
+				gneDetailedLocation = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), GNEDetailedLocation.class);
 			} catch (JsonProcessingException e) {
 				LOG.error("Mapping to POJO failed");
 				throw new RuntimeException(e);
@@ -157,15 +158,15 @@ public class ProviderProcessor {
 	/**
 	 * Extracts the station ids that are within the desired geographical location
 	 */
-	private Set<Integer> restrictToGeoLocation(GNELocationPins gneLocationPins) {
-		LOG.info("Starting to filter " + gneLocationPins.pins.size() + " stations near Slovenia");
+	private Set<Integer> restrictToGeoLocation(AmpecoLocationPins ampecoLocationPins) {
+		LOG.info("Starting to filter " + ampecoLocationPins.pins.size() + " stations near Slovenia");
 		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
-		for (int counter = 0; counter < gneLocationPins.pins.size(); counter++) {
+		for (int counter = 0; counter < ampecoLocationPins.pins.size(); counter++) {
 			try {
-				int lat = Integer.parseInt(gneLocationPins.pins.get(counter).geo.split(",")[0].substring(0, 2));
-				int lon = Integer.parseInt(gneLocationPins.pins.get(counter).geo.split(",")[1].substring(0, 2));
+				int lat = Integer.parseInt(ampecoLocationPins.pins.get(counter).geo.split(",")[0].substring(0, 2));
+				int lon = Integer.parseInt(ampecoLocationPins.pins.get(counter).geo.split(",")[1].substring(0, 2));
 				if ((lat == 45 || lat == 46 || lat == 47) && (lon == 13 || lon == 14 || lon == 15 || lon == 16 || lon == 17)) {
-					stationsAroundSlovenia.add(gneLocationPins.pins.get(counter).id);
+					stationsAroundSlovenia.add(ampecoLocationPins.pins.get(counter).id);
 				}
 			} catch (NumberFormatException ignored) {
 			}
@@ -184,5 +185,36 @@ public class ProviderProcessor {
 		}
 		postRequestBody.deleteCharAt(postRequestBody.length() - 1).append("}}");
 		return postRequestBody.toString();
+	}
+
+	public void checkEFrend(Providers provider) {
+		EfrendLocationPins efrendLocationPins;
+		try {
+			efrendLocationPins = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), EfrendLocationPins.class);
+		} catch (JsonProcessingException e) {
+			LOG.error("Mapping to POJO failed");
+			throw new RuntimeException(e);
+		}
+		LOG.info("Fetched: " + efrendLocationPins.pins.size() + " stations");
+
+		Set<Integer> stationsAroundSlovenia = restrictToGeoLocation(efrendLocationPins);
+
+		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
+
+		if (!difference.isEmpty()) {
+			LOG.info("Found " + difference.size() + " new stations");
+			EfrendDetailedLocation efrendDetailedLocation;
+			try {
+				efrendDetailedLocation = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), EfrendDetailedLocation.class);
+			} catch (JsonProcessingException e) {
+				LOG.error("Mapping to POJO failed");
+				throw new RuntimeException(e);
+			}
+			LOG.info("Mapped " + efrendDetailedLocation.locations.size() + " stations to POJO");
+			FileController.writeNewDataToJsonFile(provider, efrendLocationPins.pins.size(), difference);
+			FileController.writeNewStationsToFile(provider, efrendDetailedLocation);
+		} else {
+			LOG.info("No new stations found");
+		}
 	}
 }

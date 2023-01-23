@@ -1,6 +1,6 @@
 package si.deisinger.providers.model.gremonaelektriko;
 
-import si.deisinger.providers.model.ampecoGeneric.AmpecoDetailedLocation;
+import si.deisinger.providers.model.ampeco.AmpecoDetailedLocation;
 
 public class GNEDetailedLocation extends AmpecoDetailedLocation {
 	

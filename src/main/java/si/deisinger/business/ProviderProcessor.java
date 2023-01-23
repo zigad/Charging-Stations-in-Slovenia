@@ -11,7 +11,7 @@ import si.deisinger.providers.enums.Providers;
 import si.deisinger.providers.model.avant2go.Avant2GoLocations;
 import si.deisinger.providers.model.efrend.EfrendDetailedLocation;
 import si.deisinger.providers.model.efrend.EfrendLocationPins;
-import si.deisinger.providers.model.ampecoGeneric.AmpecoLocationPins;
+import si.deisinger.providers.model.ampeco.AmpecoLocationPins;
 import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;

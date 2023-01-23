@@ -3,17 +3,19 @@ package si.deisinger.business;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
 import si.deisinger.business.controller.FileController;
 import si.deisinger.providers.enums.Providers;
+import si.deisinger.providers.model.ampeco.AmpecoLocationPins;
 import si.deisinger.providers.model.avant2go.Avant2GoLocations;
 import si.deisinger.providers.model.efrend.EfrendDetailedLocation;
 import si.deisinger.providers.model.efrend.EfrendLocationPins;
-import si.deisinger.providers.model.ampeco.AmpecoLocationPins;
 import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
+import si.deisinger.providers.model.implera.ImpleraLocations;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
 import si.deisinger.providers.model.petrol.PetrolLocations;
 
@@ -216,5 +218,41 @@ public class ProviderProcessor {
 		} else {
 			LOG.info("No new stations found");
 		}
+	}
+
+	public void checkImplera(Providers provider) {
+		ObjectMapper xmlMapper = new XmlMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+
+		ImpleraLocations impleraLocations;
+		try {
+			impleraLocations = xmlMapper.readValue(ApiController.getLocationsFromApi(provider), ImpleraLocations.class);
+		} catch (JsonProcessingException e) {
+			LOG.error("Mapping to POJO failed");
+			throw new RuntimeException(e);
+		}
+		LOG.info("Fetched: " + impleraLocations.marker.size() + " stations");
+
+		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
+		for (int i = 0; i < impleraLocations.marker.size(); i++) {
+			stationsAroundSlovenia.add(impleraLocations.marker.get(i).id);
+		}
+
+		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
+
+		if (!difference.isEmpty()) {
+			LOG.info("Found " + difference.size() + " new stations");
+			List<ImpleraLocations.marker> newLocations = new ArrayList<>();
+			for (int i = 0; i < impleraLocations.marker.size(); i++) {
+				if (difference.contains(impleraLocations.marker.get(i).id)) {
+					newLocations.add(impleraLocations.marker.get(i));
+				}
+			}
+			LOG.info("Created list of stations");
+			FileController.writeNewDataToJsonFile(provider, impleraLocations.marker.size(), difference);
+			FileController.writeNewStationsToFile(provider, newLocations);
+		} else {
+			LOG.info("No new stations found");
+		}
+
 	}
 }

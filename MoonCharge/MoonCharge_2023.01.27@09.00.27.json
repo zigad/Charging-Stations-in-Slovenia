@@ -1,0 +1,29 @@
+[ {
+  "Id" : 1208831,
+  "FriendlyName" : "Gostišče Tulipan",
+  "FriendlyCode" : "SI*POR0086",
+  "Access" : {
+    "GPSLongitude" : 14.16388280875333,
+    "GPSLatitude" : 46.3575461762137
+  },
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Lesce",
+    "PostNumber" : "4248",
+    "StreetName" : "Alpska cesta",
+    "HouseNumber" : "8",
+    "CityDistrictName" : null
+  },
+  "AccessType" : {
+    "IsPrivate" : false,
+    "Id" : 4,
+    "Title" : "Public access - payable"
+  },
+  "TotalEvses" : 2
+} ]

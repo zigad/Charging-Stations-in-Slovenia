@@ -150,8 +150,8 @@ public class ProviderProcessor {
 	private Set<Integer> checkDifference(Providers provider, Set<Integer> stationsAroundSlovenia) {
 		Set<Integer> oldStations = FileController.getStationIdsFromFile(provider);
 		Set<Integer> newStations = new LinkedHashSet<>(stationsAroundSlovenia);
-		LOG.info("Number of Old Stations: " + oldStations.size());
-		LOG.info("Number of New Stations: " + newStations.size());
+		LOG.info("Number of old stations: " + oldStations.size());
+		LOG.info("Number of new stations: " + newStations.size());
 		newStations.removeAll(oldStations);
 
 		return newStations;

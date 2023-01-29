@@ -78,17 +78,17 @@ public class FileController {
 	 * Gets IDs of stations from a file for specific provider
 	 */
 	public static Set<Integer> getStationIdsFromFile(Providers providers) {
-		LOG.info("Getting stations IDs from file: currentInfoPerProvider.json for provider: " + providers.getProviderName());
+		LOG.info("Getting station IDs from file: currentInfoPerProvider.json for provider: " + providers.getProviderName());
 		Set<Integer> stations = new LinkedHashSet<>();
 		try (FileInputStream fis = new FileInputStream("currentInfoPerProvider.json")) {
 			JsonReader jsonReader = Json.createReader(fis);
 			JsonArray jsonArray = jsonReader.readObject().getJsonObject(providers.getProviderName()).getJsonArray("stationIds");
-			LOG.info("Read from file successfully. Number of stations in file: " + jsonArray.size());
-			LOG.info("Extracting ID from " + jsonArray.size() + " stations.");
+			LOG.info("Read from file successfully. Number of station IDs in file: " + jsonArray.size());
+			LOG.info("Converting JsonArray to Set from " + jsonArray.size() + " stations.");
 			for (int i = 0; i < jsonArray.size(); i++) {
 				stations.add(jsonArray.getInt(i));
 			}
-			LOG.info("Extracted successfully. Number of IDs: " + stations.size());
+			LOG.info("Converted successfully. Number of IDs in Set: " + stations.size());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

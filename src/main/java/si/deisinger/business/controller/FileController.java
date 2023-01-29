@@ -84,11 +84,11 @@ public class FileController {
 			JsonReader jsonReader = Json.createReader(fis);
 			JsonArray jsonArray = jsonReader.readObject().getJsonObject(providers.getProviderName()).getJsonArray("stationIds");
 			LOG.info("Read from file successfully. Number of stations in file: " + jsonArray.size());
-			LOG.info("Mapping " + jsonArray.size() + " stations to Set<Integer>");
+			LOG.info("Extracting ID from " + jsonArray.size() + " stations.");
 			for (int i = 0; i < jsonArray.size(); i++) {
 				stations.add(jsonArray.getInt(i));
 			}
-			LOG.info("Mapped successfully. Number of stations in Set<Integer>: " + stations.size());
+			LOG.info("Extracted successfully. Number of IDs: " + stations.size());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -20,7 +20,7 @@ public class ApiController {
 	 * Gets location pins from the Gremo na Elektriko API
 	 */
 	public static String getLocationsFromApi(Providers providers) {
-		LOG.info("Get data from API for: " + providers.getProviderName());
+		LOG.info("Get API data for provider: " + providers.getProviderName());
 		HttpClient client = HttpClient.newHttpClient();
 		HttpRequest request = HttpRequest.newBuilder().version(HttpClient.Version.HTTP_2).uri(URI.create(providers.getUrl())).build();
 		HttpResponse<String> response;
@@ -29,7 +29,7 @@ public class ApiController {
 		} catch (IOException | InterruptedException e) {
 			throw new RuntimeException(e);
 		}
-		LOG.info("Received data from API for: " + providers.getProviderName());
+		LOG.info("Received API data for provider: " + providers.getProviderName());
 		LOG.debug("Response body: " + response.body());
 		return response.body();
 	}

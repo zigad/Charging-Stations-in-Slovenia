@@ -9,6 +9,7 @@ import si.deisinger.providers.enums.Providers;
 
 import javax.json.Json;
 import javax.json.JsonArray;
+import javax.json.JsonObject;
 import javax.json.JsonReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -23,31 +24,46 @@ public class FileController {
 	private static final Logger LOG = LoggerFactory.getLogger(FileController.class);
 	private static final GitController GIT_CONTROLLER = new GitController();
 	private static final EmailController EMAIL_CONTROLLER = new EmailController();
+	private static final ObjectMapper MAPPER = new ObjectMapper();
+	private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy.MM.dd@HH.mm.ss");
 
 	/**
-	 * Writes new station data to a file
+	 * Writes new station data to a file.
+	 *
+	 * @param provider
+	 * 		the provider object which holds information about the provider.
+	 * @param data
+	 * 		the data to be written to the file in JSON format.
 	 */
 	public static void writeNewStationsToFile(Providers provider, Object data) {
-		LOG.info("Writing data to new file in " + provider.getProviderName() + "folder");
-		// Write the POJO object to the JSON file
-		ObjectMapper mapper = new ObjectMapper();
-		String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy.MM.dd@HH.mm.ss"));
+		LOG.info("Writing data to new file in " + provider.getProviderName() + " folder");
+		String timeStamp = LocalDateTime.now().format(DATE_FORMAT);
+		File file = new File(provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json");
 		try {
-			mapper.writerWithDefaultPrettyPrinter().writeValue(new File(provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json"), data);
+			MAPPER.writerWithDefaultPrettyPrinter().writeValue(file, data);
+			LOG.info("File created successfully");
 		} catch (IOException e) {
-			LOG.error("Creating new file failed");
+			LOG.error("Creating new file failed", e);
 			throw new RuntimeException(e);
 		}
-		LOG.info("File created successfully");
 		//Commit File
 		String urlOfCommit = GIT_CONTROLLER.gitCommit(provider, timeStamp);
 		//Send email
 		EMAIL_CONTROLLER.sendMail(provider, urlOfCommit);
-
 	}
 
+	/**
+	 * Writes new data to a JSON file.
+	 *
+	 * @param providers
+	 * 		the provider object which holds information about the provider.
+	 * @param numOfStationsOnline
+	 * 		the number of stations that are online.
+	 * @param aNew
+	 * 		the set of IDs of the new stations.
+	 */
 	public static void writeNewDataToJsonFile(Providers providers, int numOfStationsOnline, Set<Integer> aNew) {
-		LOG.info("Writing new data to JSON file");
+		LOG.info("Writing new data to JSON file for provider: {}", providers.getProviderName());
 		LOG.info("Number of stations: " + numOfStationsOnline);
 		LOG.info("Station IDs: " + aNew);
 		ObjectMapper mapper = new ObjectMapper();
@@ -55,7 +71,7 @@ public class FileController {
 		try {
 			root = (ObjectNode) mapper.readTree(new File("currentInfoPerProvider.json"));
 		} catch (IOException e) {
-			LOG.error("Read failed");
+			LOG.error("Error while reading JSON file", e);
 			throw new RuntimeException(e);
 		}
 		root.withObject("/" + providers.getProviderName()).put("numberOfStationsOnline", numOfStationsOnline);
@@ -68,14 +84,18 @@ public class FileController {
 		try {
 			mapper.writerWithDefaultPrettyPrinter().writeValue(new File("currentInfoPerProvider.json"), root);
 		} catch (IOException e) {
-			LOG.error("Write failed");
+			LOG.error("Error while writing JSON file", e);
 			throw new RuntimeException(e);
 		}
 		LOG.info("Write to file successful");
 	}
 
 	/**
-	 * Gets IDs of stations from a file for specific provider
+	 * Gets the IDs of stations from a file for a specific provider.
+	 *
+	 * @param providers
+	 * 		the provider object which holds information about the provider.
+	 * @return a set of station IDs.
 	 */
 	public static Set<Integer> getStationIdsFromFile(Providers providers) {
 		LOG.info("Getting station IDs from file: currentInfoPerProvider.json for provider: " + providers.getProviderName());
@@ -90,23 +110,32 @@ public class FileController {
 			}
 			LOG.info("Converted successfully. Number of IDs in Set: " + stations.size());
 		} catch (IOException e) {
-			e.printStackTrace();
+			LOG.error("Failed to get station IDs from file.", e);
 		}
 		return stations;
 	}
 
 	/**
-	 * Gets number of stations from a file for specific provider
+	 * Gets number of stations from a file for a specific provider.
+	 *
+	 * @param providers
+	 * 		the provider for which the number of stations is to be retrieved.
+	 * @return the number of stations for the specified provider.
 	 */
 	public static Integer getNumberOfStationsFromFile(Providers providers) {
 		LOG.info("Getting number of stations from file: currentInfoPerProvider.json for provider: " + providers.getProviderName());
 		Integer numberOfStationsOnline = null;
 		try (FileInputStream fis = new FileInputStream("currentInfoPerProvider.json")) {
 			JsonReader jsonReader = Json.createReader(fis);
-			numberOfStationsOnline = jsonReader.readObject().getJsonObject(providers.getProviderName()).getInt("numberOfStationsOnline");
+			JsonObject jsonObject = jsonReader.readObject().getJsonObject(providers.getProviderName());
+			if (jsonObject == null) {
+				LOG.error("No information found for provider: " + providers.getProviderName());
+				return null;
+			}
+			numberOfStationsOnline = jsonObject.getInt("numberOfStationsOnline");
 			LOG.info("Read from file successfully. Number of stations in file: " + numberOfStationsOnline);
 		} catch (IOException e) {
-			e.printStackTrace();
+			LOG.error("Error reading currentInfoPerProvider.json file: " + e.getMessage());
 		}
 		return numberOfStationsOnline;
 	}

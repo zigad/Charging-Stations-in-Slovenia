@@ -9,23 +9,26 @@ public class Main {
 
 	private static final Logger LOG = LoggerFactory.getLogger(Main.class);
 
+	/**
+	 * The main method of the class. This method invokes methods for checking each provider from the enum {@link Providers}. The provider is checked by calling the corresponding method from the {@link ProviderProcessor} class. Information about the provider
+	 * being checked is logged.
+	 *
+	 * @param args
+	 * 		the command line arguments, not used in this method.
+	 */
 	public static void main(String[] args) {
 		ProviderProcessor providerProcessor = new ProviderProcessor();
-		LOG.info("Checking provider: " + Providers.GREMO_NA_ELEKTRIKO.getProviderName());
-		providerProcessor.checkGremoNaElektriko(Providers.GREMO_NA_ELEKTRIKO);
-		LOG.info("Checking provider: " + Providers.PETROL.getProviderName());
-		providerProcessor.checkPetrol(Providers.PETROL);
-		LOG.info("Checking provider: " + Providers.MOON_CHARGE.getProviderName());
-		providerProcessor.checkMoonCharge(Providers.MOON_CHARGE);
-		LOG.info("Checking provider: " + Providers.AVANT2GO.getProviderName());
-		providerProcessor.checkAvant2Go(Providers.AVANT2GO);
-		LOG.info("Checking provider: " + Providers.EFREND.getProviderName());
-		providerProcessor.checkEFrend(Providers.EFREND);
-		LOG.info("Checking provider: " + Providers.IMPLERA.getProviderName());
-		try {
-			providerProcessor.checkImplera(Providers.IMPLERA);
-		} catch (Exception e) {
-			LOG.error(e.getMessage());
+		for (Providers provider : Providers.values()) {
+			LOG.info("Checking provider: " + provider.getProviderName());
+			switch (provider) {
+				case GREMO_NA_ELEKTRIKO -> providerProcessor.checkGremoNaElektriko(provider);
+				case PETROL -> providerProcessor.checkPetrol(provider);
+				case MOON_CHARGE -> providerProcessor.checkMoonCharge(provider);
+				case AVANT2GO -> providerProcessor.checkAvant2Go(provider);
+				case EFREND -> providerProcessor.checkEFrend(provider);
+				case IMPLERA -> providerProcessor.checkImplera(provider);
+				default -> throw new IllegalStateException("Unexpected value: " + provider);
+			}
 		}
 	}
 }

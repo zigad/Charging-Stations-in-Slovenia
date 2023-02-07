@@ -9,3 +9,6 @@ email_host=smtp.example.com
 email_port=587
 email_auth=true
 email_tls=true
+
+#General Configuration
+is_push_enabled=false

@@ -29,6 +29,14 @@ public class ProviderProcessor {
 	private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
 	private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
+	/**
+	 * This method checks for new Gremo Na Elektriko (GNE) stations and fetches details about them if there are any new stations.
+	 *
+	 * @param provider
+	 * 		An instance of the Providers class which contains details about the API to fetch data from
+	 * @throws RuntimeException
+	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
+	 */
 	public void checkGremoNaElektriko(Providers provider) {
 		GNELocationPins gneLocationPins;
 		try {
@@ -60,6 +68,14 @@ public class ProviderProcessor {
 		}
 	}
 
+	/**
+	 * This method checks for new Petrol stations and fetches details about them if there are any new stations.
+	 *
+	 * @param provider
+	 * 		An instance of the Providers class which contains details about the API to fetch data from
+	 * @throws RuntimeException
+	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
+	 */
 	public void checkPetrol(Providers provider) {
 		PetrolLocations[] locations;
 		try {
@@ -93,6 +109,14 @@ public class ProviderProcessor {
 		}
 	}
 
+	/**
+	 * This method checks for new Moon Charge stations and fetches details about them if there are any new stations.
+	 *
+	 * @param provider
+	 * 		An instance of the Providers class which contains details about the API to fetch data from
+	 * @throws RuntimeException
+	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
+	 */
 	public void checkMoonCharge(Providers provider) {
 		MoonChargeLocation[] locations;
 		try {
@@ -126,6 +150,14 @@ public class ProviderProcessor {
 		}
 	}
 
+	/**
+	 * This method checks for new Avant2Go stations and fetches details about them if there are any new stations.
+	 *
+	 * @param provider
+	 * 		An instance of the Providers class which contains details about the API to fetch data from
+	 * @throws RuntimeException
+	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
+	 */
 	public void checkAvant2Go(Providers provider) {
 		Avant2GoLocations locations;
 		try {
@@ -147,48 +179,14 @@ public class ProviderProcessor {
 		}
 	}
 
-	private Set<Integer> checkDifference(Providers provider, Set<Integer> stationsAroundSlovenia) {
-		Set<Integer> oldStations = FileController.getStationIdsFromFile(provider);
-		Set<Integer> newStations = new LinkedHashSet<>(stationsAroundSlovenia);
-		LOG.info("Number of old stations: " + oldStations.size());
-		LOG.info("Number of new stations: " + newStations.size());
-		newStations.removeAll(oldStations);
-
-		return newStations;
-	}
-
 	/**
-	 * Extracts the station ids that are within the desired geographical location
+	 * This method checks for new EFrend stations and fetches details about them if there are any new stations.
+	 *
+	 * @param provider
+	 * 		An instance of the Providers class which contains details about the API to fetch data from
+	 * @throws RuntimeException
+	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
 	 */
-	private Set<Integer> restrictToGeoLocation(AmpecoLocationPins ampecoLocationPins) {
-		LOG.info("Starting to filter " + ampecoLocationPins.pins.size() + " stations near Slovenia");
-		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
-		for (int counter = 0; counter < ampecoLocationPins.pins.size(); counter++) {
-			try {
-				int lat = Integer.parseInt(ampecoLocationPins.pins.get(counter).geo.split(",")[0].substring(0, 2));
-				int lon = Integer.parseInt(ampecoLocationPins.pins.get(counter).geo.split(",")[1].substring(0, 2));
-				if ((lat == 45 || lat == 46 || lat == 47) && (lon == 13 || lon == 14 || lon == 15 || lon == 16 || lon == 17)) {
-					stationsAroundSlovenia.add(ampecoLocationPins.pins.get(counter).id);
-				}
-			} catch (NumberFormatException ignored) {
-			}
-		}
-		LOG.info("Stations filtered. Total number of stations around Slovenia: " + stationsAroundSlovenia.size());
-		return stationsAroundSlovenia;
-	}
-
-	/**
-	 * Builds a post request body for the detailed location API
-	 */
-	private String buildPostRequestBody(Set<Integer> newValues) {
-		StringBuilder postRequestBody = new StringBuilder("{\"locations\": {");
-		for (Integer newValue : newValues) {
-			postRequestBody.append("\"").append(newValue).append("\": null,");
-		}
-		postRequestBody.deleteCharAt(postRequestBody.length() - 1).append("}}");
-		return postRequestBody.toString();
-	}
-
 	public void checkEFrend(Providers provider) {
 		EfrendLocationPins efrendLocationPins;
 		try {
@@ -220,6 +218,14 @@ public class ProviderProcessor {
 		}
 	}
 
+	/**
+	 * This method checks for new Implera stations and fetches details about them if there are any new stations.
+	 *
+	 * @param provider
+	 * 		An instance of the Providers class which contains details about the API to fetch data from
+	 * @throws RuntimeException
+	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
+	 */
 	public void checkImplera(Providers provider) {
 		ObjectMapper xmlMapper = new XmlMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
@@ -253,6 +259,64 @@ public class ProviderProcessor {
 		} else {
 			LOG.info("No new stations found");
 		}
+	}
 
+	/**
+	 * Checks the difference between new and old station IDs of the given provider.
+	 *
+	 * @param provider
+	 * 		The provider for which to check the station IDs
+	 * @param stationsAroundSlovenia
+	 * 		The set of station IDs around Slovenia
+	 * @return The set of new station IDs
+	 */
+	private Set<Integer> checkDifference(Providers provider, Set<Integer> stationsAroundSlovenia) {
+		Set<Integer> oldStations = FileController.getStationIdsFromFile(provider);
+		Set<Integer> newStations = new LinkedHashSet<>(stationsAroundSlovenia);
+		LOG.info("Number of old stations: " + oldStations.size());
+		LOG.info("Number of new stations: " + newStations.size());
+		newStations.removeAll(oldStations);
+
+		return newStations;
+	}
+
+	/**
+	 * This method filters the station IDs from the `ampecoLocationPins` object that are within the geographical boundaries of Slovenia. The method only considers stations whose latitude starts with 45, 46 or 47 and longitude starts with 13, 14, 15, 16 or 17.
+	 *
+	 * @param ampecoLocationPins
+	 * 		The `AmpecoLocationPins` object containing information about all the stations.
+	 * @return A set of station IDs of the stations located within the geographical boundaries of Slovenia.
+	 */
+	private Set<Integer> restrictToGeoLocation(AmpecoLocationPins ampecoLocationPins) {
+		LOG.info("Starting to filter " + ampecoLocationPins.pins.size() + " stations near Slovenia");
+		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
+		for (int counter = 0; counter < ampecoLocationPins.pins.size(); counter++) {
+			try {
+				int lat = Integer.parseInt(ampecoLocationPins.pins.get(counter).geo.split(",")[0].substring(0, 2));
+				int lon = Integer.parseInt(ampecoLocationPins.pins.get(counter).geo.split(",")[1].substring(0, 2));
+				if ((lat == 45 || lat == 46 || lat == 47) && (lon == 13 || lon == 14 || lon == 15 || lon == 16 || lon == 17)) {
+					stationsAroundSlovenia.add(ampecoLocationPins.pins.get(counter).id);
+				}
+			} catch (NumberFormatException ignored) {
+			}
+		}
+		LOG.info("Stations filtered. Total number of stations around Slovenia: " + stationsAroundSlovenia.size());
+		return stationsAroundSlovenia;
+	}
+
+	/**
+	 * Builds the body of a post request by creating a JSON string with the specified new values.
+	 *
+	 * @param newValues
+	 * 		the new values to be included in the post request body
+	 * @return a string representing the post request body in JSON format
+	 */
+	private String buildPostRequestBody(Set<Integer> newValues) {
+		StringBuilder postRequestBody = new StringBuilder("{\"locations\": {");
+		for (Integer newValue : newValues) {
+			postRequestBody.append("\"").append(newValue).append("\": null,");
+		}
+		postRequestBody.deleteCharAt(postRequestBody.length() - 1).append("}}");
+		return postRequestBody.toString();
 	}
 }

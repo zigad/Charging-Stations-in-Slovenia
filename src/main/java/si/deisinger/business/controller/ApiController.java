@@ -17,46 +17,61 @@ public class ApiController {
 	private static final Logger LOG = LoggerFactory.getLogger(ApiController.class);
 
 	/**
-	 * Gets location pins from the Gremo na Elektriko API
+	 * Gets the location data from a specified API.
+	 *
+	 * @param providers
+	 * 		the API to get the location data from
+	 * @return the location data in a string format
+	 * @throws RuntimeException
+	 * 		if there is an IOException or InterruptedException while sending the API request
 	 */
 	public static String getLocationsFromApi(Providers providers) {
-		System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2");
-		LOG.info("Get API data for provider: " + providers.getProviderName());
-		HttpClient client = HttpClient.newHttpClient();
+		LOG.info("Getting API data for provider: {}", providers.getProviderName());
+		HttpClient client = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).build();
 		HttpRequest request = HttpRequest.newBuilder().version(HttpClient.Version.HTTP_2).uri(URI.create(providers.getUrl())).build();
 		HttpResponse<String> response;
 		try {
 			response = client.send(request, HttpResponse.BodyHandlers.ofString());
 		} catch (IOException | InterruptedException e) {
+			LOG.error("Error getting API data for provider: {}", providers.getProviderName(), e);
 			throw new RuntimeException(e);
 		}
-		LOG.info("Received API data for provider: " + providers.getProviderName());
-		LOG.debug("Response body: " + response.body());
+		LOG.info("Received API data for provider: {}", providers.getProviderName());
+		LOG.debug("Response body: {}", response.body());
 		return response.body();
 	}
 
 	/**
-	 * Gets detailed location information from the Gremo na Elektriko API
+	 * Gets detailed location data from the AMPECO API.
+	 *
+	 * @param postRequestBody
+	 * 		the body of the POST request to send to the API
+	 * @param providers
+	 * 		the API to get the detailed location data from
+	 * @return the detailed location data in a string format
+	 * @throws RuntimeException
+	 * 		if there is a URISyntaxException or if there is an IOException or InterruptedException while sending the API request
 	 */
 	public static String getAmpecoDetailedLocationsApi(String postRequestBody, Providers providers) {
 		LOG.info("*AMPECO Only*");
-		LOG.info("Fetching details about new stations");
+		LOG.info("Getting detailed location data from AMPECO API");
 		HttpClient client = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).build();
 		HttpRequest request;
 		try {
-			request = HttpRequest.newBuilder(new URI(providers.getAmpecoUrl())).version(HttpClient.Version.HTTP_2).header("Content-Type", "application/json")
-					.POST(HttpRequest.BodyPublishers.ofString(postRequestBody, StandardCharsets.UTF_8)).build();
+			request = HttpRequest.newBuilder(new URI(providers.getAmpecoUrl())).version(HttpClient.Version.HTTP_2).header("Content-Type", "application/json").POST(HttpRequest.BodyPublishers.ofString(postRequestBody, StandardCharsets.UTF_8)).build();
 		} catch (URISyntaxException e) {
+			LOG.error("Error getting detailed location data from AMPECO API", e);
 			throw new RuntimeException(e);
 		}
 		HttpResponse<String> response;
 		try {
 			response = client.send(request, HttpResponse.BodyHandlers.ofString());
 		} catch (IOException | InterruptedException e) {
+			LOG.error("Error getting detailed location data from AMPECO API", e);
 			throw new RuntimeException(e);
 		}
-		LOG.info("Received details about Gremo Na Elektriko stations");
-		LOG.debug("Response body: " + response.body());
+		LOG.info("Received detailed location data from AMPECO API");
+		LOG.debug("Response body: {}", response.body());
 		return response.body();
 	}
 }

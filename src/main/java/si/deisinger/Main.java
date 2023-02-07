@@ -22,7 +22,11 @@ public class Main {
 		LOG.info("Checking provider: " + Providers.EFREND.getProviderName());
 		providerProcessor.checkEFrend(Providers.EFREND);
 		LOG.info("Checking provider: " + Providers.IMPLERA.getProviderName());
-		providerProcessor.checkImplera(Providers.IMPLERA);
+		try {
+			providerProcessor.checkImplera(Providers.IMPLERA);
+		} catch (Exception e) {
+			LOG.error(e.getMessage());
+		}*/
 	}
 }
 

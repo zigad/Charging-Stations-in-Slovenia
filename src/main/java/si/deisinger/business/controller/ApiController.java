@@ -20,6 +20,7 @@ public class ApiController {
 	 * Gets location pins from the Gremo na Elektriko API
 	 */
 	public static String getLocationsFromApi(Providers providers) {
+		System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2");
 		LOG.info("Get API data for provider: " + providers.getProviderName());
 		HttpClient client = HttpClient.newHttpClient();
 		HttpRequest request = HttpRequest.newBuilder().version(HttpClient.Version.HTTP_2).uri(URI.create(providers.getUrl())).build();

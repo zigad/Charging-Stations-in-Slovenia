@@ -26,7 +26,7 @@ public class Main {
 			providerProcessor.checkImplera(Providers.IMPLERA);
 		} catch (Exception e) {
 			LOG.error(e.getMessage());
-		}*/
+		}
 	}
 }
 

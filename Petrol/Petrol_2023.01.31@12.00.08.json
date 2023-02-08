@@ -1,0 +1,40 @@
+[ {
+  "Id" : 1208841,
+  "FriendlyName" : "OBČINA ŠENTILJ – ŠPORTNA DVORANA",
+  "FriendlyCode" : "SI*PET0297",
+  "Access" : {
+    "GPSLongitude" : 15.65517,
+    "GPSLatitude" : 46.67848
+  },
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Šentilj v slo. Goricah",
+    "PostNumber" : "2212",
+    "StreetName" : "Mladinska ulica",
+    "HouseNumber" : "6",
+    "CityDistrictName" : null
+  },
+  "AccessType" : {
+    "IsPrivate" : false,
+    "Id" : 4,
+    "Title" : "Public access - payable"
+  },
+  "TotalEvses" : 2,
+  "AvailableEvses" : 2,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : "green",
+  "PinCount" : 2,
+  "GeoHash" : "u271s1x",
+  "HotlinePhoneNumber" : null
+} ]

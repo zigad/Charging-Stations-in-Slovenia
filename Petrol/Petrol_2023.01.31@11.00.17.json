@@ -1,0 +1,40 @@
+[ {
+  "Id" : 1208840,
+  "FriendlyName" : "OBČINA ŠENTILJ – IGRIŠČE",
+  "FriendlyCode" : "SI*PET0296",
+  "Access" : {
+    "GPSLongitude" : 15.65587,
+    "GPSLatitude" : 46.67642
+  },
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Šentilj v slo. Goricah",
+    "PostNumber" : "2212",
+    "StreetName" : "Maistrova ulica",
+    "HouseNumber" : "11",
+    "CityDistrictName" : null
+  },
+  "AccessType" : {
+    "IsPrivate" : false,
+    "Id" : 4,
+    "Title" : "Public access - payable"
+  },
+  "TotalEvses" : 2,
+  "AvailableEvses" : 1,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 1,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : true,
+  "PinColor" : "green",
+  "PinCount" : 1,
+  "GeoHash" : "u271s30",
+  "HotlinePhoneNumber" : null
+} ]

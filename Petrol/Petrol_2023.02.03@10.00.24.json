@@ -1,0 +1,40 @@
+[ {
+  "Id" : 915825,
+  "FriendlyName" : "KP - MERCATOR CENTER KOPER",
+  "FriendlyCode" : "SI*PET0284",
+  "Access" : {
+    "GPSLongitude" : 13.732855,
+    "GPSLatitude" : 45.530383
+  },
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Koper",
+    "PostNumber" : "6000",
+    "StreetName" : "Dolinska cesta",
+    "HouseNumber" : "1a",
+    "CityDistrictName" : null
+  },
+  "AccessType" : {
+    "IsPrivate" : false,
+    "Id" : 4,
+    "Title" : "Public access - payable"
+  },
+  "TotalEvses" : 4,
+  "AvailableEvses" : 0,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 4,
+  "IsPartnerRoaming" : false,
+  "PinColor" : "gray",
+  "PinCount" : 0,
+  "GeoHash" : "u21g02x",
+  "HotlinePhoneNumber" : null
+} ]

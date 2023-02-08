@@ -1,0 +1,29 @@
+[ {
+  "Id" : 1250706,
+  "FriendlyName" : "B&B Hostel Pub Pod Skalo",
+  "FriendlyCode" : "SI*POR0087",
+  "Access" : {
+    "GPSLongitude" : 14.619660568264456,
+    "GPSLatitude" : 46.22741162018637
+  },
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Kamnik",
+    "PostNumber" : "1241",
+    "StreetName" : "Maistrova ulica",
+    "HouseNumber" : "32",
+    "CityDistrictName" : null
+  },
+  "AccessType" : {
+    "IsPrivate" : false,
+    "Id" : 4,
+    "Title" : "Public access - payable"
+  },
+  "TotalEvses" : 2
+} ]

@@ -1,0 +1,447 @@
+{
+  "locations" : [ {
+    "id" : 48599,
+    "name" : "Kostanjevica na Krki Ljubljanska",
+    "address" : "Ljubljanska cesta 29b, 8311 Kostanjevica na K",
+    "location" : "45.8451240,15.4175740",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114258",
+        "identifier" : "SI*EFR*E8265",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "54",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E8265",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E8265",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114259",
+        "identifier" : "SI*EFR*E2912",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "54",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E2912",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E2912",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 16:54:18.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48612,
+    "name" : "CARGO-PARTNER Brnik",
+    "address" : "Zgornji Brnik 390",
+    "location" : "46.2368090,14.4503690",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114291",
+        "identifier" : "SI*EFR*E0050",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "230",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0050",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0050",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114292",
+        "identifier" : "SI*EFR*E0049",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "230",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0049",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0049",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114293",
+        "identifier" : "SI*EFR*E0048",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "230",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0048",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0048",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114294",
+        "identifier" : "SI*EFR*E0047",
+        "networkId" : "4",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "230",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0047",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0047",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:43:58.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48613,
+    "name" : "Airport Ljubljana Avant2go",
+    "address" : "Ljubljana Jože Pučnik Airport (LJU), Zgornji ",
+    "location" : "46.2313730,14.4553100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114295",
+        "identifier" : "SI*EFR*E2081",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "229",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E2081",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E2081",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114296",
+        "identifier" : "SI*EFR*E2090",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "229",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E2090",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E2090",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-20 07:53:14.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48615,
+    "name" : "Novo Mesto Podbreznik 15",
+    "address" : "Podbreznik 15",
+    "location" : "45.8046720,15.1333220",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114301",
+        "identifier" : "SI*EFR*E1046",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1046",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1046",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114302",
+        "identifier" : "SI*EFR*E1045",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1045",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1045",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114303",
+        "identifier" : "SI*EFR*E1044",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1044",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1044",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 23:09:07.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48617,
+    "name" : "Merkur Naklo",
+    "address" : "Cesta na Okroglo 7",
+    "location" : "46.2650230,14.3184600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114306",
+        "identifier" : "SI*EFR*E0053",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "227",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0053",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0053",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114307",
+        "identifier" : "SI*EFR*E0054",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "227",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0054",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0054",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-20 19:21:27.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48619,
+    "name" : "Cesta maršala Tita 49",
+    "address" : "Cesta maršala Tita 49",
+    "location" : "46.4379730,14.0498160",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114310",
+        "identifier" : "SI*EFR*E0012",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "54",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0012",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0012",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114311",
+        "identifier" : "SI*EFR*E0011",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "54",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0011",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0011",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114312",
+        "identifier" : "SI*EFR*E0010",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "54",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0010",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0010",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:03:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

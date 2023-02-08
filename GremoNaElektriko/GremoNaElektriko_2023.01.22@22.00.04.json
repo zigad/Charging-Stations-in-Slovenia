@@ -1,0 +1,1041 @@
+{
+  "locations" : [ {
+    "id" : 48598,
+    "name" : "Ljubljana Trdinova",
+    "address" : "Trdinova ulica 9, 1000 Ljubljana, Slovenia",
+    "location" : "46.0556980,14.5070510",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114257",
+        "identifier" : "SI*EFR*E2117",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E2117",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E2117",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114256",
+        "identifier" : "SI*EFR*E2118",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E2118",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E2118",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 22:58:20.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48600,
+    "name" : "Ljubljana Eko Srebrna Hiša",
+    "address" : "Robičeva ulica 7, 1000 Ljubljana, Slovenia",
+    "location" : "46.0803530,14.5135660",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114260",
+        "identifier" : "SI*EFR*E0005",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0005",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0005",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114261",
+        "identifier" : "SI*EFR*E0007",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0007",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0007",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114262",
+        "identifier" : "SI*EFR*E0002",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0002",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0002",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114263",
+        "identifier" : "SI*EFR*E0003",
+        "networkId" : "4",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0003",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0003",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114264",
+        "identifier" : "SI*EFR*E0004",
+        "networkId" : "5",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0004",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0004",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114265",
+        "identifier" : "SI*EFR*E0009",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0009",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0009",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114266",
+        "identifier" : "SI*EFR*E0001",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0001",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114267",
+        "identifier" : "SI*EFR*E0008",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0008",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0008",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114268",
+        "identifier" : "SI*EFR*E0006",
+        "networkId" : "4",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0006",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0006",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:55:47.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48601,
+    "name" : "AMZS LJ Leskovškova",
+    "address" : "Leskoškova cesta 11, 1000 Ljubljana, Slovenia",
+    "location" : "46.0626710,14.5588770",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114269",
+        "identifier" : "SI*EFR*E1003",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1003",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1003",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114270",
+        "identifier" : "SI*EFR*E1002",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1002",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1002",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:56:47.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48602,
+    "name" : "AMZS LJ Dunajska",
+    "address" : "Dunajska c. 128a, 1000 Ljubljana, Slovenia",
+    "location" : "46.0771320,14.5127100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114271",
+        "identifier" : "SI*EFR*E1000",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1000",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1000",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114272",
+        "identifier" : "SI*EFR*E1001",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1001",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 23:56:18.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48603,
+    "name" : "AMZS Center varne vožnje Vransko",
+    "address" : "Čeplje 29b, 3305 Vransko, Slovenia",
+    "location" : "46.2431300,14.9738470",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114273",
+        "identifier" : "SI*EFR*E1004",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1004",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1004",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114274",
+        "identifier" : "SI*EFR*E1005",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1005",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1005",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:00:20.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48604,
+    "name" : "AMZS Center Kranj",
+    "address" : "Bleiweisova cesta 36, 4000 Kranj, Slovenia",
+    "location" : "46.2548660,14.3551100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114276",
+        "identifier" : "SI*EFR*E1043",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1043",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1043",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114275",
+        "identifier" : "SI*EFR*E1042",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1042",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1042",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 22:39:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48605,
+    "name" : "AMZS Center Maribor",
+    "address" : "Zagrebška c. 25, 2000 Maribor, Slovenia",
+    "location" : "46.5375800,15.6542300",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114277",
+        "identifier" : "SI*EFR*E1009",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1009",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1009",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114278",
+        "identifier" : "SI*EFR*E1008",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1008",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1008",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 22:16:13.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48606,
+    "name" : "AMZS Center Koper",
+    "address" : "Sermin 7c, 6000 Koper - Capodistria, Slovenia",
+    "location" : "45.5527520,13.7622720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114279",
+        "identifier" : "SI*EFR*E1015",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1015",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1015",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114280",
+        "identifier" : "SI*EFR*E1014",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1014",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1014",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 22:41:00.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48607,
+    "name" : "AMZS Center Celje",
+    "address" : "Ljubljanska cesta, 3000 Celje, Slovenia",
+    "location" : "46.2345750,15.2490880",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114281",
+        "identifier" : "SI*EFR*E1006",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1006",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1006",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114282",
+        "identifier" : "SI*EFR*E1007",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1007",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1007",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:48:59.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48608,
+    "name" : "AMZS Center Lenart",
+    "address" : "Industrijska ulica 26, 2230 Lenart v Slov. go",
+    "location" : "46.5838060,15.8429980",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114283",
+        "identifier" : "SI*EFR*E1010",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1010",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1010",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114284",
+        "identifier" : "SI*EFR*E1011",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1011",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1011",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 22:17:05.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48609,
+    "name" : "AMZS Center Murska Sobota",
+    "address" : "Noršinska ulica 2, 9000 Murska Sobota, Sloven",
+    "location" : "46.6666570,16.1775330",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114285",
+        "identifier" : "SI*EFR*E1013",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1013",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1013",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114286",
+        "identifier" : "SI*EFR*E1012",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1012",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1012",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:27:22.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48610,
+    "name" : "AMZS Center Dravograd",
+    "address" : "Mariborska Cesta 60, 2370 Dravograd, Slovenia",
+    "location" : "46.5917440,15.0301150",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114287",
+        "identifier" : "SI*EFR*E1019",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1019",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1019",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114288",
+        "identifier" : "SI*EFR*E1018",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1018",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1018",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:55:03.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48611,
+    "name" : "AMZS Center Kočevje",
+    "address" : "Podjetniško naselje Kočevje 14, 1330 Kočevje,",
+    "location" : "45.6540700,14.8507420",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114289",
+        "identifier" : "SI*EFR*E1041",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1041",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1041",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114290",
+        "identifier" : "SI*EFR*E1040",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1040",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1040",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 23:58:59.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48616,
+    "name" : "AMZS Center Črnomelj",
+    "address" : "Belokranjska cesta 30",
+    "location" : "45.5803700,15.1994110",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114304",
+        "identifier" : "SI*EFR*E1020",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1020",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1020",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114305",
+        "identifier" : "SI*EFR*E1021",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1021",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1021",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-22 00:54:10.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 48618,
+    "name" : "AMZS Postojna",
+    "address" : "Industrijska cesta 1",
+    "location" : "45.7672000,14.1971830",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "114308",
+        "identifier" : "SI*EFR*E1022",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1022",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1022",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "114309",
+        "identifier" : "SI*EFR*E1023",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1023",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1023",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-21 23:58:28.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

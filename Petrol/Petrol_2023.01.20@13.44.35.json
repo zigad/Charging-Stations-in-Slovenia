@@ -1,0 +1,40 @@
+[ {
+  "Id" : 252099,
+  "FriendlyName" : "PEP ZG - CRNATKOVA",
+  "FriendlyCode" : "HR*PET0023",
+  "Access" : {
+    "GPSLongitude" : 15.966251,
+    "GPSLatitude" : 45.8049032
+  },
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Grad Zagreb",
+    "PostNumber" : "10000",
+    "StreetName" : "Crnatkova ulica",
+    "HouseNumber" : "24",
+    "CityDistrictName" : null
+  },
+  "AccessType" : {
+    "IsPrivate" : false,
+    "Id" : 4,
+    "Title" : "Public access - payable"
+  },
+  "TotalEvses" : 4,
+  "AvailableEvses" : 4,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : "green",
+  "PinCount" : 4,
+  "GeoHash" : "u25ke6d",
+  "HotlinePhoneNumber" : null
+} ]

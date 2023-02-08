@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 48278,
+    "name" : "Industriestraße 41 ",
+    "address" : "Industriestraße 41 ",
+    "location" : "47.3042600,16.1919290",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "111637",
+        "identifier" : "AT*120*E0000466",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "109",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000466",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*120*E0000466",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "111638",
+        "identifier" : "AT*120*E0000465",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "108",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000465",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*120*E0000465",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-01-25 03:48:20.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

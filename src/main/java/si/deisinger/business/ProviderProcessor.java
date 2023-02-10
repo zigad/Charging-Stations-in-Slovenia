@@ -317,7 +317,6 @@ public class ProviderProcessor {
 		LOG.info("Number of old stations: " + oldStations.size());
 		LOG.info("Number of new stations: " + newStations.size());
 		newStations.removeAll(oldStations);
-
 		return newStations;
 	}
 

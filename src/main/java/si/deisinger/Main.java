@@ -21,9 +21,9 @@ public class Main {
 		for (Providers provider : Providers.values()) {
 			LOG.info("Checking provider: " + provider.getProviderName());
 			switch (provider) {
-				case GREMO_NA_ELEKTRIKO -> providerProcessor.checkGremoNaElektriko(provider);
+				case GREMONAELEKTRIKO -> providerProcessor.checkGremoNaElektriko(provider);
 				case PETROL -> providerProcessor.checkPetrol(provider);
-				case MOON_CHARGE -> providerProcessor.checkMoonCharge(provider);
+				case MOONCHARGE -> providerProcessor.checkMoonCharge(provider);
 				case AVANT2GO -> providerProcessor.checkAvant2Go(provider);
 				case EFREND -> providerProcessor.checkEFrend(provider);
 				case MEGATEL -> providerProcessor.checkMegaTel(provider);

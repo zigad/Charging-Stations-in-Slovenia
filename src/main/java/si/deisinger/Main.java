@@ -26,6 +26,7 @@ public class Main {
 				case MOON_CHARGE -> providerProcessor.checkMoonCharge(provider);
 				case AVANT2GO -> providerProcessor.checkAvant2Go(provider);
 				case EFREND -> providerProcessor.checkEFrend(provider);
+				case MEGATEL -> providerProcessor.checkMegaTel(provider);
 				case IMPLERA -> providerProcessor.checkImplera(provider);
 				default -> throw new IllegalStateException("Unexpected value: " + provider);
 			}

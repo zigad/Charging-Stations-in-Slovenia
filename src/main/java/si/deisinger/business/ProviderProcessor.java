@@ -16,6 +16,8 @@ import si.deisinger.providers.model.efrend.EfrendLocationPins;
 import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
 import si.deisinger.providers.model.implera.ImpleraLocations;
+import si.deisinger.providers.model.megatel.MegaTelDetailedLocation;
+import si.deisinger.providers.model.megatel.MegaTelLocationPins;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
 import si.deisinger.providers.model.petrol.PetrolLocations;
 
@@ -213,6 +215,45 @@ public class ProviderProcessor {
 			LOG.info("Mapped " + efrendDetailedLocation.locations.size() + " stations to POJO");
 			FileController.writeNewDataToJsonFile(provider, efrendLocationPins.pins.size(), difference);
 			FileController.writeNewStationsToFile(provider, efrendDetailedLocation);
+		} else {
+			LOG.info("No new stations found");
+		}
+	}
+
+	/**
+	 * This method checks for new MegaTel stations and fetches details about them if there are any new stations.
+	 *
+	 * @param provider
+	 * 		An instance of the Providers class which contains details about the API to fetch data from
+	 * @throws RuntimeException
+	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
+	 */
+	public void checkMegaTel(Providers provider) {
+		MegaTelLocationPins megaTelLocationPins;
+		try {
+			megaTelLocationPins = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), MegaTelLocationPins.class);
+		} catch (JsonProcessingException e) {
+			LOG.error("Mapping to POJO failed");
+			throw new RuntimeException(e);
+		}
+		LOG.info("Fetched: " + megaTelLocationPins.pins.size() + " stations");
+
+		Set<Integer> stationsAroundSlovenia = restrictToGeoLocation(megaTelLocationPins);
+
+		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
+
+		if (!difference.isEmpty()) {
+			LOG.info("Found " + difference.size() + " new stations");
+			MegaTelDetailedLocation megaTelDetailedLocation;
+			try {
+				megaTelDetailedLocation = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), MegaTelDetailedLocation.class);
+			} catch (JsonProcessingException e) {
+				LOG.error("Mapping to POJO failed");
+				throw new RuntimeException(e);
+			}
+			LOG.info("Mapped " + megaTelDetailedLocation.locations.size() + " stations to POJO");
+			FileController.writeNewDataToJsonFile(provider, megaTelLocationPins.pins.size(), difference);
+			FileController.writeNewStationsToFile(provider, megaTelDetailedLocation);
 		} else {
 			LOG.info("No new stations found");
 		}

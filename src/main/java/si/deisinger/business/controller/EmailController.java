@@ -28,18 +28,14 @@ public class EmailController {
 	 */
 	public void sendMail(Providers provider, String url) {
 		LOG.info("Sending email");
-
 		try {
 			Message message = new MimeMessage(SESSION);
 			message.setFrom(new InternetAddress(Objects.requireNonNull(USERNAME)));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(USERNAME));
 			message.setSubject("New charging station for: " + provider.getProviderName());
 			message.setText("Hello there sailor,\nThere are new charging stations from: " + provider.getProviderName() + "\n\n" + url);
-
 			Transport.send(message);
-
 			LOG.info("Email Send");
-
 		} catch (MessagingException e) {
 			LOG.error("Failed to send email: " + e.getMessage(), e);
 		}

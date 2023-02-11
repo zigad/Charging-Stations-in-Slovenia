@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 121226,
+    "name" : "Neustift a.d. Lafnitz 34",
+    "address" : "Neustift a.d. Lafnitz 34",
+    "location" : "47.3670160,16.0432140",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "377587",
+        "identifier" : "AT*EBM*E30161*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E30161*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E30161*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "377588",
+        "identifier" : "AT*EBM*E30161*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E30161*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E30161*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-11 03:46:22.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

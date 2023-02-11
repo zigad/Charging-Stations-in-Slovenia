@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 49835,
+    "name" : "PEP ZG - IVANA LUČIĆA",
+    "address" : "Ivana Lučića 6",
+    "location" : "45.7974600,15.9703600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "116823",
+        "identifier" : "SIPETE0025*02*1",
+        "networkId" : "1",
+        "maxPower" : 11040,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "187",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0025*02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0025*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "116824",
+        "identifier" : "SIPETE0025*02*2",
+        "networkId" : "2",
+        "maxPower" : 11040,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "187",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0025*02*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0025*02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-11 01:00:48.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

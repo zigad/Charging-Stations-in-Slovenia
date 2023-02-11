@@ -1,0 +1,209 @@
+{
+  "locations" : [ {
+    "id" : 122447,
+    "name" : "Zaharova ulica 21",
+    "address" : "Zaharova ulica 21",
+    "location" : "45.8040700,15.9995690",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "378911",
+        "identifier" : "HR005E0181*119*1",
+        "networkId" : "1",
+        "maxPower" : 26604,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "22",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E0181*119*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR005E0181*119*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "378912",
+        "identifier" : "HR005E0181*118*1",
+        "networkId" : "1",
+        "maxPower" : 26604,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "22",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E0181*118*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR005E0181*118*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-11 04:17:06.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 122448,
+    "name" : "Zaharova ulica 21",
+    "address" : "Zaharova ulica 21",
+    "location" : "45.8041800,15.9996460",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "378913",
+        "identifier" : "HR005E0179*125*2",
+        "networkId" : "1",
+        "maxPower" : 26604,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "22",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E0179*125*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR005E0179*125*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "378914",
+        "identifier" : "HR005E0179*125*1",
+        "networkId" : "1",
+        "maxPower" : 26604,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "22",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E0179*125*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR005E0179*125*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-11 04:17:06.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 122449,
+    "name" : "Radnička ulica 21",
+    "address" : "Radnička ulica 21",
+    "location" : "45.8042260,15.9996030",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "378915",
+        "identifier" : "HR005E0175*01*3",
+        "networkId" : "1",
+        "maxPower" : 26604,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "22",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E0175*01*3",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR005E0175*01*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "378916",
+        "identifier" : "HR005E0175*01*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "58",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E0175*01*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR005E0175*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "378917",
+        "identifier" : "HR005E0175*01*1",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "58",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E0175*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR005E0175*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-11 04:17:06.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 50486,
+    "name" : "ARTA TERME (Terme di Arta)",
+    "address" : "ARTA TERME (Terme di Arta)",
+    "location" : "46.4768300,13.0165600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "120461",
+        "identifier" : "IT*BEC*EE001408*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "122",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EE001408*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*BEC*EE001408*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "120463",
+        "identifier" : "IT*BEC*EE001408*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "122",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EE001408*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*BEC*EE001408*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-12 04:12:17.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

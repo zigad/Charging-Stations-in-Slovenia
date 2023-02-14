@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 128074,
+    "name" : "Bader-Moser-Straße 17",
+    "address" : "Bader-Moser-Straße 17",
+    "location" : "47.8757090,14.1309090",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "385086",
+        "identifier" : "AT*KWS*E2311472",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "217",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311472",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E2311472",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "385087",
+        "identifier" : "AT*KWS*E2311471",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "217",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311471",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E2311471",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-14 06:34:16.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

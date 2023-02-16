@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 50187,
+    "name" : "Schlossplatz 1",
+    "address" : "Schlossplatz 1",
+    "location" : "47.9653700,16.2153200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "117586",
+        "identifier" : "AT*430*EACE0465868*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "111",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*EACE0465868*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*430*EACE0465868*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-16 03:42:40.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

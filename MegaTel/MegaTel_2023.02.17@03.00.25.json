@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 130877,
+    "name" : "Gostilna Repovž",
+    "address" : "Šentjanž 14",
+    "location" : "46.0110000,15.1688500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "388456",
+        "identifier" : "SIPORE0081*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0081*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0081*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "388457",
+        "identifier" : "SIPORE0081*02*1",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 3",
+          "icon" : "type3",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0081*02*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0081*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-17 01:00:28.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

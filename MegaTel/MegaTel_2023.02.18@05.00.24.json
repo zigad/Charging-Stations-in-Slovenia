@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 130879,
+    "name" : "Wirtschaftspark 7",
+    "address" : "Wirtschaftspark 7",
+    "location" : "47.5905300,16.5733400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "388459",
+        "identifier" : "AT*STB*EOOOO25*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*EOOOO25*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STB*EOOOO25*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-18 03:46:24.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 130880,
+    "name" : "Wirtschaftspark 7",
+    "address" : "Wirtschaftspark 7",
+    "location" : "47.5905190,16.5733400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "388460",
+        "identifier" : "AT*STB*EOOOO25*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*EOOOO25*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STB*EOOOO25*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-18 03:46:24.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

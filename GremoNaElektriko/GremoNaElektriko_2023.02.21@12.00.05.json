@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 51194,
+    "name" : "Spar Jesenice",
+    "address" : "Fužinska cesta 8, 4270 Jesenice, Slovenija",
+    "location" : "46.4324390,14.0592920",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "121940",
+        "identifier" : "SI*MGT*E8306",
+        "networkId" : "1",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "faulted",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "59",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E8306",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E8306",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "121941",
+        "identifier" : "SI*MGT*E9657",
+        "networkId" : "2",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "faulted",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "59",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E9657",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E9657",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-21 10:43:04.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

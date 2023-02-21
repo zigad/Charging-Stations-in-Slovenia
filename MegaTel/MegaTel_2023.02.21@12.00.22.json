@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 138014,
+    "name" : "Spar Jesenice",
+    "address" : "Fužinska cesta 8, 4270 Jesenice, Slovenija",
+    "location" : "46.4324388,14.0592919",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "396175",
+        "identifier" : "8306",
+        "networkId" : "1",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "faulted",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "85",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/8306",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "396176",
+        "identifier" : "9657",
+        "networkId" : "2",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "faulted",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "85",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/9657",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-21 10:50:55.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

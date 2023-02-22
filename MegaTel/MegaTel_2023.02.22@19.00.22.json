@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 139346,
+    "name" : "Test AC",
+    "address" : "Podnart",
+    "location" : "46.2964280,14.2550260",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "397812",
+        "identifier" : "SI*EFR*E1192",
+        "networkId" : "1",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "154",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1192",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*EFR*E1192",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-22 17:58:44.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

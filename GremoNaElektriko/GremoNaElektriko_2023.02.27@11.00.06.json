@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 44143,
+    "name" : "Hansererweg 1",
+    "address" : "Hansererweg 1",
+    "location" : "47.6266800,13.0016860",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "123676",
+        "identifier" : "DE*MDS*E002429",
+        "networkId" : "1",
+        "maxPower" : 22,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "236",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "DE*MDS*E002429",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/DE*MDS*E002429",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-26 06:18:06.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 23709,
+    "name" : "Zagrebačka avenija",
+    "address" : "Zagrebačka avenija 98",
+    "location" : "45.7970520,15.9028410",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "59238",
+        "identifier" : "SI*GNE*E2247",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E2247",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E2247",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "59239",
+        "identifier" : "SI*GNE*E2248",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E2248",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E2248",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-02-28 14:22:45.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

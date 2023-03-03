@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 52258,
+    "name" : "Sitel Test",
+    "address" : "Savlje 89, 1000 Ljubljana, Slovenija",
+    "location" : "46.0953863,14.4997078",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "126028",
+        "identifier" : "4752",
+        "networkId" : "1",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "preparing",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : null,
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/4752",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : true
+      } ]
+    } ],
+    "updatedAt" : "2023-03-03 13:17:23.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

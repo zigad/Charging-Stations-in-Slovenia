@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 51741,
+    "name" : "Sitel Test",
+    "address" : "Savlje 89, 1000 Ljubljana, Slovenija",
+    "location" : "46.0953860,14.4997080",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "122866",
+        "identifier" : "SI*GNE*E4752",
+        "networkId" : "1",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "118",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E4752",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E4752",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-03 13:17:23.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 51757,
+    "name" : "PEP ZG - BALOKOVIĆEVA",
+    "address" : "Balokovićeva bb",
+    "location" : "45.7784700,15.9964200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "122871",
+        "identifier" : "SIPETE0033*02*1",
+        "networkId" : "1",
+        "maxPower" : 11040,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "187",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0033*02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0033*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "122872",
+        "identifier" : "SIPETE0033*02*2",
+        "networkId" : "2",
+        "maxPower" : 11040,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "187",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0033*02*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0033*02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-04 01:01:00.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

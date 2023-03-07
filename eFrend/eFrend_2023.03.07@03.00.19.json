@@ -1,0 +1,109 @@
+{
+  "locations" : [ {
+    "id" : 51824,
+    "name" : "LJ - PRAŽAKOVA",
+    "address" : "Pražakova ulica 5",
+    "location" : "46.0566700,14.5070400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "123130",
+        "identifier" : "SIPETE0148*01*1",
+        "networkId" : "1",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0148*01*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0148*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "123131",
+        "identifier" : "SIPETE0148*01*2",
+        "networkId" : "2",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0148*01*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0148*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "123132",
+        "identifier" : "SIPETE0148*02*1",
+        "networkId" : "3",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0148*02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0148*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "123133",
+        "identifier" : "SIPETE0148*02*2",
+        "networkId" : "4",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0148*02*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0148*02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-07 01:01:09.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

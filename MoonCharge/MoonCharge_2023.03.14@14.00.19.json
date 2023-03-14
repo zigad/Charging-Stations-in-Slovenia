@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1382041,
+  "FriendlyName" : "Hotel Grof",
+  "FriendlyCode" : "SI*POR0091",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Vransko",
+    "PostNumber" : "3305",
+    "StreetName" : "Čeplje",
+    "HouseNumber" : "12",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 4
+} ]

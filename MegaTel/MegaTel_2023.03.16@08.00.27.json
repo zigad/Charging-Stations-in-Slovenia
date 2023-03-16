@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 164843,
+    "name" : "Via Giuseppe Mazzini, 2 ",
+    "address" : "Via Giuseppe Mazzini, 2 ",
+    "location" : "45.7976700,13.4649500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "427078",
+        "identifier" : "IT*BEC*EE004176*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "180",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EE004176*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*BEC*EE004176*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "427079",
+        "identifier" : "IT*BEC*EE004176*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "180",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EE004176*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*BEC*EE004176*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-16 06:20:10.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

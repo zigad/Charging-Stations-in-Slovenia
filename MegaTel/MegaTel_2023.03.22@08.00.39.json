@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 172075,
+    "name" : "Thermenplatz 1 ",
+    "address" : "Thermenplatz 1 ",
+    "location" : "47.8152500,13.0531520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "435111",
+        "identifier" : "AT*SZG*E101159",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "293",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E101159",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*SZG*E101159",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "435112",
+        "identifier" : "AT*SZG*E101158",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "293",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E101158",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*SZG*E101158",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-22 06:36:02.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

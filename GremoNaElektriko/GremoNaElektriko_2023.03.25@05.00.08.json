@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 53612,
+    "name" : "Parkstraße 6 ",
+    "address" : "Parkstraße 6 ",
+    "location" : "47.0468110,16.0821230",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "128283",
+        "identifier" : "AT*120*E0000398",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000398",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E0000398",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "128284",
+        "identifier" : "AT*120*E0000397",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000397",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E0000397",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-25 03:07:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

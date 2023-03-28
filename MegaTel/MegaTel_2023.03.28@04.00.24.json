@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 179699,
+    "name" : "B&B Hostel Pub Pod Skalo",
+    "address" : "Maistrova ulica 32",
+    "location" : "46.2274100,14.6196600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "444962",
+        "identifier" : "SIPORE0087*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0087*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0087*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "444963",
+        "identifier" : "SIPORE0087*02*1",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0087*02*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0087*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-28 01:00:38.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 182006,
+    "name" : "Schloßallee 1",
+    "address" : "Schloßallee 1",
+    "location" : "46.6262810,14.2141620",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "286703",
+        "identifier" : "AT*KEL*E007*70680",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "314",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*70680",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KEL*E007*70680",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "286704",
+        "identifier" : "AT*KEL*E007*70675",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "314",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*70675",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KEL*E007*70675",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-29 05:32:04.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

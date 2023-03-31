@@ -1,0 +1,167 @@
+{
+  "locations" : [ {
+    "id" : 53879,
+    "name" : "Seeringstrasse 2",
+    "address" : "Seeringstrasse 2",
+    "location" : "47.9293560,13.5009400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "128896",
+        "identifier" : "AT*ION*E221706",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "93",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E221706",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ION*E221706",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "128898",
+        "identifier" : "AT*ION*E221705",
+        "networkId" : "2",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "93",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E221705",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ION*E221705",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "128899",
+        "identifier" : "AT*ION*E221703",
+        "networkId" : "3",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "93",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E221703",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ION*E221703",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "128901",
+        "identifier" : "AT*ION*E221701",
+        "networkId" : "4",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "93",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E221701",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ION*E221701",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-31 06:38:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 53882,
+    "name" : "Új Atlantisz Ipari park, hrsz 5725.",
+    "address" : "Új Atlantisz Ipari park, hrsz 5725.",
+    "location" : "47.1249930,17.5468570",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "128948",
+        "identifier" : "HU*EON*E179001",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "210",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*EON*E179001",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*EON*E179001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "128957",
+        "identifier" : "HU*EON*E179000",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "210",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*EON*E179000",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*EON*E179000",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-03-31 06:47:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

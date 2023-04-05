@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1445573,
+  "FriendlyName" : "Maistra - Kamp Veštar",
+  "FriendlyCode" : "HR050467",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Rovinj",
+    "PostNumber" : "52210",
+    "StreetName" : "Veštar",
+    "HouseNumber" : "1",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

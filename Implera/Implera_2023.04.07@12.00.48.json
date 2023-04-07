@@ -1,0 +1,14 @@
+[ {
+  "id" : 2432,
+  "name" : "AC Nešković 4",
+  "address" : "Sremska",
+  "town" : "Bijelina",
+  "lat" : 44.762331,
+  "lng" : 19.20739,
+  "deluje" : 0,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Plug & Charge Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@22 kW"
+} ]

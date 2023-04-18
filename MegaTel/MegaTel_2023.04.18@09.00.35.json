@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 204751,
+    "name" : "Schlosspark 1",
+    "address" : "Schlosspark 1",
+    "location" : "46.6120730,14.0434250",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "473467",
+        "identifier" : "AT*KWS*E2311410",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "217",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311410",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E2311410",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-18 06:35:41.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

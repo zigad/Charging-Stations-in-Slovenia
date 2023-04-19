@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 204732,
+    "name" : "Kasernengasse 6",
+    "address" : "Kasernengasse 6",
+    "location" : "46.6186740,13.8720740",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "473425",
+        "identifier" : "AT*KEL*E007*71091",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "313",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71091",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KEL*E007*71091",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-19 04:02:35.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

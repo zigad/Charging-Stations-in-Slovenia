@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 207335,
+    "name" : "Agendorferstrasse 2",
+    "address" : "Agendorferstrasse 2",
+    "location" : "47.7075950,16.5159520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "476358",
+        "identifier" : "AT*EBM*E50010*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E50010*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E50010*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "476359",
+        "identifier" : "AT*EBM*E50010*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E50010*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E50010*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-22 03:49:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 208597,
+    "name" : "Hauptplatz 10",
+    "address" : "Hauptplatz 10",
+    "location" : "47.4068340,16.4179170",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "477777",
+        "identifier" : "AT*EBM*E40056*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40056*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40056*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-23 03:50:18.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

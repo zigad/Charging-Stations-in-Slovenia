@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 55879,
+    "name" : "Thalstraße 301",
+    "address" : "Thalstraße 301",
+    "location" : "47.0774520,15.3590110",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "135396",
+        "identifier" : "AT*120*E0000482",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000482",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E0000482",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "135398",
+        "identifier" : "AT*120*E0000481",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000481",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E0000481",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-27 03:52:12.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

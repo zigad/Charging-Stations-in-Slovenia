@@ -1,0 +1,175 @@
+{
+  "locations" : [ {
+    "id" : 214525,
+    "name" : "Am Moosgraben 1  ",
+    "address" : "Am Moosgraben 1  ",
+    "location" : "47.9554390,13.7272810",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "484220",
+        "identifier" : "DE*PFW*E196689",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "144",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "DE*PFW*E196689",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/DE*PFW*E196689",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "484221",
+        "identifier" : "DE*PFW*E196688",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "144",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "DE*PFW*E196688",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/DE*PFW*E196688",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "484222",
+        "identifier" : "DE*PFW*E196685",
+        "networkId" : "1",
+        "maxPower" : 120000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "DE*PFW*E196685",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/DE*PFW*E196685",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "484223",
+        "identifier" : "DE*PFW*E196684",
+        "networkId" : "1",
+        "maxPower" : 120000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "DE*PFW*E196684",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/DE*PFW*E196684",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-27 06:54:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 214526,
+    "name" : "Am Moosgraben 1  ",
+    "address" : "Am Moosgraben 1  ",
+    "location" : "47.9554080,13.7272290",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "484224",
+        "identifier" : "DE*PFW*E196452",
+        "networkId" : "1",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "DE*PFW*E196452",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/DE*PFW*E196452",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "484225",
+        "identifier" : "DE*PFW*E196451",
+        "networkId" : "1",
+        "maxPower" : 120000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "DE*PFW*E196451",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/DE*PFW*E196451",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-27 06:54:54.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

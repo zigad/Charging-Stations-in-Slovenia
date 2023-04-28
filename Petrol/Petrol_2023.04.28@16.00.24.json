@@ -1,0 +1,33 @@
+[ {
+  "Id" : 1208838,
+  "FriendlyName" : "OBČINA ŠENTILJ - SLADKI VRH",
+  "FriendlyCode" : "SI*PET0294",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Sladki Vrh",
+    "PostNumber" : "2214",
+    "StreetName" : "Sladki vrh",
+    "HouseNumber" : "5D",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2,
+  "AvailableEvses" : 2,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 215588,
+    "name" : "Obere Hauptstraße 31 ",
+    "address" : "Obere Hauptstraße 31 ",
+    "location" : "47.3919260,15.9935830",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "487344",
+        "identifier" : "AT*120*E0000480",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000480",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000480",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "487345",
+        "identifier" : "AT*120*E0000479",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000479",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000479",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-28 03:52:03.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

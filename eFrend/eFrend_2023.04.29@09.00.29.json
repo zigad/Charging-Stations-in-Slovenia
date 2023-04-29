@@ -1,0 +1,235 @@
+{
+  "locations" : [ {
+    "id" : 55449,
+    "name" : "Teichwiese 7",
+    "address" : "Teichwiese 7",
+    "location" : "47.6380230,13.6191990",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "132612",
+        "identifier" : "AT*WSG*E201980",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "48",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*WSG*E201980",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*WSG*E201980",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "132613",
+        "identifier" : "AT*WSG*E201977",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "48",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*WSG*E201977",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*WSG*E201977",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-29 06:42:28.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 55452,
+    "name" : "Aicherfeld 4",
+    "address" : "Aicherfeld 4",
+    "location" : "47.9382250,13.5472550",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "132614",
+        "identifier" : "AT*WSG*E201762",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "48",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*WSG*E201762",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*WSG*E201762",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-29 06:42:28.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 55482,
+    "name" : "Via Madonnina, 7",
+    "address" : "Via Madonnina, 7",
+    "location" : "45.8639500,13.4840600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "132720",
+        "identifier" : "IT*BEC*EE004144*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "37",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EE004144*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EE004144*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "132724",
+        "identifier" : "IT*BEC*EE004144*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "37",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EE004144*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EE004144*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "132727",
+        "identifier" : "IT*BEC*EE004141*2",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "37",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EE004141*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EE004141*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "132729",
+        "identifier" : "IT*BEC*EE004141*1",
+        "networkId" : "4",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "37",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EE004141*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EE004141*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-29 06:47:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 55530,
+    "name" : "CORSO DEL SOLE - LOC. BIBIONE",
+    "address" : "CORSO DEL SOLE - LOC. BIBIONE",
+    "location" : "45.6396900,13.6129550",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "132851",
+        "identifier" : "IT*BEC*EH000332*3",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "37",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EH000332*3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EH000332*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-29 06:50:31.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

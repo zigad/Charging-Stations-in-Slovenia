@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 216655,
+    "name" : "Thörl 119 ",
+    "address" : "Thörl 119 ",
+    "location" : "47.5536960,13.9412000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "488447",
+        "identifier" : "AT*120*E0000448",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000448",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000448",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "488448",
+        "identifier" : "AT*120*E0000447",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000447",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000447",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-29 03:50:08.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

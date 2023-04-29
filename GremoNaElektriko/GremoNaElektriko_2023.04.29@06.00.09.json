@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 55919,
+    "name" : "Thörl 119",
+    "address" : "Thörl 119",
+    "location" : "47.5536960,13.9412000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "135522",
+        "identifier" : "AT*120*E0000448",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000448",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E0000448",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "135523",
+        "identifier" : "AT*120*E0000447",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000447",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E0000447",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-04-29 03:50:23.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

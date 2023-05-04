@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 56153,
+    "name" : "TSC LABA d.o.o. Litija",
+    "address" : "Ponoviška cesta 11b, 1270 Litija, Slovenija",
+    "location" : "46.0605910,14.8301680",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "136302",
+        "identifier" : "SI*MGT*E7148",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "262",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E7148",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E7148",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "136303",
+        "identifier" : "SI*MGT*E7058",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "261",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E7058",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E7058",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-05-04 14:34:26.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

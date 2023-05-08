@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1472948,
+  "FriendlyName" : "Jadranka turizam - 01",
+  "FriendlyCode" : "HR051251",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Mali Lošinj",
+    "PostNumber" : "51550",
+    "StreetName" : "Dražica",
+    "HouseNumber" : "10",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 4
+} ]

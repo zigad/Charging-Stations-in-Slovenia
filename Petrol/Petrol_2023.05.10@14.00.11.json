@@ -1,0 +1,33 @@
+[ {
+  "Id" : 1208701,
+  "FriendlyName" : "OBČINA ŠENTILJ - ZGORNJA VELKA",
+  "FriendlyCode" : "SI*PET0291",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Šentilj",
+    "PostNumber" : "2213",
+    "StreetName" : "Zgornja Velka",
+    "HouseNumber" : "37",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1,
+  "AvailableEvses" : 0,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

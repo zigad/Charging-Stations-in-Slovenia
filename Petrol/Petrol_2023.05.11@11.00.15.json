@@ -1,0 +1,33 @@
+[ {
+  "Id" : 1472953,
+  "FriendlyName" : "OBČINA LJUTOMER",
+  "FriendlyCode" : "SI*PET0302",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Ljutomer",
+    "PostNumber" : "9240",
+    "StreetName" : "Ulica Rajh Nade",
+    "HouseNumber" : "0",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2,
+  "AvailableEvses" : 0,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

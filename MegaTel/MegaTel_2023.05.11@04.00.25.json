@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 239702,
+    "name" : "Penzion Pibernik",
+    "address" : "Ljubljanska cesta 40",
+    "location" : "46.3653300,14.1326300",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "513312",
+        "identifier" : "SIPORE0090*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0090*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0090*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "513313",
+        "identifier" : "SIPORE0090*01*2",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0090*01*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0090*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-05-11 01:00:29.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

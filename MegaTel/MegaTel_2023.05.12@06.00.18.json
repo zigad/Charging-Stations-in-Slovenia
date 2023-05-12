@@ -1,0 +1,97 @@
+{
+  "locations" : [ {
+    "id" : 239705,
+    "name" : "Schulgasse -",
+    "address" : "Schulgasse -",
+    "location" : "47.8790550,16.4488900",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "513318",
+        "identifier" : "AT*EBM*E40207*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40207*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40207*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-05-12 03:46:57.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 239706,
+    "name" : "Höhenstrasse 32",
+    "address" : "Höhenstrasse 32",
+    "location" : "47.5071410,16.5105310",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "513319",
+        "identifier" : "AT*EBM*E30167*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E30167*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E30167*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "513320",
+        "identifier" : "AT*EBM*E30167*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 15,
+        "isAvailable" : true,
+        "tariffId" : "306",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E30167*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E30167*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-05-12 03:46:57.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

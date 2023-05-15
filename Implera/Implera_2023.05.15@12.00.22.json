@@ -1,0 +1,14 @@
+[ {
+  "id" : 2148,
+  "name" : "Kidričevo stebriček Type 2",
+  "address" : "Kopališka ulica",
+  "town" : "Kidričevo",
+  "lat" : 46.403833,
+  "lng" : 15.78881,
+  "deluje" : 1,
+  "cena_KW" : "0.220",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "0.20",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@22 kW"
+} ]

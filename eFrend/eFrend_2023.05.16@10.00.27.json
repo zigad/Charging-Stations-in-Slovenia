@@ -1,0 +1,167 @@
+{
+  "locations" : [ {
+    "id" : 52528,
+    "name" : "Pirching 97, 8200 Pirching an der Raab, Österreich ",
+    "address" : "Pirching 97, 8200 Pirching an der Raab, Öster",
+    "location" : "47.0894400,15.7326800",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "124905",
+        "identifier" : "IT*BEC*EH000278*2",
+        "networkId" : "1",
+        "maxPower" : 51000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EH000278*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EH000278*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "124908",
+        "identifier" : "IT*BEC*EH000278*3",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "238",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EH000278*3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EH000278*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "124910",
+        "identifier" : "IT*BEC*EH000278*1",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "238",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EH000278*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EH000278*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-05-15 14:51:11.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 52529,
+    "name" : "Klagenfurter Str. 40, 9400 Priel, Österreich ",
+    "address" : "Klagenfurter Str. 40, 9400 Priel, Österreich ",
+    "location" : "46.8193700,14.8349200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "124906",
+        "identifier" : "IT*BEC*EH000279*2",
+        "networkId" : "1",
+        "maxPower" : 51000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EH000279*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EH000279*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "124907",
+        "identifier" : "IT*BEC*EH000279*1",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "238",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EH000279*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EH000279*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "124909",
+        "identifier" : "IT*BEC*EH000279*3",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "238",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*BEC*EH000279*3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*BEC*EH000279*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-05-15 10:53:27.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

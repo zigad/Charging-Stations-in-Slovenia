@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 245151,
+    "name" : "Hannersdorf 171",
+    "address" : "Hannersdorf 171",
+    "location" : "47.2252830,16.3769640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "519204",
+        "identifier" : "AT*EBM*E40210*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40210*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40210*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "519205",
+        "identifier" : "AT*EBM*E40210*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "306",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40210*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40210*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-05-17 03:46:33.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

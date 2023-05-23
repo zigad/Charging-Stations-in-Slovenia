@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1559220,
+  "FriendlyName" : "Arena HG 06",
+  "FriendlyCode" : "HR052036",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Pula",
+    "PostNumber" : "52100",
+    "StreetName" : "Smareglina ulica",
+    "HouseNumber" : "3",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

@@ -1,0 +1,33 @@
+[ {
+  "Id" : 252119,
+  "FriendlyName" : "PEP ZG - BARTOLA KAŠIĆA",
+  "FriendlyCode" : "HR*PET0040",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Grad Zagreb",
+    "PostNumber" : "10000",
+    "StreetName" : "Trg Bartola Kašića",
+    "HouseNumber" : "bb",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 4,
+  "AvailableEvses" : 0,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

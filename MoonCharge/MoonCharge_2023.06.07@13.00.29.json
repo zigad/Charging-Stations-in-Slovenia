@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1603953,
+  "FriendlyName" : "Hostel Panorama",
+  "FriendlyCode" : "SI*POR0095",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Portorož",
+    "PostNumber" : "63200",
+    "StreetName" : "Šentjane",
+    "HouseNumber" : "25",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

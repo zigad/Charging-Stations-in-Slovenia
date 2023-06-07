@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 267786,
+    "name" : "Auleitenstraße 1 ",
+    "address" : "Auleitenstraße 1 ",
+    "location" : "47.9855280,13.4159910",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "542979",
+        "identifier" : "AT*120*E0000508",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000508",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000508",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "542980",
+        "identifier" : "AT*120*E0000507",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000507",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000507",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-06-07 03:50:22.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

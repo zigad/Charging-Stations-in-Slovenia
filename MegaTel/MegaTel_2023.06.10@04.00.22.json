@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 268948,
+    "name" : "Hostel Panorama",
+    "address" : "Šentjane 25",
+    "location" : "45.5208300,13.5903500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "544483",
+        "identifier" : "SIPORE0095*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0095*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0095*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "544484",
+        "identifier" : "SIPORE0095*02*1",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0095*02*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0095*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-06-10 01:00:30.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

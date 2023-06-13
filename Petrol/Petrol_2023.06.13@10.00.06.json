@@ -1,0 +1,33 @@
+[ {
+  "Id" : 1331478,
+  "FriendlyName" : "LJ - GL. ŽELEZNIŠKA POSTAJA",
+  "FriendlyCode" : "SI*PET0299",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Ljubljana",
+    "PostNumber" : "1000",
+    "StreetName" : "Trg Osvobodilne fronte",
+    "HouseNumber" : "6",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 10,
+  "AvailableEvses" : 3,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 63137,
+    "name" : "TEST Smappee",
+    "address" : "Pražakova ulica 1",
+    "location" : "46.0568850,14.5061540",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "141911",
+        "identifier" : "SI*GNE*E7975",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "118",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E7975",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E7975",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-06-13 01:01:10.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1618302,
+  "FriendlyName" : "PC Komenda javne",
+  "FriendlyCode" : "SI*POR0098",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Žeje pri Komendi, Komenda",
+    "PostNumber" : "1218",
+    "StreetName" : "Pod lipami",
+    "HouseNumber" : "10",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1606752,
+  "FriendlyName" : "Maslinica - Rabac",
+  "FriendlyCode" : "HR052044",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Rabac",
+    "PostNumber" : "52221",
+    "StreetName" : "Maslinica",
+    "HouseNumber" : "1",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

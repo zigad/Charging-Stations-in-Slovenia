@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 268952,
+    "name" : "Vinarium Lendava",
+    "address" : "Lendava",
+    "location" : "46.5673080,16.4681800",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "544503",
+        "identifier" : "9984",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : null,
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/9984",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "544504",
+        "identifier" : "2518",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : null,
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/2518",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-06-16 13:44:50.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

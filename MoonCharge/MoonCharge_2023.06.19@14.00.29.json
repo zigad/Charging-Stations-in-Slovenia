@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1604665,
+  "FriendlyName" : "Apartmaji Arh",
+  "FriendlyCode" : "SI*POR0096",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Bohinjska Bistrica",
+    "PostNumber" : "4264",
+    "StreetName" : "Savica",
+    "HouseNumber" : "5",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 63650,
+    "name" : "VRTOJBA - UL. 9 SEPTEMBRA 240",
+    "address" : "Ulica 9. septembra 240",
+    "location" : "45.9066300,13.6274900",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "142917",
+        "identifier" : "SIPETE0281*01*1",
+        "networkId" : "1",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0281*01*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0281*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "142918",
+        "identifier" : "SIPETE0281*01*2",
+        "networkId" : "2",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0281*01*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0281*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-06-24 01:01:31.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

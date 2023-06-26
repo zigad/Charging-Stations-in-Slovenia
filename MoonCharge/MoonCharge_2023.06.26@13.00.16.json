@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1641333,
+  "FriendlyName" : "Gostišče pri Zalogarju",
+  "FriendlyCode" : "SI*POR0100",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Selca",
+    "PostNumber" : "4227",
+    "StreetName" : "Dolenja vas",
+    "HouseNumber" : "1a",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1
+} ]

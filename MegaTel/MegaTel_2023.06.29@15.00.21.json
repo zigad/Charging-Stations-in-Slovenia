@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 269093,
+    "name" : "Gasilski dom - Log pod Mangartom",
+    "address" : "Log pod Mangartom 46a, 5231 Log pod Mangartom, Slovenija",
+    "location" : "46.4049167,13.5968552",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "544791",
+        "identifier" : "0184",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "87",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/0184",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-06-29 13:00:17.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

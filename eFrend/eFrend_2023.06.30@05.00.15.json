@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 63652,
+    "name" : "Gabi Cibašek",
+    "address" : "Mala vas 76, 5230 Bovec, Slovenija",
+    "location" : "46.3393400,13.5559980",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "142937",
+        "identifier" : "SI*MGT*E0182",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0182",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0182",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-06-30 02:57:01.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 63653,
+    "name" : "Gasilski dom - Log pod Mangartom",
+    "address" : "Log pod Mangartom 46a, 5231 Log pod Mangartom",
+    "location" : "46.4049170,13.5968550",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "142938",
+        "identifier" : "SI*MGT*E0184",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0184",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0184",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-06-30 02:57:01.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

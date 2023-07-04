@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1679773,
+  "FriendlyName" : "Gostilna Pugelj",
+  "FriendlyCode" : "SI*POR0105",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Novo mesto",
+    "PostNumber" : "8000",
+    "StreetName" : "Ždinja vas",
+    "HouseNumber" : "6",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1
+} ]

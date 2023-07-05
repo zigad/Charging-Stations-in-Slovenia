@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 269097,
+    "name" : "Cona Tezno",
+    "address" : "Cesta k Tamu 27",
+    "location" : "46.5263049,15.6669522",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "544799",
+        "identifier" : "0326",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "87",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/0326",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-05 11:24:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

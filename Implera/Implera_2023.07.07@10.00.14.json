@@ -1,0 +1,14 @@
+[ {
+  "id" : 2168,
+  "name" : "Fellbach (Stuttgart) Monarch Energy Type 2",
+  "address" : "Höhenstraße",
+  "town" : "Fellbach",
+  "lat" : 48.815104,
+  "lng" : 9.257254,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@22 kW"
+} ]

@@ -1,0 +1,33 @@
+[ {
+  "Id" : 1641334,
+  "FriendlyName" : "PEP ZG - PEMO CENTAR",
+  "FriendlyCode" : "HR*PET0060",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Zagreb",
+    "PostNumber" : "10000",
+    "StreetName" : "Savska Opatovina",
+    "HouseNumber" : "36",
+    "CityDistrictName" : "Zagreb"
+  },
+  "AccessType" : null,
+  "TotalEvses" : 6,
+  "AvailableEvses" : 5,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

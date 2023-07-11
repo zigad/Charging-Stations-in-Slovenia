@@ -1,0 +1,27 @@
+[ {
+  "id" : 2464,
+  "name" : "Tech trade Trzin Type2 L",
+  "address" : "Blatnica",
+  "town" : "Trzin",
+  "lat" : 46.121099,
+  "lng" : 14.551425,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@11 kW"
+}, {
+  "id" : 2466,
+  "name" : "Tech trade Trzin Type2 R",
+  "address" : "Blatnica",
+  "town" : "Trzin",
+  "lat" : 46.121099,
+  "lng" : 14.551425,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

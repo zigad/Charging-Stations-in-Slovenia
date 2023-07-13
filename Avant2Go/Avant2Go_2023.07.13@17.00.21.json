@@ -1,0 +1,632 @@
+{
+  "pagination" : {
+    "info" : {
+      "totalRecords" : 39
+    }
+  },
+  "results" : [ {
+    "_id" : "61f3ccfdac7f8849cd6fef51",
+    "name" : "Smart Com ⚡",
+    "address" : {
+      "address1" : "Brnčičeva ulica 41g",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.553552,
+      "lat" : 46.094501
+    },
+    "status" : "Available",
+    "created" : 1643367677142
+  }, {
+    "_id" : "578ca711dfe22d284eb96e98",
+    "name" : "BTC - Decathlon ⚡",
+    "address" : {
+      "address1" : "Argentinska ulica",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.54716,
+      "lat" : 46.065901
+    },
+    "status" : "Available",
+    "created" : 1468835601000
+  }, {
+    "_id" : "5bd2002fb406313ba57251fd",
+    "name" : "NLB - Leasing ⚡",
+    "address" : {
+      "address1" : "Šlandrova ulica 2",
+      "zipCode" : "1231",
+      "city" : "Ljubljana Črnuče",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.535931,
+      "lat" : 46.098214
+    },
+    "status" : "Available",
+    "created" : 1540489263923
+  }, {
+    "_id" : "578cae0fdfe22d284eb96ec6",
+    "name" : "BTC - Street food ⚡",
+    "address" : {
+      "address1" : "Francoska ulica",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.5453314,
+      "lat" : 46.0632451
+    },
+    "status" : "Available",
+    "created" : 1468837391000
+  }, {
+    "_id" : "57c55fae9dc6bf4265b2b73e",
+    "name" : "BTC - Trg mladih ⚡",
+    "address" : {
+      "address1" : "Trg mladih",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.5436355,
+      "lat" : 46.067227
+    },
+    "status" : "Available",
+    "created" : 1472552878000
+  }, {
+    "_id" : "570ff2e012173de85a8dfd72",
+    "name" : "BTC - Kristalna Palača ⚡",
+    "address" : {
+      "address1" : "Ameriška ulica 8",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.5416418,
+      "lat" : 46.066147
+    },
+    "status" : "Available",
+    "created" : 1460663008000
+  }, {
+    "_id" : "5836ce14e2acb44baa6b87e3",
+    "name" : "Lidl  - Litijska cesta ⚡",
+    "address" : {
+      "address1" : "Litijska cesta 51",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.5472514,
+      "lat" : 46.0477712
+    },
+    "status" : "Available",
+    "created" : 1479986708000
+  }, {
+    "_id" : "56bdcb9b91a36ac61cb1122b",
+    "name" : "Avant car - Dunajska ⚡",
+    "address" : {
+      "address1" : "Dunajska 140",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.513467,
+      "lat" : 46.079631
+    },
+    "status" : "Available",
+    "created" : 1455279003000
+  }, {
+    "_id" : "59e64894d8390430ac5c6186",
+    "name" : "Addiko Bank - Bežigrad ⚡",
+    "address" : {
+      "address1" : "Dunajska cesta 117",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.510828,
+      "lat" : 46.0752933
+    },
+    "status" : "Available",
+    "created" : 1508264084000
+  }, {
+    "_id" : "61a4e1f4cc3bd1759aff6c23",
+    "name" : "Ulica Pohorskega bataljona ⚡",
+    "address" : {
+      "address1" : "Ulica Pohorskega bataljona",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.508575,
+      "lat" : 46.080359
+    },
+    "status" : "Available",
+    "created" : 1638195700215
+  }, {
+    "_id" : "62189e3758bac7a5fb8f1bbe",
+    "name" : "Supernova Rudnik ⚡",
+    "address" : {
+      "address1" : "Jurčkova cesta 223",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.535439,
+      "lat" : 46.022567
+    },
+    "status" : "Available",
+    "created" : 1645780535029
+  }, {
+    "_id" : "56be71605f40d3ba38e6f484",
+    "name" : "Avant car - Trdinova ⚡",
+    "address" : {
+      "address1" : "Trdinova ulica 9",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.5070339,
+      "lat" : 46.0555459
+    },
+    "status" : "Available",
+    "created" : 1455321440000
+  }, {
+    "_id" : "60001e5566a98c100e118cd5",
+    "name" : "Zavarovalnica Triglav - Verovškova ⚡",
+    "address" : {
+      "address1" : "Verovškova ulica 60b",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.499911,
+      "lat" : 46.074704
+    },
+    "status" : "Available",
+    "created" : 1610620501874
+  }, {
+    "_id" : "5f608500b484607bc26522b7",
+    "name" : "Restobar Boschtiz - Litostroj",
+    "address" : {
+      "address1" : "Litostrojska Cesta 56",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.4961815,
+      "lat" : 46.0789746
+    },
+    "status" : "Available",
+    "created" : 1600161024648
+  }, {
+    "_id" : "573716b50e45977e09f30c52",
+    "name" : "Kongresni trg - garaža ⚡",
+    "address" : {
+      "address1" : "Kongresni trg 1",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.5038823,
+      "lat" : 46.0505609
+    },
+    "status" : "Available",
+    "created" : 1463228085000
+  }, {
+    "_id" : "5f2ba26aaaefe3014ae43702",
+    "name" : "Peca ⚡- Šiška",
+    "address" : {
+      "address1" : "Litostrojska cesta 59",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.492214,
+      "lat" : 46.082025
+    },
+    "status" : "Available",
+    "created" : 1596695146410
+  }, {
+    "_id" : "58d64c76707483791ba1e08d",
+    "name" : "M Hotel - Šiška ⚡",
+    "address" : {
+      "address1" : "Derčeva ulica 4",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.489223,
+      "lat" : 46.0686304
+    },
+    "status" : "Available",
+    "created" : 1490439286000
+  }, {
+    "_id" : "5ebba98622003328daf50b71",
+    "name" : "Nakupovalno središče ALEJA ⚡",
+    "address" : {
+      "address1" : "Rakuševa ulica 1",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.484956,
+      "lat" : 46.07845
+    },
+    "status" : "Available",
+    "created" : 1589356934249
+  }, {
+    "_id" : "58bd8f0ac6b72f667037e035",
+    "name" : "Kavarna Čuk - Stegne ⚡",
+    "address" : {
+      "address1" : "Stegne 23a",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.48253224536893,
+      "lat" : 46.08661530873772
+    },
+    "status" : "Available",
+    "created" : 1488817930000
+  }, {
+    "_id" : "5832b904b6640d156813a8de",
+    "name" : "Fakulteta za matematiko in fiziko ⚡",
+    "address" : {
+      "address1" : "Jadranska ulica 19",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.4903703,
+      "lat" : 46.0423106
+    },
+    "status" : "Available",
+    "created" : 1479719172000
+  }, {
+    "_id" : "61efd3491485a33d7e34b2d1",
+    "name" : "Skupnost za mlade Gerbičeva ⚡",
+    "address" : {
+      "address1" : "Gerbičeva ulica 55",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.48778,
+      "lat" : 46.039041
+    },
+    "status" : "Available",
+    "created" : 1643107145718
+  }, {
+    "_id" : "59c8d7763345ef400379bfc9",
+    "name" : "Klub 300 - Dravlje ⚡",
+    "address" : {
+      "address1" : "Regentova cesta 35",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.4696806,
+      "lat" : 46.0811883
+    },
+    "status" : "Available",
+    "created" : 1506334582000
+  }, {
+    "_id" : "570ff1f112173de85a8dfd71",
+    "name" : "Tehnološki park Ljubljana ⚡",
+    "address" : {
+      "address1" : "Tehnološki park 19",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.4603892,
+      "lat" : 46.0494127
+    },
+    "status" : "Available",
+    "created" : 1460662769000
+  }, {
+    "_id" : "6346931b9a415e9d10496498",
+    "name" : "Cesarjev gaj ⚡",
+    "address" : {
+      "address1" : "Cesta dveh cesarjev 200",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.466595,
+      "lat" : 46.033073
+    },
+    "status" : "Available",
+    "created" : 1665569563088
+  }, {
+    "_id" : "577bc4bc082d960d73dd554a",
+    "name" : "Four Points by Sheraton - Mons hotel ⚡",
+    "address" : {
+      "address1" : "Pot za Brdom 4",
+      "zipCode" : "1000",
+      "city" : "Ljubljana",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.452631,
+      "lat" : 46.052543
+    },
+    "status" : "Available",
+    "created" : 1467729084000
+  }, {
+    "_id" : "570fa57312173de85a8dfcf8",
+    "name" : "Letališče Jožeta Pučnika Ljubljana ⚡",
+    "address" : {
+      "address1" : "Zgornji Brnik 130a",
+      "zipCode" : "4210",
+      "city" : "Brnik",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.455435,
+      "lat" : 46.231332
+    },
+    "status" : "Available",
+    "created" : 1460643187000
+  }, {
+    "_id" : "59e64c0fd8390430ac5c6352",
+    "name" : "Merkur - Primskovo ⚡",
+    "address" : {
+      "address1" : "Cesta Staneta Žagarja 67",
+      "zipCode" : "4000",
+      "city" : "Kranj",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.37586,
+      "lat" : 46.24255
+    },
+    "status" : "Available",
+    "created" : 1508264975000
+  }, {
+    "_id" : "59d24a813345ef40038005d7",
+    "name" : "Iskratel - Labore ⚡",
+    "address" : {
+      "address1" : "Ljubljanska cesta 24a",
+      "zipCode" : "4000",
+      "city" : "Kranj",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.353848,
+      "lat" : 46.224167
+    },
+    "status" : "Available",
+    "created" : 1506953857000
+  }, {
+    "_id" : "598e1ee6b687bf192c0b20e9",
+    "name" : "Mestna občina Kranj ⚡",
+    "address" : {
+      "address1" : "Slovenski trg 1",
+      "zipCode" : "4000",
+      "city" : "Kranj",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 14.355536,
+      "lat" : 46.243082
+    },
+    "status" : "Available",
+    "created" : 1502486246000
+  }, {
+    "_id" : "62fdcf60fe37bc547be97802",
+    "name" : "Razvojni center Novo mesto",
+    "address" : {
+      "address1" : "Podbreznik 15",
+      "zipCode" : "8000",
+      "city" : "Novo mesto",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 15.1333549,
+      "lat" : 45.8045571
+    },
+    "status" : "Available",
+    "created" : 1660800864443
+  }, {
+    "_id" : "60eeb268bed9a27612f12be3",
+    "name" : "Novo mesto - Novi trg",
+    "address" : {
+      "address1" : "Novi trg",
+      "zipCode" : "8000",
+      "city" : "Novo mesto",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 15.165092,
+      "lat" : 45.804935
+    },
+    "status" : "Available",
+    "created" : 1626255976475
+  }, {
+    "_id" : "5a940c0a7551fc7ce1a56555",
+    "name" : "Pohorska vzpenjača ⚡",
+    "address" : {
+      "address1" : "Pohorska ulica 60",
+      "zipCode" : "2000",
+      "city" : "Maribor",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 15.5997991,
+      "lat" : 46.5334526
+    },
+    "status" : "Available",
+    "created" : 1519651850000
+  }, {
+    "_id" : "61a4f94c744782758d8c4b17",
+    "name" : "Korčetova ulica ⚡",
+    "address" : {
+      "address1" : "Korčetova ulica",
+      "zipCode" : "2000",
+      "city" : "Maribor",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 15.625616,
+      "lat" : 46.551317
+    },
+    "status" : "Available",
+    "created" : 1638201676788
+  }, {
+    "_id" : "5ab4bca561ea063d1e104cf0",
+    "name" : "Ljudski vrt ⚡",
+    "address" : {
+      "address1" : "Strossmayerjeva ulica 32",
+      "zipCode" : "2000",
+      "city" : "Maribor",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 15.6427409,
+      "lat" : 46.5620804
+    },
+    "status" : "Available",
+    "created" : 1521794213000
+  }, {
+    "_id" : "5af570ecc1989a216e4a0444",
+    "name" : "MB - Avtobusna postaja ⚡",
+    "address" : {
+      "address1" : "Mlinska ulica 1",
+      "zipCode" : "2000",
+      "city" : "Maribor",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 15.6566384,
+      "lat" : 46.5604648
+    },
+    "status" : "Available",
+    "created" : 1526034668035
+  }, {
+    "_id" : "58c92ab7c6b72f667038e9a3",
+    "name" : "Center Maximus ⚡",
+    "address" : {
+      "address1" : "Ulica Štefana Kovača 43",
+      "zipCode" : "9000",
+      "city" : "Murska Sobota",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 16.145599,
+      "lat" : 46.661499
+    },
+    "status" : "Available",
+    "created" : 1489578679000
+  }, {
+    "_id" : "5cb03f72f717f12e20d50f31",
+    "name" : "Paviljon EXPANO ⚡",
+    "address" : {
+      "address1" : "Bakovska ulica 41",
+      "zipCode" : "9000",
+      "city" : "Murska Sobota",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 16.1662779,
+      "lat" : 46.6382341
+    },
+    "status" : "Available",
+    "created" : 1555054450100
+  }, {
+    "_id" : "5855a6b771d7f52c0d81bac2",
+    "name" : "Murska Sobota - Trg Zmage 7 ⚡",
+    "address" : {
+      "address1" : "Trg Zmage 7",
+      "zipCode" : "9000",
+      "city" : "Murska Sobota",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 16.1644,
+      "lat" : 46.661155
+    },
+    "status" : "Available",
+    "created" : 1482008247000
+  }, {
+    "_id" : "58c9218bc6b72f667038e915",
+    "name" : "BTC - Murska Sobota ⚡",
+    "address" : {
+      "address1" : "Nemčavci 1d",
+      "zipCode" : "9000",
+      "city" : "Murska Sobota",
+      "country" : "SI",
+      "address" : null
+    },
+    "geoLocation" : {
+      "lng" : 16.177992,
+      "lat" : 46.669288
+    },
+    "status" : "Available",
+    "created" : 1489576331000
+  } ]
+}

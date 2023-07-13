@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1528274,
+  "FriendlyName" : "Vrsar - Mrak World 01",
+  "FriendlyCode" : "HR051071",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Vrsar",
+    "PostNumber" : "52450",
+    "StreetName" : "Seline",
+    "HouseNumber" : "3",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 64293,
+    "name" : "Dravograd - Šentjanž",
+    "address" : "Šentjanž pri Dravogradu 74",
+    "location" : "46.5614300,15.0394000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "146297",
+        "identifier" : "SIPORE0102*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0102*01*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0102*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "146298",
+        "identifier" : "SIPORE0102*01*2",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0102*01*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0102*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-14 01:00:37.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

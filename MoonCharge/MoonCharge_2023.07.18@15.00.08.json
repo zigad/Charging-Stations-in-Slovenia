@@ -1,0 +1,22 @@
+[ {
+  "Id" : 626037,
+  "FriendlyName" : "Vila Magdalena - Krapinske Toplice - iVizija",
+  "FriendlyCode" : "HR050447",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Krapinske Toplice",
+    "PostNumber" : "49217",
+    "StreetName" : "Mirna ulica",
+    "HouseNumber" : "1",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

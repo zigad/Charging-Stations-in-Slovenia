@@ -1,0 +1,27 @@
+[ {
+  "id" : 2488,
+  "name" : "Občina Žalec Petrovče 836L",
+  "address" : "Dobriša vas",
+  "town" : "Petrovče",
+  "lat" : 46.244887,
+  "lng" : 15.185736,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2490,
+  "name" : "Občina Žalec Petrovče 836R",
+  "address" : "Dobriša vas",
+  "town" : "Petrovče",
+  "lat" : 46.244887,
+  "lng" : 15.185736,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

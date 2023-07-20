@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 65609,
+    "name" : "Gostišče pri Zalogarju",
+    "address" : "Dolenja vas 1a",
+    "location" : "46.2100400,14.2237600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "162221",
+        "identifier" : "SIPORE0100*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0100*01*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0100*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-20 01:00:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,123 @@
+{
+  "locations" : [ {
+    "id" : 270179,
+    "name" : "W5FJ+M88 Castions di Strada, Province of Udine, Italy null",
+    "address" : "W5FJ+M88 Castions di Strada, Province of Udine, Italy null",
+    "location" : "45.9241630,13.1808280",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "547598",
+        "identifier" : "IT*ELX*E22XP22T3QQ1AN00307*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "495",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*ELX*E22XP22T3QQ1AN00307*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*ELX*E22XP22T3QQ1AN00307*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "547599",
+        "identifier" : "IT*ELX*E22XP22T3QQ1AN00307*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "495",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*ELX*E22XP22T3QQ1AN00307*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*ELX*E22XP22T3QQ1AN00307*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-24 11:44:17.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 270268,
+    "name" : "Riva Giovanni da Verrazzano, 34073 Grado GO, Italy null",
+    "address" : "Riva Giovanni da Verrazzano, 34073 Grado GO, Italy null",
+    "location" : "45.6816500,13.3772550",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "547790",
+        "identifier" : "IT*ELX*E22XP22T3KKJAL00060*2",
+        "networkId" : "1",
+        "maxPower" : 15000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "495",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*ELX*E22XP22T3KKJAL00060*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*ELX*E22XP22T3KKJAL00060*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "547791",
+        "identifier" : "IT*ELX*E22XP22T3KKJAL00060*1",
+        "networkId" : "1",
+        "maxPower" : 15000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "495",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*ELX*E22XP22T3KKJAL00060*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*ELX*E22XP22T3KKJAL00060*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-24 11:44:33.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

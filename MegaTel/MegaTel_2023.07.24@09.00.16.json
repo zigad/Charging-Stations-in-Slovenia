@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 3498,
+    "name" : "Salzburgerstraße 22 ",
+    "address" : "Salzburgerstraße 22 ",
+    "location" : "47.3856970,13.4564240",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "8238",
+        "identifier" : "AT*HTB*E1004919",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "449",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1004919",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1004919",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "8240",
+        "identifier" : "AT*HTB*E1004920",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "449",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1004920",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1004920",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-24 06:49:37.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

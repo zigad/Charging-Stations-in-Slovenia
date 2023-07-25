@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1705534,
+  "FriendlyName" : "Jadranka turizam- Hotel Aurora",
+  "FriendlyCode" : "HR052010",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Mali Lošinj",
+    "PostNumber" : "51550",
+    "StreetName" : "Ulica Sunčana uvala",
+    "HouseNumber" : "4",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

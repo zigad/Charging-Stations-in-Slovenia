@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 66692,
+    "name" : "Šentjur ZD",
+    "address" : "Cesta Leona Dobrotinška 3b, 3230 Šentjur, Slo",
+    "location" : "46.2139600,15.3932170",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "164245",
+        "identifier" : "SI*GNE*E3021",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E3021",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E3021",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "164246",
+        "identifier" : "SI*GNE*E3022",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "118",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E3022",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E3022",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-26 11:39:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 66693,
+    "name" : "Šentjur -\tKulturni dom IKC",
+    "address" : "Ulica Dušana Kvedra 46, 3230 Šentjur, Sloveni",
+    "location" : "46.2203550,15.3967320",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "164247",
+        "identifier" : "SI*GNE*E3031",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E3031",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E3031",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "164248",
+        "identifier" : "SI*GNE*E3032",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E3032",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E3032",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-26 11:40:57.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

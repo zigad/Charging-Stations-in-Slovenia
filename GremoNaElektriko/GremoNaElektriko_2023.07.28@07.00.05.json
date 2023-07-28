@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 80741,
+    "name" : "Garažna hiša Belle Vie TIVOLI",
+    "address" : "Frankopanska ulica 17",
+    "location" : "46.0620850,14.4986710",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "196652",
+        "identifier" : "SI*MGT*E0595",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0595",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0595",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "196653",
+        "identifier" : "SI*MGT*E0596",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0596",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0596",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-28 04:45:45.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

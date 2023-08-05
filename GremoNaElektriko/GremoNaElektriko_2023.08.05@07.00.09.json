@@ -1,0 +1,129 @@
+{
+  "locations" : [ {
+    "id" : 82741,
+    "name" : "Barbarasiedlung 431 ",
+    "address" : "Barbarasiedlung 431 ",
+    "location" : "46.9283930,13.8695210",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "201990",
+        "identifier" : "AT*HTB*E1022186",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "347",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022186",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1022186",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-05 04:06:48.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 82773,
+    "name" : "Bahnhofstraße 5a ",
+    "address" : "Bahnhofstraße 5a ",
+    "location" : "46.9373410,16.0108780",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202077",
+        "identifier" : "AT*HTB*E1021846",
+        "networkId" : "1",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "359",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1021846",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1021846",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202078",
+        "identifier" : "AT*HTB*E1020200",
+        "networkId" : "2",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "359",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1020200",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1020200",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-05 04:08:13.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 82776,
+    "name" : "Grünlandstraße 5 ",
+    "address" : "Grünlandstraße 5 ",
+    "location" : "47.1751250,13.1056830",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202082",
+        "identifier" : "AT*HTB*E1017761",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "341",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1017761",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1017761",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-05 04:08:14.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

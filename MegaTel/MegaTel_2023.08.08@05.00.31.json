@@ -1,0 +1,123 @@
+{
+  "locations" : [ {
+    "id" : 329496,
+    "name" : "Salzburger Straße 26 ",
+    "address" : "Salzburger Straße 26 ",
+    "location" : "47.3858520,13.4558650",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "284243",
+        "identifier" : "AT*HTB*E1018184",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "399",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1018184",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1018184",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "285645",
+        "identifier" : "AT*HTB*E1006543",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "399",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1006543",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1006543",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-07 03:02:21.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 329505,
+    "name" : "Seering 6 ",
+    "address" : "Seering 6 ",
+    "location" : "46.9762490,15.4284360",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "46748",
+        "identifier" : "AT*DAE*E0000487",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "401",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0000487",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAE*E0000487",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "48991",
+        "identifier" : "AT*DAE*E0000488",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "401",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0000488",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAE*E0000488",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-07 03:02:21.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

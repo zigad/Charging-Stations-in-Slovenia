@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1724081,
+  "FriendlyName" : "Gostilna in picerija Gala In",
+  "FriendlyCode" : "SI*POR0106",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Lesce",
+    "PostNumber" : "4248",
+    "StreetName" : "Hraška cesta",
+    "HouseNumber" : "13",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

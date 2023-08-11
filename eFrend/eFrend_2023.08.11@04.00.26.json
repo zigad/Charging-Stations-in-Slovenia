@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 82767,
+    "name" : "Interspar Vič",
+    "address" : "Jamova cesta 105, 1000 Ljubljana, Slovenija",
+    "location" : "46.0383320,14.4772930",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "200752",
+        "identifier" : "SI*GNE*E1601",
+        "networkId" : "1",
+        "maxPower" : 11300,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1601",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E1601",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "200753",
+        "identifier" : "SI*GNE*E1602",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1602",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E1602",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-11 01:05:04.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

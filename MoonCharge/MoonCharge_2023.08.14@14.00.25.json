@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1710469,
+  "FriendlyName" : "Konzum Radnička ZG",
+  "FriendlyCode" : "HR052005",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Zagreb",
+    "PostNumber" : "10000",
+    "StreetName" : "Radnička cesta",
+    "HouseNumber" : "49",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

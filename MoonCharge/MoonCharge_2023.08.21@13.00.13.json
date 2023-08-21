@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1735555,
+  "FriendlyName" : "Vinska fontana Marezige",
+  "FriendlyCode" : "SI*POR0109",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Marezige",
+    "PostNumber" : "6273",
+    "StreetName" : "Marezige",
+    "HouseNumber" : "24",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

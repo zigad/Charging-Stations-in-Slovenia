@@ -1,0 +1,515 @@
+{
+  "locations" : [ {
+    "id" : 83030,
+    "name" : "Hotel A, 20, Mala Pirešica ",
+    "address" : "Hotel A, 20, Mala Pirešica ",
+    "location" : "46.2673080,15.1887150",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202088",
+        "identifier" : "SI*ION*E223005",
+        "networkId" : "2",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "66",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*ION*E223005",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*ION*E223005",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202089",
+        "identifier" : "SI*ION*E223003",
+        "networkId" : "3",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "66",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*ION*E223003",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*ION*E223003",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202090",
+        "identifier" : "SI*ION*E223002",
+        "networkId" : "4",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "66",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*ION*E223002",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*ION*E223002",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202091",
+        "identifier" : "SI*ION*E223001",
+        "networkId" : "5",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "66",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*ION*E223001",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*ION*E223001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202092",
+        "identifier" : "SI*ION*E223004",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "66",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*ION*E223004",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*ION*E223004",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202087",
+        "identifier" : "SI*ION*E223006",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "66",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*ION*E223006",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*ION*E223006",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 05:33:31.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 83043,
+    "name" : "Trgocentar, Roses Designer Outlet Vrankovec 1 ",
+    "address" : "Trgocentar, Roses Designer Outlet Vrankovec 1",
+    "location" : "46.0867160,15.9124520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202170",
+        "identifier" : "HR*ION*E224706",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "17",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*ION*E224706",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*ION*E224706",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 05:33:44.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 83044,
+    "name" : "Trgocentar, Roses Designer Outlet Vrankovec 1 ",
+    "address" : "Trgocentar, Roses Designer Outlet Vrankovec 1",
+    "location" : "46.0867010,15.9124950",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202171",
+        "identifier" : "HR*ION*E224705",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "17",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*ION*E224705",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*ION*E224705",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 05:33:44.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 83045,
+    "name" : "Trgocentar, Roses Designer Outlet Vrankovec 1 ",
+    "address" : "Trgocentar, Roses Designer Outlet Vrankovec 1",
+    "location" : "46.0867450,15.9124520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202172",
+        "identifier" : "HR*ION*E224704",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "17",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*ION*E224704",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*ION*E224704",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 05:33:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 83046,
+    "name" : "Trgocentar, Roses Designer Outlet Vrankovec 1 ",
+    "address" : "Trgocentar, Roses Designer Outlet Vrankovec 1",
+    "location" : "46.0867310,15.9124730",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202173",
+        "identifier" : "HR*ION*E224703",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "17",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*ION*E224703",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*ION*E224703",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 05:33:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 83047,
+    "name" : "Trgocentar, Roses Designer Outlet Vrankovec 1 ",
+    "address" : "Trgocentar, Roses Designer Outlet Vrankovec 1",
+    "location" : "46.0867310,15.9124090",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202174",
+        "identifier" : "HR*ION*E224702",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "17",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*ION*E224702",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*ION*E224702",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 05:33:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 83048,
+    "name" : "Trgocentar, Roses Designer Outlet Vrankovec 1 ",
+    "address" : "Trgocentar, Roses Designer Outlet Vrankovec 1",
+    "location" : "46.0867310,15.9124520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202175",
+        "identifier" : "HR*ION*E224701",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "17",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*ION*E224701",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*ION*E224701",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 05:33:46.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 83075,
+    "name" : "Kärntner Str. 5 ",
+    "address" : "Kärntner Str. 5 ",
+    "location" : "46.5667870,13.8094490",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "202465",
+        "identifier" : "AT*ION*E222206",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "73",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E222206",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ION*E222206",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202466",
+        "identifier" : "AT*ION*E222205",
+        "networkId" : "2",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "73",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E222205",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ION*E222205",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202467",
+        "identifier" : "AT*ION*E222204",
+        "networkId" : "3",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "73",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E222204",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ION*E222204",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202468",
+        "identifier" : "AT*ION*E222203",
+        "networkId" : "4",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "73",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E222203",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ION*E222203",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202469",
+        "identifier" : "AT*ION*E222202",
+        "networkId" : "5",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "73",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E222202",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ION*E222202",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "202470",
+        "identifier" : "AT*ION*E222201",
+        "networkId" : "1",
+        "maxPower" : 350000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "73",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ION*E222201",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ION*E222201",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 05:34:35.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

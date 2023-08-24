@@ -1,0 +1,177 @@
+{
+  "locations" : [ {
+    "id" : 348507,
+    "name" : "Kavarna 5ka",
+    "address" : "Velika Loka 10a",
+    "location" : "45.9303900,14.9706800",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "706195",
+        "identifier" : "SIPORE0103*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0103*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0103*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "706196",
+        "identifier" : "SIPORE0103*02*1",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0103*02*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0103*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 01:00:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 348508,
+    "name" : "Gostilna in picerija Gala In",
+    "address" : "Hraška cesta 13",
+    "location" : "46.3680300,14.1532100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "706197",
+        "identifier" : "SIPORE0106*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0106*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0106*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "706198",
+        "identifier" : "SIPORE0106*02*1",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0106*02*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0106*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 01:00:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 348509,
+    "name" : "Hubat d.o.o.",
+    "address" : "Korenova cesta 5b",
+    "location" : "46.1992200,14.5858700",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "706199",
+        "identifier" : "SIPORE0108*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0108*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0108*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "706200",
+        "identifier" : "SIPORE0108*02*1",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0108*02*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0108*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-24 01:00:55.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

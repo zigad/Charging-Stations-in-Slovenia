@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1741626,
+  "FriendlyName" : "Hotel Pok",
+  "FriendlyCode" : "SI*POR0112",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Brezovica",
+    "PostNumber" : "1351",
+    "StreetName" : "Podpeška cesta",
+    "HouseNumber" : "3",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1
+} ]

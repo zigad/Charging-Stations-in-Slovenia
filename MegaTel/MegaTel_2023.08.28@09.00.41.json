@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 333420,
+    "name" : "Bahnstraße 5",
+    "address" : "Bahnstraße 5",
+    "location" : "47.9083990,16.3869150",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "687648",
+        "identifier" : "AT*VIE*E2486770008*2",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "298",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E2486770008*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*VIE*E2486770008*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "687649",
+        "identifier" : "AT*VIE*E2486770008*1",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "298",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E2486770008*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*VIE*E2486770008*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-28 07:00:07.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

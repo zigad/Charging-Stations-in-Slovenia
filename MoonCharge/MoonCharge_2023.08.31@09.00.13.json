@@ -1,0 +1,64 @@
+[ {
+  "Id" : 1744880,
+  "FriendlyName" : "Gornji Grad Zdravstveni dom",
+  "FriendlyCode" : "SI*POR0114",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Gornji Grad",
+    "PostNumber" : "3342",
+    "StreetName" : "Tlaka",
+    "HouseNumber" : "10",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1
+}, {
+  "Id" : 1744881,
+  "FriendlyName" : "Gornji Grad tržnica",
+  "FriendlyCode" : "SI*POR0115",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Gornji Grad",
+    "PostNumber" : "3342",
+    "StreetName" : "Attemisov trg",
+    "HouseNumber" : "20",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1
+}, {
+  "Id" : 1744882,
+  "FriendlyName" : "Gornji Grad avtobusna postaja",
+  "FriendlyCode" : "SI*POR0116",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Gornji Grad",
+    "PostNumber" : "3342",
+    "StreetName" : "Attemsov trg",
+    "HouseNumber" : "1",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1
+} ]

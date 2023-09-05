@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 366407,
+    "name" : "Ignaz-Härtl-Straße 2c",
+    "address" : "Ignaz-Härtl-Straße 2c",
+    "location" : "47.8084000,13.0638500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "732610",
+        "identifier" : "AT*430*E7000*0235",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*0235",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*430*E7000*0235",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-05 07:21:47.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 366408,
+    "name" : "Hauptstraße 13",
+    "address" : "Hauptstraße 13",
+    "location" : "46.8161400,13.5072600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "732611",
+        "identifier" : "AT*430*E23473775*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E23473775*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*430*E23473775*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-05 07:21:48.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,187 @@
+{
+  "locations" : [ {
+    "id" : 85629,
+    "name" : "Ignaz-Härtl-Straße 2c",
+    "address" : "Ignaz-Härtl-Straße 2c",
+    "location" : "47.8084000,13.0638500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "210078",
+        "identifier" : "AT*430*E7000*0235",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "31",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*0235",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*430*E7000*0235",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-06 05:58:57.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 85630,
+    "name" : "Hauptstraße 13",
+    "address" : "Hauptstraße 13",
+    "location" : "46.8161400,13.5072600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "210079",
+        "identifier" : "AT*430*E23473775*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "31",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E23473775*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*430*E23473775*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-06 05:58:57.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 85631,
+    "name" : "Občina Slovenj Gradec - Vorančev trg",
+    "address" : "Vorančev trg 2",
+    "location" : "46.5074810,15.0786190",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "210080",
+        "identifier" : "SI*MGT*E0340",
+        "networkId" : "1",
+        "maxPower" : 6000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0340",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0340",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "210081",
+        "identifier" : "SI*MGT*E0341",
+        "networkId" : "2",
+        "maxPower" : 6000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0341",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0341",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-06 05:58:58.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 85632,
+    "name" : "Občina Slovenj Gradec - Meškova ulica",
+    "address" : "Meškova ulica",
+    "location" : "46.5101540,15.0814510",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "210082",
+        "identifier" : "SI*MGT*E2467",
+        "networkId" : "1",
+        "maxPower" : 9000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E2467",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E2467",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "210083",
+        "identifier" : "SI*MGT*E3354",
+        "networkId" : "2",
+        "maxPower" : 9000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E3354",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E3354",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-06 05:58:59.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

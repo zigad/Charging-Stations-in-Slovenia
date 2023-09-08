@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 85644,
+    "name" : "AMZS center Otočec",
+    "address" : "Grajska cesta 5",
+    "location" : "45.8399220,15.2356070",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "210099",
+        "identifier" : "SI*EFR*E1024",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1024",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1024",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "210100",
+        "identifier" : "SI*EFR*E1025",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1025",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1025",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-08 01:00:55.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 85661,
+    "name" : "Riko, d.o.o.",
+    "address" : "Bizjanova ulica 2",
+    "location" : "46.0675270,14.4802340",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "210218",
+        "identifier" : "SI*MGT*E3851",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E3851",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E3851",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "210219",
+        "identifier" : "SI*MGT*E8048",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "59",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E8048",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E8048",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-09 04:39:54.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

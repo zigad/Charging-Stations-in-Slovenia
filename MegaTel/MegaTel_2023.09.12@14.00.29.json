@@ -1,0 +1,131 @@
+{
+  "locations" : [ {
+    "id" : 286687,
+    "name" : "Hauptstraße 25 ",
+    "address" : "Hauptstraße 25 ",
+    "location" : "47.7744300,16.3943510",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "585501",
+        "identifier" : "NL*LMS*E1895909*1",
+        "networkId" : "1",
+        "maxPower" : 30000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "515",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E1895909*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/NL*LMS*E1895909*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-12 11:49:08.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 286714,
+    "name" : "Hauptstraße 23 ",
+    "address" : "Hauptstraße 23 ",
+    "location" : "47.7742860,16.3943700",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "585549",
+        "identifier" : "NL*LMS*E1895472*1",
+        "networkId" : "1",
+        "maxPower" : 30000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "515",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E1895472*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/NL*LMS*E1895472*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-12 11:49:10.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 289691,
+    "name" : "Rohrmooserstraße 164 ",
+    "address" : "Rohrmooserstraße 164 ",
+    "location" : "47.3873590,13.6781410",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "593025",
+        "identifier" : "NL*LMS*E1709609*2",
+        "networkId" : "1",
+        "maxPower" : 17000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "515",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E1709609*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/NL*LMS*E1709609*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "593026",
+        "identifier" : "NL*LMS*E1709609*1",
+        "networkId" : "1",
+        "maxPower" : 17000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "515",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E1709609*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/NL*LMS*E1709609*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-12 11:49:37.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

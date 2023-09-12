@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 85684,
+    "name" : "Hotel Pok",
+    "address" : "Podpeška cesta 3",
+    "location" : "46.0234900,14.4182900",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "210254",
+        "identifier" : "SIPORE0112*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0112*01*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0112*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "210255",
+        "identifier" : "SIPORE0112*02*1",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0112*02*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0112*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-12 01:00:42.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

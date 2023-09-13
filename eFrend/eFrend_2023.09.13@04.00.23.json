@@ -1,0 +1,177 @@
+{
+  "locations" : [ {
+    "id" : 86017,
+    "name" : "Občina Slovenj Gradec - Šolska ulica",
+    "address" : "Šolska ulica 5",
+    "location" : "46.5101410,15.0771600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "209806",
+        "identifier" : "SI*MGT*E0373",
+        "networkId" : "1",
+        "maxPower" : 4000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0373",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0373",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "209807",
+        "identifier" : "SI*MGT*E0374",
+        "networkId" : "2",
+        "maxPower" : 4000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0374",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0374",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-13 01:08:20.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 86018,
+    "name" : "Občina Slovenj Gradec - Tomšičeva ulica",
+    "address" : "Tomšičeva ulica",
+    "location" : "46.5021040,15.0831840",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "209808",
+        "identifier" : "SI*MGT*E0375",
+        "networkId" : "1",
+        "maxPower" : 4000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0375",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0375",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "209809",
+        "identifier" : "SI*MGT*E0376",
+        "networkId" : "2",
+        "maxPower" : 4000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0376",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0376",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-13 01:08:20.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 86019,
+    "name" : "Občina Slovenj Gradec - Kopališka ulica",
+    "address" : "Kopališka ulica 27",
+    "location" : "46.5059190,15.0836640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "209810",
+        "identifier" : "SI*MGT*E0377",
+        "networkId" : "1",
+        "maxPower" : 4000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0377",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0377",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "209811",
+        "identifier" : "SI*MGT*E0378",
+        "networkId" : "2",
+        "maxPower" : 4000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0378",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0378",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-13 01:08:20.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

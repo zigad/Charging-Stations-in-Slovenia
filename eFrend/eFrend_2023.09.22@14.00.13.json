@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 83760,
+    "name" : "Ptuj - Volkmerjeva",
+    "address" : "Volkmerjeva cesta 26",
+    "location" : "46.4271560,15.8675930",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "204071",
+        "identifier" : "SI*MGT*E0355",
+        "networkId" : "1",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "117",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0355",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0355",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "204072",
+        "identifier" : "SI*MGT*E0356",
+        "networkId" : "2",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "117",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0356",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0356",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-31 04:42:42.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

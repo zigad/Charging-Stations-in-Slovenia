@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 374669,
+    "name" : "Untere Dorfstraße 5 ",
+    "address" : "Untere Dorfstraße 5 ",
+    "location" : "47.9568420,13.1994660",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "343822",
+        "identifier" : "AT*SZG*E100639",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "293",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E100639",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*SZG*E100639",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-21 03:00:06.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

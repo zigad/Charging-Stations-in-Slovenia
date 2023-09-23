@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 375260,
+    "name" : "Apetlonerstraße 28",
+    "address" : "Apetlonerstraße 28",
+    "location" : "47.7603500,16.8063680",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "748986",
+        "identifier" : "AT*EBM*E40215*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "306",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40215*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40215*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "748987",
+        "identifier" : "AT*EBM*E40215*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "306",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40215*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40215*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-23 07:05:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1793924,
+  "FriendlyName" : "Gostilna Pr' Kopač",
+  "FriendlyCode" : "SI*POR0117",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Brezovica",
+    "PostNumber" : "1351",
+    "StreetName" : "Tržaška",
+    "HouseNumber" : "418",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1
+} ]

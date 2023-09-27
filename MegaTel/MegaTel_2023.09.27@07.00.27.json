@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 381853,
+    "name" : "Landstraße 301 ",
+    "address" : "Landstraße 301 ",
+    "location" : "47.6652460,13.1337480",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "343338",
+        "identifier" : "AT*SZG*E101383",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "293",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E101383",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*SZG*E101383",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-27 03:00:05.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

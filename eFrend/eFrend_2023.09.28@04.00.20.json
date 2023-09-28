@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 88368,
+    "name" : "Bobovek 36, Brdo",
+    "address" : "Bobovek 36, 4000 Kranj, Slovenija",
+    "location" : "46.2757010,14.3640450",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "219583",
+        "identifier" : "SI*GNE*E1431",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1431",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E1431",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-28 01:04:25.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

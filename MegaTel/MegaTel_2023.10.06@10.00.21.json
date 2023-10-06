@@ -1,0 +1,603 @@
+{
+  "locations" : [ {
+    "id" : 392659,
+    "name" : "Wetzelsdorfer Straße ",
+    "address" : "Wetzelsdorfer Straße ",
+    "location" : "47.0592900,15.4043600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "774003",
+        "identifier" : "AT*120*EHY00093",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00093",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00093",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "774002",
+        "identifier" : "AT*120*EHY00094",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00094",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00094",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:15.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 392660,
+    "name" : "Ing. Ludwig-Neumann-Straße 6 ",
+    "address" : "Ing. Ludwig-Neumann-Straße 6 ",
+    "location" : "46.8322940,15.2566480",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "774004",
+        "identifier" : "AT*120*EHY00092",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00092",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00092",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "774005",
+        "identifier" : "AT*120*EHY00091",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00091",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00091",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:15.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 392662,
+    "name" : "Gewerbepark 13 ",
+    "address" : "Gewerbepark 13 ",
+    "location" : "47.2707000,16.2414430",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "774008",
+        "identifier" : "AT*120*EHY00026",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00026",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00026",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "774009",
+        "identifier" : "AT*120*EHY00025",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00025",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00025",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:15.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 392663,
+    "name" : "Steinriegel 10 ",
+    "address" : "Steinriegel 10 ",
+    "location" : "46.9172670,16.1204000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "774010",
+        "identifier" : "AT*120*EHY00022",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00022",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00022",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "774011",
+        "identifier" : "AT*120*EHY00021",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00021",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00021",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:15.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 392665,
+    "name" : "Gleinkerseestraße 32 ",
+    "address" : "Gleinkerseestraße 32 ",
+    "location" : "47.7186910,14.3186840",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "774014",
+        "identifier" : "AT*120*E0000534",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000534",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000534",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "774015",
+        "identifier" : "AT*120*E0000533",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000533",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000533",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:16.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 393849,
+    "name" : "Innsbrucker Bundesstraße 79 ",
+    "address" : "Innsbrucker Bundesstraße 79 ",
+    "location" : "47.7991280,13.0111440",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "775725",
+        "identifier" : "AT*120*EHY00096",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00096",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00096",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "775726",
+        "identifier" : "AT*120*EHY00095",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00095",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00095",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:16.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 393850,
+    "name" : "Waidhofner Straße 1 ",
+    "address" : "Waidhofner Straße 1 ",
+    "location" : "47.9866070,15.0237140",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "775727",
+        "identifier" : "AT*120*EHY00086",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00086",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00086",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "775728",
+        "identifier" : "AT*120*EHY00085",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00085",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00085",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:16.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 393852,
+    "name" : "Unterkolbnitz 125 ",
+    "address" : "Unterkolbnitz 125 ",
+    "location" : "46.8747130,13.3107750",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "775731",
+        "identifier" : "AT*120*EHY00030",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00030",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00030",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "775732",
+        "identifier" : "AT*120*EHY00029",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00029",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00029",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:17.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 393854,
+    "name" : "Fehringer Str. 13 ",
+    "address" : "Fehringer Str. 13 ",
+    "location" : "47.0392480,16.0840800",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "775735",
+        "identifier" : "AT*120*EHY00024",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00024",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00024",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "775736",
+        "identifier" : "AT*120*EHY00023",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00023",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00023",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:17.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 393855,
+    "name" : "Industriestraße II/2 ",
+    "address" : "Industriestraße II/2 ",
+    "location" : "47.7262590,16.0697340",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "775737",
+        "identifier" : "AT*120*EHY00020",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00020",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00020",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "775738",
+        "identifier" : "AT*120*EHY00019",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00019",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00019",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-06 07:37:17.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

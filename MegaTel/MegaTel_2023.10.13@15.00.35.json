@@ -1,0 +1,188 @@
+{
+  "locations" : [ {
+    "id" : 407846,
+    "name" : "DS CAR S.R.O._ Istvána Gyurcsóa 7200/38A  ",
+    "address" : "DS CAR S.R.O._ Istvána Gyurcsóa 7200/38A  ",
+    "location" : "47.9977900,17.6264800",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "798043",
+        "identifier" : "SK*EON*E49248",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "612",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        }, {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SK*EON*E49248",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SK*EON*E49248",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "798044",
+        "identifier" : "SK*EON*E49247",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "611",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SK*EON*E49247",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SK*EON*E49247",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-13 12:22:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 407934,
+    "name" : "Hlavná 81/35  ",
+    "address" : "Hlavná 81/35  ",
+    "location" : "47.9888950,17.6303860",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "798200",
+        "identifier" : "SK*EON*E180826",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "611",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SK*EON*E180826",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SK*EON*E180826",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "798241",
+        "identifier" : "SK*EON*E134941",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "612",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SK*EON*E134941",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SK*EON*E134941",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-13 12:22:49.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 407958,
+    "name" : "Galantská cesta 28  ",
+    "address" : "Galantská cesta 28  ",
+    "location" : "47.9968240,17.6354000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "798238",
+        "identifier" : "SK*EON*E137495",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "611",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SK*EON*E137495",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SK*EON*E137495",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "798239",
+        "identifier" : "SK*EON*E137494",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "612",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SK*EON*E137494",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SK*EON*E137494",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-13 12:22:52.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

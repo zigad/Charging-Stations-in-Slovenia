@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 412894,
+    "name" : "Sterneckstraße 28 ",
+    "address" : "Sterneckstraße 28 ",
+    "location" : "47.8086180,13.0554320",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "514489",
+        "identifier" : "AT*HPC*ESB1*2*22BZ4020B*3",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "437",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HPC*ESB1*2*22BZ4020B*3",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HPC*ESB1*2*22BZ4020B*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-16 03:02:20.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 412895,
+    "name" : "Sterneckstraße 28 ",
+    "address" : "Sterneckstraße 28 ",
+    "location" : "47.8086240,13.0554970",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "514491",
+        "identifier" : "AT*HPC*ESB1*1*22BZ1190B*1",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "437",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HPC*ESB1*1*22BZ1190B*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HPC*ESB1*1*22BZ1190B*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-16 03:02:20.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

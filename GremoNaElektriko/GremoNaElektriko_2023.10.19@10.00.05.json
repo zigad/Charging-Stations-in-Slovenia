@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 96467,
+    "name" : "Spar Cerklje na Gorenjskem",
+    "address" : "Cerklje na Gorenjskem",
+    "location" : "46.2474730,14.4860550",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "238626",
+        "identifier" : "SI*MGT*E0313",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0313",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0313",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "238627",
+        "identifier" : "SI*MGT*E0314",
+        "networkId" : "2",
+        "maxPower" : 32000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0314",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0314",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-19 05:27:04.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

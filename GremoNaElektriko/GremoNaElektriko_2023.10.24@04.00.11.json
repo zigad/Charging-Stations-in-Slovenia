@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 97294,
+    "name" : "AMZS Ajdovščina",
+    "address" : "Goriška cesta 75",
+    "location" : "45.8856370,13.8903230",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "240976",
+        "identifier" : "SI*EFR*E1032",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "231",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1032",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E1032",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-24 01:01:25.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

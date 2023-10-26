@@ -1,0 +1,33 @@
+[ {
+  "Id" : 1869091,
+  "FriendlyName" : "PEP ZG - PC MANI",
+  "FriendlyCode" : "HR*PET0062",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 187,
+      "Code" : "HR",
+      "ISO2Code" : "HR",
+      "ISO3Code" : "HRV",
+      "Title" : "Croatia"
+    },
+    "CityName" : "Zagreb",
+    "PostNumber" : "10010",
+    "StreetName" : "Bani",
+    "HouseNumber" : "75",
+    "CityDistrictName" : "Buzin"
+  },
+  "AccessType" : null,
+  "TotalEvses" : 6,
+  "AvailableEvses" : 6,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

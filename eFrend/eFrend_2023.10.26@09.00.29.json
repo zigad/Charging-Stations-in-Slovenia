@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 95577,
+    "name" : "Kreuzfeldweg 7",
+    "address" : "Kreuzfeldweg 7",
+    "location" : "47.1035230,14.0852240",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "238659",
+        "identifier" : "AT*EST*E000*00727",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*00727",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*00727",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-17 04:58:18.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 95743,
+    "name" : "Kreischbergstraße 22",
+    "address" : "Kreischbergstraße 22",
+    "location" : "47.1014410,14.0901980",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "238658",
+        "identifier" : "AT*EST*E000*00728",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*00728",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*00728",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-17 04:59:41.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

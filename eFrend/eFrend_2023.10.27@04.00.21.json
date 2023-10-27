@@ -1,0 +1,109 @@
+{
+  "locations" : [ {
+    "id" : 96973,
+    "name" : "PEP ZG - PC MANI",
+    "address" : "Bani 75",
+    "location" : "45.7449500,15.9997400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "238701",
+        "identifier" : "SIPETE0062*02*1",
+        "networkId" : "1",
+        "maxPower" : 359950,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "263",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0062*02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0062*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "238702",
+        "identifier" : "SIPETE0062*02*2",
+        "networkId" : "2",
+        "maxPower" : 269790,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "263",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0062*02*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0062*02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "238703",
+        "identifier" : "SIPETE0062*02*3",
+        "networkId" : "3",
+        "maxPower" : 269790,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "263",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0062*02*3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0062*02*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "238704",
+        "identifier" : "SIPETE0062*02*4",
+        "networkId" : "4",
+        "maxPower" : 269790,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "263",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0062*02*4",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0062*02*4",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-27 01:02:15.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

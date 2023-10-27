@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 424875,
+    "name" : "Miha First",
+    "address" : "Lendavske Gorice 496, 9220 Lendava, Slovenija",
+    "location" : "46.5532840,16.4696360",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "820051",
+        "identifier" : "0218",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "87",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/0218",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-10-27 08:59:45.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

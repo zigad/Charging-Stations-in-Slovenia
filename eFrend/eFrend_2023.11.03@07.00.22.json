@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 105920,
+    "name" : "Javne službe Ptuj - pokopališče",
+    "address" : "Dornavska cesta, Ptuj",
+    "location" : "46.4243580,15.9037130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "265122",
+        "identifier" : "SI*MGT*E0203",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0203",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0203",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "265123",
+        "identifier" : "SI*MGT*E0205",
+        "networkId" : "2",
+        "maxPower" : 10900,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0205",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0205",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-03 05:09:45.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

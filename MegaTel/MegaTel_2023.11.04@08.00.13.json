@@ -1,0 +1,123 @@
+{
+  "locations" : [ {
+    "id" : 427113,
+    "name" : "Torplatz 4 ",
+    "address" : "Torplatz 4 ",
+    "location" : "46.9527710,15.8866330",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "823638",
+        "identifier" : "AT*HTB*E1020790",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "400",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1020790",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1020790",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "823639",
+        "identifier" : "AT*HTB*E1020789",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "400",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1020789",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1020789",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-04 06:34:17.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 427114,
+    "name" : "Torplatz 4 ",
+    "address" : "Torplatz 4 ",
+    "location" : "46.9528000,15.8867330",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "823640",
+        "identifier" : "AT*HTB*E1020788",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "400",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1020788",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1020788",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "823641",
+        "identifier" : "AT*HTB*E1020787",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "400",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1020787",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1020787",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-04 06:34:17.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

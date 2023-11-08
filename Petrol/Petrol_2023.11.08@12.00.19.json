@@ -1,0 +1,33 @@
+[ {
+  "Id" : 194017,
+  "FriendlyName" : "HIDRIA ROTOMATIKA 2",
+  "FriendlyCode" : "SI*PET0056",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "SPODNJA IDRIJA",
+    "PostNumber" : "5281",
+    "StreetName" : "SPODNJA KANOMLJA",
+    "HouseNumber" : "23",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2,
+  "AvailableEvses" : 1,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

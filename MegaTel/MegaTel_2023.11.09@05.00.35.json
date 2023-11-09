@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 435345,
+    "name" : "Hauptplatz 8",
+    "address" : "Hauptplatz 8",
+    "location" : "47.8603060,16.2475510",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "836972",
+        "identifier" : "AT*EVN*E2713*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "655",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2713*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EVN*E2713*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "836973",
+        "identifier" : "AT*EVN*E2712*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "655",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2712*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EVN*E2712*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-09 03:56:04.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

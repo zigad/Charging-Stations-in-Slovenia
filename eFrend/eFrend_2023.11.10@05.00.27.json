@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 111303,
+    "name" : "Hauptstraße 13",
+    "address" : "Hauptstraße 13",
+    "location" : "46.8161390,13.5072600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "121151",
+        "identifier" : "AT*STB*E000019*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "200",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000019*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*STB*E000019*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-10 03:22:13.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

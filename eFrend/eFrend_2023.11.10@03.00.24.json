@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 30556,
+    "name" : "BS MB - TRŽAŠKA",
+    "address" : "Tržaška cesta 11",
+    "location" : "46.5383800,15.6480400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "275004",
+        "identifier" : "SIPETE0204*02*2",
+        "networkId" : "1",
+        "maxPower" : 149960,
+        "currentType" : "dc",
+        "status" : "faulted",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "147",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0204*02*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0204*02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-18 13:10:53.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

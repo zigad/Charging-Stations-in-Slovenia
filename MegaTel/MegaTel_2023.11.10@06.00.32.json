@@ -1,0 +1,123 @@
+{
+  "locations" : [ {
+    "id" : 435993,
+    "name" : "Sotbend 3",
+    "address" : "Sotbend 3",
+    "location" : "47.5275140,16.6441380",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "837992",
+        "identifier" : "AT*EBM*E40216*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40216*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40216*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "837993",
+        "identifier" : "AT*EBM*E40216*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "306",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40216*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40216*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-10 04:01:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 436491,
+    "name" : "Vogelweiderstraße 69 ",
+    "address" : "Vogelweiderstraße 69 ",
+    "location" : "47.8160330,13.0531020",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "838527",
+        "identifier" : "AT*POW*E01926",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "452",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E01926",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*POW*E01926",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "838528",
+        "identifier" : "AT*POW*E01925",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "452",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E01925",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*POW*E01925",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-10 04:08:19.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

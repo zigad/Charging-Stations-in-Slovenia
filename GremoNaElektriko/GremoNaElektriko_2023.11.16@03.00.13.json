@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 113172,
+    "name" : "Zauchenseestraße 28 ",
+    "address" : "Zauchenseestraße 28 ",
+    "location" : "47.3746450,13.4212990",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "282024",
+        "identifier" : "AT*HTB*E1021599",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "342",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1021599",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1021599",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-16 01:09:33.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 113187,
+    "name" : "Markt 31",
+    "address" : "Markt 31",
+    "location" : "47.2171640,15.4027100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "282065",
+        "identifier" : "AT*KWS*E2311764",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "150",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311764",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KWS*E2311764",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-16 01:09:40.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

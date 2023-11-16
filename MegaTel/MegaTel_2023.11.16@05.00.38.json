@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 441292,
+    "name" : "Adi-Dassler-Gasse 2 ",
+    "address" : "Adi-Dassler-Gasse 2 ",
+    "location" : "46.5927200,14.2771720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "846724",
+        "identifier" : "AT*STW*E1001550",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "394",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001550",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STW*E1001550",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "846725",
+        "identifier" : "AT*STW*E1001544",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "394",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001544",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STW*E1001544",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-16 03:45:50.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 112668,
+    "name" : "Markt 31",
+    "address" : "Markt 31",
+    "location" : "47.2171640,15.4027100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "279496",
+        "identifier" : "AT*KWS*E2311764",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311764",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2311764",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-16 01:09:33.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

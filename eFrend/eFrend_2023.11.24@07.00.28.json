@@ -1,0 +1,95 @@
+{
+  "locations" : [ {
+    "id" : 113261,
+    "name" : "Gewerbepark 8",
+    "address" : "Gewerbepark 8",
+    "location" : "47.9355100,13.5020200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "194525",
+        "identifier" : "AT*STB*E000031*1",
+        "networkId" : "3",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "111",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000031*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*STB*E000031*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-24 05:50:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 113262,
+    "name" : "Gasteige 7",
+    "address" : "Gasteige 7",
+    "location" : "46.8956500,14.4443700",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "128698",
+        "identifier" : "AT*STB*E000020*1",
+        "networkId" : "2",
+        "maxPower" : 60000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "200",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000020*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*STB*E000020*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "128699",
+        "identifier" : "AT*STB*E000020*2",
+        "networkId" : "2",
+        "maxPower" : 60000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "200",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000020*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*STB*E000020*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-24 05:50:57.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

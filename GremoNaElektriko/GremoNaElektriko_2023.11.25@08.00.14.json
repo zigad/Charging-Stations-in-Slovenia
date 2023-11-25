@@ -1,0 +1,153 @@
+{
+  "locations" : [ {
+    "id" : 113815,
+    "name" : "Gewerbepark 8",
+    "address" : "Gewerbepark 8",
+    "location" : "47.9355900,13.5020500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "197130",
+        "identifier" : "AT*STB*E000026*2",
+        "networkId" : "4",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000026*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STB*E000026*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "197131",
+        "identifier" : "AT*STB*E000026*1",
+        "networkId" : "5",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000026*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STB*E000026*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-25 06:09:06.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 113835,
+    "name" : "Kumpfallee 92 ",
+    "address" : "Kumpfallee 92 ",
+    "location" : "46.5898670,13.8332850",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "283886",
+        "identifier" : "AT*STW*E1001432",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "485",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001432",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001432",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "283887",
+        "identifier" : "AT*STW*E1001430",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "485",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001430",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001430",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-25 06:14:19.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 113843,
+    "name" : "Ybbsitzerstraße 107 ",
+    "address" : "Ybbsitzerstraße 107 ",
+    "location" : "47.9445920,14.8194380",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "224408",
+        "identifier" : "AT*120*EHY00087",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00087",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*EHY00087",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-25 06:14:23.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 53956,
+    "name" : "DEM Obrežna ulica",
+    "address" : "Obrežna ulica 170",
+    "location" : "46.5663950,15.6057209",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "281952",
+        "identifier" : "1059",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "finishing",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "293",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/1059",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-30 10:48:46.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

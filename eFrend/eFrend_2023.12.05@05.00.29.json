@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 114265,
+    "name" : "Bergstraße  1",
+    "address" : "Bergstraße  1",
+    "location" : "47.2812570,13.3196390",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "283779",
+        "identifier" : "AT*KWS*E2312181",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2312181",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2312181",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-05 03:56:34.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 114266,
+    "name" : "Salzburgerstraße 14",
+    "address" : "Salzburgerstraße 14",
+    "location" : "47.3207350,13.1556780",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "275360",
+        "identifier" : "AT*KWS*E2312170",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2312170",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2312170",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-05 03:56:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

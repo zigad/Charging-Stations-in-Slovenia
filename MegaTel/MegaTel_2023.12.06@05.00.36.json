@@ -1,0 +1,165 @@
+{
+  "locations" : [ {
+    "id" : 453399,
+    "name" : "Klagenfurter Straße 15",
+    "address" : "Klagenfurter Straße 15",
+    "location" : "46.7209000,14.0967400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "863911",
+        "identifier" : "AT*STB*E000045*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000045*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STB*E000045*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-06 03:59:26.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 453400,
+    "name" : "Klagenfurter Straße 15",
+    "address" : "Klagenfurter Straße 15",
+    "location" : "46.7208900,14.0967400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "863912",
+        "identifier" : "AT*STB*E000044*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000044*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STB*E000044*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "863913",
+        "identifier" : "AT*STB*E000042*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000042*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STB*E000042*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-06 03:59:26.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 453401,
+    "name" : "Hauptstraße 13",
+    "address" : "Hauptstraße 13",
+    "location" : "46.8165000,13.5071100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "863914",
+        "identifier" : "AT*STB*E000024*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000024*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STB*E000024*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-06 03:59:26.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 453402,
+    "name" : "Möllnerweg 1",
+    "address" : "Möllnerweg 1",
+    "location" : "46.8348600,13.3693400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "863915",
+        "identifier" : "AT*STB*E000017*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STB*E000017*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*STB*E000017*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-06 03:59:26.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

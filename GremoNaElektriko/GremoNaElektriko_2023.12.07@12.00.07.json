@@ -1,0 +1,447 @@
+{
+  "locations" : [ {
+    "id" : 111554,
+    "name" : "Gesäusestraße 18 ",
+    "address" : "Gesäusestraße 18 ",
+    "location" : "47.5598070,14.2538420",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "277106",
+        "identifier" : "AT*ENA*E02487",
+        "networkId" : "1",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02487",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02487",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277107",
+        "identifier" : "AT*ENA*E02486",
+        "networkId" : "2",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02486",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02486",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277108",
+        "identifier" : "AT*ENA*E02485",
+        "networkId" : "3",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02485",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02485",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-09 04:56:29.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 111587,
+    "name" : "Gleinkerseestraße 13 ",
+    "address" : "Gleinkerseestraße 13 ",
+    "location" : "47.7209720,14.3229460",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "277200",
+        "identifier" : "AT*ENA*E02387",
+        "networkId" : "1",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02387",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02387",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277201",
+        "identifier" : "AT*ENA*E02386",
+        "networkId" : "2",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02386",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02386",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277202",
+        "identifier" : "AT*ENA*E02385",
+        "networkId" : "3",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02385",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02385",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-09 04:56:48.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 111589,
+    "name" : "Eisenstraße 13 ",
+    "address" : "Eisenstraße 13 ",
+    "location" : "47.8863110,14.5385890",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "277204",
+        "identifier" : "AT*ENA*E02383",
+        "networkId" : "1",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02383",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02383",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277205",
+        "identifier" : "AT*ENA*E02382",
+        "networkId" : "2",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02382",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02382",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277206",
+        "identifier" : "AT*ENA*E02381",
+        "networkId" : "3",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02381",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02381",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-09 04:56:48.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 111591,
+    "name" : "Salinenplatz 0 ",
+    "address" : "Salinenplatz 0 ",
+    "location" : "47.8125750,13.7743080",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "277208",
+        "identifier" : "AT*ENA*E02379",
+        "networkId" : "1",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02379",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02379",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277209",
+        "identifier" : "AT*ENA*E02378",
+        "networkId" : "2",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02378",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02378",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277210",
+        "identifier" : "AT*ENA*E02377",
+        "networkId" : "3",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02377",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02377",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-09 04:56:49.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 111610,
+    "name" : "Gesäusestraße 18 ",
+    "address" : "Gesäusestraße 18 ",
+    "location" : "47.5597660,14.2539100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "277243",
+        "identifier" : "AT*ENA*E02319",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02319",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02319",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277244",
+        "identifier" : "AT*ENA*E02318",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02318",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02318",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-09 04:56:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 111642,
+    "name" : "Voglhuberstraße 8 ",
+    "address" : "Voglhuberstraße 8 ",
+    "location" : "47.7137180,13.6239110",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "277317",
+        "identifier" : "AT*ENA*E02220",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02220",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02220",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "277318",
+        "identifier" : "AT*ENA*E02219",
+        "networkId" : "2",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "502",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02219",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02219",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-11-09 04:57:07.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 25647,
+    "name" : "Moos  1",
+    "address" : "Moos  1",
+    "location" : "46.9058670,13.2488720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "63688",
+        "identifier" : "AT*KWS*E231191",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E231191",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E231191",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "63689",
+        "identifier" : "AT*KWS*E231189",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E231189",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E231189",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-08 02:07:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

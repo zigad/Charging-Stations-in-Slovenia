@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 114503,
+    "name" : "Janežovski Vrh 41",
+    "address" : "Janežovski Vrh 41, 2253 Destrnik, Slovenija",
+    "location" : "46.4885480,15.8776180",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "285235",
+        "identifier" : "SI*MGT*E0256",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0256",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0256",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "285236",
+        "identifier" : "SI*MGT*E0255",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0255",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0255",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-08 04:26:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

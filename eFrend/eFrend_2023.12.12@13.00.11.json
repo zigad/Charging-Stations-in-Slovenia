@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 114680,
+    "name" : "DEM Ožbalt",
+    "address" : "Vurmat – del 15",
+    "location" : "46.5770643,15.4066086",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "285546",
+        "identifier" : "1053",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "293",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/1053",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-12 11:56:20.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

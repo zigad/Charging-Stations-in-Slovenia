@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 114739,
+    "name" : "Werk-VI-Straße 33",
+    "address" : "Werk-VI-Straße 33",
+    "location" : "47.4502090,15.3198400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "285702",
+        "identifier" : "AT*EST*E000*02713",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "345",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02713",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02713",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "285703",
+        "identifier" : "AT*EST*E000*02712",
+        "networkId" : "2",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "345",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02712",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02712",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-13 04:31:44.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 114752,
+    "name" : "Supermarket SPAR Babnik",
+    "address" : "Ulica bratov Babnik 8",
+    "location" : "46.0770260,14.4666070",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "285729",
+        "identifier" : "SI*MGT*E0271",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0271",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0271",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "285730",
+        "identifier" : "SI*MGT*E0272",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0272",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0272",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-13 04:31:54.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

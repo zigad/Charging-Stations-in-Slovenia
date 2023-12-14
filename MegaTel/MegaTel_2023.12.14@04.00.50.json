@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 459362,
+    "name" : "Radlstraße 85",
+    "address" : "Radlstraße 85",
+    "location" : "46.9558810,15.3459540",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "803548",
+        "identifier" : "AT*EST*E000*00103",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "615",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*00103",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*00103",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-14 01:10:23.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

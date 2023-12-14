@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 115315,
+    "name" : "Ruster Straße 62 ",
+    "address" : "Ruster Straße 62 ",
+    "location" : "47.8395080,16.5256940",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "288330",
+        "identifier" : "AT*DAE*E0002879",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "360",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0002879",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*DAE*E0002879",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "288331",
+        "identifier" : "AT*DAE*E0002878",
+        "networkId" : "2",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "360",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0002878",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*DAE*E0002878",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "288332",
+        "identifier" : "AT*DAE*E0002877",
+        "networkId" : "3",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "360",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0002877",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*DAE*E0002877",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-14 05:10:09.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 115452,
+    "name" : "Radlstraße 85",
+    "address" : "Radlstraße 85",
+    "location" : "46.9558810,15.3459540",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "238549",
+        "identifier" : "AT*EST*E000*00103",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "456",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*00103",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EST*E000*00103",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-14 05:12:01.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

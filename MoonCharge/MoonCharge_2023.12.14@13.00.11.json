@@ -1,0 +1,22 @@
+[ {
+  "Id" : 1929837,
+  "FriendlyName" : "Tanin Sevnica",
+  "FriendlyCode" : "SI*POR0120",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Sevnica",
+    "PostNumber" : "8290",
+    "StreetName" : "Hermanova cesta",
+    "HouseNumber" : "1",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

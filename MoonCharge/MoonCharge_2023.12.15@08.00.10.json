@@ -1,0 +1,22 @@
+[ {
+  "Id" : 2011911,
+  "FriendlyName" : "City parking Maribor pritličje",
+  "FriendlyCode" : "SI*POR0123",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Maribor",
+    "PostNumber" : "2000",
+    "StreetName" : "Ul. Kneza Koclja",
+    "HouseNumber" : "11",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

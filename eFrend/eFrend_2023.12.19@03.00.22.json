@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 115010,
+    "name" : "Interna Lokacija",
+    "address" : "Ulica Velimira Škorpika 18",
+    "location" : "45.8082200,15.8585500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "286176",
+        "identifier" : "SIPETE6001*01*1",
+        "networkId" : "1",
+        "maxPower" : 5520,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "187",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE6001*01*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE6001*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "286177",
+        "identifier" : "SIPETE6001*02*1",
+        "networkId" : "2",
+        "maxPower" : 62500,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "263",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE6001*02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE6001*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-19 01:00:56.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

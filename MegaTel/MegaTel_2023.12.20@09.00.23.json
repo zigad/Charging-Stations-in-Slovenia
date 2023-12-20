@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 459912,
+    "name" : "Kirchbach in der Steiermark 30",
+    "address" : "Kirchbach in der Steiermark 30",
+    "location" : "46.9320150,15.6592650",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "873654",
+        "identifier" : "AT*KWS*E2311787",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311787",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E2311787",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-20 07:13:06.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

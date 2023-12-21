@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 466253,
+    "name" : "Hortenzia utca 1",
+    "address" : "Hortenzia utca 1",
+    "location" : "46.7888290,17.6972080",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "301946",
+        "identifier" : "HU*HOL*E1000137",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "213",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*HOL*E1000137",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*HOL*E1000137",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-21 02:14:11.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

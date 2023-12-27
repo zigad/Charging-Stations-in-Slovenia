@@ -1,0 +1,267 @@
+{
+  "locations" : [ {
+    "id" : 467943,
+    "name" : "Külterület 28. - István Hotel ",
+    "address" : "Külterület 28. - István Hotel ",
+    "location" : "46.4606800,16.9068260",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "888987",
+        "identifier" : "HU*MVM*E20091*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E20091*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E20091*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "888988",
+        "identifier" : "HU*MVM*E20091*1",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E20091*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E20091*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-27 13:22:21.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 467952,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9546620,17.8886060",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "889005",
+        "identifier" : "HU*MVM*E10550*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10550*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E10550*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-27 13:22:23.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 467953,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9547480,17.8885810",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "889006",
+        "identifier" : "HU*MVM*E10549*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10549*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E10549*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-27 13:22:23.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 467954,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9548330,17.8885700",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "889007",
+        "identifier" : "HU*MVM*E10548*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10548*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E10548*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-27 13:22:23.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 467955,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9549230,17.8885580",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "889008",
+        "identifier" : "HU*MVM*E10547*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10547*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E10547*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-27 13:22:24.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 467956,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9550200,17.8885560",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "889009",
+        "identifier" : "HU*MVM*E10546*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10546*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E10546*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-27 13:22:24.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 467957,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9551100,17.8885560",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "889010",
+        "identifier" : "HU*MVM*E10545*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10545*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E10545*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-27 13:22:24.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

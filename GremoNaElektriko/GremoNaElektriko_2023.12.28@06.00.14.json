@@ -1,0 +1,265 @@
+{
+  "locations" : [ {
+    "id" : 116605,
+    "name" : "Külterület 28. - István Hotel ",
+    "address" : "Külterület 28. - István Hotel ",
+    "location" : "46.4606800,16.9068260",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292204",
+        "identifier" : "HU*MVM*E20091*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E20091*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E20091*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292205",
+        "identifier" : "HU*MVM*E20091*1",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E20091*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E20091*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-28 04:54:44.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116614,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9546620,17.8886060",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292222",
+        "identifier" : "HU*MVM*E10550*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10550*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10550*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-28 04:54:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116615,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9547480,17.8885810",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292223",
+        "identifier" : "HU*MVM*E10549*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10549*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10549*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-28 04:54:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116616,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9548330,17.8885700",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292224",
+        "identifier" : "HU*MVM*E10548*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10548*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10548*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-28 04:54:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116617,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9549230,17.8885580",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292225",
+        "identifier" : "HU*MVM*E10547*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10547*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10547*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-28 04:54:52.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116618,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9550200,17.8885560",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292226",
+        "identifier" : "HU*MVM*E10546*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10546*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10546*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-28 04:54:52.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116619,
+    "name" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "address" : "Huray utca 3. (bejárat Széchenyi utca felől) ",
+    "location" : "46.9551100,17.8885560",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292227",
+        "identifier" : "HU*MVM*E10545*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10545*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10545*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-12-28 04:54:52.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

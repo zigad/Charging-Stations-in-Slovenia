@@ -1,0 +1,329 @@
+{
+  "locations" : [ {
+    "id" : 473923,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.4990130,13.3754000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "895812",
+        "identifier" : "IT*F2X*EF2XITW3051*3",
+        "networkId" : "1",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "713",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3051*3",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW3051*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "895813",
+        "identifier" : "IT*F2X*EF2XITW3051*2",
+        "networkId" : "1",
+        "maxPower" : 62500,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3051*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW3051*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "895814",
+        "identifier" : "IT*F2X*EF2XITW3051*1",
+        "networkId" : "1",
+        "maxPower" : 62500,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3051*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW3051*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-03 12:57:36.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 473924,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.4989770,13.3755660",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "895815",
+        "identifier" : "IT*F2X*EF2XITW3002*2",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3002*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW3002*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "895816",
+        "identifier" : "IT*F2X*EF2XITW3002*1",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3002*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW3002*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-03 12:57:36.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 473925,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.4989920,13.3754730",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "895817",
+        "identifier" : "IT*F2X*EF2XITW3001*2",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3001*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW3001*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "895818",
+        "identifier" : "IT*F2X*EF2XITW3001*1",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3001*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW3001*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-03 12:57:36.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 473926,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.1861810,13.1189570",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "895819",
+        "identifier" : "IT*F2X*EF2XITW1102*2",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW1102*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW1102*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "895820",
+        "identifier" : "IT*F2X*EF2XITW1102*1",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW1102*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW1102*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-03 12:57:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 473927,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.1861900,13.1188970",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "895821",
+        "identifier" : "IT*F2X*EF2XITW1101*2",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW1101*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW1101*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "895822",
+        "identifier" : "IT*F2X*EF2XITW1101*1",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "714",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW1101*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*F2X*EF2XITW1101*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-03 12:57:37.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

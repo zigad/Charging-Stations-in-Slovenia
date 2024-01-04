@@ -1,0 +1,317 @@
+{
+  "locations" : [ {
+    "id" : 116723,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.4990130,13.3754000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292296",
+        "identifier" : "IT*F2X*EF2XITW3051*3",
+        "networkId" : "1",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "540",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3051*3",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW3051*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292297",
+        "identifier" : "IT*F2X*EF2XITW3051*2",
+        "networkId" : "2",
+        "maxPower" : 62500,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3051*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW3051*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292298",
+        "identifier" : "IT*F2X*EF2XITW3051*1",
+        "networkId" : "3",
+        "maxPower" : 62500,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3051*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW3051*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-04 04:57:30.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116724,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.4989770,13.3755660",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292299",
+        "identifier" : "IT*F2X*EF2XITW3002*2",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3002*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW3002*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292300",
+        "identifier" : "IT*F2X*EF2XITW3002*1",
+        "networkId" : "2",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3002*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW3002*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-04 04:57:31.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116725,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.4989920,13.3754730",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292301",
+        "identifier" : "IT*F2X*EF2XITW3001*2",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3001*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW3001*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292302",
+        "identifier" : "IT*F2X*EF2XITW3001*1",
+        "networkId" : "2",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW3001*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW3001*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-04 04:57:31.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116726,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.1861810,13.1189570",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292303",
+        "identifier" : "IT*F2X*EF2XITW1102*2",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW1102*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW1102*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292304",
+        "identifier" : "IT*F2X*EF2XITW1102*1",
+        "networkId" : "2",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW1102*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW1102*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-04 04:57:32.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 116727,
+    "name" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "address" : "A23 Autostrada Palmanova-Tarvisio  ",
+    "location" : "46.1861900,13.1188970",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292305",
+        "identifier" : "IT*F2X*EF2XITW1101*2",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW1101*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW1101*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292306",
+        "identifier" : "IT*F2X*EF2XITW1101*1",
+        "networkId" : "2",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "539",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*F2X*EF2XITW1101*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*F2X*EF2XITW1101*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-04 04:57:32.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

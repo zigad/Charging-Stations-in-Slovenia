@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 116695,
+    "name" : "City parking Maribor pritličje",
+    "address" : "Ul. Kneza Koclja 11",
+    "location" : "46.5575300,15.6502800",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292237",
+        "identifier" : "SIPORE0123*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0123*01*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0123*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292238",
+        "identifier" : "SIPORE0123*02*1",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0123*02*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0123*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-04 01:01:39.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

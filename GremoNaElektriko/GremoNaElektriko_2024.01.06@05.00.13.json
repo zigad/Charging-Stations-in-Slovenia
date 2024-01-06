@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 22683,
+    "name" : "Ried 158 ",
+    "address" : "Ried 158 ",
+    "location" : "47.7439550,13.4373090",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "60491",
+        "identifier" : "AT*HTB*E1010381",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "341",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1010381",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1010381",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-08-25 20:19:27.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

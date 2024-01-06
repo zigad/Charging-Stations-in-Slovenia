@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 117080,
+    "name" : "Občina Kobilje",
+    "address" : "Kobilje 35",
+    "location" : "46.6846480,16.3926760",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "292180",
+        "identifier" : "SI*MGT*E0231",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0231",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0231",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "292181",
+        "identifier" : "SI*MGT*E0232",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "112",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0232",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*MGT*E0232",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-06 04:59:46.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 142838,
+    "name" : "Stadtwerkgasse 2 ",
+    "address" : "Stadtwerkgasse 2 ",
+    "location" : "47.0607560,15.0782980",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "363764",
+        "identifier" : "AT*POW*E01824",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E01824",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E01824",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "363765",
+        "identifier" : "AT*POW*E01823",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E01823",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E01823",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-10 05:49:27.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 142863,
+    "name" : "Pocksteinerstraße 29",
+    "address" : "Pocksteinerstraße 29",
+    "location" : "47.9564730,14.7776140",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "269316",
+        "identifier" : "AT*EVN*E4153*2",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "492",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E4153*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E4153*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "269317",
+        "identifier" : "AT*EVN*E4153*1",
+        "networkId" : "3",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "492",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E4153*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E4153*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-10 05:50:25.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

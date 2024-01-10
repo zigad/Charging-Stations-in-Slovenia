@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 142343,
+    "name" : "Pocksteinerstraße 29",
+    "address" : "Pocksteinerstraße 29",
+    "location" : "47.9564730,14.7776140",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "266738",
+        "identifier" : "AT*EVN*E4153*2",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "364",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E4153*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E4153*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "266739",
+        "identifier" : "AT*EVN*E4153*1",
+        "networkId" : "3",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "364",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E4153*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E4153*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-10 05:47:12.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

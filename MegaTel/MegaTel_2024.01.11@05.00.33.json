@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 479765,
+    "name" : "Neustift 11 ",
+    "address" : "Neustift 11 ",
+    "location" : "47.9372690,14.6063960",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "906195",
+        "identifier" : "AT*ENA*E02601",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "667",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02601",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02601",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-11 03:46:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

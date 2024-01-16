@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 28960,
+    "name" : "BS AC BARJE - SEVER",
+    "address" : "CESTA DVEH CESARJEV 71",
+    "location" : "46.0294900,14.4816300",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "362813",
+        "identifier" : "SIPETE0050*04*2",
+        "networkId" : "1",
+        "maxPower" : 149960,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "147",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0050*04*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0050*04*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "362814",
+        "identifier" : "SIPETE0050*04*1",
+        "networkId" : "2",
+        "maxPower" : 149960,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "147",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0050*04*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0050*04*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-07-17 05:18:14.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 485472,
+    "name" : "Via dell'Istria 135 ",
+    "address" : "Via dell'Istria 135 ",
+    "location" : "45.6277250,13.7935360",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "914445",
+        "identifier" : "IT*ASM*E100236160*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "727",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*ASM*E100236160*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*ASM*E100236160*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "914446",
+        "identifier" : "IT*ASM*E100236160*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "727",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*ASM*E100236160*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*ASM*E100236160*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-16 12:15:22.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

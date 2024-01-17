@@ -1,0 +1,105 @@
+{
+  "locations" : [ {
+    "id" : 20152,
+    "name" : "elisabethstr.5-7 ",
+    "address" : "elisabethstr.5-7 ",
+    "location" : "47.8115690,13.0415650",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "915570",
+        "identifier" : "AT*LQH*E123123123",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "420",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LQH*E123123123",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*LQH*E123123123",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-17 06:19:46.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 484032,
+    "name" : "elisabethstr.5-7 ",
+    "address" : "elisabethstr.5-7 ",
+    "location" : "47.8111950,13.0415440",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "915571",
+        "identifier" : "AT*LQH*E123123012",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "420",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LQH*E123123012",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*LQH*E123123012",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-17 06:19:46.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 486156,
+    "name" : "elisabethstr. 5-7 ",
+    "address" : "elisabethstr. 5-7 ",
+    "location" : "47.8115550,13.0415650",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "915569",
+        "identifier" : "AT*LQH*E123123234",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "420",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LQH*E123123234",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*LQH*E123123234",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-17 06:18:45.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

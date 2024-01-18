@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 486159,
+    "name" : "Schwimmbadgasse 4, ",
+    "address" : "Schwimmbadgasse 4, ",
+    "location" : "47.8129310,16.2557740",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "915586",
+        "identifier" : "AT*DAE*E0002204",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "445",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0002204",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAE*E0002204",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-18 06:22:20.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

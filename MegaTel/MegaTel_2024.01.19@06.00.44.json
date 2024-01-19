@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 487637,
+    "name" : "Hlavná 81/35  ",
+    "address" : "Hlavná 81/35  ",
+    "location" : "47.9887290,17.6311950",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "798241",
+        "identifier" : "SK*EON*E134941",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "612",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SK*EON*E134941",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SK*EON*E134941",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-18 20:04:30.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

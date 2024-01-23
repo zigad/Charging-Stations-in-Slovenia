@@ -1,0 +1,187 @@
+{
+  "locations" : [ {
+    "id" : 145282,
+    "name" : "Bundesstraße 7 ",
+    "address" : "Bundesstraße 7 ",
+    "location" : "46.9109920,15.4797240",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "367863",
+        "identifier" : "CH*ECUEEQCH7EEJFJUZBH32WATY7638H2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "418",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEEQCH7EEJFJUZBH32WATY7638H2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEEQCH7EEJFJUZBH32WATY7638H2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-23 04:42:52.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 145309,
+    "name" : "Hauptplatz 46",
+    "address" : "Hauptplatz 46",
+    "location" : "47.3405680,15.9918140",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "367953",
+        "identifier" : "AT*EST*E000*01950",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01950",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*01950",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-23 04:46:21.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 145310,
+    "name" : "An der Postwiese 4",
+    "address" : "An der Postwiese 4",
+    "location" : "47.4081610,15.2727560",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "367954",
+        "identifier" : "AT*EST*E000*01932",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01932",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*01932",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "367955",
+        "identifier" : "AT*EST*E000*01931",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01931",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*01931",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-23 04:46:21.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 145311,
+    "name" : "Oberneuberg 0",
+    "address" : "Oberneuberg 0",
+    "location" : "47.3199490,15.8576750",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "367956",
+        "identifier" : "AT*EST*E000*00887",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*00887",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*00887",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "367957",
+        "identifier" : "AT*EST*E000*00886",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*00886",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*00886",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-23 04:46:22.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

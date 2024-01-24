@@ -1,0 +1,143 @@
+{
+  "locations" : [ {
+    "id" : 16935,
+    "name" : "Salzburger Straße 69 ",
+    "address" : "Salzburger Straße 69 ",
+    "location" : "47.4238480,13.2145200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "50239",
+        "identifier" : "AT*HTB*E1010374",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "133",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1010374",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1010374",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-08 12:51:31.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 145318,
+    "name" : "BS AC BARJE - JUG",
+    "address" : "Cesta dveh cesarjev 73",
+    "location" : "46.0286300,14.4788600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "367972",
+        "identifier" : "SIPETE0322*01*1",
+        "networkId" : "1",
+        "maxPower" : 174400,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "147",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0322*01*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0322*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "367973",
+        "identifier" : "SIPETE0322*02*1",
+        "networkId" : "2",
+        "maxPower" : 174400,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "147",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0322*02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0322*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "367974",
+        "identifier" : "SIPETE0322*03*1",
+        "networkId" : "3",
+        "maxPower" : 299920,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "147",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0322*03*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0322*03*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "367975",
+        "identifier" : "SIPETE0322*03*2",
+        "networkId" : "4",
+        "maxPower" : 299920,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "147",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0322*03*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0322*03*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-24 01:01:53.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

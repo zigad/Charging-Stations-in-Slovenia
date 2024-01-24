@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 146690,
+    "name" : "Bundesstraße 7 ",
+    "address" : "Bundesstraße 7 ",
+    "location" : "46.9110240,15.4797150",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "373233",
+        "identifier" : "CH*ECUEKPHBDJ95VNSADNNJRYSPVDXMEQ",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "552",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEKPHBDJ95VNSADNNJRYSPVDXMEQ",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUEKPHBDJ95VNSADNNJRYSPVDXMEQ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-24 07:53:05.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

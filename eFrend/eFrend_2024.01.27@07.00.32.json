@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 151103,
+    "name" : "Losenheimer Str. 176 ",
+    "address" : "Losenheimer Str. 176 ",
+    "location" : "47.7929550,15.8337440",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "386252",
+        "identifier" : "CH*ECUEWDVBCCTTB63SRDU86BCDA7MA43",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEWDVBCCTTB63SRDU86BCDA7MA43",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEWDVBCCTTB63SRDU86BCDA7MA43",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-27 05:54:44.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

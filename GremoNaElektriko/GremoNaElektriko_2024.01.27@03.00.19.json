@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 151605,
+    "name" : "SLO-CAR Ajdovščina",
+    "address" : "Mirce 20",
+    "location" : "45.8831910,13.8922220",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "373345",
+        "identifier" : "SI*EFR*E0039",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0039",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0039",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "373346",
+        "identifier" : "SI*EFR*E0038",
+        "networkId" : "4",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "228",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E0038",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*EFR*E0038",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-27 01:01:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

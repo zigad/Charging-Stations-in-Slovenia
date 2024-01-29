@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 495802,
+    "name" : "Alte Wiener Str. 37 ",
+    "address" : "Alte Wiener Str. 37 ",
+    "location" : "47.8704060,13.1411720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "669379",
+        "identifier" : "AT*SZG*E102486",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "292",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E102486",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*SZG*E102486",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-29 03:00:19.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

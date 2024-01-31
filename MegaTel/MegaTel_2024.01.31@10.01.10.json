@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 496455,
+    "name" : "Ponikva⁩⁦ Šentjur",
+    "address" : "Ponikva 29a, 3232 Ponikva, Slovenija",
+    "location" : "46.2521590,15.4431720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "936849",
+        "identifier" : "SI*GNE*E1023",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1023",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1023",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "936850",
+        "identifier" : "SI*GNE*E1024",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "154",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1024",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1024",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-31 08:27:31.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 496457,
+    "name" : "Erzherzog-Johann-Straße 1",
+    "address" : "Erzherzog-Johann-Straße 1",
+    "location" : "46.8933770,15.2631990",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "935262",
+        "identifier" : "AT*EST*E000*00822",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "615",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*00822",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*00822",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-31 03:46:38.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

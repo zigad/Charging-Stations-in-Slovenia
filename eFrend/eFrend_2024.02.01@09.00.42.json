@@ -1,0 +1,221 @@
+{
+  "locations" : [ {
+    "id" : 151878,
+    "name" : "Frauentaler Str. 104 ",
+    "address" : "Frauentaler Str. 104 ",
+    "location" : "46.8200620,15.2343320",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "388087",
+        "identifier" : "CH*ECUE3RFDDYX6EV94KJY6PE4QRVWYXZ",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUE3RFDDYX6EV94KJY6PE4QRVWYXZ",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUE3RFDDYX6EV94KJY6PE4QRVWYXZ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-01 07:41:50.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 151884,
+    "name" : "Oskar Matulla-Gasse 28 ",
+    "address" : "Oskar Matulla-Gasse 28 ",
+    "location" : "47.8181740,16.2070610",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "388123",
+        "identifier" : "CH*ECUE59YWTUSSR3F37REQWXVUTWKWRW",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUE59YWTUSSR3F37REQWXVUTWKWRW",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUE59YWTUSSR3F37REQWXVUTWKWRW",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-01 07:53:59.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 151957,
+    "name" : "Mitterlabill 47",
+    "address" : "Mitterlabill 47",
+    "location" : "46.8898050,15.6340320",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "388499",
+        "identifier" : "AT*EST*E000*01952",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01952",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*01952",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "388500",
+        "identifier" : "AT*EST*E000*01951",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01951",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*01951",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-01 07:55:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 151958,
+    "name" : "Kapellenstraße 112",
+    "address" : "Kapellenstraße 112",
+    "location" : "47.0049610,15.5389710",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "388501",
+        "identifier" : "AT*EST*E000*01878",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01878",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*01878",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "388502",
+        "identifier" : "AT*EST*E000*01877",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01877",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*01877",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-01 07:55:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 151999,
+    "name" : "Dalmatinska ulica 18",
+    "address" : "Dalmatinska ulica 18",
+    "location" : "45.1475520,13.6045520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "255860",
+        "identifier" : "HR005E1071*1*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "52",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E1071*1*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR005E1071*1*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-01 07:56:58.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

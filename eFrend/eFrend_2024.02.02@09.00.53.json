@@ -1,0 +1,95 @@
+{
+  "locations" : [ {
+    "id" : 152053,
+    "name" : "Friedrich-Wilhelm-Raiffeisen-Platz 1",
+    "address" : "Friedrich-Wilhelm-Raiffeisen-Platz 1",
+    "location" : "47.9848530,16.2170540",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "388814",
+        "identifier" : "AT*EVN*E3813*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3813*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3813*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "388815",
+        "identifier" : "AT*EVN*E3813*1",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3813*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3813*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-02 07:29:49.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 152055,
+    "name" : "Friedrich-Wilhelm-Raiffeisen-Platz 1",
+    "address" : "Friedrich-Wilhelm-Raiffeisen-Platz 1",
+    "location" : "47.9854930,16.2169480",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "286805",
+        "identifier" : "AT*EVN*E3498*1",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3498*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3498*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-02 07:29:50.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

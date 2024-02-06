@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 500590,
+    "name" : "Alpenstraße 4 ",
+    "address" : "Alpenstraße 4 ",
+    "location" : "47.7492160,13.0686230",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "942452",
+        "identifier" : "AT*120*EHY00230",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00230",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*EHY00230",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-06 03:46:25.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

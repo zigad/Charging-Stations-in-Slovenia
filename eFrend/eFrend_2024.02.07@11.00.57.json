@@ -1,0 +1,129 @@
+{
+  "locations" : [ {
+    "id" : 152487,
+    "name" : "Alpenstraße 4 ",
+    "address" : "Alpenstraße 4 ",
+    "location" : "47.7492960,13.0688340",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "390242",
+        "identifier" : "AT*120*EHY00229",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "109",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*EHY00229",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*120*EHY00229",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-07 09:38:26.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 152522,
+    "name" : "Lahn  225",
+    "address" : "Lahn  225",
+    "location" : "47.5528620,13.6428310",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "390342",
+        "identifier" : "AT*KWS*E2311717",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311717",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2311717",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-07 09:38:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 152561,
+    "name" : "Nova Ulica 10",
+    "address" : "Nova Ulica 10",
+    "location" : "45.8491210,15.8138940",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "390449",
+        "identifier" : "HR005E2028*1*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "52",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E2028*1*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR005E2028*1*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "390450",
+        "identifier" : "HR005E2028*1*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "52",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E2028*1*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR005E2028*1*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-07 09:39:35.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

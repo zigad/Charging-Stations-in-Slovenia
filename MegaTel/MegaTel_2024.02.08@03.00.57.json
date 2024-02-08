@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 502494,
+    "name" : "Gostilna Špolar pri Mirni Peči",
+    "address" : "Marof 7, 8216 Mirna Peč, Slovenija",
+    "location" : "45.8675920,15.0949620",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "945124",
+        "identifier" : "SI*GNE*E1407",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1407",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1407",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "945125",
+        "identifier" : "SI*GNE*E1408",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1408",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1408",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-08 01:05:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,95 @@
+{
+  "locations" : [ {
+    "id" : 154527,
+    "name" : "Ulica 34. inženjerijske bojne 2 ",
+    "address" : "Ulica 34. inženjerijske bojne 2 ",
+    "location" : "46.3890150,16.4487970",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "157945",
+        "identifier" : "HR*QLO*EAC000121",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "480",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*QLO*EAC000121",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HR*QLO*EAC000121",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-13 08:46:58.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 154552,
+    "name" : "Občina Slovenj Gradec - Ozare",
+    "address" : "Ozare 18, Slovenj Gradec",
+    "location" : "46.5136930,15.0771440",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "397049",
+        "identifier" : "SI*MGT*E1532",
+        "networkId" : "1",
+        "maxPower" : 5000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E1532",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E1532",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "397050",
+        "identifier" : "SI*MGT*E6109",
+        "networkId" : "2",
+        "maxPower" : 5000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E6109",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E6109",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-13 08:47:32.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

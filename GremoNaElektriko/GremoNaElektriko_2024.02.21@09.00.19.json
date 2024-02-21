@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 155384,
+    "name" : "Langwies 92 ",
+    "address" : "Langwies 92 ",
+    "location" : "47.6644250,13.1235720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "399125",
+        "identifier" : "CH*ECUEZP6CPY3T4LRSRUJSN539CMWA92",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "551",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEZP6CPY3T4LRSRUJSN539CMWA92",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUEZP6CPY3T4LRSRUJSN539CMWA92",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-21 07:19:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 155385,
+    "name" : "Langwies 92 ",
+    "address" : "Langwies 92 ",
+    "location" : "47.6644760,13.1235210",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "399126",
+        "identifier" : "CH*ECUEXJJHL8KQCK5R7BZEYLGF4Q4KG2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "551",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEXJJHL8KQCK5R7BZEYLGF4Q4KG2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUEXJJHL8KQCK5R7BZEYLGF4Q4KG2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-21 07:19:51.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 512482,
+    "name" : "Alpendorf 49 ",
+    "address" : "Alpendorf 49 ",
+    "location" : "47.3264720,13.2018200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "961165",
+        "identifier" : "AT*SZG*E101713",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "293",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E101713",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*SZG*E101713",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-23 07:15:09.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 155873,
+    "name" : "Langwies 22 ",
+    "address" : "Langwies 22 ",
+    "location" : "47.6644190,13.1233320",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "400968",
+        "identifier" : "CH*ECUEHMZ93Z48CRLXUPP33N5DQS5D2Z",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEHMZ93Z48CRLXUPP33N5DQS5D2Z",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEHMZ93Z48CRLXUPP33N5DQS5D2Z",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-23 14:46:25.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 155875,
+    "name" : "Langwies 22 ",
+    "address" : "Langwies 22 ",
+    "location" : "47.6643820,13.1233720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "400970",
+        "identifier" : "CH*ECUEAEGTKSNE954BWZY95UPR7Q6L23",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEAEGTKSNE954BWZY95UPR7Q6L23",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEAEGTKSNE954BWZY95UPR7Q6L23",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-23 14:46:26.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

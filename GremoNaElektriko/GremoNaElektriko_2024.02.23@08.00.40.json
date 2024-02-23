@@ -1,0 +1,105 @@
+{
+  "locations" : [ {
+    "id" : 86093,
+    "name" : "Rohrmooserstraße 164 ",
+    "address" : "Rohrmooserstraße 164 ",
+    "location" : "47.3873590,13.6781410",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "211340",
+        "identifier" : "NL*LMS*E1709609*2",
+        "networkId" : "1",
+        "maxPower" : 17000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "336",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E1709609*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/NL*LMS*E1709609*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2023-09-13 01:05:05.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 131153,
+    "name" : "Emailwerkstraße 17 ",
+    "address" : "Emailwerkstraße 17 ",
+    "location" : "46.6316210,13.8769760",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "331235",
+        "identifier" : "NL*LMS*E11718578*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "336",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E11718578*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/NL*LMS*E11718578*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-08 04:12:16.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 154901,
+    "name" : "Pruggererberg 320 ",
+    "address" : "Pruggererberg 320 ",
+    "location" : "47.4103390,13.8673840",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "397930",
+        "identifier" : "NL*LMS*E11716633*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "336",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E11716633*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/NL*LMS*E11716633*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-18 05:57:39.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

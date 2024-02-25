@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 130630,
+    "name" : "Pruggererberg 301 ",
+    "address" : "Pruggererberg 301 ",
+    "location" : "47.4022670,13.8639230",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "328686",
+        "identifier" : "NL*LMS*E11718603*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "276",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E11718603*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/NL*LMS*E11718603*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "328687",
+        "identifier" : "NL*LMS*E11718603*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "276",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E11718603*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/NL*LMS*E11718603*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-08 04:08:23.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

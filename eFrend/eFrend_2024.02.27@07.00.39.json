@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 145568,
+    "name" : "Am Skiweg 814 ",
+    "address" : "Am Skiweg 814 ",
+    "location" : "47.3896300,13.6733370",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "368768",
+        "identifier" : "NL*LMS*E11727224*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "276",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E11727224*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/NL*LMS*E11727224*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "368769",
+        "identifier" : "NL*LMS*E11727224*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "276",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E11727224*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/NL*LMS*E11727224*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-01-24 04:36:13.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

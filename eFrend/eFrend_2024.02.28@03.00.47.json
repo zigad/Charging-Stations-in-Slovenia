@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 156379,
+    "name" : "Adamičeva cesta 16 Grosuplje",
+    "address" : "Adamičeva cesta 16, 1290 Grosuplje, Slovenija",
+    "location" : "45.9568030,14.6576580",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "404473",
+        "identifier" : "SI*GNE*E1209",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1209",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E1209",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "404474",
+        "identifier" : "SI*GNE*E1210",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1210",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E1210",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-28 01:02:30.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

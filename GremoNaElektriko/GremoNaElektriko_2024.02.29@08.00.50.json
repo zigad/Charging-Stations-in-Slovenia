@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 156946,
+    "name" : "Oskar Matulla-Gasse 28 ",
+    "address" : "Oskar Matulla-Gasse 28 ",
+    "location" : "47.8181690,16.2070270",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "407052",
+        "identifier" : "CH*ECUEFY8XESF4SE7T3XKHQXBF7P7VMW",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "551",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEFY8XESF4SE7T3XKHQXBF7P7VMW",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUEFY8XESF4SE7T3XKHQXBF7P7VMW",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-29 06:33:15.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

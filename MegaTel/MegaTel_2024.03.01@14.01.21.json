@@ -1,0 +1,123 @@
+{
+  "locations" : [ {
+    "id" : 518883,
+    "name" : "Hauptstraße 10",
+    "address" : "Hauptstraße 10",
+    "location" : "47.4407220,16.3467520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "970960",
+        "identifier" : "AT*EBM*E30056*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E30056*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E30056*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "970961",
+        "identifier" : "AT*EBM*E30056*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E30056*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E30056*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-01 10:03:23.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 518884,
+    "name" : "Ziegelgasse 6",
+    "address" : "Ziegelgasse 6",
+    "location" : "47.1113610,15.7059440",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "970962",
+        "identifier" : "AT*EST*E000*02232",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "615",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02232",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*02232",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "970963",
+        "identifier" : "AT*EST*E000*02231",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "615",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02231",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*02231",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-01 10:03:32.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

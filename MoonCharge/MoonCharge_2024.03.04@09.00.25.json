@@ -1,0 +1,22 @@
+[ {
+  "Id" : 2242304,
+  "FriendlyName" : "Gornji Grad Gasilski dom",
+  "FriendlyCode" : "SI*POR0127",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Gornki Grad",
+    "PostNumber" : "3342",
+    "StreetName" : "Attemsov trg",
+    "HouseNumber" : "15",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

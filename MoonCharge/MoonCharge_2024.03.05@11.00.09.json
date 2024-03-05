@@ -1,0 +1,22 @@
+[ {
+  "Id" : 2242328,
+  "FriendlyName" : "Vila Ključe apartments",
+  "FriendlyCode" : "SI*POR0128",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Bled",
+    "PostNumber" : "4260",
+    "StreetName" : "Želeška cesta",
+    "HouseNumber" : "30",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 1
+} ]

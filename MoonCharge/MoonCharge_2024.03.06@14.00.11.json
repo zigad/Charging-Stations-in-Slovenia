@@ -1,0 +1,22 @@
+[ {
+  "Id" : 170760,
+  "FriendlyName" : "Avtocenter Podrzavnik",
+  "FriendlyCode" : "SI*POR0013",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Muta",
+    "PostNumber" : "2366",
+    "StreetName" : "Mariborska cesta",
+    "HouseNumber" : "15",
+    "CityDistrictName" : ""
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

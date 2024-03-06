@@ -1,0 +1,153 @@
+{
+  "locations" : [ {
+    "id" : 521999,
+    "name" : "Ajdovščina parkirišče za starim mlinom",
+    "address" : "Goriška cesta 8",
+    "location" : "45.8883400,13.9059100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "975180",
+        "identifier" : "SIPORE0118*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0118*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0118*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "975181",
+        "identifier" : "SIPORE0118*01*2",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0118*01*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0118*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-06 01:01:04.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 522000,
+    "name" : "Ajdovščina parkirišče pri Walfdorfski šoli",
+    "address" : "Cesta 5. maja 8",
+    "location" : "45.8898400,13.9030000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "975182",
+        "identifier" : "SIPORE0119*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0119*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0119*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "975183",
+        "identifier" : "SIPORE0119*01*2",
+        "networkId" : "2",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0119*01*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0119*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-06 01:01:07.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 522001,
+    "name" : "Vila Ključe apartments",
+    "address" : "Želeška cesta 30",
+    "location" : "46.3641400,14.1115700",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "975184",
+        "identifier" : "SIPORE0128*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "51",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0128*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0128*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-06 01:01:08.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,95 @@
+{
+  "locations" : [ {
+    "id" : 157915,
+    "name" : "Občina Ajdovščina javne",
+    "address" : "Cesta 5. maja 6",
+    "location" : "45.8886800,13.9029600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "409671",
+        "identifier" : "SIPORE0126*01*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0126*01*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0126*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "409672",
+        "identifier" : "SIPORE0126*02*1",
+        "networkId" : "1",
+        "maxPower" : 10350,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "61",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0126*02*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SIPORE0126*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-09 06:54:34.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 157931,
+    "name" : "Dr.-Georg-Neubauer-Straße 9",
+    "address" : "Dr.-Georg-Neubauer-Straße 9",
+    "location" : "46.9799090,15.3656060",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "409699",
+        "identifier" : "AT*EST*E000*02045",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "456",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02045",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EST*E000*02045",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-09 06:54:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

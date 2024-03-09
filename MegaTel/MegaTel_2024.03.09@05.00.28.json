@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 524337,
+    "name" : "Dr.-Georg-Neubauer-Straße 9",
+    "address" : "Dr.-Georg-Neubauer-Straße 9",
+    "location" : "46.9799090,15.3656060",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "979132",
+        "identifier" : "AT*EST*E000*02045",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "615",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02045",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*02045",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-09 03:46:18.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

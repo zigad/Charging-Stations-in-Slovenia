@@ -1,0 +1,27 @@
+[ {
+  "id" : 2661,
+  "name" : "Hotel Razgoršek dinamika AC 941 L",
+  "address" : "Stari trg",
+  "town" : "Velenje",
+  "lat" : 46.358214,
+  "lng" : 15.107524,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2663,
+  "name" : "Hotel Razgoršek AC 943 R",
+  "address" : "Stari trg",
+  "town" : "Velenje",
+  "lat" : 46.358214,
+  "lng" : 15.107524,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

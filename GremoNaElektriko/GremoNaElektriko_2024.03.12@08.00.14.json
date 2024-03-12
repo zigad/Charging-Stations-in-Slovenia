@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 158127,
+    "name" : "Hauptplatz 64",
+    "address" : "Hauptplatz 64",
+    "location" : "46.9314300,13.2012600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "369912",
+        "identifier" : "AT*KEL*E007*71109",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "318",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71109",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KEL*E007*71109",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-12 06:07:03.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 158146,
+    "name" : "Via Orsaria 50 50",
+    "address" : "Via Orsaria 50 50",
+    "location" : "46.0039930,13.3802980",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "320127",
+        "identifier" : "IT*REV*E419*877",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "75",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*REV*E419*877",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*REV*E419*877",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-12 06:07:11.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

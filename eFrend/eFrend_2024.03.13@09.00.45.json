@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 158031,
+    "name" : "Gleisdorfer Straße 43",
+    "address" : "Gleisdorfer Straße 43",
+    "location" : "47.2138960,15.6295300",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "370780",
+        "identifier" : "AT*EST*E000*01935",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01935",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*01935",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-13 07:21:32.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

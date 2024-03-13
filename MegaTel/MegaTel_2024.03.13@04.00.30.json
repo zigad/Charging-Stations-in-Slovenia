@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 526789,
+    "name" : "Gleisdorfer Straße 43",
+    "address" : "Gleisdorfer Straße 43",
+    "location" : "47.2138960,15.6295300",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "920988",
+        "identifier" : "AT*EST*E000*01935",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "615",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*01935",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*01935",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-13 01:10:30.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 527468,
+    "name" : "Festo d.o.o.",
+    "address" : "Blatnica 8",
+    "location" : "46.1213397,14.5512292",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "983712",
+        "identifier" : "0410",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "87",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/0410",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "983713",
+        "identifier" : "0411",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "87",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/0411",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-13 12:51:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

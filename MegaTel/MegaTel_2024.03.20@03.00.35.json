@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 531471,
+    "name" : "Parkirna Hiša Rog",
+    "address" : "Trubarjeva cesta 72, 1000 Ljubljana, Slovenij",
+    "location" : "46.0510730,14.5158100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "990930",
+        "identifier" : "SI*GNE*E1093",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1093",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1093",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "990931",
+        "identifier" : "SI*GNE*E1094",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1094",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1094",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-20 01:01:20.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

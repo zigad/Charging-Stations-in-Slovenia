@@ -1,0 +1,283 @@
+{
+  "locations" : [ {
+    "id" : 158864,
+    "name" : "Bahnhofstraße ",
+    "address" : "Bahnhofstraße ",
+    "location" : "47.2894620,16.2117520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "412111",
+        "identifier" : "AT*120*E000880",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E000880",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E000880",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "412112",
+        "identifier" : "AT*120*E000879",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E000879",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E000879",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "412113",
+        "identifier" : "AT*120*E000878",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E000878",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E000878",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "412114",
+        "identifier" : "AT*120*E000877",
+        "networkId" : "4",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E000877",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E000877",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-22 05:56:14.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 158865,
+    "name" : "Rauchwart 202 ",
+    "address" : "Rauchwart 202 ",
+    "location" : "47.1324110,16.2242510",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "412115",
+        "identifier" : "AT*120*E000876",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E000876",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E000876",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "412116",
+        "identifier" : "AT*120*E000875",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E000875",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E000875",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-22 05:56:15.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 158866,
+    "name" : "Hauptplatz ",
+    "address" : "Hauptplatz ",
+    "location" : "47.1597300,16.1662960",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "412117",
+        "identifier" : "AT*120*E000872",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E000872",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E000872",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "412118",
+        "identifier" : "AT*120*E000871",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "178",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E000871",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*120*E000871",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-22 05:56:15.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 158868,
+    "name" : "Maierhöfen 30",
+    "address" : "Maierhöfen 30",
+    "location" : "47.5426300,16.1169300",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "412121",
+        "identifier" : "AT*EVN*E2168*2",
+        "networkId" : "1",
+        "maxPower" : 80000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "492",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2168*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2168*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "412122",
+        "identifier" : "AT*EVN*E2168*1",
+        "networkId" : "2",
+        "maxPower" : 80000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "492",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2168*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2168*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-22 05:56:16.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 532814,
+    "name" : "Bela Bovec - AP 12",
+    "address" : "Dvor 43",
+    "location" : "46.3315636,13.5401589",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "993232",
+        "identifier" : "0259",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "87",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/0259",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-22 10:19:46.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

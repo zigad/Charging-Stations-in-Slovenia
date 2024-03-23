@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 158367,
+    "name" : "OBČINA ŠENTILJ - SLADKI VRH",
+    "address" : "Sladki vrh 5D",
+    "location" : "46.6978500,15.7372400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "409719",
+        "identifier" : "SIPETE0294*01*1",
+        "networkId" : "1",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0294*01*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0294*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "409720",
+        "identifier" : "SIPETE0294*01*2",
+        "networkId" : "2",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0294*01*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0294*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-23 01:01:11.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 158368,
+    "name" : "Občina Radovljica - Kranjska",
+    "address" : "Kranjska cesta 15",
+    "location" : "46.3434000,14.1736000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "409721",
+        "identifier" : "SIPETE0331*01*1",
+        "networkId" : "1",
+        "maxPower" : 11040,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0331*01*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0331*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "409722",
+        "identifier" : "SIPETE0331*01*2",
+        "networkId" : "2",
+        "maxPower" : 11040,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0331*01*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0331*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-23 01:01:12.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,149 @@
+{
+  "locations" : [ {
+    "id" : 533502,
+    "name" : "Sernau 2a",
+    "address" : "Sernau 2a",
+    "location" : "46.7133100,15.5393200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "994357",
+        "identifier" : "AT*430*E7000*0222",
+        "networkId" : "1",
+        "maxPower" : 8000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*0222",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*430*E7000*0222",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "994358",
+        "identifier" : "AT*430*E7000*0221",
+        "networkId" : "1",
+        "maxPower" : 8000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*0221",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*430*E7000*0221",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "994359",
+        "identifier" : "AT*430*E7000*0220",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*0220",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*430*E7000*0220",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-23 03:36:12.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 533503,
+    "name" : "Lagerplatzweg 163",
+    "address" : "Lagerplatzweg 163",
+    "location" : "47.0791100,15.9579800",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "994360",
+        "identifier" : "AT*EST*E000*02297",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02297",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*02297",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "994361",
+        "identifier" : "AT*EST*E000*02296",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02296",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*02296",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-23 03:36:22.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

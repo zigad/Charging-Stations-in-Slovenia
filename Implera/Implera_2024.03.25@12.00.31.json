@@ -1,0 +1,27 @@
+[ {
+  "id" : 2649,
+  "name" : "Starše Marjeta na dravskem polju Šola Vrtec",
+  "address" : "Marjeta na dravskem polju",
+  "town" : "Marjeta na dravskem polju",
+  "lat" : 46.461829,
+  "lng" : 15.726775,
+  "deluje" : 0,
+  "cena_KW" : "0.270",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "0.30",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@11 kW"
+}, {
+  "id" : 2669,
+  "name" : "Starše Marjeta Elinta Charge L",
+  "address" : "Marjeta na dravskem polju",
+  "town" : "Marjeta na dravskem polju",
+  "lat" : 46.461829,
+  "lng" : 15.726775,
+  "deluje" : 1,
+  "cena_KW" : "0.270",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "0.30",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@22 kW"
+} ]

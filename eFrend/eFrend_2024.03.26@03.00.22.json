@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 158397,
+    "name" : "Občina Destrnik",
+    "address" : "Destrnik 9",
+    "location" : "46.4928300,15.8757100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "409735",
+        "identifier" : "SIPETE0327*01*1",
+        "networkId" : "1",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0327*01*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0327*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "409736",
+        "identifier" : "SIPETE0327*02*1",
+        "networkId" : "2",
+        "maxPower" : 22080,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "145",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPETE0327*02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SIPETE0327*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-26 01:01:08.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

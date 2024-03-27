@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 536854,
+    "name" : "Via Nazionale, 4 ",
+    "address" : "Via Nazionale, 4 ",
+    "location" : "45.6828580,13.7834940",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "745379",
+        "identifier" : "IT*HRA*E22XP22T3KKJAK01144*2",
+        "networkId" : "1",
+        "maxPower" : 12000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "479",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*HRA*E22XP22T3KKJAK01144*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*HRA*E22XP22T3KKJAK01144*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "745380",
+        "identifier" : "IT*HRA*E22XP22T3KKJAK01144*1",
+        "networkId" : "1",
+        "maxPower" : 12000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "479",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*HRA*E22XP22T3KKJAK01144*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*HRA*E22XP22T3KKJAK01144*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-03-27 04:50:15.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 529420,
+    "name" : "Via Nazionale SNC",
+    "address" : "Via Nazionale SNC",
+    "location" : "46.4765360,13.0178340",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "987244",
+        "identifier" : "IT*REV*E2073*3012",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "72",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*REV*E2073*3012",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*REV*E2073*3012",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "987245",
+        "identifier" : "IT*REV*E2073*3011",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "72",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*REV*E2073*3011",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/IT*REV*E2073*3011",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-03 07:15:13.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,251 @@
+{
+  "locations" : [ {
+    "id" : 543920,
+    "name" : "Gesäusestraße 18 ",
+    "address" : "Gesäusestraße 18 ",
+    "location" : "47.5595110,14.2539350",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1007592",
+        "identifier" : "AT*ENA*E02695",
+        "networkId" : "1",
+        "maxPower" : 225000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "668",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02695",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02695",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-07 03:00:01.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 543921,
+    "name" : "Gesäusestraße 18 ",
+    "address" : "Gesäusestraße 18 ",
+    "location" : "47.5596120,14.2539130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1007593",
+        "identifier" : "AT*ENA*E02694",
+        "networkId" : "1",
+        "maxPower" : 225000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "668",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02694",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02694",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1007594",
+        "identifier" : "AT*ENA*E02693",
+        "networkId" : "1",
+        "maxPower" : 225000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "668",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02693",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02693",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-07 03:00:01.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 543922,
+    "name" : "Gesäusestraße 18 ",
+    "address" : "Gesäusestraße 18 ",
+    "location" : "47.5596950,14.2539080",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1007595",
+        "identifier" : "AT*ENA*E02692",
+        "networkId" : "1",
+        "maxPower" : 400000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "668",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02692",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02692",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1007596",
+        "identifier" : "AT*ENA*E02691",
+        "networkId" : "1",
+        "maxPower" : 400000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "668",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02691",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02691",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-07 03:00:01.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 543924,
+    "name" : "Gesäusestraße 18 ",
+    "address" : "Gesäusestraße 18 ",
+    "location" : "47.5597420,14.2538920",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "836559",
+        "identifier" : "AT*ENA*E02486",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "668",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02486",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02486",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "836560",
+        "identifier" : "AT*ENA*E02485",
+        "networkId" : "1",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "668",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02485",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02485",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-07 03:00:01.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 543925,
+    "name" : "Gesäusestraße 18 ",
+    "address" : "Gesäusestraße 18 ",
+    "location" : "47.5598000,14.2538170",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "836698",
+        "identifier" : "AT*ENA*E02318",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "668",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02318",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*ENA*E02318",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-07 03:00:01.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

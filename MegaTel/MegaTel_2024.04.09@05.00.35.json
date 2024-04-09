@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 544949,
+    "name" : "Bahnstraße 5",
+    "address" : "Bahnstraße 5",
+    "location" : "47.9086100,16.3878700",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "687649",
+        "identifier" : "AT*VIE*E2486770008*1",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "298",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E2486770008*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*VIE*E2486770008*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-09 02:27:45.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

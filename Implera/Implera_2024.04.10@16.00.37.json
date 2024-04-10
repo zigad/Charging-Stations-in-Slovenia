@@ -1,0 +1,27 @@
+[ {
+  "id" : 2725,
+  "name" : "Občina Rače Fram L",
+  "address" : "Grajski trg",
+  "town" : "Rače",
+  "lat" : 46.452691,
+  "lng" : 15.679148,
+  "deluje" : 0,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2727,
+  "name" : "Občina Rače Fram R",
+  "address" : "Grajski trg",
+  "town" : "Rače",
+  "lat" : 46.452691,
+  "lng" : 15.679148,
+  "deluje" : 0,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

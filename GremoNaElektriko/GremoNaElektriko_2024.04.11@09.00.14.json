@@ -1,0 +1,255 @@
+{
+  "locations" : [ {
+    "id" : 161729,
+    "name" : "Marktplatz 13 ",
+    "address" : "Marktplatz 13 ",
+    "location" : "47.2379150,13.2010500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "422112",
+        "identifier" : "AT*POW*E02237",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02237",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E02237",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "422113",
+        "identifier" : "AT*POW*E02236",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02236",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E02236",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-03 11:03:31.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 162103,
+    "name" : "Kardinalplatz ",
+    "address" : "Kardinalplatz ",
+    "location" : "46.6239480,14.3121940",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "423559",
+        "identifier" : "AT*STW*E1001537",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001537",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001537",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-05 07:29:22.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 162104,
+    "name" : "Flughafenstrasse 60-64 ",
+    "address" : "Flughafenstrasse 60-64 ",
+    "location" : "46.6501650,14.3244660",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "423560",
+        "identifier" : "AT*STW*E1001032",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001032",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001032",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-05 07:29:23.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 162105,
+    "name" : "Am Jägergrund 34 ",
+    "address" : "Am Jägergrund 34 ",
+    "location" : "47.0400700,15.4016410",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "423562",
+        "identifier" : "AT*POW*E01972",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E01972",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E01972",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "423563",
+        "identifier" : "AT*POW*E01971",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E01971",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E01971",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-05 07:29:23.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 162106,
+    "name" : "Kirchboden 97 ",
+    "address" : "Kirchboden 97 ",
+    "location" : "47.3315700,13.3066810",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "423564",
+        "identifier" : "AT*HTB*E1024862",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1024862",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1024862",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-05 07:29:23.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 162712,
+    "name" : "Seestraße 6",
+    "address" : "Seestraße 6",
+    "location" : "46.7817930,13.6568180",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "425424",
+        "identifier" : "AT*KEL*E007*71135",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71135",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KEL*E007*71135",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-09 07:23:46.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

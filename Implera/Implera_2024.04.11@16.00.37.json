@@ -1,0 +1,27 @@
+[ {
+  "id" : 360,
+  "name" : "Občina Vojnik DC - CHAdeMO",
+  "address" : "Murnova ulica",
+  "town" : "Vojnik",
+  "lat" : 46.287983,
+  "lng" : 15.305243,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "CHAdeMO DCFC@10 kW"
+}, {
+  "id" : 361,
+  "name" : "Občina Vojnik DC - CCS Combo",
+  "address" : "Murnova ulica",
+  "town" : "Vojnik",
+  "lat" : 46.287983,
+  "lng" : 15.305243,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "CCS Combo@10 kW"
+} ]

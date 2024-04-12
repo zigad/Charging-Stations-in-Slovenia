@@ -1,0 +1,27 @@
+[ {
+  "id" : 2721,
+  "name" : "Plava laguna L",
+  "address" : "Rade Končara",
+  "town" : "Poreč",
+  "lat" : 45.221683,
+  "lng" : 13.595802,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2723,
+  "name" : "Plava laguna R",
+  "address" : "Rade Končara",
+  "town" : "Poreč",
+  "lat" : 45.221684,
+  "lng" : 13.595802,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

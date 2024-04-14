@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 149264,
+    "name" : "Römerstraße 20 ",
+    "address" : "Römerstraße 20 ",
+    "location" : "47.3861940,13.4658230",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "637741",
+        "identifier" : "AT*HTB*E1020643",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "397",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1020643",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1020643",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-08 03:02:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 548199,
+    "name" : "Etmißl 31 ",
+    "address" : "Etmißl 31 ",
+    "location" : "47.5168830,15.1706170",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "895472",
+        "identifier" : "AT*POW*E01899",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "404",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E01899",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*POW*E01899",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-08 03:02:56.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 169032,
+    "name" : "Töpperweg 17",
+    "address" : "Töpperweg 17",
+    "location" : "47.8425380,15.0155820",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "445264",
+        "identifier" : "AT*KWS*E2311323",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311323",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2311323",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "445267",
+        "identifier" : "AT*KWS*E2311319",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311319",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2311319",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-17 13:46:50.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

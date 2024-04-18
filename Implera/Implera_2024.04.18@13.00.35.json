@@ -1,0 +1,27 @@
+[ {
+  "id" : 2592,
+  "name" : "Sv. Jurij Videm Type 2 L",
+  "address" : "Videm",
+  "town" : "Sveti Jurij ob Ščavnici",
+  "lat" : 46.569107,
+  "lng" : 16.020945,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2594,
+  "name" : "Sv. Jurij Videm Type 2 R",
+  "address" : "Videm",
+  "town" : "Sveti Jurij ob Ščavnici",
+  "lat" : 46.569107,
+  "lng" : 16.020945,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

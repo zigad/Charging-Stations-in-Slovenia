@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 165258,
+    "name" : "Hochstraße 830",
+    "address" : "Hochstraße 830",
+    "location" : "47.3994120,13.6912190",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "13771",
+        "identifier" : "AT*HTB*E1000029",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "373",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1000029",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1000029",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-19 12:47:03.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

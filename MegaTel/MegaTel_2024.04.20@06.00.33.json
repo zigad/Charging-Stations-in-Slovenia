@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 551863,
+    "name" : "Michael Koch-Straße 44",
+    "address" : "Michael Koch-Straße 44",
+    "location" : "47.7395960,16.4039980",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1027979",
+        "identifier" : "AT*EBM*E40168*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "305",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40168*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40168*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1027980",
+        "identifier" : "AT*EBM*E40168*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "306",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40168*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EBM*E40168*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-20 03:45:48.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

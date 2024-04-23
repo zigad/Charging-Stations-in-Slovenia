@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 165507,
+    "name" : "Hainfeld 69",
+    "address" : "Hainfeld 69",
+    "location" : "47.0783000,15.9638000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "430705",
+        "identifier" : "AT*EST*E000*02030",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "456",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02030",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EST*E000*02030",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "430706",
+        "identifier" : "AT*EST*E000*02029",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "456",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02029",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EST*E000*02029",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-23 03:28:32.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 161411,
+    "name" : "Seecorso 13 ",
+    "address" : "Seecorso 13 ",
+    "location" : "46.6100940,14.0499170",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "420518",
+        "identifier" : "NL*LMS*E11743397*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "NL*LMS*E11743397*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/NL*LMS*E11743397*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-03 04:52:51.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

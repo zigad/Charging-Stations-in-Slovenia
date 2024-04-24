@@ -1,0 +1,131 @@
+{
+  "locations" : [ {
+    "id" : 551574,
+    "name" : "Einöd 37",
+    "address" : "Einöd 37",
+    "location" : "46.7725020,15.4671500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1026772",
+        "identifier" : "AT*KWS*E2311581",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311581",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E2311581",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-24 04:18:44.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 551741,
+    "name" : "Industrieparkstraße 15",
+    "address" : "Industrieparkstraße 15",
+    "location" : "46.7344430,14.3736490",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1029789",
+        "identifier" : "AT*KWS*E231174",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E231174",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E231174",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1029790",
+        "identifier" : "AT*KWS*E2311582",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311582",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E2311582",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-24 04:18:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 551742,
+    "name" : "Glanzer Kellerstraße  34",
+    "address" : "Glanzer Kellerstraße  34",
+    "location" : "46.6742100,15.5415890",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1027371",
+        "identifier" : "AT*KWS*E2311667",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311667",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E2311667",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-24 04:18:46.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

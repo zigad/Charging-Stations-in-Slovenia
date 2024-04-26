@@ -1,0 +1,27 @@
+[ {
+  "id" : 2588,
+  "name" : "Impedanca, Maribor 900 Leva",
+  "address" : "Jadranska cesta",
+  "town" : "Maribor",
+  "lat" : 46.536771,
+  "lng" : 15.643515,
+  "deluje" : 1,
+  "cena_KW" : "0.290",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "0.20",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2590,
+  "name" : "Impedanca, Maribor 902 Desna",
+  "address" : "Jadranska cesta",
+  "town" : "Maribor",
+  "lat" : 46.536772,
+  "lng" : 15.643516,
+  "deluje" : 1,
+  "cena_KW" : "0.290",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "0.20",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

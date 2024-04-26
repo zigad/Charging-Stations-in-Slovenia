@@ -1,0 +1,123 @@
+{
+  "locations" : [ {
+    "id" : 553056,
+    "name" : "Kärntner Straße 94 ",
+    "address" : "Kärntner Straße 94 ",
+    "location" : "47.2104850,14.8102340",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1032326",
+        "identifier" : "AT*120*E0000598",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000598",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000598",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1032327",
+        "identifier" : "AT*120*E0000597",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "239",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*120*E0000597",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*120*E0000597",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-26 03:31:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 553057,
+    "name" : "Kärntner Straße 216",
+    "address" : "Kärntner Straße 216",
+    "location" : "47.0395210,15.4122760",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1032328",
+        "identifier" : "AT*EST*E000*03138",
+        "networkId" : "1",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03138",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*03138",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1032329",
+        "identifier" : "AT*EST*E000*03137",
+        "networkId" : "1",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03137",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*03137",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-26 03:31:52.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

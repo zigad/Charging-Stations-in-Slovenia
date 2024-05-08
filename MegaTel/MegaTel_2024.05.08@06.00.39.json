@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 555382,
+    "name" : "Oberer Herzogberg 329",
+    "address" : "Oberer Herzogberg 329",
+    "location" : "46.9619740,15.0644650",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1040418",
+        "identifier" : "AT*EST*E000*03112",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03112",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*03112",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1040419",
+        "identifier" : "AT*EST*E000*03111",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03111",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*03111",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-08 03:45:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

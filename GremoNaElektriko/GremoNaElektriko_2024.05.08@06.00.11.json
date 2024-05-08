@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 167009,
+    "name" : "Oberer Herzogberg 329",
+    "address" : "Oberer Herzogberg 329",
+    "location" : "46.9619740,15.0644650",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "434850",
+        "identifier" : "AT*EST*E000*03112",
+        "networkId" : "1",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "455",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03112",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EST*E000*03112",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "434851",
+        "identifier" : "AT*EST*E000*03111",
+        "networkId" : "2",
+        "maxPower" : 75000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "455",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03111",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EST*E000*03111",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-08 03:37:28.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

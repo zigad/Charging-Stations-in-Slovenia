@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 165873,
+    "name" : "Merharjeva ulica 9a",
+    "address" : "Merharjeva ulica 9a",
+    "location" : "45.7392100,14.7321470",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "431617",
+        "identifier" : "SI*LDL*E00000150",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*LDL*E00000150",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*LDL*E00000150",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "431620",
+        "identifier" : "SI*LDL*E00000149",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*LDL*E00000149",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*LDL*E00000149",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-24 03:40:22.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

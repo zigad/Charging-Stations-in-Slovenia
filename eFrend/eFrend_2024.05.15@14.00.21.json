@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 97384,
+    "name" : "Barbarasiedlung 430/2 ",
+    "address" : "Barbarasiedlung 430/2 ",
+    "location" : "46.9285770,13.8696640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "240166",
+        "identifier" : "AT*HTB*E1022181",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "562",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022181",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022181",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

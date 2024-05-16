@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 169185,
+    "name" : "Hochstraße 830",
+    "address" : "Hochstraße 830",
+    "location" : "47.3994120,13.6912190",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "160340",
+        "identifier" : "AT*HTB*E1000032",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "577",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1000032",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1000032",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-19 12:47:02.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

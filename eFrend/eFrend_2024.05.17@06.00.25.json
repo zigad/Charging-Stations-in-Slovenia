@@ -1,0 +1,85 @@
+{
+  "locations" : [ {
+    "id" : 171519,
+    "name" : "Preunegg 70",
+    "address" : "Preunegg 70",
+    "location" : "47.3748160,13.6135570",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "454211",
+        "identifier" : "AT*EST*E000*02210",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02210",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02210",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "454212",
+        "identifier" : "AT*EST*E000*02209",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02209",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02209",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "454213",
+        "identifier" : "AT*EST*E000*02208",
+        "networkId" : "3",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02208",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02208",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-17 03:33:41.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

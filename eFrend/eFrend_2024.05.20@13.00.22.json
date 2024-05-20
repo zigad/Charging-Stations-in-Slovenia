@@ -1,0 +1,163 @@
+{
+  "locations" : [ {
+    "id" : 22509,
+    "name" : "Park & Ride Eben ",
+    "address" : "Park & Ride Eben ",
+    "location" : "47.4145200,13.3889700",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "53743",
+        "identifier" : "AT*HTB*E1010773",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "594",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1010773",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1010773",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "53782",
+        "identifier" : "AT*HTB*E1010774",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "594",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1010774",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1010774",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 113145,
+    "name" : "Innovationspark 3 ",
+    "address" : "Innovationspark 3 ",
+    "location" : "47.0529140,15.7460530",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "278968",
+        "identifier" : "AT*DAE*E0002141",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "594",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0002141",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*DAE*E0002141",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 113146,
+    "name" : "Innovationspark 3 ",
+    "address" : "Innovationspark 3 ",
+    "location" : "47.0529940,15.7460370",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "278969",
+        "identifier" : "AT*DAE*E0002140",
+        "networkId" : "4",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "594",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0002140",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*DAE*E0002140",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 152828,
+    "name" : "Südtiroler Platz 3 ",
+    "address" : "Südtiroler Platz 3 ",
+    "location" : "47.2740880,15.6916150",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "391480",
+        "identifier" : "AT*HTB*E1022835",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "594",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022835",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022835",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

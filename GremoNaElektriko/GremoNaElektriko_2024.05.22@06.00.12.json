@@ -1,0 +1,105 @@
+{
+  "locations" : [ {
+    "id" : 168142,
+    "name" : "Distelhof 81",
+    "address" : "Distelhof 81",
+    "location" : "46.7618040,15.3889450",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "440116",
+        "identifier" : "AT*POW*E02436",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "341",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02436",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E02436",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-22 03:36:58.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 168143,
+    "name" : "Distelhof 81",
+    "address" : "Distelhof 81",
+    "location" : "46.7618660,15.3890390",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "440117",
+        "identifier" : "AT*POW*E02435",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "341",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02435",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E02435",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-22 03:36:58.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 168176,
+    "name" : "Eich 59",
+    "address" : "Eich 59",
+    "location" : "47.8401150,13.3072780",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "440233",
+        "identifier" : "AT*POW*E02214",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "341",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02214",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E02214",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-22 03:37:10.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

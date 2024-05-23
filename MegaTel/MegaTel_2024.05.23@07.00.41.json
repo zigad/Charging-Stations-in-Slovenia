@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 558052,
+    "name" : "Ziegeleistrasse 27",
+    "address" : "Ziegeleistrasse 27",
+    "location" : "46.6331720,14.3750400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1048004",
+        "identifier" : "AT*KWS*E231134",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E231134",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E231134",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-23 04:18:10.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

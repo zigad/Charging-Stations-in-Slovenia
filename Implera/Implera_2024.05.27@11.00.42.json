@@ -1,0 +1,27 @@
+[ {
+  "id" : 2538,
+  "name" : "Općina Kotoriba Type2 L",
+  "address" : "Kolodvorska ulica",
+  "town" : "Kotoriba",
+  "lat" : 46.352943,
+  "lng" : 16.811259,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW L"
+}, {
+  "id" : 2540,
+  "name" : "Općina Kotoriba Type2 D",
+  "address" : "Kolodvorska ulica",
+  "town" : "Kotoriba",
+  "lat" : 46.352943,
+  "lng" : 16.811259,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW D"
+} ]

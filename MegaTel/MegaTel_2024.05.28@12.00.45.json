@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 559712,
+    "name" : "Črnomelj Belokranjski Hram",
+    "address" : "Majer 23, 8340 Črnomelj, Slovenija",
+    "location" : "45.5709890,15.1972240",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1054420",
+        "identifier" : "SI*GNE*E2555",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E2555",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E2555",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-28 09:01:22.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

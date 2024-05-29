@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 170544,
+    "name" : "B&B By The Way",
+    "address" : "Tržaška cesta 266",
+    "location" : "46.0316460,14.4452500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "487168",
+        "identifier" : "SI*MGT*E0418",
+        "networkId" : "1",
+        "maxPower" : 17000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0418",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0418",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-29 10:08:06.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

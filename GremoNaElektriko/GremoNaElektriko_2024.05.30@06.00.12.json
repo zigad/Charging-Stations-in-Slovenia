@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 172042,
+    "name" : "Sankt Veiter Straße 161",
+    "address" : "Sankt Veiter Straße 161",
+    "location" : "46.6477130,14.3140910",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "494063",
+        "identifier" : "AT*STW*E1001089",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "485",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001089",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001089",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-30 03:38:41.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 172047,
+    "name" : "Fellnergasse 35",
+    "address" : "Fellnergasse 35",
+    "location" : "47.9656350,16.2057780",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "494080",
+        "identifier" : "AT*DAE*E0003340",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "360",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0003340",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*DAE*E0003340",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-30 03:38:44.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

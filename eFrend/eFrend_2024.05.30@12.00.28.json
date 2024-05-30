@@ -1,0 +1,95 @@
+{
+  "locations" : [ {
+    "id" : 86852,
+    "name" : "Marktstraße 29 ",
+    "address" : "Marktstraße 29 ",
+    "location" : "47.4103410,13.7652090",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "150577",
+        "identifier" : "AT*DAE*E0001021",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "671",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0001021",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*DAE*E0001021",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "213281",
+        "identifier" : "AT*DAE*EE0001022",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "671",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*EE0001022",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*DAE*EE0001022",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 169422,
+    "name" : "Gleinstätten 171",
+    "address" : "Gleinstätten 171",
+    "location" : "46.7639330,15.3565570",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "446322",
+        "identifier" : "AT*POW*E01977",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "671",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E01977",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E01977",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-24 03:38:53.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

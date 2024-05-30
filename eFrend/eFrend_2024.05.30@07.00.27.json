@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 175182,
+    "name" : "Hauptplatz 9",
+    "address" : "Hauptplatz 9",
+    "location" : "47.9159880,16.5165370",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "508636",
+        "identifier" : "AT*KWS*E2311643",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2311643",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2311643",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-30 04:08:17.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

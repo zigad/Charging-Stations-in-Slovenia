@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 175763,
+    "name" : "Grazer Straße 7",
+    "address" : "Grazer Straße 7",
+    "location" : "46.8476530,14.8443640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "449543",
+        "identifier" : "AT*OMV*EA2731DC6110",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "434",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA2731DC6110",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*OMV*EA2731DC6110",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-04 13:48:51.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

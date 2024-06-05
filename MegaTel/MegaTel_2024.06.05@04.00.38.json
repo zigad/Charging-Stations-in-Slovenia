@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 561120,
+    "name" : "Letališče Portorož",
+    "address" : "Sečovlje 19",
+    "location" : "45.4749300,13.6170000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1058290",
+        "identifier" : "SIPORE0132*01*1",
+        "networkId" : "1",
+        "maxPower" : 109940,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "338",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0132*01*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0132*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "1058291",
+        "identifier" : "SIPORE0132*01*2",
+        "networkId" : "2",
+        "maxPower" : 109940,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "338",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SIPORE0132*01*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SIPORE0132*01*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-05 01:00:39.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

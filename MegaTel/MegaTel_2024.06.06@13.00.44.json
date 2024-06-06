@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 556266,
+    "name" : "AMZS Ptuj",
+    "address" : "Ormoška cesta 23",
+    "location" : "46.4175390,15.8814320",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1042574",
+        "identifier" : "SI*EFR*E1027",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "321",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1027",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*EFR*E1027",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "1042575",
+        "identifier" : "SI*EFR*E1028",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "321",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E1028",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*EFR*E1028",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-06 10:32:12.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

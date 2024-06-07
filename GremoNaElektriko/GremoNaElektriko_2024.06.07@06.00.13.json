@@ -1,0 +1,133 @@
+{
+  "locations" : [ {
+    "id" : 173132,
+    "name" : "Badener Straße 106",
+    "address" : "Badener Straße 106",
+    "location" : "47.9782000,16.2208140",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "506450",
+        "identifier" : "AT*EVN*E2178*3",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "491",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2178*3",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2178*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "506451",
+        "identifier" : "AT*EVN*E2178*2",
+        "networkId" : "2",
+        "maxPower" : 60000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "492",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2178*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2178*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "506452",
+        "identifier" : "AT*EVN*E2178*1",
+        "networkId" : "3",
+        "maxPower" : 60000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "492",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2178*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2178*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "506453",
+        "identifier" : "AT*EVN*E2177*2",
+        "networkId" : "4",
+        "maxPower" : 120000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "492",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2177*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2177*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "506454",
+        "identifier" : "AT*EVN*E2177*1",
+        "networkId" : "5",
+        "maxPower" : 120000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "492",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2177*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2177*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-07 03:39:11.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,645 @@
+{
+  "locations" : [ {
+    "id" : 531,
+    "name" : "Kudernagasse 2",
+    "address" : "Kudernagasse 2",
+    "location" : "47.9680600,16.2228880",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "60686",
+        "identifier" : "AT*VIE*E5126*3",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5126*3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5126*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "62079",
+        "identifier" : "AT*VIE*E5126*1",
+        "networkId" : "2",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5126*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5126*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "108693",
+        "identifier" : "AT*VIE*E5126*4",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "747",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5126*4",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5126*4",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "28456",
+        "identifier" : "AT*VIE*E5126*2",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "747",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5126*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5126*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 16090,
+    "name" : "Mühlstraße 1",
+    "address" : "Mühlstraße 1",
+    "location" : "47.8874000,16.2477000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "40100",
+        "identifier" : "AT*VIE*E5100*1",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5100*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5100*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "41260",
+        "identifier" : "AT*VIE*E5100*4",
+        "networkId" : "2",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5100*4",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5100*4",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "50503",
+        "identifier" : "AT*VIE*E5100*2",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5100*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5100*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "62487",
+        "identifier" : "AT*VIE*E5100*5",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5100*5",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5100*5",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "108765",
+        "identifier" : "AT*VIE*E5100*6",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "747",
+        "connectors" : [ {
+          "name" : "Schuko",
+          "icon" : "schuko",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5100*6",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5100*6",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "108770",
+        "identifier" : "AT*VIE*E5100*3",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "747",
+        "connectors" : [ {
+          "name" : "Schuko",
+          "icon" : "schuko",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5100*3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5100*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 19402,
+    "name" : "Waltersdorfer Straße 42",
+    "address" : "Waltersdorfer Straße 42",
+    "location" : "47.9993510,16.2573130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "44986",
+        "identifier" : "AT*VIE*E5088*2",
+        "networkId" : "2",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5088*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5088*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "43885",
+        "identifier" : "AT*VIE*E5088*1",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5088*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5088*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 19403,
+    "name" : "Quellenstraße  1",
+    "address" : "Quellenstraße  1",
+    "location" : "47.9728640,16.2263680",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "47263",
+        "identifier" : "AT*VIE*E5106*2",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5106*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5106*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "56537",
+        "identifier" : "AT*VIE*E5106*1",
+        "networkId" : "2",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5106*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5106*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 21585,
+    "name" : "Wasenbrucker Straße 21a",
+    "address" : "Wasenbrucker Straße 21a",
+    "location" : "47.9968440,16.5286560",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "50494",
+        "identifier" : "AT*VIE*E5217*2",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5217*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5217*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "62175",
+        "identifier" : "AT*VIE*E5217*1",
+        "networkId" : "2",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5217*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5217*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 22404,
+    "name" : "Rathausplatz 1",
+    "address" : "Rathausplatz 1",
+    "location" : "47.9207870,16.1854780",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "54760",
+        "identifier" : "AT*VIE*E5243*1",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5243*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5243*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "60434",
+        "identifier" : "AT*VIE*E5243*2",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5243*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5243*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 22802,
+    "name" : "Badplatz 1",
+    "address" : "Badplatz 1",
+    "location" : "47.9672310,16.2130190",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "54610",
+        "identifier" : "AT*VIE*E5199*2",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5199*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5199*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "55040",
+        "identifier" : "AT*VIE*E5199*1",
+        "networkId" : "2",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5199*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5199*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 36631,
+    "name" : "Waltersdorfer Straße 42",
+    "address" : "Waltersdorfer Straße 42",
+    "location" : "47.9993510,16.2573130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "108689",
+        "identifier" : "AT*VIE*E5088*3",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "747",
+        "connectors" : [ {
+          "name" : "Schuko",
+          "icon" : "schuko",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5088*3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E5088*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:23:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 156641,
+    "name" : "Leopold Klimesch Straße 24",
+    "address" : "Leopold Klimesch Straße 24",
+    "location" : "47.9865570,16.2939660",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "405455",
+        "identifier" : "AT*VIE*E2512650001*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E2512650001*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E2512650001*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "405456",
+        "identifier" : "AT*VIE*E2512650001*1",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "746",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E2512650001*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E2512650001*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-29 07:26:17.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 173867,
+    "name" : "Šentjernej Levičnikova cesta 2",
+    "address" : "Levičnikova cesta 2, 8310 Šentjernej, Slovenija",
+    "location" : "45.8476970,15.3385542",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "509882",
+        "identifier" : "9272",
+        "networkId" : "1",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "599",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/9272",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-10 13:59:50.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 562363,
+    "name" : "Kisfaludy utca 22-24. - Várudvar ",
+    "address" : "Kisfaludy utca 22-24. - Várudvar ",
+    "location" : "46.8040130,17.4342510",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "719910",
+        "identifier" : "HU*MVM*E20083*1",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E20083*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E20083*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-10 13:49:47.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 562364,
+    "name" : "Kisfaludy utca 22-24. - Várudvar ",
+    "address" : "Kisfaludy utca 22-24. - Várudvar ",
+    "location" : "46.8039430,17.4342900",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "720693",
+        "identifier" : "HU*MVM*E10516*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "548",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10516*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HU*MVM*E10516*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-10 13:49:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

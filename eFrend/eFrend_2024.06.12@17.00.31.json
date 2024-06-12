@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 168949,
+    "name" : "Samergasse  34",
+    "address" : "Samergasse  34",
+    "location" : "47.8152510,13.0602370",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "445069",
+        "identifier" : "AT*ONE*EZ6EG",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "314",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ONE*EZ6EG",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ONE*EZ6EG",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "445070",
+        "identifier" : "AT*ONE*EJL6L",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "314",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ONE*EJL6L",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ONE*EJL6L",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-12 06:52:11.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,1021 @@
+{
+  "locations" : [ {
+    "id" : 177014,
+    "name" : "Urinj 46 ",
+    "address" : "Urinj 46 ",
+    "location" : "45.2904390,14.5270010",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522298",
+        "identifier" : "HR*PHR*E425*00201",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "677",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*PHR*E425*00201",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*PHR*E425*00201",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "522297",
+        "identifier" : "HR*PHR*E425*00203",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "677",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*PHR*E425*00203",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*PHR*E425*00203",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:27.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177042,
+    "name" : "Ferdinand-Porsche-Platz 1 ",
+    "address" : "Ferdinand-Porsche-Platz 1 ",
+    "location" : "47.0401240,15.4673190",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522336",
+        "identifier" : "AT*POW*E2174",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "638",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E2174",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E2174",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177043,
+    "name" : "Ferdinand-Porsche-Platz 1 ",
+    "address" : "Ferdinand-Porsche-Platz 1 ",
+    "location" : "47.0400070,15.4672620",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522337",
+        "identifier" : "AT*POW*E02178",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "638",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02178",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02178",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:46.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177044,
+    "name" : "Ferdinand-Porsche-Platz 1 ",
+    "address" : "Ferdinand-Porsche-Platz 1 ",
+    "location" : "47.0400700,15.4673620",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522338",
+        "identifier" : "AT*POW*E02177",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "638",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02177",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02177",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:47.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177045,
+    "name" : "Ferdinand-Porsche-Platz 1 ",
+    "address" : "Ferdinand-Porsche-Platz 1 ",
+    "location" : "47.0399870,15.4673480",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522339",
+        "identifier" : "AT*POW*E02176",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "638",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02176",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02176",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:48.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177046,
+    "name" : "Ferdinand-Porsche-Platz 1 ",
+    "address" : "Ferdinand-Porsche-Platz 1 ",
+    "location" : "47.0400260,15.4672050",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522340",
+        "identifier" : "AT*POW*E02175",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "638",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02175",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02175",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:48.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177047,
+    "name" : "Ferdinand-Porsche-Platz 1 ",
+    "address" : "Ferdinand-Porsche-Platz 1 ",
+    "location" : "47.0400850,15.4672050",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522341",
+        "identifier" : "AT*POW*E02173",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "638",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02173",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02173",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:49.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177048,
+    "name" : "Ferdinand-Porsche-Platz 1 ",
+    "address" : "Ferdinand-Porsche-Platz 1 ",
+    "location" : "47.0400850,15.4672900",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522342",
+        "identifier" : "AT*POW*E02172",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "638",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02172",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02172",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:50.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177049,
+    "name" : "Ferdinand-Porsche-Platz 1 ",
+    "address" : "Ferdinand-Porsche-Platz 1 ",
+    "location" : "47.0401040,15.4673480",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522343",
+        "identifier" : "AT*POW*E02171",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "638",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02171",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02171",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177059,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6702320,13.1343350",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522369",
+        "identifier" : "CH*ECUEX7N8U9NRU6MR3Z8FD6VRQY2QUZ",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEX7N8U9NRU6MR3Z8FD6VRQY2QUZ",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEX7N8U9NRU6MR3Z8FD6VRQY2QUZ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:01.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177061,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6696550,13.1334640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522371",
+        "identifier" : "CH*ECUEWM4THZKW4SRTJXER6WF7H4V8FQ",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEWM4THZKW4SRTJXER6WF7H4V8FQ",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEWM4THZKW4SRTJXER6WF7H4V8FQ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:03.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177062,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6702760,13.1342850",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522372",
+        "identifier" : "CH*ECUEW3JVQPRAE6M7443F76KF3CEEBA",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEW3JVQPRAE6M7443F76KF3CEEBA",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEW3JVQPRAE6M7443F76KF3CEEBA",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:05.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177064,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6694410,13.1335230",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522375",
+        "identifier" : "CH*ECUEU55ALCLRQAR9L9SUS2HMAE58WS",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEU55ALCLRQAR9L9SUS2HMAE58WS",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEU55ALCLRQAR9L9SUS2HMAE58WS",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:08.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177065,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6695400,13.1334080",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522376",
+        "identifier" : "CH*ECUETSPSAZJR95FW49Y6PF5ZC9CNLA",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUETSPSAZJR95FW49Y6PF5ZC9CNLA",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUETSPSAZJR95FW49Y6PF5ZC9CNLA",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:09.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177067,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6703240,13.1342350",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522378",
+        "identifier" : "CH*ECUEPM2W9L5SEH2FC2S43VQPTQBAXZ",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEPM2W9L5SEH2FC2S43VQPTQBAXZ",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEPM2W9L5SEH2FC2S43VQPTQBAXZ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:11.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177068,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6695840,13.1334810",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522379",
+        "identifier" : "CH*ECUEMSRAZ4QU98HE6URBRYARKAZ4J3",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEMSRAZ4QU98HE6URBRYARKAZ4J3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEMSRAZ4QU98HE6URBRYARKAZ4J3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:11.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177069,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6694670,13.1334190",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522380",
+        "identifier" : "CH*ECUEMEWYE947585HJDRJ27A9PZAVW2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEMEWYE947585HJDRJ27A9PZAVW2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEMEWYE947585HJDRJ27A9PZAVW2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:12.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177070,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6695050,13.1335020",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522381",
+        "identifier" : "CH*ECUEMAE3BDNXF7XAENMDZEK8A36GP2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEMAE3BDNXF7XAENMDZEK8A36GP2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEMAE3BDNXF7XAENMDZEK8A36GP2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:12.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177073,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6696750,13.1333730",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522385",
+        "identifier" : "CH*ECUEHQ4PG3PQ73RUAN5YBUDQUZMFTX",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEHQ4PG3PQ73RUAN5YBUDQUZMFTX",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEHQ4PG3PQ73RUAN5YBUDQUZMFTX",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:14.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177074,
+    "name" : "Karl-Rödhammer-Weg 91 ",
+    "address" : "Karl-Rödhammer-Weg 91 ",
+    "location" : "47.6696050,13.1333950",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522386",
+        "identifier" : "CH*ECUEDDQBJ56KRCU5RMJLEUCJP5BHTZ",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEDDQBJ56KRCU5RMJLEUCJP5BHTZ",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEDDQBJ56KRCU5RMJLEUCJP5BHTZ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:37:15.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177221,
+    "name" : "Zieregg 13 ",
+    "address" : "Zieregg 13 ",
+    "location" : "46.6865100,15.6113310",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522885",
+        "identifier" : "AT*POW*E02446",
+        "networkId" : "1",
+        "maxPower" : 100000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "676",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02446",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02446",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "522886",
+        "identifier" : "AT*POW*E02445",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "676",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02445",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02445",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-12 14:42:25.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177222,
+    "name" : "Keltensiedlung 95 ",
+    "address" : "Keltensiedlung 95 ",
+    "location" : "47.1122910,14.1824240",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522887",
+        "identifier" : "AT*OMV*EA1562DC6114",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "434",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1562DC6114",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*OMV*EA1562DC6114",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "522888",
+        "identifier" : "AT*OMV*EA1562DC6113",
+        "networkId" : "2",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "434",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1562DC6113",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*OMV*EA1562DC6113",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "522889",
+        "identifier" : "AT*OMV*EA1562DC6112",
+        "networkId" : "3",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "434",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1562DC6112",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*OMV*EA1562DC6112",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "522890",
+        "identifier" : "AT*OMV*EA1562DC6111",
+        "networkId" : "4",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "434",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1562DC6111",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*OMV*EA1562DC6111",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-12 14:42:25.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177706,
+    "name" : "Eichfeld 127 ",
+    "address" : "Eichfeld 127 ",
+    "location" : "46.7250690,15.7630210",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "524203",
+        "identifier" : "AT*HTB*E1022857",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "672",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022857",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022857",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-13 05:19:25.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 177707,
+    "name" : "Sportplatz Hallwang ",
+    "address" : "Sportplatz Hallwang ",
+    "location" : "47.8496530,13.0936860",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "524204",
+        "identifier" : "AT*HTB*E1021396",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "674",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1021396",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1021396",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "524205",
+        "identifier" : "AT*HTB*E1021395",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "674",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1021395",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1021395",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-13 05:19:25.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 178070,
+    "name" : "Söllheimer Straße 4 ",
+    "address" : "Söllheimer Straße 4 ",
+    "location" : "47.8372400,13.0624000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "525328",
+        "identifier" : "AT*DAE*E0003375",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "628",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0003375",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*DAE*E0003375",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "525329",
+        "identifier" : "AT*DAE*E0003374",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "628",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0003374",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*DAE*E0003374",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-14 05:31:30.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

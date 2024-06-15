@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 177010,
+    "name" : "Industrijska ulica 45 ",
+    "address" : "Industrijska ulica 45 ",
+    "location" : "46.5848740,15.8391770",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "447113",
+        "identifier" : "SI*LDL*E00000023",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "432",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*LDL*E00000023",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*LDL*E00000023",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "447116",
+        "identifier" : "SI*LDL*E00000022",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "439",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*LDL*E00000022",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*LDL*E00000022",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:36:24.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

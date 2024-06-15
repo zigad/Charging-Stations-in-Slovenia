@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 159258,
+    "name" : "Alte Poststraße 234 ",
+    "address" : "Alte Poststraße 234 ",
+    "location" : "47.0593180,15.4135720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "413260",
+        "identifier" : "AT*OMV*EA1650DC6110",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "434",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1650DC6110",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*OMV*EA1650DC6110",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-04-02 07:49:25.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

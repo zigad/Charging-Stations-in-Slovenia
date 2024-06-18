@@ -1,0 +1,183 @@
+{
+  "locations" : [ {
+    "id" : 546443,
+    "name" : "Svetosavska 5 ",
+    "address" : "Svetosavska 5 ",
+    "location" : "45.1835120,16.8078970",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1014885",
+        "identifier" : "CH*ECUEYW324RJYQ7YKYJNTKEQ2N3CDFW",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "722",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEYW324RJYQ7YKYJNTKEQ2N3CDFW",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/CH*ECUEYW324RJYQ7YKYJNTKEQ2N3CDFW",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1014888",
+        "identifier" : "CH*ECUESBJCWJRGUMANLYSRZMVLNVNEKQ",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "722",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUESBJCWJRGUMANLYSRZMVLNVNEKQ",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/CH*ECUESBJCWJRGUMANLYSRZMVLNVNEKQ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 06:21:47.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 563533,
+    "name" : "Meierhof ",
+    "address" : "Meierhof ",
+    "location" : "47.8210470,16.5450880",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1064489",
+        "identifier" : "AT*HTB*E1022252",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "404",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022252",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1022252",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1064490",
+        "identifier" : "AT*HTB*E1022251",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "404",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022251",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1022251",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 06:50:49.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 563534,
+    "name" : "Meierhof ",
+    "address" : "Meierhof ",
+    "location" : "47.8210430,16.5451740",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1064491",
+        "identifier" : "AT*HTB*E1022250",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "404",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022250",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1022250",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1064492",
+        "identifier" : "AT*HTB*E1022249",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "404",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022249",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1022249",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 06:50:50.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

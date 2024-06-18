@@ -1,0 +1,131 @@
+{
+  "locations" : [ {
+    "id" : 563483,
+    "name" : "Urinj 46 ",
+    "address" : "Urinj 46 ",
+    "location" : "45.2897400,14.5277750",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1061176",
+        "identifier" : "HR*PHR*E425*00201",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "398",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*PHR*E425*00201",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR*PHR*E425*00201",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-17 03:03:27.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 563531,
+    "name" : "Zieregg 13 ",
+    "address" : "Zieregg 13 ",
+    "location" : "46.6859920,15.6132820",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1061737",
+        "identifier" : "AT*POW*E02445",
+        "networkId" : "1",
+        "maxPower" : 44000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "404",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02445",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*POW*E02445",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-17 03:03:27.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 563539,
+    "name" : "Frachtengasse 4 ",
+    "address" : "Frachtengasse 4 ",
+    "location" : "47.0283900,15.4324400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1039676",
+        "identifier" : "AT*DAE*E0003238",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "404",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0003238",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAE*E0003238",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1043228",
+        "identifier" : "AT*DAE*E0003222",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "405",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0003222",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAE*E0003222",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 02:30:40.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

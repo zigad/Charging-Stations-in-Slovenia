@@ -1,0 +1,211 @@
+{
+  "locations" : [ {
+    "id" : 168765,
+    "name" : "Svetosavska 5 ",
+    "address" : "Svetosavska 5 ",
+    "location" : "45.1835120,16.8078970",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "444154",
+        "identifier" : "CH*ECUEYW324RJYQ7YKYJNTKEQ2N3CDFW",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEYW324RJYQ7YKYJNTKEQ2N3CDFW",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEYW324RJYQ7YKYJNTKEQ2N3CDFW",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "444155",
+        "identifier" : "CH*ECUESBJCWJRGUMANLYSRZMVLNVNEKQ",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUESBJCWJRGUMANLYSRZMVLNVNEKQ",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUESBJCWJRGUMANLYSRZMVLNVNEKQ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 04:33:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 178560,
+    "name" : "Meierhof ",
+    "address" : "Meierhof ",
+    "location" : "47.8210470,16.5450880",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "526932",
+        "identifier" : "AT*HTB*E1022252",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "676",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022252",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022252",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "526933",
+        "identifier" : "AT*HTB*E1022251",
+        "networkId" : "2",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "676",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022251",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022251",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 04:49:40.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 178561,
+    "name" : "Meierhof ",
+    "address" : "Meierhof ",
+    "location" : "47.8210430,16.5451740",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "526934",
+        "identifier" : "AT*HTB*E1022250",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "676",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022250",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022250",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "526935",
+        "identifier" : "AT*HTB*E1022249",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "676",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022249",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022249",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 04:49:40.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 178851,
+    "name" : "Gessenschwandt 63 ",
+    "address" : "Gessenschwandt 63 ",
+    "location" : "47.8617340,13.4366460",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "365749",
+        "identifier" : "CH*ECUEE4STGK9829HTK9UM2MAQRPFLZQ",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEE4STGK9829HTK9UM2MAQRPFLZQ",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEE4STGK9829HTK9UM2MAQRPFLZQ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-19 04:25:40.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

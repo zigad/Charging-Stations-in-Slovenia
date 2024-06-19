@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 176181,
+    "name" : "Gessenschwandt 63 ",
+    "address" : "Gessenschwandt 63 ",
+    "location" : "47.8617340,13.4366460",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "368289",
+        "identifier" : "CH*ECUEE4STGK9829HTK9UM2MAQRPFLZQ",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "551",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEE4STGK9829HTK9UM2MAQRPFLZQ",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUEE4STGK9829HTK9UM2MAQRPFLZQ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-19 04:29:30.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

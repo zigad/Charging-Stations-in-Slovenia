@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 563906,
+    "name" : "Haslau bei Birkfeld 63",
+    "address" : "Haslau bei Birkfeld 63",
+    "location" : "47.3709500,15.6401270",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1065732",
+        "identifier" : "AT*EST*E000*02843",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "615",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02843",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*02843",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-20 03:40:03.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

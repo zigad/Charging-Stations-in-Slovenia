@@ -1,0 +1,40 @@
+[ {
+  "id" : 2643,
+  "name" : "Vrtec Lovrenc na dr. polju AC 1",
+  "address" : "Lovrenc na Dravskem polju",
+  "town" : "Lovrenc na Dravskem polju",
+  "lat" : 46.373529,
+  "lng" : 15.775115,
+  "deluje" : 0,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Plug & Charge Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@22 kW"
+}, {
+  "id" : 2749,
+  "name" : "Vrtec Lovrenc na dr. polju AC 2",
+  "address" : "Lovrenc na dravskem polju",
+  "town" : "Lovrenc na dravskem polju",
+  "lat" : 46.372892,
+  "lng" : 15.781662,
+  "deluje" : 0,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2751,
+  "name" : "Lovrenc na dr. polju AC 3",
+  "address" : "Lovrenc na dravskem polju",
+  "town" : "Lovrenc na dravskem polju",
+  "lat" : 46.372892,
+  "lng" : 15.781662,
+  "deluje" : 0,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@"
+} ]

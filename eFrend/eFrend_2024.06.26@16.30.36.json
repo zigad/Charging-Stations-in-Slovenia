@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 115167,
+    "name" : "Biodorf-Weg 4 ",
+    "address" : "Biodorf-Weg 4 ",
+    "location" : "47.9709760,13.0774860",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "286925",
+        "identifier" : "AT*HTB*E1013988",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "677",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1013988",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1013988",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "286926",
+        "identifier" : "AT*HTB*E1013987",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "677",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1013987",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1013987",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-26 03:48:30.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 180948,
+    "name" : "Hangernstraße 5",
+    "address" : "Hangernstraße 5",
+    "location" : "47.9195250,16.1847910",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "533401",
+        "identifier" : "AT*EVN*E3782*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3782*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3782*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "533402",
+        "identifier" : "AT*EVN*E3782*1",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3782*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3782*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-26 03:33:40.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

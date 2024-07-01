@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 182046,
+    "name" : "Schlossallee 2",
+    "address" : "Schlossallee 2",
+    "location" : "46.5909930,14.0200220",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "535747",
+        "identifier" : "AT*KEL*E007*71184",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "699",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71184",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KEL*E007*71184",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "535748",
+        "identifier" : "AT*KEL*E007*71183",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "699",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71183",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KEL*E007*71183",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-29 04:41:27.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

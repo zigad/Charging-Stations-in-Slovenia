@@ -1,0 +1,265 @@
+{
+  "locations" : [ {
+    "id" : 182452,
+    "name" : "Grazerstraße 123 ",
+    "address" : "Grazerstraße 123 ",
+    "location" : "47.2830790,16.1858760",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "415545",
+        "identifier" : "AT*OMV*EA1640DC6115",
+        "networkId" : "2",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1640DC6115",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*OMV*EA1640DC6115",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 04:16:52.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 182453,
+    "name" : "Grazerstraße 123 ",
+    "address" : "Grazerstraße 123 ",
+    "location" : "47.2830680,16.1858710",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "415546",
+        "identifier" : "AT*OMV*EA1640DC6114",
+        "networkId" : "3",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1640DC6114",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*OMV*EA1640DC6114",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 04:16:53.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 182454,
+    "name" : "Grazer Straße 42 ",
+    "address" : "Grazer Straße 42 ",
+    "location" : "47.1056750,15.7011310",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "434913",
+        "identifier" : "AT*OMV*EA1661DC6106",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1661DC6106",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*OMV*EA1661DC6106",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 04:18:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 182455,
+    "name" : "Ostbahnstraße 10 ",
+    "address" : "Ostbahnstraße 10 ",
+    "location" : "47.0420360,15.4641740",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "434917",
+        "identifier" : "AT*OMV*EA1005DC6110",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1005DC6110",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*OMV*EA1005DC6110",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 04:18:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 182461,
+    "name" : "Grazerstraße 123 ",
+    "address" : "Grazerstraße 123 ",
+    "location" : "47.2830080,16.1859490",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "415547",
+        "identifier" : "AT*OMV*EA1640DC6113",
+        "networkId" : "4",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1640DC6113",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*OMV*EA1640DC6113",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 04:33:31.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 182495,
+    "name" : "Straßganger Straße 436 ",
+    "address" : "Straßganger Straße 436 ",
+    "location" : "47.0332570,15.3984130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "434931",
+        "identifier" : "AT*OMV*EA1654DC6112",
+        "networkId" : "2",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1654DC6112",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*OMV*EA1654DC6112",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 05:00:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 182496,
+    "name" : "Straßganger Straße 436 ",
+    "address" : "Straßganger Straße 436 ",
+    "location" : "47.0332480,15.3984120",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "434933",
+        "identifier" : "AT*OMV*EA1654DC6111",
+        "networkId" : "3",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1654DC6111",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*OMV*EA1654DC6111",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "434935",
+        "identifier" : "AT*OMV*EA1654DC6110",
+        "networkId" : "4",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1654DC6110",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*OMV*EA1654DC6110",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 05:00:51.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

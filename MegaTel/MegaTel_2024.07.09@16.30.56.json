@@ -1,0 +1,267 @@
+{
+  "locations" : [ {
+    "id" : 484628,
+    "name" : "Grazerstraße 123 ",
+    "address" : "Grazerstraße 123 ",
+    "location" : "47.2830790,16.1858760",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "910581",
+        "identifier" : "AT*OMV*EA1640DC6115",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "821",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1640DC6115",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*OMV*EA1640DC6115",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 06:36:30.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 484629,
+    "name" : "Grazerstraße 123 ",
+    "address" : "Grazerstraße 123 ",
+    "location" : "47.2830680,16.1858710",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "910582",
+        "identifier" : "AT*OMV*EA1640DC6114",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "821",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1640DC6114",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*OMV*EA1640DC6114",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-08 03:03:07.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 487561,
+    "name" : "Grazer Straße 42 ",
+    "address" : "Grazer Straße 42 ",
+    "location" : "47.1056750,15.7011310",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "917698",
+        "identifier" : "AT*OMV*EA1661DC6106",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "821",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1661DC6106",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*OMV*EA1661DC6106",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 13:06:44.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 487562,
+    "name" : "Ostbahnstraße 10 ",
+    "address" : "Ostbahnstraße 10 ",
+    "location" : "47.0420360,15.4641740",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "917700",
+        "identifier" : "AT*OMV*EA1005DC6110",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "821",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1005DC6110",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*OMV*EA1005DC6110",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 13:22:15.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 525971,
+    "name" : "Grazerstraße 123 ",
+    "address" : "Grazerstraße 123 ",
+    "location" : "47.2830080,16.1859490",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "910583",
+        "identifier" : "AT*OMV*EA1640DC6113",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "821",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1640DC6113",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*OMV*EA1640DC6113",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-08 03:03:07.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 568508,
+    "name" : "Straßganger Straße 436 ",
+    "address" : "Straßganger Straße 436 ",
+    "location" : "47.0332570,15.3984130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "950633",
+        "identifier" : "AT*OMV*EA1654DC6112",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "821",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1654DC6112",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*OMV*EA1654DC6112",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 09:53:24.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 568509,
+    "name" : "Straßganger Straße 436 ",
+    "address" : "Straßganger Straße 436 ",
+    "location" : "47.0332480,15.3984120",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "950634",
+        "identifier" : "AT*OMV*EA1654DC6111",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "821",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1654DC6111",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*OMV*EA1654DC6111",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "950635",
+        "identifier" : "AT*OMV*EA1654DC6110",
+        "networkId" : "1",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "821",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA1654DC6110",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*OMV*EA1654DC6110",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-09 10:20:36.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,187 @@
+{
+  "locations" : [ {
+    "id" : 184155,
+    "name" : "Ehrenfeld 1 ",
+    "address" : "Ehrenfeld 1 ",
+    "location" : "47.9911700,13.7844780",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "543041",
+        "identifier" : "AT*ENA*E02615",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "373",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02615",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ENA*E02615",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "543042",
+        "identifier" : "AT*ENA*E02614",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "373",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02614",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ENA*E02614",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-10 12:05:43.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 184156,
+    "name" : "Lunz am See 13",
+    "address" : "Lunz am See 13",
+    "location" : "47.8544120,15.0400440",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "543043",
+        "identifier" : "AT*EVN*E3553*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3553*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3553*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "543045",
+        "identifier" : "AT*EVN*E3553*1",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3553*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3553*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-10 03:26:07.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 184272,
+    "name" : "Eisbachstraße 4",
+    "address" : "Eisbachstraße 4",
+    "location" : "47.8304800,16.5257200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "528180",
+        "identifier" : "AT*STQ*E*1000*0107",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "259",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STQ*E*1000*0107",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*STQ*E*1000*0107",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-10 04:42:43.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 184273,
+    "name" : "Eisbachstraße 4",
+    "address" : "Eisbachstraße 4",
+    "location" : "47.8302700,16.5252200",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "528181",
+        "identifier" : "AT*STQ*E*1000*0102",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "259",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STQ*E*1000*0102",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*STQ*E*1000*0102",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-10 04:42:43.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

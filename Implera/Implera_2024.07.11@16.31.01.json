@@ -1,0 +1,53 @@
+[ {
+  "id" : 1287,
+  "name" : "Dobrovnik Bukovniško jezero Type 2",
+  "address" : "Dobrovnik",
+  "town" : "Dobrovnik",
+  "lat" : 46.668959,
+  "lng" : 16.338866,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@7,2 kW"
+}, {
+  "id" : 1289,
+  "name" : "Dobrovnik Bukovniško jezero Schuko L",
+  "address" : "Dobrovnik",
+  "town" : "Dobrovnik",
+  "lat" : 46.668959,
+  "lng" : 16.338866,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Schuko L 230V@2 kW"
+}, {
+  "id" : 1291,
+  "name" : "Dobrovnik Bukovniško jezero Schuko R",
+  "address" : "Dobrovnik",
+  "town" : "Dobrovnik",
+  "lat" : 46.668959,
+  "lng" : 16.338866,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Schuko R 230V@2 kW"
+}, {
+  "id" : 2502,
+  "name" : "Labin Floria Glamping Garden Charging Station 1 Type 2",
+  "address" : "Gondolići",
+  "town" : "Labin",
+  "lat" : 45.075394,
+  "lng" : 14.126726,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@22 kW"
+} ]

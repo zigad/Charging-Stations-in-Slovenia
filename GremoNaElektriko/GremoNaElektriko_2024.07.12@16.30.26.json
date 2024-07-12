@@ -1,0 +1,163 @@
+{
+  "locations" : [ {
+    "id" : 169529,
+    "name" : "Rohrmoosstraße 164",
+    "address" : "Rohrmoosstraße 164",
+    "location" : "47.3873500,13.6780660",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "483656",
+        "identifier" : "AT*HTB*E1017091",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "349",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1017091",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1017091",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-28 03:29:49.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 182804,
+    "name" : "Hauptstraße 2 ",
+    "address" : "Hauptstraße 2 ",
+    "location" : "47.9351680,13.8462000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "538532",
+        "identifier" : "AT*ENA*E02748",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "501",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02748",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02748",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "538533",
+        "identifier" : "AT*ENA*E02747",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "501",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02747",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02747",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-11 04:54:43.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 183387,
+    "name" : "Schulstraße 4 ",
+    "address" : "Schulstraße 4 ",
+    "location" : "47.9457000,14.3585950",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "277438",
+        "identifier" : "AT*ENA*E02067",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "501",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02067",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02067",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-12 04:40:49.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 183388,
+    "name" : "Bad-Haller-Straße ",
+    "address" : "Bad-Haller-Straße ",
+    "location" : "47.9927890,14.2174760",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "277450",
+        "identifier" : "AT*ENA*E02053",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "501",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02053",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02053",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-12 04:40:50.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

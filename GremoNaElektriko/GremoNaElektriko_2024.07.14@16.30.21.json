@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 181038,
+    "name" : "Lazarettgasse 11 ",
+    "address" : "Lazarettgasse 11 ",
+    "location" : "47.8153360,16.2557530",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "532024",
+        "identifier" : "AT*HTB*EE1024859",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "348",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*EE1024859",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*EE1024859",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-03 04:26:00.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

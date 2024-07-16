@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 176262,
+    "name" : "Széchenyi utca 55. - TESCO ",
+    "address" : "Széchenyi utca 55. - TESCO ",
+    "location" : "46.9477730,17.8773890",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "517872",
+        "identifier" : "HU*MVM*E10293*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10293*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10293*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "517873",
+        "identifier" : "HU*MVM*E10293*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10293*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10293*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-19 04:29:58.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 176263,
+    "name" : "Széchenyi utca 55. - TESCO ",
+    "address" : "Széchenyi utca 55. - TESCO ",
+    "location" : "46.9478890,17.8773000",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "517874",
+        "identifier" : "HU*MVM*E10292*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10292*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10292*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "517875",
+        "identifier" : "HU*MVM*E10292*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "387",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HU*MVM*E10292*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/HU*MVM*E10292*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-19 04:29:58.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

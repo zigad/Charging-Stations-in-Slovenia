@@ -1,0 +1,22 @@
+[ {
+  "Id" : 2510049,
+  "FriendlyName" : "Magma X fitnes",
+  "FriendlyCode" : "SI*POR0134",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Nova Gorica",
+    "PostNumber" : "5000",
+    "StreetName" : "Industrijska cesta",
+    "HouseNumber" : "11",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

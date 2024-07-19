@@ -1,0 +1,27 @@
+[ {
+  "id" : 2755,
+  "name" : "Poliklinika Medikadent Križevci AC PID 1019",
+  "address" : "Ulica Nikole Tesle",
+  "town" : "Križevci",
+  "lat" : 46.01643,
+  "lng" : 16.537191,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2757,
+  "name" : "Poliklinika Medikadent Križevci AC PID 1021",
+  "address" : "Ulica Nikole Tesle",
+  "town" : "Križevci",
+  "lat" : 46.01643,
+  "lng" : 16.537191,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

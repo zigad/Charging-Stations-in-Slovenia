@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 570976,
+    "name" : "Vogelweiderstrasse 33",
+    "address" : "Vogelweiderstrasse 33",
+    "location" : "47.8107000,13.0545100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1087301",
+        "identifier" : "AT*430*E7000*232",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*232",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*430*E7000*232",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1087302",
+        "identifier" : "AT*430*E7000*231",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "32",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*231",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*430*E7000*231",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-19 03:30:30.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

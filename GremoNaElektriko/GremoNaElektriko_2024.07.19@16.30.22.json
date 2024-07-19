@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 185400,
+    "name" : "Vogelweiderstrasse 33",
+    "address" : "Vogelweiderstrasse 33",
+    "location" : "47.8107000,13.0545100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "549855",
+        "identifier" : "AT*430*E7000*232",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "31",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*232",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*430*E7000*232",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "549856",
+        "identifier" : "AT*430*E7000*231",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "31",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E7000*231",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*430*E7000*231",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-19 03:26:51.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

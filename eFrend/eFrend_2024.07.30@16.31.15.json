@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 191129,
+    "name" : "Fischböckauer Straße 10  ",
+    "address" : "Fischböckauer Straße 10  ",
+    "location" : "47.9993550,13.9430820",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "265406",
+        "identifier" : "AT*ELA*E1000093",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "530",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ELA*E1000093",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ELA*E1000093",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-30 04:49:44.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

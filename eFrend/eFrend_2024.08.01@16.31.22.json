@@ -1,0 +1,177 @@
+{
+  "locations" : [ {
+    "id" : 191354,
+    "name" : "Ludwig Bolzmann Straße 14",
+    "address" : "Ludwig Bolzmann Straße 14",
+    "location" : "47.9704930,16.8453620",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "566989",
+        "identifier" : "AT*EBM*E40002*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "739",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40002*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EBM*E40002*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "566990",
+        "identifier" : "AT*EBM*E40002*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "740",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E40002*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EBM*E40002*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-01 03:39:41.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 191356,
+    "name" : "Hirtenberger Straße 4c",
+    "address" : "Hirtenberger Straße 4c",
+    "location" : "47.9351730,16.2193880",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "566993",
+        "identifier" : "AT*EVN*E2810*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2810*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E2810*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "566994",
+        "identifier" : "AT*EVN*E2809*1",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2809*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E2809*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-01 03:39:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 191525,
+    "name" : "Brežice Glasbena šola",
+    "address" : "Cesta prvih borcev 5, 8250 Brežice, Slovenija",
+    "location" : "45.9026970,15.5926230",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "567691",
+        "identifier" : "SI*GNE*E1092",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1092",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E1092",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "567692",
+        "identifier" : "SI*GNE*E1093",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "190",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1093",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/SI*GNE*E1093",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-01 09:19:01.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

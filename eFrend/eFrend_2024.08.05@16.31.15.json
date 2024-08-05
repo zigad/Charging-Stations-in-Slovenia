@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 191853,
+    "name" : "Hinterstoder 50 ",
+    "address" : "Hinterstoder 50 ",
+    "location" : "47.6980450,14.1490920",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "274916",
+        "identifier" : "AT*ENA*E02003",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "373",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02003",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ENA*E02003",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "274917",
+        "identifier" : "AT*ENA*E02002",
+        "networkId" : "3",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "373",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02002",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ENA*E02002",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "274918",
+        "identifier" : "AT*ENA*E02001",
+        "networkId" : "4",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "373",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02001",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ENA*E02001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-05 03:48:07.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 191854,
+    "name" : "Bahnhofstraße 4 ",
+    "address" : "Bahnhofstraße 4 ",
+    "location" : "47.7190780,14.3287750",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "274836",
+        "identifier" : "AT*ENA*E02103",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "373",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02103",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ENA*E02103",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-05 04:32:09.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

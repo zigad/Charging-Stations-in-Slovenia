@@ -1,0 +1,207 @@
+{
+  "locations" : [ {
+    "id" : 191026,
+    "name" : "Dechantskirchen 34",
+    "address" : "Dechantskirchen 34",
+    "location" : "47.4173030,16.0195190",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "568342",
+        "identifier" : "AT*KWS*E2312112*28428686",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2312112*28428686",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2312112*28428686",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-30 04:49:16.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 191593,
+    "name" : "Localita' Cero' 8",
+    "address" : "Localita' Cero' 8",
+    "location" : "46.0350270,13.4856720",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "568059",
+        "identifier" : "IT*REVETACR2245022S0213*1*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "23",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*REVETACR2245022S0213*1*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*REVETACR2245022S0213*1*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-02 05:09:20.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 191600,
+    "name" : "Casali Isola Augusta  4",
+    "address" : "Casali Isola Augusta  4",
+    "location" : "45.8065570,13.0303380",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "568064",
+        "identifier" : "IT*REVEGSP00772*1*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "23",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*REVEGSP00772*1*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/IT*REVEGSP00772*1*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-02 05:09:21.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 192272,
+    "name" : "Gütl am Eck 11 ",
+    "address" : "Gütl am Eck 11 ",
+    "location" : "47.8540270,13.7445640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "570226",
+        "identifier" : "AT*HTB*E1020251",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "670",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1020251",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1020251",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-09 05:09:30.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 192292,
+    "name" : "Langseitenrotte 91",
+    "address" : "Langseitenrotte 91",
+    "location" : "47.8558900,15.3079290",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "570295",
+        "identifier" : "AT*KWS*E2312132",
+        "networkId" : "1",
+        "maxPower" : 7000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2312132",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2312132",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-09 05:09:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 192293,
+    "name" : "Langseitenrotte 91",
+    "address" : "Langseitenrotte 91",
+    "location" : "47.8558860,15.3079260",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "570296",
+        "identifier" : "AT*KWS*E2312128",
+        "networkId" : "1",
+        "maxPower" : 7000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2312128",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2312128",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-09 05:09:37.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

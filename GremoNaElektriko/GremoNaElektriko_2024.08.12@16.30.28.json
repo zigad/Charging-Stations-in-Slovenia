@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 185534,
+    "name" : "Via Guglielmo Marconi, 10 10",
+    "address" : "Via Guglielmo Marconi, 10 10",
+    "location" : "45.8101700,13.4431790",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "550578",
+        "identifier" : "IT*ELX*E22XP22T3QQ1AN00062*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "329",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*ELX*E22XP22T3QQ1AN00062*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*ELX*E22XP22T3QQ1AN00062*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-10 09:11:58.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 188435,
+    "name" : "Via Guglielmo Marconi, 10 10",
+    "address" : "Via Guglielmo Marconi, 10 10",
+    "location" : "45.8096510,13.4428120",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "550579",
+        "identifier" : "IT*ELX*E22XP22T3QQ1AN00062*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "329",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*ELX*E22XP22T3QQ1AN00062*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*ELX*E22XP22T3QQ1AN00062*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-07-25 04:54:31.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

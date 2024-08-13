@@ -1,0 +1,53 @@
+[ {
+  "id" : 2568,
+  "name" : "Nac. inštitut za Biologijo 886",
+  "address" : "Večna pot",
+  "town" : "Ljubljana",
+  "lat" : 46.05168,
+  "lng" : 14.469942,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2570,
+  "name" : "Nac. inštitut za Biologijo 888",
+  "address" : "Večna pot",
+  "town" : "Ljubljana",
+  "lat" : 46.05178,
+  "lng" : 14.468599,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2572,
+  "name" : "Nac. inštitut za Biologijo 890",
+  "address" : "Večna pot",
+  "town" : "Ljubljana",
+  "lat" : 46.05185,
+  "lng" : 14.468586,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+}, {
+  "id" : 2574,
+  "name" : "Nac. inštitut za Biologijo 892",
+  "address" : "Večna pot",
+  "town" : "Ljubljana",
+  "lat" : 46.051816,
+  "lng" : 14.468554,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@22 kW"
+} ]

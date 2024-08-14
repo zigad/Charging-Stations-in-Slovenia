@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 192863,
+    "name" : "Schubertstraße 5",
+    "address" : "Schubertstraße 5",
+    "location" : "47.2114400,14.8253550",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "571559",
+        "identifier" : "AT*EST*E000*02490",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02490",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02490",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "571560",
+        "identifier" : "AT*EST*E000*02489",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02489",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02489",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-14 03:31:27.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

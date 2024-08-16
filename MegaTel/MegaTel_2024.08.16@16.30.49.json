@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 578276,
+    "name" : "Kollingerfeld 8 ",
+    "address" : "Kollingerfeld 8 ",
+    "location" : "47.8902150,14.1249890",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1107929",
+        "identifier" : "CH*ECUEMFNJUPGLY72YS8BSNCR2SZD7Q3",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "722",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEMFNJUPGLY72YS8BSNCR2SZD7Q3",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/CH*ECUEMFNJUPGLY72YS8BSNCR2SZD7Q3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-16 10:38:34.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 578277,
+    "name" : "Kollingerfeld 8 ",
+    "address" : "Kollingerfeld 8 ",
+    "location" : "47.8902120,14.1249790",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1107930",
+        "identifier" : "CH*ECUEHUWE5TMAHEYWD9U637C823SMD3",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "722",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEHUWE5TMAHEYWD9U637C823SMD3",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/CH*ECUEHUWE5TMAHEYWD9U637C823SMD3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-16 03:49:12.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

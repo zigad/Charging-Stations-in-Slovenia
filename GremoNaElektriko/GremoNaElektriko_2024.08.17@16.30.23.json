@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 192338,
+    "name" : "Pfarrstraße 29 ",
+    "address" : "Pfarrstraße 29 ",
+    "location" : "47.1497090,13.7463960",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "569800",
+        "identifier" : "AT*SZG*E102091",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E102091",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*SZG*E102091",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-15 05:25:35.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 192476,
+    "name" : "Hauptstraße 2 ",
+    "address" : "Hauptstraße 2 ",
+    "location" : "47.9345760,13.8449930",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "538533",
+        "identifier" : "AT*ENA*E02747",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "501",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02747",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*ENA*E02747",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-17 05:16:47.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 172460,
+    "name" : "Via Orsaria 50 50",
+    "address" : "Via Orsaria 50 50",
+    "location" : "46.0039900,13.3802990",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "495018",
+        "identifier" : "IT*REVEPGS506*1*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "75",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*REVEPGS506*1*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*REVEPGS506*1*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "495019",
+        "identifier" : "IT*REVEPGS506*1*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "75",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*REVEPGS506*1*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*REVEPGS506*1*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-05-30 06:29:53.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

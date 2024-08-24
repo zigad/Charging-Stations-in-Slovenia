@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 194172,
+    "name" : "Haltestellenweg 23",
+    "address" : "Haltestellenweg 23",
+    "location" : "47.1681580,13.0939400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "575509",
+        "identifier" : "AT*POW*E02306",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "656",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02306",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02306",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "575512",
+        "identifier" : "AT*POW*E02305",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "656",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02305",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02305",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-24 03:41:40.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 194173,
+    "name" : "Haltestellenweg 23",
+    "address" : "Haltestellenweg 23",
+    "location" : "47.1684860,13.0935670",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "575515",
+        "identifier" : "AT*POW*E02308",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "656",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02308",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02308",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "575518",
+        "identifier" : "AT*POW*E02307",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "656",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02307",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*POW*E02307",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-24 03:41:40.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

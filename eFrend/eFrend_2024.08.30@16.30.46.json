@@ -1,0 +1,95 @@
+{
+  "locations" : [ {
+    "id" : 194686,
+    "name" : "Vordertalstraße 11",
+    "address" : "Vordertalstraße 11",
+    "location" : "47.5854920,13.5350600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "577150",
+        "identifier" : "AT*ENA*E02777",
+        "networkId" : "3",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "374",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02777",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ENA*E02777",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "577151",
+        "identifier" : "AT*ENA*E02776",
+        "networkId" : "4",
+        "maxPower" : 300000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "374",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*ENA*E02776",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*ENA*E02776",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-30 03:28:14.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 194965,
+    "name" : "Coburgstraße 253",
+    "address" : "Coburgstraße 253",
+    "location" : "47.3921870,13.6910780",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "578030",
+        "identifier" : "AT*SZG*E102088",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "733",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E102088",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*SZG*E102088",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-30 07:14:48.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

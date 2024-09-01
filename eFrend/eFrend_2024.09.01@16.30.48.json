@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 195161,
+    "name" : "Wolfauer Straße 79 ",
+    "address" : "Wolfauer Straße 79 ",
+    "location" : "47.2757580,16.0873240",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "578511",
+        "identifier" : "AT*DAE*E0003457",
+        "networkId" : "1",
+        "maxPower" : 60000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "677",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAE*E0003457",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*DAE*E0003457",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-31 05:10:45.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

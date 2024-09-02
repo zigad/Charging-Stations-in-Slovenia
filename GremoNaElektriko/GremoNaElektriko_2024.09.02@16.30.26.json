@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 191807,
+    "name" : "Welzenegger Straße 69",
+    "address" : "Welzenegger Straße 69",
+    "location" : "46.6322050,14.3349800",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "568324",
+        "identifier" : "AT*KEL*E007*71243",
+        "networkId" : "1",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "323",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71243",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KEL*E007*71243",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "568325",
+        "identifier" : "AT*KEL*E007*71242",
+        "networkId" : "2",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "323",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71242",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KEL*E007*71242",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-13 03:35:18.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 191808,
+    "name" : "Welzenegger Straße 69",
+    "address" : "Welzenegger Straße 69",
+    "location" : "46.6321240,14.3350130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "568326",
+        "identifier" : "AT*KEL*E007*71241",
+        "networkId" : "1",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "323",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71241",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KEL*E007*71241",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "568327",
+        "identifier" : "AT*KEL*E007*71240",
+        "networkId" : "2",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "323",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71240",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KEL*E007*71240",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-13 03:35:18.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

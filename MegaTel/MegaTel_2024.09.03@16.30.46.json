@@ -1,0 +1,155 @@
+{
+  "locations" : [ {
+    "id" : 580782,
+    "name" : "Markt 27 ",
+    "address" : "Markt 27 ",
+    "location" : "47.2172910,15.4041520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "885724",
+        "identifier" : "AT*HTB*E1021159",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "451",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1021159",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1021159",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-02 03:03:25.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 580788,
+    "name" : "Salzburger Straße 15",
+    "address" : "Salzburger Straße 15",
+    "location" : "47.9845060,13.4108760",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1115141",
+        "identifier" : "AT*LAG*E1257*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "614",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1257*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*LAG*E1257*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1115142",
+        "identifier" : "AT*LAG*E1257*1",
+        "networkId" : "1",
+        "maxPower" : 43000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "614",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1257*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*LAG*E1257*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-03 03:49:25.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 580900,
+    "name" : "Žiri Etiketa",
+    "address" : "Trg svobode 2, 4226 Žiri, Slovenija",
+    "location" : "46.0508280,14.1080750",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1115469",
+        "identifier" : "SI*GNE*E1167",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1167",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1167",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "1115470",
+        "identifier" : "SI*GNE*E1168",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1168",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1168",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-03 12:22:12.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,22 @@
+[ {
+  "Id" : 2569401,
+  "FriendlyName" : "Radeče Zeleni otok",
+  "FriendlyCode" : "SI*POR0136",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Radeče",
+    "PostNumber" : "1433",
+    "StreetName" : "Gledališka pot",
+    "HouseNumber" : "2",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

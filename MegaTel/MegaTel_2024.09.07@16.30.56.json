@@ -1,0 +1,123 @@
+{
+  "locations" : [ {
+    "id" : 581619,
+    "name" : "Hauptstraße 48",
+    "address" : "Hauptstraße 48",
+    "location" : "47.9845840,16.2153110",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1117829",
+        "identifier" : "AT*EVN*E2845*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "655",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2845*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EVN*E2845*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-07 04:16:10.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 581654,
+    "name" : "Quellenstraße  1",
+    "address" : "Quellenstraße  1",
+    "location" : "47.9725970,16.2259280",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "2332",
+        "identifier" : "AT*VIE*E5106*2",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "301",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5106*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*VIE*E5106*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "2333",
+        "identifier" : "AT*VIE*E5106*3",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "300",
+        "connectors" : [ {
+          "name" : "Schuko",
+          "icon" : "schuko",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5106*3",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*VIE*E5106*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "3110",
+        "identifier" : "AT*VIE*E5106*1",
+        "networkId" : "1",
+        "maxPower" : 11085,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "301",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E5106*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*VIE*E5106*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-07 02:30:08.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

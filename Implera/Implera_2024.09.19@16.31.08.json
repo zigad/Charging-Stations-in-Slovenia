@@ -1,0 +1,53 @@
+[ {
+  "id" : 2765,
+  "name" : "Šoštanj Tresimir AC Leva",
+  "address" : "Cankarjeva cesta",
+  "town" : "Šoštanj",
+  "lat" : 46.376944,
+  "lng" : 15.052847,
+  "deluje" : 0,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@11 kW"
+}, {
+  "id" : 2767,
+  "name" : "Šoštanj Tresimir AC Desna",
+  "address" : "Cankarjeva cesta",
+  "town" : "Šoštanj",
+  "lat" : 46.376944,
+  "lng" : 15.052847,
+  "deluje" : 0,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@11 kW"
+}, {
+  "id" : 2769,
+  "name" : "Šoštanj Bencinska AC",
+  "address" : "Kajuhova cesta",
+  "town" : "Šoštanj",
+  "lat" : 46.377782,
+  "lng" : 15.047311,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@11 kW"
+}, {
+  "id" : 2771,
+  "name" : "Šoštanj Bencinska AC Desna",
+  "address" : "Kajuhova cesta",
+  "town" : "Šoštanj",
+  "lat" : 46.377782,
+  "lng" : 15.047311,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@11 kW"
+} ]

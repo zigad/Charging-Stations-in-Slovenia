@@ -1,0 +1,249 @@
+{
+  "locations" : [ {
+    "id" : 584154,
+    "name" : "Avant2Go Šenčur Cubis",
+    "address" : "Poslovna Cona A 2, 4208 Šenčur, Slovenia",
+    "location" : "46.2389330,14.4090340",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1126883",
+        "identifier" : "SI*EFR*E2100",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "325",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E2100",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*EFR*E2100",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "1126884",
+        "identifier" : "SI*EFR*E2101",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "325",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*EFR*E2101",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*EFR*E2101",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-20 13:53:13.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 584177,
+    "name" : "Grazer Straße 42a ",
+    "address" : "Grazer Straße 42a ",
+    "location" : "47.1290570,15.3427560",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1127012",
+        "identifier" : "AT*DAS*E40000062",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "444",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAS*E40000062",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAS*E40000062",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1127013",
+        "identifier" : "AT*DAS*E40000061",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "444",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAS*E40000061",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAS*E40000061",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-20 03:54:17.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 584178,
+    "name" : "Murmühlweg 2 ",
+    "address" : "Murmühlweg 2 ",
+    "location" : "47.1271400,15.3290600",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1127016",
+        "identifier" : "AT*DAS*E40000044",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "444",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAS*E40000044",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAS*E40000044",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1127017",
+        "identifier" : "AT*DAS*E40000043",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "444",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAS*E40000043",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*DAS*E40000043",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-20 03:54:17.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 584205,
+    "name" : "Feriensiedlung 219",
+    "address" : "Feriensiedlung 219",
+    "location" : "47.4236390,14.4650180",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1127230",
+        "identifier" : "AT*KWS*E28429010",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E28429010",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E28429010",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-20 06:57:52.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 584206,
+    "name" : "Feriensiedlung 217",
+    "address" : "Feriensiedlung 217",
+    "location" : "47.4236540,14.4650130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1127231",
+        "identifier" : "AT*KWS*E28429008",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E28429008",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E28429008",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-20 06:57:53.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

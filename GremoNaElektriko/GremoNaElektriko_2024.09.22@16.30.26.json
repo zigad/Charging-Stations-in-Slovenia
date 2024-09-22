@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 198248,
+    "name" : "Via Palazzolo  73",
+    "address" : "Via Palazzolo  73",
+    "location" : "45.8130680,13.1123050",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "587712",
+        "identifier" : "IT*REVEGSP00555*1*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "75",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*REVEGSP00555*1*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*REVEGSP00555*1*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-22 04:05:31.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

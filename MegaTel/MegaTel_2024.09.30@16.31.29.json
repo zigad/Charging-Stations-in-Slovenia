@@ -1,0 +1,63 @@
+{
+  "locations" : [ {
+    "id" : 585579,
+    "name" : "Brunnleitweg 1 ",
+    "address" : "Brunnleitweg 1 ",
+    "location" : "47.7674730,13.3653360",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1131398",
+        "identifier" : "AT*HTB*E1024276",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "398",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1024276",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1024276",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1131399",
+        "identifier" : "AT*HTB*E1024275",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "398",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1024275",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E1024275",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-30 08:52:27.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

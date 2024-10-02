@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 199728,
+    "name" : "Bleiburger Straße 64",
+    "address" : "Bleiburger Straße 64",
+    "location" : "46.5859160,14.6491870",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "592574",
+        "identifier" : "AT*KEL*E007*71294",
+        "networkId" : "1",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "703",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71294",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KEL*E007*71294",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "592576",
+        "identifier" : "AT*KEL*E007*71293",
+        "networkId" : "2",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "703",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71293",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KEL*E007*71293",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-28 03:54:43.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 200814,
+    "name" : "Pusterwald  92a",
+    "address" : "Pusterwald  92a",
+    "location" : "47.3040860,14.4544460",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "594235",
+        "identifier" : "AT*VIE*E8764770001*2",
+        "networkId" : "1",
+        "maxPower" : 100000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "736",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E8764770001*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E8764770001*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "594236",
+        "identifier" : "AT*VIE*E8764770001*1",
+        "networkId" : "2",
+        "maxPower" : 100000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "736",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*VIE*E8764770001*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*VIE*E8764770001*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-02 03:45:35.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

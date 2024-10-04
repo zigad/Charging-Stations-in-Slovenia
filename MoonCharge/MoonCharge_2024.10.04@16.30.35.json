@@ -1,0 +1,22 @@
+[ {
+  "Id" : 2619928,
+  "FriendlyName" : "Paradiž Izlake",
+  "FriendlyCode" : "SI*POR0145",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Izlake",
+    "PostNumber" : "1411",
+    "StreetName" : "Obrezija",
+    "HouseNumber" : ".",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

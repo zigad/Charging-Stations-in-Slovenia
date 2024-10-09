@@ -1,0 +1,105 @@
+{
+  "locations" : [ {
+    "id" : 190750,
+    "name" : "Anton-Reichel-Straße  ",
+    "address" : "Anton-Reichel-Straße  ",
+    "location" : "46.7649880,14.3662390",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "565477",
+        "identifier" : "ATALLEGO0010141",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "ATALLEGO0010141",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/ATALLEGO0010141",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-03 05:39:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 190751,
+    "name" : "Anton-Reichel-Straße  ",
+    "address" : "Anton-Reichel-Straße  ",
+    "location" : "46.7650070,14.3662100",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "565478",
+        "identifier" : "ATALLEGO0010131",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "ATALLEGO0010131",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/ATALLEGO0010131",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-03 05:39:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 190752,
+    "name" : "Anton-Reichel-Straße  ",
+    "address" : "Anton-Reichel-Straße  ",
+    "location" : "46.7650200,14.3661880",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "565479",
+        "identifier" : "ATALLEGO0010121",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "ATALLEGO0010121",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/ATALLEGO0010121",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-03 05:39:45.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

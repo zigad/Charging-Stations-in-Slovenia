@@ -1,0 +1,153 @@
+{
+  "locations" : [ {
+    "id" : 201626,
+    "name" : "Viktor Lang - Straße 30",
+    "address" : "Viktor Lang - Straße 30",
+    "location" : "47.8440400,16.2692900",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "595286",
+        "identifier" : "AT*430*ESCHIEBEL02*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*ESCHIEBEL02*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*430*ESCHIEBEL02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "595287",
+        "identifier" : "AT*430*ESCHIEBEL02*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*ESCHIEBEL02*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*430*ESCHIEBEL02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-10 03:37:05.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 201628,
+    "name" : "Pottendorfer Straße 62",
+    "address" : "Pottendorfer Straße 62",
+    "location" : "47.8268500,16.2536130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "595292",
+        "identifier" : "AT*EVN*E2303*2",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2303*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2303*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "595293",
+        "identifier" : "AT*EVN*E2303*1",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2303*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E2303*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-10 03:37:07.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 201744,
+    "name" : "Im Seewinkel 1",
+    "address" : "Im Seewinkel 1",
+    "location" : "47.8083360,16.9176840",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "595576",
+        "identifier" : "AT*KWS*E2491133*001",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2491133*001",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KWS*E2491133*001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-10 03:38:05.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

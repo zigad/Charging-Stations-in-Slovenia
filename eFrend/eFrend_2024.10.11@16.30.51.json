@@ -1,0 +1,1119 @@
+{
+  "locations" : [ {
+    "id" : 177140,
+    "name" : "Adelheidweg 1, 3264 Reinsberg, Österreich --",
+    "address" : "Adelheidweg 1, 3264 Reinsberg, Österreich --",
+    "location" : "47.9854800,15.0710560",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "522633",
+        "identifier" : "AT*8WA*EW043061001",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043061001",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043061001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "522632",
+        "identifier" : "AT*8WA*EW043061002",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043061002",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043061002",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-11 14:38:51.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 178439,
+    "name" : "Ferdinandgasse 4, 8121 Deutschfeistritz --",
+    "address" : "Ferdinandgasse 4, 8121 Deutschfeistritz --",
+    "location" : "47.1991250,15.3313730",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "526394",
+        "identifier" : "AT*8WA*EW043036003",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043036003",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043036003",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "526395",
+        "identifier" : "AT*8WA*EW043036002",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043036002",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043036002",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "526396",
+        "identifier" : "AT*8WA*EW043036001",
+        "networkId" : "4",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043036001",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043036001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "526393",
+        "identifier" : "AT*8WA*EW043036004",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043036004",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043036004",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 04:42:47.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 178498,
+    "name" : "St.Gertraud 1, 9413 Frantschach, Österreich --",
+    "address" : "St.Gertraud 1, 9413 Frantschach, Österreich -",
+    "location" : "46.8684020,14.8760900",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "526812",
+        "identifier" : "AT*8WA*EW043057002",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043057002",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043057002",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "526813",
+        "identifier" : "AT*8WA*EW043057001",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043057001",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043057001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 04:47:33.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 178499,
+    "name" : "Siebenbrünner Str. 1, 9400 Wolfsberg, Österre --",
+    "address" : "Siebenbrünner Str. 1, 9400 Wolfsberg, Österre",
+    "location" : "46.8132960,14.8344750",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "526814",
+        "identifier" : "AT*8WA*EW043046002",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043046002",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043046002",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "526815",
+        "identifier" : "AT*8WA*EW043046001",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "375",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*8WA*EW043046001",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*8WA*EW043046001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-06-18 04:47:33.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 201846,
+    "name" : "Viktor Lang - Straße 30",
+    "address" : "Viktor Lang - Straße 30",
+    "location" : "47.8440400,16.2692900",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "596814",
+        "identifier" : "AT*430*ESCHIEBEL02*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "111",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*ESCHIEBEL02*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*430*ESCHIEBEL02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "596815",
+        "identifier" : "AT*430*ESCHIEBEL02*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "111",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*ESCHIEBEL02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*430*ESCHIEBEL02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-10 03:38:53.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 201848,
+    "name" : "Pottendorfer Straße 62",
+    "address" : "Pottendorfer Straße 62",
+    "location" : "47.8268500,16.2536130",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "596820",
+        "identifier" : "AT*EVN*E2303*2",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "364",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2303*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E2303*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "596821",
+        "identifier" : "AT*EVN*E2303*1",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "364",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2303*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E2303*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-10 03:38:54.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 201937,
+    "name" : "Alte Wr. Str. 49 ",
+    "address" : "Alte Wr. Str. 49 ",
+    "location" : "47.8715810,13.1438030",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597050",
+        "identifier" : "CH*ECUEMNQZRUCSUR9YTCQA5JDBYXU8R3",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "420",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEMNQZRUCSUR9YTCQA5JDBYXU8R3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEMNQZRUCSUR9YTCQA5JDBYXU8R3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-10 03:39:55.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 201940,
+    "name" : "Alte Wr. Str. 49 ",
+    "address" : "Alte Wr. Str. 49 ",
+    "location" : "47.8714470,13.1439640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597053",
+        "identifier" : "CH*ECUE2WRDBF4KRP5CY8W75AYCKVDGVZ",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "420",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUE2WRDBF4KRP5CY8W75AYCKVDGVZ",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUE2WRDBF4KRP5CY8W75AYCKVDGVZ",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-10 03:39:56.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 201964,
+    "name" : "Im Seewinkel 1",
+    "address" : "Im Seewinkel 1",
+    "location" : "47.8083360,16.9176840",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597104",
+        "identifier" : "AT*KWS*E2491133*001",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "88",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2491133*001",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KWS*E2491133*001",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-10 03:40:30.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202073,
+    "name" : "Misselsdorf 152",
+    "address" : "Misselsdorf 152",
+    "location" : "46.7090190,15.7831930",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597435",
+        "identifier" : "AT*EST*E000*03146",
+        "networkId" : "4",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "345",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03146",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*03146",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597434",
+        "identifier" : "AT*EST*E000*03147",
+        "networkId" : "3",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "345",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03147",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*03147",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597432",
+        "identifier" : "AT*EST*E000*03149",
+        "networkId" : "1",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "345",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03149",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*03149",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597433",
+        "identifier" : "AT*EST*E000*03148",
+        "networkId" : "2",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "345",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03148",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*03148",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 03:51:32.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202074,
+    "name" : "Lassing 8",
+    "address" : "Lassing 8",
+    "location" : "47.5264800,14.2643810",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597436",
+        "identifier" : "AT*EST*E000*02860",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02860",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02860",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597437",
+        "identifier" : "AT*EST*E000*02859",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*02859",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*02859",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 03:51:33.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202075,
+    "name" : "Margaretenplatz 4",
+    "address" : "Margaretenplatz 4",
+    "location" : "47.9423730,16.1018910",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597438",
+        "identifier" : "AT*EVN*E3478*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3478*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3478*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597439",
+        "identifier" : "AT*EVN*E3478*1",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "363",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3478*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E3478*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 03:51:41.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202077,
+    "name" : "Feldstraße 6",
+    "address" : "Feldstraße 6",
+    "location" : "47.8557200,13.7797620",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597443",
+        "identifier" : "AT*LAG*E1276*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1276*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1276*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597444",
+        "identifier" : "AT*LAG*E1276*1",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1276*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1276*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 03:53:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202078,
+    "name" : "Feldstraße 6",
+    "address" : "Feldstraße 6",
+    "location" : "47.8557340,13.7796550",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597445",
+        "identifier" : "AT*LAG*E1275*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1275*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1275*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597446",
+        "identifier" : "AT*LAG*E1275*1",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1275*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1275*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 03:53:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202079,
+    "name" : "Gmundner Straße 39a",
+    "address" : "Gmundner Straße 39a",
+    "location" : "47.9747200,13.8197820",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597447",
+        "identifier" : "AT*LAG*E1273*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1273*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1273*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597448",
+        "identifier" : "AT*LAG*E1273*1",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1273*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1273*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 03:53:38.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202082,
+    "name" : "Aubauerstraße 39",
+    "address" : "Aubauerstraße 39",
+    "location" : "47.9340040,13.7887480",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597449",
+        "identifier" : "AT*LAG*E1269*2",
+        "networkId" : "1",
+        "maxPower" : 43000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1269*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1269*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597450",
+        "identifier" : "AT*LAG*E1269*1",
+        "networkId" : "2",
+        "maxPower" : 43000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1269*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1269*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 03:53:38.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202084,
+    "name" : "Feldstraße 6",
+    "address" : "Feldstraße 6",
+    "location" : "47.8557810,13.7795210",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597451",
+        "identifier" : "AT*LAG*E1250*2",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1250*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1250*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597452",
+        "identifier" : "AT*LAG*E1250*1",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1250*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1250*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 03:53:39.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 202090,
+    "name" : "Gmundner Straße 39a",
+    "address" : "Gmundner Straße 39a",
+    "location" : "47.9747240,13.8199170",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "597465",
+        "identifier" : "AT*LAG*E1274*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1274*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1274*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597466",
+        "identifier" : "AT*LAG*E1274*1",
+        "networkId" : "2",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1274*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1274*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597467",
+        "identifier" : "AT*LAG*E1251*2",
+        "networkId" : "3",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1251*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1251*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "597468",
+        "identifier" : "AT*LAG*E1251*1",
+        "networkId" : "4",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1251*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1251*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-11 04:03:27.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

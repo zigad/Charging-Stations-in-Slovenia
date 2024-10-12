@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 205305,
+    "name" : "Strienzing 101",
+    "address" : "Strienzing 101",
+    "location" : "47.9777440,14.0769860",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "600387",
+        "identifier" : "CH*ECUELDCZK2KW3KQPSPBQK9ARTLAK8W",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "550",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUELDCZK2KW3KQPSPBQK9ARTLAK8W",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUELDCZK2KW3KQPSPBQK9ARTLAK8W",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-12 09:51:22.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 205306,
+    "name" : "Strienzing 107",
+    "address" : "Strienzing 107",
+    "location" : "47.9777250,14.0769860",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "600388",
+        "identifier" : "CH*ECUECDSXMEJLCZ7BJM8EZ6ZJBVH3H2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "550",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUECDSXMEJLCZ7BJM8EZ6ZJBVH3H2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUECDSXMEJLCZ7BJM8EZ6ZJBVH3H2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-12 09:51:22.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,97 @@
+{
+  "locations" : [ {
+    "id" : 618736,
+    "name" : "Stadionstraße 2",
+    "address" : "Stadionstraße 2",
+    "location" : "47.9454220,16.2261910",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1170015",
+        "identifier" : "AT*EVN*E3566*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "655",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3566*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EVN*E3566*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1170016",
+        "identifier" : "AT*EVN*E3566*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "655",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3566*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EVN*E3566*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-17 04:07:46.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 618809,
+    "name" : "Bahnhofviertel 27",
+    "address" : "Bahnhofviertel 27",
+    "location" : "47.1091330,14.1795690",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1170282",
+        "identifier" : "AT*KWS*E2312068",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "218",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2312068",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KWS*E2312068",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-17 07:03:09.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,221 @@
+{
+  "locations" : [ {
+    "id" : 197343,
+    "name" : "Piazzale straulin ",
+    "address" : "Piazzale straulin ",
+    "location" : "45.6467480,13.7607520",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "583953",
+        "identifier" : "IT*HRA*E21XP22T3KK4AK00376*2",
+        "networkId" : "3",
+        "maxPower" : 12000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "327",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*HRA*E21XP22T3KK4AK00376*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*HRA*E21XP22T3KK4AK00376*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "583954",
+        "identifier" : "IT*HRA*E21XP22T3KK4AK00376*1",
+        "networkId" : "4",
+        "maxPower" : 12000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "327",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "IT*HRA*E21XP22T3KK4AK00376*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/IT*HRA*E21XP22T3KK4AK00376*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-19 04:52:32.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 212479,
+    "name" : "Stadionstraße 2",
+    "address" : "Stadionstraße 2",
+    "location" : "47.9454220,16.2261910",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "608985",
+        "identifier" : "AT*EVN*E3566*2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "491",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3566*2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E3566*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "608986",
+        "identifier" : "AT*EVN*E3566*1",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "491",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E3566*1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EVN*E3566*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-17 03:45:08.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 212560,
+    "name" : "Bahnhofviertel 27",
+    "address" : "Bahnhofviertel 27",
+    "location" : "47.1091330,14.1795690",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609263",
+        "identifier" : "AT*KWS*E2312068",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KWS*E2312068",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KWS*E2312068",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-17 04:14:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 212686,
+    "name" : "Slovenj gradec, Glavni trg 46",
+    "address" : "Glavni trg 46, 2380 Slovenj Gradec, Slovenija",
+    "location" : "46.5081004,15.0767258",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609493",
+        "identifier" : "3485",
+        "networkId" : "1",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "54",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/3485",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : true
+      } ]
+    } ],
+    "updatedAt" : "2024-10-17 11:12:47.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 212687,
+    "name" : "Šetjur OŠ Hruševec",
+    "address" : "Cankarjeva ulica 8, 3230 Šentjur, Slovenija",
+    "location" : "46.2080642,15.3895611",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609494",
+        "identifier" : "6574",
+        "networkId" : "1",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "preparing",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : null,
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/6574",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : true
+      } ]
+    } ],
+    "updatedAt" : "2024-10-17 12:48:33.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

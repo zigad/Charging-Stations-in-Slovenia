@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 212466,
+    "name" : "Vstopna točka Trška gora, Sevno 13",
+    "address" : "Sevno, 8000 Novo mesto, Slovenija",
+    "location" : "45.8332773,15.1889490",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609495",
+        "identifier" : "6647",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "37",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/6647",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "609496",
+        "identifier" : "6648",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "37",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : null,
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/6648",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES,STOP_TRANSACTION_ON_EV_DISCONNECT",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-18 14:30:27.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 212696,
+    "name" : "Koschatstraße -",
+    "address" : "Koschatstraße -",
+    "location" : "46.5869320,14.7954450",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609605",
+        "identifier" : "AT*KEL*E007*71331",
+        "networkId" : "1",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "323",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71331",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KEL*E007*71331",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "609606",
+        "identifier" : "AT*KEL*E007*71330",
+        "networkId" : "2",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "323",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71330",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*KEL*E007*71330",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-18 03:52:26.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

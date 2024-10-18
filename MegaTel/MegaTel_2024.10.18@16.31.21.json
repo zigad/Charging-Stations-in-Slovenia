@@ -1,0 +1,121 @@
+{
+  "locations" : [ {
+    "id" : 618969,
+    "name" : "Vstopna točka Trška gora, Sevno 13",
+    "address" : "Sevno, 8000 Novo mesto, Slovenija",
+    "location" : "45.8332770,15.1889490",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1170625",
+        "identifier" : "SI*GNE*E6647",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E6647",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E6647",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "1170626",
+        "identifier" : "SI*GNE*E6648",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "47",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E6648",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E6648",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-18 01:01:26.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 618992,
+    "name" : "Koschatstraße -",
+    "address" : "Koschatstraße -",
+    "location" : "46.5869320,14.7954450",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1170683",
+        "identifier" : "AT*KEL*E007*71331",
+        "networkId" : "1",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "320",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71331",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KEL*E007*71331",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1170684",
+        "identifier" : "AT*KEL*E007*71330",
+        "networkId" : "1",
+        "maxPower" : 160000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "320",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71330",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*KEL*E007*71330",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-18 08:34:31.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 619437,
+    "name" : "Šmarje Sap - Grosuplje Grosuplje",
+    "address" : "Pokopališka cesta 14, 1293 Šmarje - Sap, Slov",
+    "location" : "45.9744630,14.6150610",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1171822",
+        "identifier" : "SI*GNE*E1209",
+        "networkId" : "1",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "154",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1209",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1209",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "1171823",
+        "identifier" : "SI*GNE*E1210",
+        "networkId" : "2",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "154",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*GNE*E1210",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/SI*GNE*E1210",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-21 07:47:44.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

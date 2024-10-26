@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 207686,
+    "name" : "Hotterweg 67",
+    "address" : "Hotterweg 67",
+    "location" : "47.8415320,16.5179650",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "608016",
+        "identifier" : "AT*EBM*E30178*1",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "739",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EBM*E30178*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EBM*E30178*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-26 04:07:26.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 208016,
+    "name" : "Moosfeldstraße 2b",
+    "address" : "Moosfeldstraße 2b",
+    "location" : "47.8380610,13.0568640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "608662",
+        "identifier" : "AT*EVN*E2271*2",
+        "networkId" : "1",
+        "maxPower" : 120000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "364",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2271*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E2271*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "608663",
+        "identifier" : "AT*EVN*E2271*1",
+        "networkId" : "2",
+        "maxPower" : 120000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "364",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2271*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E2271*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-29 10:09:40.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

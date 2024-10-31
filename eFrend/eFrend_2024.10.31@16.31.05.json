@@ -1,0 +1,61 @@
+{
+  "locations" : [ {
+    "id" : 208230,
+    "name" : "Wiesenstraße 2",
+    "address" : "Wiesenstraße 2",
+    "location" : "47.1698560,16.1623680",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609307",
+        "identifier" : "AT*EST*E000*03199",
+        "networkId" : "1",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "345",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03199",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*03199",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "609308",
+        "identifier" : "AT*EST*E000*03198",
+        "networkId" : "2",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "345",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03198",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EST*E000*03198",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-31 10:15:38.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

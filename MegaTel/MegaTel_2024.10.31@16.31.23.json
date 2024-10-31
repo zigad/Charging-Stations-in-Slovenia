@@ -1,0 +1,97 @@
+{
+  "locations" : [ {
+    "id" : 621259,
+    "name" : "Wiesenstraße 2",
+    "address" : "Wiesenstraße 2",
+    "location" : "47.1698560,16.1623680",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1177246",
+        "identifier" : "AT*EST*E000*03199",
+        "networkId" : "1",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03199",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*03199",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1177247",
+        "identifier" : "AT*EST*E000*03198",
+        "networkId" : "1",
+        "maxPower" : 25000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "616",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*03198",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*EST*E000*03198",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-31 10:21:27.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 621467,
+    "name" : "Strubergasse 30 ",
+    "address" : "Strubergasse 30 ",
+    "location" : "47.8092100,13.0303110",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "344112",
+        "identifier" : "AT*SZG*E100262",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "293",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E100262",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*SZG*E100262",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-10-31 03:00:01.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

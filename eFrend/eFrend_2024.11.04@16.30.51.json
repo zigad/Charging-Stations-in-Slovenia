@@ -1,0 +1,241 @@
+{
+  "locations" : [ {
+    "id" : 27693,
+    "name" : "Ulica Doktor Franje Tuđmana 5",
+    "address" : "Ulica Doktor Franje Tuđmana 5",
+    "location" : "45.8039210,15.7961240",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "68554",
+        "identifier" : "HR005E0127*01*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "52",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E0127*01*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR005E0127*01*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : true,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-04 07:15:29.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 199614,
+    "name" : "Neustift 24 ",
+    "address" : "Neustift 24 ",
+    "location" : "46.8695510,16.0086460",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "592211",
+        "identifier" : "AT*HTB*E1022947",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "672",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022947",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022947",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-09-27 04:30:34.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 208325,
+    "name" : "Trostgasse 10",
+    "address" : "Trostgasse 10",
+    "location" : "47.8143800,16.2332510",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609655",
+        "identifier" : "AT*HTB*E1022480",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "674",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022480",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022480",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-01 13:01:43.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 208326,
+    "name" : "Trostgasse 10",
+    "address" : "Trostgasse 10",
+    "location" : "47.8144480,16.2333080",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609656",
+        "identifier" : "AT*HTB*E1022478",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "674",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022478",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022478",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-01 13:01:44.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 208329,
+    "name" : "Trostgasse 10",
+    "address" : "Trostgasse 10",
+    "location" : "47.8144150,16.2332810",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609657",
+        "identifier" : "AT*HTB*E1022479",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "674",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022479",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022479",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-01 13:01:44.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 208386,
+    "name" : "Trostgasse 10",
+    "address" : "Trostgasse 10",
+    "location" : "47.8144870,16.2333460",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "609711",
+        "identifier" : "AT*HTB*E1022477",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "674",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1022477",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*HTB*E1022477",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-01 16:18:35.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 208787,
+    "name" : "Ulica Ivana Pavla II 18",
+    "address" : "Ulica Ivana Pavla II 18",
+    "location" : "45.3296620,14.4401360",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "610800",
+        "identifier" : "HR005E1004*1*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "52",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR005E1004*1*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR005E1004*1*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-04 07:15:42.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

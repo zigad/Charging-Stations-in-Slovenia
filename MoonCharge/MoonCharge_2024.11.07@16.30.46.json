@@ -1,0 +1,22 @@
+[ {
+  "Id" : 2662704,
+  "FriendlyName" : "Turistična kmetija Krjan",
+  "FriendlyCode" : "SI*POR0149",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Dole pri Litiji",
+    "PostNumber" : "1273",
+    "StreetName" : "Dobovica",
+    "HouseNumber" : "6",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2
+} ]

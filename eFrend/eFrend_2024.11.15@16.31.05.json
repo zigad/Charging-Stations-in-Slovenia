@@ -1,0 +1,119 @@
+{
+  "locations" : [ {
+    "id" : 209833,
+    "name" : "Mattersburger Straße 28 ",
+    "address" : "Mattersburger Straße 28 ",
+    "location" : "47.8330040,16.5232430",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "616287",
+        "identifier" : "AT*OMV*EA9531DC6109",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "673",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA9531DC6109",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*OMV*EA9531DC6109",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "616288",
+        "identifier" : "AT*OMV*EA9531DC6108",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "673",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*OMV*EA9531DC6108",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*OMV*EA9531DC6108",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-07 05:10:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 211157,
+    "name" : "Hergottwiesgasse 80",
+    "address" : "Hergottwiesgasse 80",
+    "location" : "47.0518900,15.4324500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "620211",
+        "identifier" : "AT*430*E22636037*2",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "111",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E22636037*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*430*E22636037*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "620212",
+        "identifier" : "AT*430*E22636037*1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "111",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*430*E22636037*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*430*E22636037*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-15 10:06:04.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

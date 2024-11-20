@@ -1,0 +1,97 @@
+{
+  "locations" : [ {
+    "id" : 625081,
+    "name" : "Pristava Krapinska 63 ",
+    "address" : "Pristava Krapinska 63 ",
+    "location" : "46.1445280,15.8730500",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1191694",
+        "identifier" : "HR*QLO*EDC000109",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "434",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*QLO*EDC000109",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR*QLO*EDC000109",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1191695",
+        "identifier" : "HR*QLO*EDC000108",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "434",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*QLO*EDC000108",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR*QLO*EDC000108",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-20 15:02:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 625086,
+    "name" : "Salzburger Straße 26 ",
+    "address" : "Salzburger Straße 26 ",
+    "location" : "47.3861410,13.4558400",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1191715",
+        "identifier" : "AT*HTB*E2024*07*29*TEST*GAFL",
+        "networkId" : "1",
+        "maxPower" : 3680,
+        "currentType" : "ac",
+        "status" : null,
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "441",
+        "connectors" : [ {
+          "name" : "Schuko",
+          "icon" : "schuko",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E2024*07*29*TEST*GAFL",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*HTB*E2024*07*29*TEST*GAFL",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-20 10:15:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

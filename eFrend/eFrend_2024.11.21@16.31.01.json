@@ -1,0 +1,71 @@
+{
+  "locations" : [ {
+    "id" : 193216,
+    "name" : "Kollingerfeld 8 ",
+    "address" : "Kollingerfeld 8 ",
+    "location" : "47.8902120,14.1249790",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "572713",
+        "identifier" : "CH*ECUEHUWE5TMAHEYWD9U637C823SMD3",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEHUWE5TMAHEYWD9U637C823SMD3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEHUWE5TMAHEYWD9U637C823SMD3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-08-16 05:07:09.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 211721,
+    "name" : "Strubergasse 30 ",
+    "address" : "Strubergasse 30 ",
+    "location" : "47.8092100,13.0303110",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "103145",
+        "identifier" : "AT*SZG*E100262",
+        "networkId" : "3",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "733",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*SZG*E100262",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*SZG*E100262",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-21 02:47:59.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

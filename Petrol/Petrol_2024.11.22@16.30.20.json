@@ -1,0 +1,65 @@
+[ {
+  "Id" : 2581782,
+  "FriendlyName" : "Cinkarna Mozirje",
+  "FriendlyCode" : "SI*PET1006",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Mozirje",
+    "PostNumber" : "3330",
+    "StreetName" : "Ljubija",
+    "HouseNumber" : "11",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2,
+  "AvailableEvses" : 2,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+}, {
+  "Id" : 2581785,
+  "FriendlyName" : "Cinkarna Celje - Parkirišče",
+  "FriendlyCode" : "SI*PET1009",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Celje",
+    "PostNumber" : "3001",
+    "StreetName" : "Kidričeva ulica",
+    "HouseNumber" : "26",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 4,
+  "AvailableEvses" : 4,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

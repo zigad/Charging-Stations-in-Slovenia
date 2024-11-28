@@ -1,0 +1,265 @@
+{
+  "locations" : [ {
+    "id" : 212902,
+    "name" : "Wiener Neustädter Straße 32a",
+    "address" : "Wiener Neustädter Straße 32a",
+    "location" : "47.9498800,16.2871220",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "625586",
+        "identifier" : "AT*EVN*E2236*2",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "364",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2236*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E2236*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "625587",
+        "identifier" : "AT*EVN*E2236*1",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "364",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EVN*E2236*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*EVN*E2236*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-27 03:53:53.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 213171,
+    "name" : "Flachauer Str. 163",
+    "address" : "Flachauer Str. 163",
+    "location" : "47.3486700,13.3924820",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "626316",
+        "identifier" : "CH*ECUEWFKT32HFEKMLHXMQ8Q82VYCCLW",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEWFKT32HFEKMLHXMQ8Q82VYCCLW",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEWFKT32HFEKMLHXMQ8Q82VYCCLW",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-28 09:49:09.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 213172,
+    "name" : "Flachauer Str. 163",
+    "address" : "Flachauer Str. 163",
+    "location" : "47.3486390,13.3924740",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "626317",
+        "identifier" : "CH*ECUEZ64QYYBLSFVCAQY2FU87FBPQ9Z",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEZ64QYYBLSFVCAQY2FU87FBPQ9Z",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEZ64QYYBLSFVCAQY2FU87FBPQ9Z",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-28 09:49:09.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 213176,
+    "name" : "Flachauer Str. 163",
+    "address" : "Flachauer Str. 163",
+    "location" : "47.3485320,13.3924460",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "626318",
+        "identifier" : "CH*ECUEQ4HE8W5CNRKMVMZY52RDYXEWUW",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEQ4HE8W5CNRKMVMZY52RDYXEWUW",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEQ4HE8W5CNRKMVMZY52RDYXEWUW",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-28 09:49:09.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 213177,
+    "name" : "Flachauer Str. 163",
+    "address" : "Flachauer Str. 163",
+    "location" : "47.3485700,13.3924550",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "626319",
+        "identifier" : "CH*ECUEWZ7FB6Q94NCAFF2B24KZTUNUH3",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEWZ7FB6Q94NCAFF2B24KZTUNUH3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEWZ7FB6Q94NCAFF2B24KZTUNUH3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-28 09:49:09.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 213178,
+    "name" : "Flachauer Str. 163",
+    "address" : "Flachauer Str. 163",
+    "location" : "47.3486060,13.3924640",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "626320",
+        "identifier" : "CH*ECUE9GATYWQMLUYG5LPQVF9BXDUV5X",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUE9GATYWQMLUYG5LPQVF9BXDUV5X",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUE9GATYWQMLUYG5LPQVF9BXDUV5X",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-28 09:49:10.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 213182,
+    "name" : "Flachauer Str. 163",
+    "address" : "Flachauer Str. 163",
+    "location" : "47.3487020,13.3924910",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "626326",
+        "identifier" : "CH*ECUEZK45XC7H3XR3HXERGEFF9HMRU2",
+        "networkId" : "1",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEZK45XC7H3XR3HXERGEFF9HMRU2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEZK45XC7H3XR3HXERGEFF9HMRU2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-28 09:58:20.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

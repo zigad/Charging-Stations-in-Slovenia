@@ -1,0 +1,37 @@
+{
+  "locations" : [ {
+    "id" : 213601,
+    "name" : "Grazer Str. 80a ",
+    "address" : "Grazer Str. 80a ",
+    "location" : "47.4333900,15.2712810",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "618517",
+        "identifier" : "CH*ECUEXTKFRWA2XR5LTPAXQM3MP9LVE3",
+        "networkId" : "2",
+        "maxPower" : 0,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "419",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEXTKFRWA2XR5LTPAXQM3MP9LVE3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/CH*ECUEXTKFRWA2XR5LTPAXQM3MP9LVE3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-30 04:31:34.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

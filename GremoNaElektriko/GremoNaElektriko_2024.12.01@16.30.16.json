@@ -1,0 +1,201 @@
+{
+  "locations" : [ {
+    "id" : 145248,
+    "name" : "elisabethstr. 5-7 ",
+    "address" : "elisabethstr. 5-7 ",
+    "location" : "47.8111730,13.0415870",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "367261",
+        "identifier" : "AT*LQH*E123123123",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LQH*E123123123",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*LQH*E123123123",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "368664",
+        "identifier" : "AT*LQH*E123123012",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LQH*E123123012",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*LQH*E123123012",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "369165",
+        "identifier" : "AT*LQH*E123123234",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LQH*E123123234",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*LQH*E123123234",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-02-27 15:32:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 219714,
+    "name" : "Nötsch ",
+    "address" : "Nötsch ",
+    "location" : "46.5910550,13.6208090",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "633423",
+        "identifier" : "AT*STW*E1001348",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001348",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001348",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "633424",
+        "identifier" : "AT*STW*E1001347",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001347",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001347",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-30 04:31:07.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 219715,
+    "name" : "Nötsch ",
+    "address" : "Nötsch ",
+    "location" : "46.5911190,13.6209870",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "633425",
+        "identifier" : "AT*STW*E1001302",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "485",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001302",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001302",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "633426",
+        "identifier" : "AT*STW*E1001301",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "unavailable",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "485",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001301",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001301",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-11-30 04:31:07.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

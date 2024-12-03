@@ -1,0 +1,187 @@
+{
+  "locations" : [ {
+    "id" : 219933,
+    "name" : "Kirchbacher Str. 237",
+    "address" : "Kirchbacher Str. 237",
+    "location" : "46.9334200,15.6651330",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "634168",
+        "identifier" : "CH*ECUEHABLLCG2T6Y4YABB5NYCJMBH9Z",
+        "networkId" : "1",
+        "maxPower" : 60000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "551",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUEHABLLCG2T6Y4YABB5NYCJMBH9Z",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUEHABLLCG2T6Y4YABB5NYCJMBH9Z",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "634169",
+        "identifier" : "CH*ECUECBGKU7ZQWDYDYYCCBBLBJPHWV3",
+        "networkId" : "2",
+        "maxPower" : 11000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "551",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUECBGKU7ZQWDYDYYCCBBLBJPHWV3",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUECBGKU7ZQWDYDYYCCBBLBJPHWV3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "634170",
+        "identifier" : "CH*ECUE58UVMKPG8G558YKU9KMXJQ56Z2",
+        "networkId" : "3",
+        "maxPower" : 60000,
+        "currentType" : "dc",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "551",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "CH*ECUE58UVMKPG8G558YKU9KMXJQ56Z2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/CH*ECUE58UVMKPG8G558YKU9KMXJQ56Z2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-03 03:41:37.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 220118,
+    "name" : "feschhnigstrasse 161",
+    "address" : "feschhnigstrasse 161",
+    "location" : "46.6443210,14.2933260",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "634867",
+        "identifier" : "AT*STW*E1001467",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001467",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001467",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-03 12:56:09.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 220129,
+    "name" : "Feschhnigstrasse 161",
+    "address" : "Feschhnigstrasse 161",
+    "location" : "46.6443030,14.2932930",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "634879",
+        "identifier" : "AT*STW*E1001466",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "346",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*STW*E1001466",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*STW*E1001466",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-03 12:56:50.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 220130,
+    "name" : "Vinska klet Colnar",
+    "address" : "Lešnica 8",
+    "location" : "45.8314240,15.2067440",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "634881",
+        "identifier" : "SI*MGT*E0464",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0464",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0464",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-03 14:51:55.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

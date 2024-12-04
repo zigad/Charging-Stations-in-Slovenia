@@ -1,0 +1,245 @@
+{
+  "locations" : [ {
+    "id" : 220122,
+    "name" : "Franz Josef Straße 5 ",
+    "address" : "Franz Josef Straße 5 ",
+    "location" : "46.9870580,15.7629210",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "634868",
+        "identifier" : "AT*DAS*E30000251",
+        "networkId" : "1",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "341",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAS*E30000251",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*DAS*E30000251",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "634869",
+        "identifier" : "AT*DAS*E30000250",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "341",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAS*E30000250",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*DAS*E30000250",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-04 04:20:00.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 220194,
+    "name" : "Siemensstraße 9",
+    "address" : "Siemensstraße 9",
+    "location" : "47.2047480,14.6750620",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "238340",
+        "identifier" : "AT*EST*E000*00365",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "456",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*EST*E000*00365",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*EST*E000*00365",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-04 04:19:55.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 220329,
+    "name" : "Salzburger Straße 20 ",
+    "address" : "Salzburger Straße 20 ",
+    "location" : "47.3859000,13.4576150",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "635601",
+        "identifier" : "AT*HTB*E1026564",
+        "networkId" : "1",
+        "maxPower" : 200000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1026564",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1026564",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "635602",
+        "identifier" : "AT*HTB*E1026563",
+        "networkId" : "2",
+        "maxPower" : 200000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*HTB*E1026563",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*HTB*E1026563",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-04 04:21:45.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 220334,
+    "name" : "Cumberlandstraße 66 ",
+    "address" : "Cumberlandstraße 66 ",
+    "location" : "47.9297800,13.8077010",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "633441",
+        "identifier" : "AT*DAS*E40000209",
+        "networkId" : "5",
+        "maxPower" : 75200,
+        "currentType" : "dc",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "348",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*DAS*E40000209",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*DAS*E40000209",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-04 04:21:48.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 220498,
+    "name" : "SPAR Šentjur",
+    "address" : "Drofenikova ulica 2a",
+    "location" : "46.2153040,15.3864320",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "636139",
+        "identifier" : "SI*MGT*E0499",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0499",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0499",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "636140",
+        "identifier" : "SI*MGT*E0400",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "3",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "SI*MGT*E0400",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/SI*MGT*E0400",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-04 07:04:37.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

@@ -1,0 +1,40 @@
+[ {
+  "id" : 2194,
+  "name" : "Osijek Waldinger AC Stup 1",
+  "address" : "Županijska ulica",
+  "town" : "Osijek",
+  "lat" : 45.55879,
+  "lng" : 18.676432,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@22 kW"
+}, {
+  "id" : 2196,
+  "name" : "Osijek Waldinger AC Stup 2",
+  "address" : "Županijska ulica",
+  "town" : "Osijek",
+  "lat" : 45.55879,
+  "lng" : 18.676432,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Phone Call Mobile App",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Socket@22 kW"
+}, {
+  "id" : 2322,
+  "name" : "HP Osijek 702",
+  "address" : "Ulica jablanova",
+  "town" : "Osijek",
+  "lat" : 45.543497,
+  "lng" : 18.656425,
+  "deluje" : 1,
+  "cena_KW" : "",
+  "reklamni_tekst_baner" : "",
+  "cena_na_vklop" : "",
+  "opis" : "Plug & Charge RFID Phone Call Mobile App Other",
+  "opis_tip_prikljucka_vticnice" : "Mennekes Type 2 Plug@11 kW"
+} ]

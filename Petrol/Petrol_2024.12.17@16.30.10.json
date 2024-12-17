@@ -1,0 +1,33 @@
+[ {
+  "Id" : 2693388,
+  "FriendlyName" : "Ledi MS - Pančevo",
+  "FriendlyCode" : "SI*PET1021",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 57,
+      "Code" : "RS",
+      "ISO2Code" : "RS",
+      "ISO3Code" : "SRB",
+      "Title" : "Serbia"
+    },
+    "CityName" : "Pančevo",
+    "PostNumber" : "26000 Srbija",
+    "StreetName" : "Jabučki put",
+    "HouseNumber" : "409",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2,
+  "AvailableEvses" : 0,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

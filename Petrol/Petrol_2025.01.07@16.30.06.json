@@ -1,0 +1,65 @@
+[ {
+  "Id" : 213752,
+  "FriendlyName" : "PO - ULICA 1. MAJA",
+  "FriendlyCode" : "SI*PET0232",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "POSTOJNA",
+    "PostNumber" : "6230",
+    "StreetName" : "Ulica 1. Maja",
+    "HouseNumber" : "1",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 4,
+  "AvailableEvses" : 2,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+}, {
+  "Id" : 213883,
+  "FriendlyName" : "PO - TRŽAŠKA",
+  "FriendlyCode" : "SI*PET0233",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Postojna",
+    "PostNumber" : "6230",
+    "StreetName" : "Tržaška cesta",
+    "HouseNumber" : "59a",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 2,
+  "AvailableEvses" : 2,
+  "FaultyEvses" : 0,
+  "OccupiedEvses" : 0,
+  "ParkingOccupiedEvses" : 0,
+  "OutOfWorkingTimeEvses" : 0,
+  "OutOfCommunicationEvses" : 0,
+  "IsPartnerRoaming" : false,
+  "PinColor" : null,
+  "PinCount" : 0,
+  "GeoHash" : null,
+  "HotlinePhoneNumber" : null
+} ]

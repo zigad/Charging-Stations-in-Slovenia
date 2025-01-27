@@ -34,8 +34,8 @@ public class Scheduler {
             LOG.info("Checking provider: {}", provider.getProviderName());
             switch (provider) {
                 case GREMONAELEKTRIKO -> providerProcessor.checkProviderStations(provider, GNELocationPins.class, GNEDetailedLocation.class);
-                case PETROL -> providerProcessor.checkProviderStations(provider, PetrolLocations.class);
-                case MOONCHARGE -> providerProcessor.checkProviderStations(provider, MoonChargeLocation.class);
+                case PETROL -> providerProcessor.checkProviderStations(provider, PetrolLocations[].class);
+                case MOONCHARGE -> providerProcessor.checkProviderStations(provider, MoonChargeLocation[].class);
                 case AVANT2GO -> providerProcessor.checkProviderStations(provider, Avant2GoLocations.class);
                 case EFREND -> providerProcessor.checkProviderStations(provider, EfrendLocationPins.class, EfrendDetailedLocation.class);
                 case MEGATEL -> providerProcessor.checkProviderStations(provider, MegaTelLocationPins.class, MegaTelDetailedLocation.class);

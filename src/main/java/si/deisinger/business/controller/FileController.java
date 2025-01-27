@@ -3,14 +3,15 @@ package si.deisinger.business.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import jakarta.json.Json;
+import jakarta.json.JsonArray;
+import jakarta.json.JsonObject;
+import jakarta.json.JsonReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.providers.enums.Providers;
 
-import javax.json.Json;
-import javax.json.JsonArray;
-import javax.json.JsonObject;
-import javax.json.JsonReader;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

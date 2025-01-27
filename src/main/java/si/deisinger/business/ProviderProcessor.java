@@ -17,7 +17,9 @@ import si.deisinger.providers.model.megatel.MegaTelLocationPins;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
 import si.deisinger.providers.model.petrol.PetrolLocations;
 
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 
 @ApplicationScoped
@@ -31,30 +33,48 @@ public class ProviderProcessor {
         try {
             locationData = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), locationClass[0]);
         } catch (JsonProcessingException e) {
-            LOG.error("Mapping to POJO failed");
+            LOG.error("Mapping to POJO failed for provider: {}", provider);
             throw new RuntimeException(e);
         }
+
         int fetchedStations = getNumberOfStations(locationData);
-        LOG.info("Fetched: {} stations", fetchedStations);
+        LOG.info("Fetched: {} stations for provider: {}", fetchedStations, provider);
 
         Set<Integer> stationsAroundSlovenia = getStationIds(locationData);
 
         Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
 
         if (!difference.isEmpty()) {
-            LOG.info("Found {} new stations", difference.size());
-            Object detailedLocationData;
-            try {
-                detailedLocationData = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), locationClass[1]);
-            } catch (JsonProcessingException e) {
-                LOG.error("Mapping to POJO failed");
-                throw new RuntimeException(e);
+            LOG.info("Found {} new stations for provider: {}", difference.size(), provider);
+            if (provider.getAmpecoUrl() != null && !provider.getAmpecoUrl().isBlank()) {
+                // Providers with Ampeco URL: Fetch detailed locations
+                Object detailedLocationData;
+                try {
+                    detailedLocationData = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), locationClass[1]);
+                } catch (JsonProcessingException e) {
+                    LOG.error("Mapping to detailed POJO failed for provider: {}", provider);
+                    throw new RuntimeException(e);
+                }
+                LOG.info("Fetched detailed data for provider: {}", provider);
+                FileController.writeNewDataToJsonFile(provider, fetchedStations, difference);
+                FileController.writeNewStationsToFile(provider, detailedLocationData);
+            } else {
+
+                // Providers without Ampeco URL: Write station IDs only
+                LOG.info("Provider {} does not use Ampeco; skipping detailed location fetch", provider);
+                List<Object> newLocations = new ArrayList<>();
+
+                for (Object location : locationData) {
+                    if (difference.contains(location.id)) {
+                        newLocations.add(location);
+                    }
+                }
+                LOG.info("Created list of stations");
+                FileController.writeNewDataToJsonFile(provider, locations.length, difference);
+                FileController.writeNewStationsToFile(provider, newLocations);
             }
-            LOG.info("Mapped detailed stations to POJO");
-            FileController.writeNewDataToJsonFile(provider, fetchedStations, difference);
-            FileController.writeNewStationsToFile(provider, detailedLocationData);
         } else {
-            LOG.info("No new stations found");
+            LOG.info("No new stations found for provider: {}", provider);
         }
     }
 

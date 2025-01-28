@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
@@ -27,6 +28,11 @@ import java.util.stream.StreamSupport;
 @ApplicationScoped
 public class ProviderProcessor {
 
+    @Inject
+    FileController fileController;
+    @Inject
+    ApiController apiController;
+
     private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
@@ -39,50 +45,32 @@ public class ProviderProcessor {
      *         array of location classes for deserialization
      */
     public void checkProviderStations(Providers provider, Class<?>... locationClass) {
-        // Fetch location data
         Object locationData = fetchLocationData(provider, locationClass[0]);
-        Set<Integer> currentStationIds = getStationIds(locationData);
-        int currentStationCount = currentStationIds.size();
 
-        LOG.info("Fetched {} stations for provider: {}", currentStationCount, provider);
-
-        // Special handling for Avant2Go provider
-        if (provider.equals(Providers.AVANT2GO)) {
-            handleAvant2GoProvider(provider, currentStationCount, locationData);
-            return;
-        }
-
-        // General handling for other providers
-        Set<Integer> newStationIds = findNewStations(provider, currentStationIds);
-        if (newStationIds.isEmpty()) {
-            LOG.info("No new stations found for provider: {}", provider);
-            return;
-        }
-
-        LOG.info("Found {} new stations for provider: {}", newStationIds.size(), provider);
-        processNewStations(provider, locationData, newStationIds, locationClass);
-    }
-
-    /**
-     * Handles processing logic specific to Avant2Go providers.
-     *
-     * @param provider
-     *         the provider to process
-     * @param currentStationCount
-     *         the current count of stations
-     * @param locationData
-     *         the fetched location data
-     */
-    private void handleAvant2GoProvider(Providers provider, int currentStationCount, Object locationData) {
-        Integer storedStationCount = FileController.getNumberOfStationsFromFile(provider);
-
-        if (currentStationCount != storedStationCount) {
-            LOG.info("Change detected for provider: {}", provider);
-            FileController.writeNewDataToJsonFile(provider, currentStationCount, null);
-            FileController.writeNewStationsToFile(provider, locationData);
+        int fetchedStations = getNumberOfStations(locationData);
+        LOG.info("Fetched {} stations for provider: {}", fetchedStations, provider);
+        Set<Integer> currentStations = getStationIds(locationData);
+        if (!provider.equals(Providers.AVANT2GO)) {
+            Set<Integer> newStations = findNewStations(provider, currentStations);
+            if (newStations.isEmpty()) {
+                LOG.info("No new stations found for provider: {}", provider);
+                return;
+            }
+            LOG.info("Found {} new stations for provider: {}", newStations.size(), provider);
+            processNewStations(provider, locationData, newStations, locationClass);
         } else {
-            LOG.info("No changes detected for provider: {}", provider);
+            int size = currentStations.size();
+            Integer numberOfStationsInFile = fileController.getNumberOfStationsFromFile(provider);
+
+            if (size != numberOfStationsInFile) {
+                LOG.info("Change detected");
+                fileController.writeNewDataToJsonFile(provider, size, null);
+                fileController.writeNewStationsToFile(provider, locationData);
+            } else {
+                LOG.info("No new stations found");
+            }
         }
+
     }
 
     /**
@@ -97,7 +85,7 @@ public class ProviderProcessor {
      */
     private Object fetchLocationData(Providers provider, Class<?> locationClass) {
         try {
-            String apiResponse = ApiController.getLocationsFromApi(provider);
+            String apiResponse = apiController.getLocationsFromApi(provider);
             return OBJECT_MAPPER.readValue(apiResponse, locationClass);
         } catch (JsonProcessingException e) {
             LOG.error("Failed to deserialize location data for provider: {}", provider, e);
@@ -135,7 +123,7 @@ public class ProviderProcessor {
      * @return a set of new station IDs
      */
     private Set<Integer> findNewStations(Providers provider, Set<Integer> currentStations) {
-        Set<Integer> storedStations = FileController.getStationIdsFromFile(provider);
+        Set<Integer> storedStations = fileController.getStationIdsFromFile(provider);
         LOG.info("Stored stations: {}, Current stations: {}", storedStations.size(), currentStations.size());
 
         return currentStations.stream().filter(station -> !storedStations.contains(station)).collect(Collectors.toSet());
@@ -156,13 +144,13 @@ public class ProviderProcessor {
     private void processNewStations(Providers provider, Object locationData, Set<Integer> newStations, Class<?>... locationClass) {
         if (provider.getAmpecoUrl() != null && !provider.getAmpecoUrl().isBlank()) {
             Object detailedLocationData = fetchDetailedLocationData(provider, newStations, locationClass[1]);
-            FileController.writeNewStationsToFile(provider, detailedLocationData);
+            fileController.writeNewStationsToFile(provider, detailedLocationData);
         } else {
             List<Object> newLocationData = filterLocationData(locationData, newStations);
-            FileController.writeNewStationsToFile(provider, newLocationData);
+            fileController.writeNewStationsToFile(provider, newLocationData);
         }
 
-        FileController.writeNewDataToJsonFile(provider, newStations.size(), newStations);
+        fileController.writeNewDataToJsonFile(provider, newStations.size(), newStations);
     }
 
     /**
@@ -180,7 +168,7 @@ public class ProviderProcessor {
     private Object fetchDetailedLocationData(Providers provider, Set<Integer> newStations, Class<?> detailClass) {
         try {
             String requestBody = buildPostRequestBody(newStations);
-            String apiResponse = ApiController.getAmpecoDetailedLocationsApi(requestBody, provider);
+            String apiResponse = apiController.getAmpecoDetailedLocationsApi(requestBody, provider);
             return OBJECT_MAPPER.readValue(apiResponse, detailClass);
         } catch (JsonProcessingException e) {
             LOG.error("Failed to fetch detailed location data for provider: {}", provider, e);

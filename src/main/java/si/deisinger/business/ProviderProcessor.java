@@ -17,67 +17,206 @@ import si.deisinger.providers.model.megatel.MegaTelLocationPins;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
 import si.deisinger.providers.model.petrol.PetrolLocations;
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
+/**
+ * Processor class to handle provider station operations such as fetching, processing, and storing data.
+ */
 @ApplicationScoped
 public class ProviderProcessor {
 
     private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
+    /**
+     * Checks and processes provider stations.
+     *
+     * @param provider
+     *         the provider to process
+     * @param locationClass
+     *         array of location classes for deserialization
+     */
     public void checkProviderStations(Providers provider, Class<?>... locationClass) {
-        Object locationData;
-        try {
-            locationData = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), locationClass[0]);
-        } catch (JsonProcessingException e) {
-            LOG.error("Mapping to POJO failed for provider: {}", provider);
-            throw new RuntimeException(e);
+        // Fetch location data
+        Object locationData = fetchLocationData(provider, locationClass[0]);
+        Set<Integer> currentStationIds = getStationIds(locationData);
+        int currentStationCount = currentStationIds.size();
+
+        LOG.info("Fetched {} stations for provider: {}", currentStationCount, provider);
+
+        // Special handling for Avant2Go provider
+        if (provider.equals(Providers.AVANT2GO)) {
+            handleAvant2GoProvider(provider, currentStationCount, locationData);
+            return;
         }
 
-        int fetchedStations = getNumberOfStations(locationData);
-        LOG.info("Fetched: {} stations for provider: {}", fetchedStations, provider);
-
-        Set<Integer> stationsAroundSlovenia = getStationIds(locationData);
-
-        Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
-
-        if (!difference.isEmpty()) {
-            LOG.info("Found {} new stations for provider: {}", difference.size(), provider);
-            if (provider.getAmpecoUrl() != null && !provider.getAmpecoUrl().isBlank()) {
-                // Providers with Ampeco URL: Fetch detailed locations
-                Object detailedLocationData;
-                try {
-                    detailedLocationData = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), locationClass[1]);
-                } catch (JsonProcessingException e) {
-                    LOG.error("Mapping to detailed POJO failed for provider: {}", provider);
-                    throw new RuntimeException(e);
-                }
-                LOG.info("Fetched detailed data for provider: {}", provider);
-                FileController.writeNewDataToJsonFile(provider, fetchedStations, difference);
-                FileController.writeNewStationsToFile(provider, detailedLocationData);
-            } else {
-
-                // Providers without Ampeco URL: Write station IDs only
-                LOG.info("Provider {} does not use Ampeco; skipping detailed location fetch", provider);
-                List<Object> newLocations = new ArrayList<>();
-
-                for (Object location : locationData) {
-                    if (difference.contains(location.id)) {
-                        newLocations.add(location);
-                    }
-                }
-                LOG.info("Created list of stations");
-                FileController.writeNewDataToJsonFile(provider, locations.length, difference);
-                FileController.writeNewStationsToFile(provider, newLocations);
-            }
-        } else {
+        // General handling for other providers
+        Set<Integer> newStationIds = findNewStations(provider, currentStationIds);
+        if (newStationIds.isEmpty()) {
             LOG.info("No new stations found for provider: {}", provider);
+            return;
+        }
+
+        LOG.info("Found {} new stations for provider: {}", newStationIds.size(), provider);
+        processNewStations(provider, locationData, newStationIds, locationClass);
+    }
+
+    /**
+     * Handles processing logic specific to Avant2Go providers.
+     *
+     * @param provider
+     *         the provider to process
+     * @param currentStationCount
+     *         the current count of stations
+     * @param locationData
+     *         the fetched location data
+     */
+    private void handleAvant2GoProvider(Providers provider, int currentStationCount, Object locationData) {
+        Integer storedStationCount = FileController.getNumberOfStationsFromFile(provider);
+
+        if (currentStationCount != storedStationCount) {
+            LOG.info("Change detected for provider: {}", provider);
+            FileController.writeNewDataToJsonFile(provider, currentStationCount, null);
+            FileController.writeNewStationsToFile(provider, locationData);
+        } else {
+            LOG.info("No changes detected for provider: {}", provider);
         }
     }
 
+    /**
+     * Fetches location data from the API and deserializes it.
+     *
+     * @param provider
+     *         the provider to fetch data for
+     * @param locationClass
+     *         the class type for deserialization
+     *
+     * @return deserialized location data
+     */
+    private Object fetchLocationData(Providers provider, Class<?> locationClass) {
+        try {
+            String apiResponse = ApiController.getLocationsFromApi(provider);
+            return OBJECT_MAPPER.readValue(apiResponse, locationClass);
+        } catch (JsonProcessingException e) {
+            LOG.error("Failed to deserialize location data for provider: {}", provider, e);
+            throw new RuntimeException("Failed to fetch location data", e);
+        }
+    }
+
+    /**
+     * A utility method to extract IDs from different data types.
+     *
+     * @param data
+     *         the data to process
+     * @param idExtractor
+     *         a function to extract IDs from individual objects
+     *
+     * @return a set of IDs
+     */
+    private <T> Set<Integer> extractIdsFromData(Object data, java.util.function.Function<T, Integer> idExtractor) {
+        if (data instanceof Iterable<?> iterable) {
+            return StreamSupport.stream(iterable.spliterator(), false).map(item -> idExtractor.apply((T) item)).collect(Collectors.toSet());
+        } else if (data.getClass().isArray()) {
+            return Arrays.stream((Object[]) data).map(item -> idExtractor.apply((T) item)).collect(Collectors.toSet());
+        }
+        throw new IllegalArgumentException("Unsupported data type");
+    }
+
+    /**
+     * Finds new stations by comparing current stations with stored ones.
+     *
+     * @param provider
+     *         the provider to process
+     * @param currentStations
+     *         the current station IDs
+     *
+     * @return a set of new station IDs
+     */
+    private Set<Integer> findNewStations(Providers provider, Set<Integer> currentStations) {
+        Set<Integer> storedStations = FileController.getStationIdsFromFile(provider);
+        LOG.info("Stored stations: {}, Current stations: {}", storedStations.size(), currentStations.size());
+
+        return currentStations.stream().filter(station -> !storedStations.contains(station)).collect(Collectors.toSet());
+    }
+
+    /**
+     * Processes new stations and writes data to appropriate files.
+     *
+     * @param provider
+     *         the provider to process
+     * @param locationData
+     *         the fetched location data
+     * @param newStations
+     *         the new station IDs
+     * @param locationClass
+     *         array of location classes for detailed processing
+     */
+    private void processNewStations(Providers provider, Object locationData, Set<Integer> newStations, Class<?>... locationClass) {
+        if (provider.getAmpecoUrl() != null && !provider.getAmpecoUrl().isBlank()) {
+            Object detailedLocationData = fetchDetailedLocationData(provider, newStations, locationClass[1]);
+            FileController.writeNewStationsToFile(provider, detailedLocationData);
+        } else {
+            List<Object> newLocationData = filterLocationData(locationData, newStations);
+            FileController.writeNewStationsToFile(provider, newLocationData);
+        }
+
+        FileController.writeNewDataToJsonFile(provider, newStations.size(), newStations);
+    }
+
+    /**
+     * Fetches detailed location data for providers with Ampeco URLs.
+     *
+     * @param provider
+     *         the provider to process
+     * @param newStations
+     *         the new station IDs
+     * @param detailClass
+     *         the class type for detailed deserialization
+     *
+     * @return deserialized detailed location data
+     */
+    private Object fetchDetailedLocationData(Providers provider, Set<Integer> newStations, Class<?> detailClass) {
+        try {
+            String requestBody = buildPostRequestBody(newStations);
+            String apiResponse = ApiController.getAmpecoDetailedLocationsApi(requestBody, provider);
+            return OBJECT_MAPPER.readValue(apiResponse, detailClass);
+        } catch (JsonProcessingException e) {
+            LOG.error("Failed to fetch detailed location data for provider: {}", provider, e);
+            throw new RuntimeException("Failed to fetch detailed location data", e);
+        }
+    }
+
+    /**
+     * Filters location data to include only new stations.
+     *
+     * @param locationData
+     *         the fetched location data
+     * @param newStations
+     *         the new station IDs
+     *
+     * @return a list of new location data
+     */
+    private List<Object> filterLocationData(Object locationData, Set<Integer> newStations) {
+        return extractIdsFromData(
+                locationData, location -> {
+                    if (newStations.contains(getStationId(location))) {
+                        return getStationId(location);
+                    }
+                    return null;
+                }
+        ).stream().filter(Objects::nonNull).collect(Collectors.toList());
+    }
+
+    /**
+     * Gets the number of stations from the location data.
+     *
+     * @param locationData
+     *         the location data to process
+     *
+     * @return the number of stations
+     */
     private int getNumberOfStations(Object locationData) {
         if (locationData instanceof GNELocationPins gneLocationPins) {
             return gneLocationPins.pins.size();
@@ -95,6 +234,46 @@ public class ProviderProcessor {
             return impleraLocations.marker.size();
         }
         throw new IllegalArgumentException("Unsupported location data type");
+    }
+
+    /**
+     * Extracts the station ID from a location object.
+     *
+     * @param location
+     *         the location object
+     *
+     * @return the station ID
+     */
+    private int getStationId(Object location) {
+        if (location instanceof GNELocationPins.Pin gnePin) {
+            return gnePin.id;
+        } else if (location instanceof PetrolLocations petrolLocation) {
+            return petrolLocation.id;
+        } else if (location instanceof MoonChargeLocation moonChargeLocation) {
+            return moonChargeLocation.id;
+        } else if (location instanceof Avant2GoLocations.Result avant2GoResult) {
+            return avant2GoResult.hashCode(); // Use hashCode for Avant2Go
+        } else if (location instanceof EfrendLocationPins.Pin efrendPin) {
+            return efrendPin.id;
+        } else if (location instanceof MegaTelLocationPins.Pin megaTelPin) {
+            return megaTelPin.id;
+        } else if (location instanceof ImpleraLocations.marker impleraMarker) {
+            return impleraMarker.id;
+        } else {
+            throw new IllegalArgumentException("Unsupported location type");
+        }
+    }
+
+    /**
+     * Builds a JSON request body for fetching detailed station data.
+     *
+     * @param stationIds
+     *         the IDs of stations to include in the request
+     *
+     * @return the JSON request body as a string
+     */
+    private String buildPostRequestBody(Set<Integer> stationIds) {
+        return stationIds.stream().map(id -> String.format("\"%d\":null", id)).collect(Collectors.joining(",", "{\"locations\":{", "}}"));
     }
 
     private Set<Integer> getStationIds(Object locationData) {
@@ -121,31 +300,5 @@ public class ProviderProcessor {
             throw new IllegalArgumentException("Unsupported location data type");
         }
         return stationIds;
-    }
-
-    private Set<Integer> checkDifference(Providers provider, Set<Integer> stationsAroundSlovenia) {
-        Set<Integer> oldStations = FileController.getStationIdsFromFile(provider);
-        Set<Integer> newStations = new LinkedHashSet<>(stationsAroundSlovenia);
-        LOG.info("Number of old stations: {}", oldStations.size());
-        LOG.info("Number of new stations: {}", newStations.size());
-        newStations.removeAll(oldStations);
-        return newStations;
-    }
-
-    /**
-     * Builds the body of a post request by creating a JSON string with the specified new values.
-     *
-     * @param newValues
-     *         the new values to be included in the post request body
-     *
-     * @return a string representing the post request body in JSON format
-     */
-    private String buildPostRequestBody(Set<Integer> newValues) {
-        StringBuilder postRequestBody = new StringBuilder("{\"locations\": {");
-        for (Integer newValue : newValues) {
-            postRequestBody.append("\"").append(newValue).append("\": null,");
-        }
-        postRequestBody.deleteCharAt(postRequestBody.length() - 1).append("}}");
-        return postRequestBody.toString();
     }
 }

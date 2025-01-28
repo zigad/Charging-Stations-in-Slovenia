@@ -2,6 +2,7 @@ package si.deisinger.business.scheduler;
 
 import io.quarkus.scheduler.Scheduled;
 import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.inject.Inject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.ProviderProcessor;
@@ -11,7 +12,6 @@ import si.deisinger.providers.model.efrend.EfrendDetailedLocation;
 import si.deisinger.providers.model.efrend.EfrendLocationPins;
 import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
-import si.deisinger.providers.model.implera.ImpleraLocations;
 import si.deisinger.providers.model.megatel.MegaTelDetailedLocation;
 import si.deisinger.providers.model.megatel.MegaTelLocationPins;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
@@ -19,6 +19,9 @@ import si.deisinger.providers.model.petrol.PetrolLocations;
 
 @ApplicationScoped
 public class Scheduler {
+
+    @Inject
+    ProviderProcessor providerProcessor;
 
     private static final Logger LOG = LoggerFactory.getLogger(Scheduler.class);
 
@@ -29,7 +32,6 @@ public class Scheduler {
 
     @Scheduled(every = "10m")
     void schedule() {
-        ProviderProcessor providerProcessor = new ProviderProcessor();
         for (Providers provider : Providers.values()) {
             LOG.info("Checking provider: {}", provider.getProviderName());
             switch (provider) {
@@ -39,7 +41,7 @@ public class Scheduler {
                 case AVANT2GO -> providerProcessor.checkProviderStations(provider, Avant2GoLocations.class);
                 case EFREND -> providerProcessor.checkProviderStations(provider, EfrendLocationPins.class, EfrendDetailedLocation.class);
                 case MEGATEL -> providerProcessor.checkProviderStations(provider, MegaTelLocationPins.class, MegaTelDetailedLocation.class);
-                case IMPLERA -> providerProcessor.checkProviderStations(provider, ImpleraLocations.class);
+                //case IMPLERA -> providerProcessor.checkProviderStations(provider, ImpleraLocations.class);
                 default -> throw new IllegalStateException("Unexpected value: " + provider);
             }
         }

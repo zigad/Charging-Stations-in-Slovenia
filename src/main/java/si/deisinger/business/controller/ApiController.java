@@ -1,6 +1,7 @@
 package si.deisinger.business.controller;
 
 import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.ws.rs.core.MediaType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.providers.enums.Providers;
@@ -19,7 +20,7 @@ import java.nio.charset.StandardCharsets;
 @ApplicationScoped
 public class ApiController {
 
-    private static final Logger LOG = LoggerFactory.getLogger(FileController.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ApiController.class);
     private static final HttpClient HTTP_CLIENT = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).build();
 
     /**
@@ -67,7 +68,7 @@ public class ApiController {
 
         HttpRequest request;
         try {
-            request = HttpRequest.newBuilder().uri(new URI(provider.getAmpecoUrl())).header("Content-Type", "application/json").POST(HttpRequest.BodyPublishers.ofString(postRequestBody, StandardCharsets.UTF_8)).build();
+            request = HttpRequest.newBuilder().uri(new URI(provider.getAmpecoUrl())).header("Content-Type", MediaType.APPLICATION_JSON).POST(HttpRequest.BodyPublishers.ofString(postRequestBody, StandardCharsets.UTF_8)).build();
         } catch (URISyntaxException e) {
             LOG.error("Invalid URI for AMPECO API endpoint", e);
             throw new IllegalStateException("Invalid URI for AMPECO API endpoint", e);

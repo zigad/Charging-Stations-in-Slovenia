@@ -7,20 +7,28 @@ import org.eclipse.jgit.lib.Config;
 import org.eclipse.jgit.lib.GpgConfig;
 import org.eclipse.jgit.lib.ObjectId;
 import org.eclipse.jgit.transport.UsernamePasswordCredentialsProvider;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import si.deisinger.business.configuration.ConfigUtils;
 import si.deisinger.providers.enums.Providers;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Objects;
 
 @ApplicationScoped
 public class GitController {
     private static final Logger LOG = LoggerFactory.getLogger(GitController.class);
+
+    @ConfigProperty(name = "is.push.enabled")
+    private boolean isPushEnabled;
+
+    @ConfigProperty(name = "git.username")
+    private String gitUsername;
+
+    @ConfigProperty(name = "git.password")
+    private String gitPassword;
 
     /**
      * Commits the current information about the charging stations for the given provider.
@@ -41,9 +49,9 @@ public class GitController {
             git.add().addFilepattern("currentInfoPerProvider.json").addFilepattern(provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json").call();
             LOG.info("Committing file to git");
             git.commit().setMessage("Updated List Of Charging Stations for " + provider.getProviderName()).setGpgConfig(new GpgConfig(config)).call();
-            if (ConfigUtils.isPushEnabled()) {
+            if (isPushEnabled) {
                 LOG.info("Pushing to origin");
-                git.push().setCredentialsProvider(new UsernamePasswordCredentialsProvider(ConfigUtils.getJgitUsername(), Objects.requireNonNull(ConfigUtils.getJgitPassword()))).call();
+                git.push().setCredentialsProvider(new UsernamePasswordCredentialsProvider(gitUsername, gitPassword)).call();
                 commitUrl = getCommitUrl(git);
             } else {
                 LOG.info("Pushing to origin disabled via configuration, skipping this step");

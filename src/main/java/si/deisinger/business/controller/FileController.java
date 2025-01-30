@@ -4,7 +4,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
 import jakarta.json.Json;
 import jakarta.json.JsonArray;
 import jakarta.json.JsonObject;
@@ -27,12 +26,13 @@ public class FileController {
     private static final Logger LOG = LoggerFactory.getLogger(FileController.class);
     private static final ObjectMapper MAPPER = new ObjectMapper();
     private static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("yyyy.MM.dd@HH.mm.ss");
+    private final GitController gitController;
+    private final EmailController emailController;
 
-    @Inject
-    GitController gitController;
-
-    @Inject
-    EmailController emailController;
+    public FileController(GitController gitController, EmailController emailController) {
+        this.gitController = gitController;
+        this.emailController = emailController;
+    }
 
     /**
      * Writes new station data to a file.

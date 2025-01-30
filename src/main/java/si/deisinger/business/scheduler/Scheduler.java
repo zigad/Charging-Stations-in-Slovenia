@@ -2,7 +2,6 @@ package si.deisinger.business.scheduler;
 
 import io.quarkus.scheduler.Scheduled;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.ProviderProcessor;
@@ -20,17 +19,18 @@ import si.deisinger.providers.model.petrol.PetrolLocations;
 @ApplicationScoped
 public class Scheduler {
 
-    @Inject
-    ProviderProcessor providerProcessor;
-
     private static final Logger LOG = LoggerFactory.getLogger(Scheduler.class);
+    private final ProviderProcessor providerProcessor;
+
+    public Scheduler(ProviderProcessor providerProcessor) {
+        this.providerProcessor = providerProcessor;
+    }
 
     /**
      * The main scheduler. This Scheduler invokes methods for checking each provider from the enum {@link Providers}. The provider is checked by calling the corresponding method from the {@link ProviderProcessor} class. Information about the provider being
      * checked is logged.
      */
-
-    @Scheduled(every = "10m")
+    @Scheduled(every = "12h")
     void schedule() {
         for (Providers provider : Providers.values()) {
             LOG.info("Checking provider: {}", provider.getProviderName());
@@ -41,7 +41,9 @@ public class Scheduler {
                 case AVANT2GO -> providerProcessor.checkProviderStations(provider, Avant2GoLocations.class);
                 case EFREND -> providerProcessor.checkProviderStations(provider, EfrendLocationPins.class, EfrendDetailedLocation.class);
                 case MEGATEL -> providerProcessor.checkProviderStations(provider, MegaTelLocationPins.class, MegaTelDetailedLocation.class);
-                //case IMPLERA -> providerProcessor.checkProviderStations(provider, ImpleraLocations.class);
+                case IMPLERA -> {
+                    // Not implemented for now since we have invalid SSL certificate
+                }
                 default -> throw new IllegalStateException("Unexpected value: " + provider);
             }
         }

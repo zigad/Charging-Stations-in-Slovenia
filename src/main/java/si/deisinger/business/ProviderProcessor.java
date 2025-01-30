@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
@@ -28,13 +27,16 @@ import java.util.stream.StreamSupport;
 @ApplicationScoped
 public class ProviderProcessor {
 
-    @Inject
-    FileController fileController;
-    @Inject
-    ApiController apiController;
+    private final FileController fileController;
+    private final ApiController apiController;
 
     private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+
+    public ProviderProcessor(FileController fileController, ApiController apiController) {
+        this.fileController = fileController;
+        this.apiController = apiController;
+    }
 
     /**
      * Checks and processes provider stations.

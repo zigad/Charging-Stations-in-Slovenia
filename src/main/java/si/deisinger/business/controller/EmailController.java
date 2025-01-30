@@ -3,30 +3,42 @@ package si.deisinger.business.controller;
 import io.quarkus.mailer.Mail;
 import io.quarkus.mailer.Mailer;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import si.deisinger.business.configuration.ConfigUtils;
 import si.deisinger.providers.enums.Providers;
 
 @ApplicationScoped
 public class EmailController {
     private static final Logger LOG = LoggerFactory.getLogger(EmailController.class);
-    private static final String TO_EMAIL = ConfigUtils.getEmailUsername();
+    private final Mailer mailer;
 
-    @Inject
-    Mailer mailer;
+    @ConfigProperty(name = "quarkus.mailer.recipient.email")
+    private String recipientEmail;
+
+    public EmailController(Mailer mailer) {
+        this.mailer = mailer;
+    }
 
     /**
-     * A method that sends an email with the commit URL for the new charging stations for the given provider.
+     * Sends an email with the commit URL for new charging stations for the given provider.
      *
      * @param provider
-     *         the provider
+     *         The provider.
      * @param url
-     *         the commit URL
+     *         The commit URL.
      */
     public void sendMail(Providers provider, String url) {
-        LOG.info("Sending email");
-        mailer.send(Mail.withText(TO_EMAIL, "New charging station for: " + provider.getProviderName(), "Hello there sailor,\nThere are new charging stations from: " + provider.getProviderName() + "\n\n" + url));
+        LOG.info("Sending email to {} about new charging stations for provider {}", recipientEmail, provider.getProviderName());
+
+        String body = """
+                Hello there sailor,
+                
+                There are new charging stations from: %s
+                
+                %s
+                """.formatted(provider.getProviderName(), url);
+
+        mailer.send(Mail.withText(recipientEmail, "New charging station for: " + provider.getProviderName(), body));
     }
 }

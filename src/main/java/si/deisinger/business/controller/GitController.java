@@ -46,7 +46,7 @@ public class GitController {
         String commitUrl = null;
         try (Git git = Git.open(new File(""))) {
             LOG.info("Adding files to commit");
-            git.add().addFilepattern("currentInfoPerProvider.json").addFilepattern(provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json").call();
+            git.add().addFilepattern("currentInfoPerProvider.json").addFilepattern("Stations/" + provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json").call();
             LOG.info("Committing file to git");
             git.commit().setMessage("Updated List Of Charging Stations for " + provider.getProviderName()).setGpgConfig(new GpgConfig(config)).call();
             if (isPushEnabled) {

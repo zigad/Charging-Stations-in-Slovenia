@@ -45,7 +45,7 @@ public class FileController {
     public void writeNewStationsToFile(Providers provider, Object data) {
         LOG.info("Writing data to new file in {} ", provider.getProviderName());
         String timeStamp = LocalDateTime.now().format(DATE_FORMAT);
-        File file = new File(provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json");
+        File file = new File("Stations/" + provider.getProviderName() + "/" + provider.getProviderName() + "_" + timeStamp + ".json");
         try {
             MAPPER.writerWithDefaultPrettyPrinter().writeValue(file, data);
             LOG.info("File created successfully");

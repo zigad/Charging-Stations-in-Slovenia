@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
 import si.deisinger.business.controller.FileController;
 import si.deisinger.providers.enums.Providers;
+import si.deisinger.providers.model.ampeco.AmpecoLocationPins;
 import si.deisinger.providers.model.avant2go.Avant2GoLocations;
 import si.deisinger.providers.model.efrend.EfrendLocationPins;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
@@ -90,7 +91,6 @@ public class ProviderProcessor {
             String apiResponse = apiController.getLocationsFromApi(provider);
             return OBJECT_MAPPER.readValue(apiResponse, locationClass);
         } catch (JsonProcessingException e) {
-            LOG.error("Failed to deserialize location data for provider: {}", provider, e);
             throw new RuntimeException("Failed to fetch location data", e);
         }
     }
@@ -173,7 +173,6 @@ public class ProviderProcessor {
             String apiResponse = apiController.getAmpecoDetailedLocationsApi(requestBody, provider);
             return OBJECT_MAPPER.readValue(apiResponse, detailClass);
         } catch (JsonProcessingException e) {
-            LOG.error("Failed to fetch detailed location data for provider: {}", provider, e);
             throw new RuntimeException("Failed to fetch detailed location data", e);
         }
     }
@@ -235,23 +234,14 @@ public class ProviderProcessor {
      * @return the station ID
      */
     private int getStationId(Object location) {
-        if (location instanceof GNELocationPins.Pin gnePin) {
-            return gnePin.id;
-        } else if (location instanceof PetrolLocations petrolLocation) {
-            return petrolLocation.id;
-        } else if (location instanceof MoonChargeLocation moonChargeLocation) {
-            return moonChargeLocation.id;
-        } else if (location instanceof Avant2GoLocations.Result avant2GoResult) {
-            return avant2GoResult.hashCode(); // Use hashCode for Avant2Go
-        } else if (location instanceof EfrendLocationPins.Pin efrendPin) {
-            return efrendPin.id;
-        } else if (location instanceof MegaTelLocationPins.Pin megaTelPin) {
-            return megaTelPin.id;
-        } else if (location instanceof ImpleraLocations.marker impleraMarker) {
-            return impleraMarker.id;
-        } else {
-            throw new IllegalArgumentException("Unsupported location type");
-        }
+        return switch (location) {
+            case AmpecoLocationPins.Pin ampecoPin -> ampecoPin.id;
+            case PetrolLocations petrolLocation -> petrolLocation.id;
+            case MoonChargeLocation moonChargeLocation -> moonChargeLocation.id;
+            case Avant2GoLocations.Result avant2GoResult -> avant2GoResult.hashCode();
+            case ImpleraLocations.marker impleraMarker -> impleraMarker.id;
+            default -> throw new IllegalArgumentException("Unsupported location type");
+        };
     }
 
     /**
@@ -268,26 +258,23 @@ public class ProviderProcessor {
 
     private Set<Integer> getStationIds(Object locationData) {
         Set<Integer> stationIds = new LinkedHashSet<>();
-        if (locationData instanceof GNELocationPins gneLocationPins) {
-            gneLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
-        } else if (locationData instanceof PetrolLocations[] petrolLocations) {
-            for (PetrolLocations location : petrolLocations) {
-                stationIds.add(location.id);
+        switch (locationData) {
+            case GNELocationPins gneLocationPins -> gneLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
+            case PetrolLocations[] petrolLocations -> {
+                for (PetrolLocations location : petrolLocations) {
+                    stationIds.add(location.id);
+                }
             }
-        } else if (locationData instanceof MoonChargeLocation[] moonChargeLocations) {
-            for (MoonChargeLocation location : moonChargeLocations) {
-                stationIds.add(location.id);
+            case MoonChargeLocation[] moonChargeLocations -> {
+                for (MoonChargeLocation location : moonChargeLocations) {
+                    stationIds.add(location.id);
+                }
             }
-        } else if (locationData instanceof Avant2GoLocations avant2GoLocations) {
-            avant2GoLocations.results.forEach(result -> stationIds.add(result.hashCode()));
-        } else if (locationData instanceof EfrendLocationPins efrendLocationPins) {
-            efrendLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
-        } else if (locationData instanceof MegaTelLocationPins megaTelLocationPins) {
-            megaTelLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
-        } else if (locationData instanceof ImpleraLocations impleraLocations) {
-            impleraLocations.marker.forEach(marker -> stationIds.add(marker.id));
-        } else {
-            throw new IllegalArgumentException("Unsupported location data type");
+            case Avant2GoLocations avant2GoLocations -> avant2GoLocations.results.forEach(result -> stationIds.add(result.hashCode()));
+            case EfrendLocationPins efrendLocationPins -> efrendLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
+            case MegaTelLocationPins megaTelLocationPins -> megaTelLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
+            case ImpleraLocations impleraLocations -> impleraLocations.marker.forEach(marker -> stationIds.add(marker.id));
+            case null, default -> throw new IllegalArgumentException("Unsupported location data type");
         }
         return stationIds;
     }

@@ -1,0 +1,22 @@
+[ {
+  "Id" : 2712438,
+  "FriendlyName" : "Novartis d.o.o.",
+  "FriendlyCode" : "SI*POR0154",
+  "Access" : null,
+  "Address" : {
+    "Country" : {
+      "Id" : 51,
+      "Code" : "SI",
+      "ISO2Code" : "SI",
+      "ISO3Code" : "SVN",
+      "Title" : "Slovenia"
+    },
+    "CityName" : "Ljubljana",
+    "PostNumber" : "1000",
+    "StreetName" : "Verovškova ulica",
+    "HouseNumber" : "57",
+    "CityDistrictName" : null
+  },
+  "AccessType" : null,
+  "TotalEvses" : 20
+} ]

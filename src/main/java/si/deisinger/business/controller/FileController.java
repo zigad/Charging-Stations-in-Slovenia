@@ -69,7 +69,7 @@ public class FileController {
      * @param aNew
      *         the set of IDs of the new stations.
      */
-    public void writeNewDataToJsonFile(Providers providers, int numOfStationsOnline, Set<Integer> aNew) {
+    public void writeNewDataToJsonFile(Providers providers, int numOfStationsOnline, Set<Long> aNew) {
         LOG.info("Writing new data to JSON file for provider: {}", providers.getProviderName());
         LOG.info("Number of stations: {}", numOfStationsOnline);
         LOG.info("Station IDs: {}", aNew);
@@ -84,8 +84,8 @@ public class FileController {
         root.withObject("/" + providers.getProviderName()).put("numberOfStationsOnline", numOfStationsOnline);
         if (aNew != null) {
             ArrayNode stationIds = root.get(providers.getProviderName()).withArray("stationIds");
-            for (Integer integer : aNew) {
-                stationIds.add(integer);
+            for (Long number : aNew) {
+                stationIds.add(number);
             }
         }
         try {
@@ -105,16 +105,16 @@ public class FileController {
      *
      * @return a set of station IDs.
      */
-    public Set<Integer> getStationIdsFromFile(Providers providers) {
+    public Set<Long> getStationIdsFromFile(Providers providers) {
         LOG.info("Getting station IDs from file: currentInfoPerProvider.json for provider {}", providers.getProviderName());
-        Set<Integer> stations = new LinkedHashSet<>();
+        Set<Long> stations = new LinkedHashSet<>();
         try (FileInputStream fis = new FileInputStream("currentInfoPerProvider.json")) {
             JsonReader jsonReader = Json.createReader(fis);
             JsonArray jsonArray = jsonReader.readObject().getJsonObject(providers.getProviderName()).getJsonArray("stationIds");
             LOG.info("Read from file successfully. Number of station IDs in file: {}", jsonArray.size());
             LOG.info("Converting JsonArray to Set from {} stations." + jsonArray.size());
             for (int i = 0; i < jsonArray.size(); i++) {
-                stations.add(jsonArray.getInt(i));
+                stations.add((long) jsonArray.getInt(i));
             }
             LOG.info("Converted successfully. Number of IDs in Set: " + stations.size());
         } catch (IOException e) {

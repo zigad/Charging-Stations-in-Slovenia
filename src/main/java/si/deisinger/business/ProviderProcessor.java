@@ -8,7 +8,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
 import si.deisinger.business.controller.FileController;
-import si.deisinger.business.entity.ChargingStationsEntity;
 import si.deisinger.business.service.ChargingStationsService;
 import si.deisinger.providers.enums.Providers;
 import si.deisinger.providers.model.ampeco.AmpecoLocationPins;
@@ -52,29 +51,29 @@ public class ProviderProcessor {
      *         array of location classes for deserialization
      */
     public void checkProviderStations(Providers provider, Class<?>... locationClass) {
-        Object locationData = fetchLocationDataFromAPI(provider, locationClass[0]);
+        Object locationDataFromApi = fetchLocationDataFromAPI(provider, locationClass[0]);
 
-        int numberOfFetchedStations = getNumberOfStations(locationData);
-        LOG.info("Fetched {} stations for provider: {}", numberOfFetchedStations, provider);
-        Set<Integer> currentStationIds = getStationIds(locationData);
-        List<ChargingStationsEntity> numberOfStationsForProvider = chargingStationsService.getListOfChargingStationsPerProvider(provider);
+        int numberOfStationsFromApi = getNumberOfStationsFromApi(locationDataFromApi);
+        LOG.info("Fetched {} stations for provider: {}", numberOfStationsFromApi, provider);
+        Set<Long> currentStationIdsFromApiData = getStationIdsFromApiData(locationDataFromApi);
+        Set<Long> currentStationIdsFromDb = chargingStationsService.getListOfChargingStationsPerProvider(provider);
+
         if (!provider.equals(Providers.AVANT2GO)) {
-            Set<Integer> newStations = findNewStations(provider, currentStationIds);
+            Set<Long> newStations = findNewStations(provider, currentStationIdsFromApiData);
             if (newStations.isEmpty()) {
                 LOG.info("No new stations found for provider: {}", provider);
                 return;
             }
             LOG.info("Found {} new stations for provider: {}", newStations.size(), provider);
-            processNewStations(provider, locationData, newStations, locationClass);
+            processNewStations(provider, locationDataFromApi, newStations, locationClass);
         } else {
 
-            List<ChargingStationsEntity> numberOfStationsForProviderq = chargingStationsService.getListOfChargingStationsPerProvider(provider.getId());
             Integer numberOfStationsInFile = fileController.getNumberOfStationsFromFile(provider);
 
-            if (numberOfFetchedStations != numberOfStationsInFile) {
+            if (numberOfStationsFromApi != numberOfStationsInFile) {
                 LOG.info("Change detected");
-                fileController.writeNewDataToJsonFile(provider, numberOfFetchedStations, null);
-                fileController.writeNewStationsToFile(provider, locationData);
+                fileController.writeNewDataToJsonFile(provider, numberOfStationsFromApi, null);
+                fileController.writeNewStationsToFile(provider, locationDataFromApi);
             } else {
                 LOG.info("No new stations found");
             }
@@ -130,8 +129,8 @@ public class ProviderProcessor {
      *
      * @return a set of new station IDs
      */
-    private Set<Integer> findNewStations(Providers provider, Set<Integer> currentStations) {
-        Set<Integer> storedStations = fileController.getStationIdsFromFile(provider);
+    private Set<Long> findNewStations(Providers provider, Set<Long> currentStations) {
+        Set<Long> storedStations = fileController.getStationIdsFromFile(provider);
         LOG.info("Stored stations: {}, Current stations: {}", storedStations.size(), currentStations.size());
 
         return currentStations.stream().filter(station -> !storedStations.contains(station)).collect(Collectors.toSet());
@@ -149,7 +148,7 @@ public class ProviderProcessor {
      * @param locationClass
      *         array of location classes for detailed processing
      */
-    private void processNewStations(Providers provider, Object locationData, Set<Integer> newStations, Class<?>... locationClass) {
+    private void processNewStations(Providers provider, Object locationData, Set<Long> newStations, Class<?>... locationClass) {
         if (provider.getAmpecoUrl() != null && !provider.getAmpecoUrl().isBlank()) {
             Object detailedLocationData = fetchDetailedLocationData(provider, newStations, locationClass[1]);
             fileController.writeNewStationsToFile(provider, detailedLocationData);
@@ -173,7 +172,7 @@ public class ProviderProcessor {
      *
      * @return deserialized detailed location data
      */
-    private Object fetchDetailedLocationData(Providers provider, Set<Integer> newStations, Class<?> detailClass) {
+    private Object fetchDetailedLocationData(Providers provider, Set<Long> newStations, Class<?> detailClass) {
         try {
             String requestBody = buildPostRequestBody(newStations);
             String apiResponse = apiController.getAmpecoDetailedLocationsApi(requestBody, provider);
@@ -193,11 +192,11 @@ public class ProviderProcessor {
      *
      * @return a list of new location data
      */
-    private List<Object> filterLocationData(Object locationData, Set<Integer> newStations) {
+    private List<Object> filterLocationData(Object locationData, Set<Long> newStations) {
         return extractIdsFromData(
                 locationData, location -> {
                     if (newStations.contains(getStationId(location))) {
-                        return getStationId(location);
+                        return Math.toIntExact(getStationId(location));
                     }
                     return null;
                 }
@@ -212,7 +211,7 @@ public class ProviderProcessor {
      *
      * @return the number of stations
      */
-    private int getNumberOfStations(Object locationData) {
+    private int getNumberOfStationsFromApi(Object locationData) {
         if (locationData instanceof GNELocationPins gneLocationPins) {
             return gneLocationPins.pins.size();
         } else if (locationData instanceof PetrolLocations[] petrolLocations) {
@@ -239,12 +238,12 @@ public class ProviderProcessor {
      *
      * @return the station ID
      */
-    private int getStationId(Object location) {
+    private Long getStationId(Object location) {
         return switch (location) {
             case AmpecoLocationPins.Pin ampecoPin -> ampecoPin.id;
             case PetrolLocations petrolLocation -> petrolLocation.id;
             case MoonChargeLocation moonChargeLocation -> moonChargeLocation.id;
-            case Avant2GoLocations.Result avant2GoResult -> avant2GoResult.hashCode();
+            case Avant2GoLocations.Result avant2GoResult -> (long) avant2GoResult.hashCode();
             case ImpleraLocations.marker impleraMarker -> impleraMarker.id;
             default -> throw new IllegalArgumentException("Unsupported location type");
         };
@@ -258,12 +257,12 @@ public class ProviderProcessor {
      *
      * @return the JSON request body as a string
      */
-    private String buildPostRequestBody(Set<Integer> stationIds) {
+    private String buildPostRequestBody(Set<Long> stationIds) {
         return stationIds.stream().map(id -> String.format("\"%d\":null", id)).collect(Collectors.joining(",", "{\"locations\":{", "}}"));
     }
 
-    private Set<Integer> getStationIds(Object locationData) {
-        Set<Integer> stationIds = new LinkedHashSet<>();
+    private Set<Long> getStationIdsFromApiData(Object locationData) {
+        Set<Long> stationIds = new LinkedHashSet<>();
         switch (locationData) {
             case GNELocationPins gneLocationPins -> gneLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
             case PetrolLocations[] petrolLocations -> {
@@ -276,7 +275,7 @@ public class ProviderProcessor {
                     stationIds.add(location.id);
                 }
             }
-            case Avant2GoLocations avant2GoLocations -> avant2GoLocations.results.forEach(result -> stationIds.add(result.hashCode()));
+            case Avant2GoLocations avant2GoLocations -> avant2GoLocations.results.forEach(result -> stationIds.add((long) result.hashCode()));
             case EfrendLocationPins efrendLocationPins -> efrendLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
             case MegaTelLocationPins megaTelLocationPins -> megaTelLocationPins.pins.forEach(pin -> stationIds.add(pin.id));
             case ImpleraLocations impleraLocations -> impleraLocations.marker.forEach(marker -> stationIds.add(marker.id));

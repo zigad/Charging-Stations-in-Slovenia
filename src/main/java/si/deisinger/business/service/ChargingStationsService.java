@@ -6,7 +6,9 @@ import si.deisinger.business.entity.ChargingStationsEntity;
 import si.deisinger.business.repository.ChargingStationsRepository;
 import si.deisinger.providers.enums.Providers;
 
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 @ApplicationScoped
 public class ChargingStationsService {
@@ -28,7 +30,12 @@ public class ChargingStationsService {
     }
 
     @Transactional
-    public List<ChargingStationsEntity> getListOfChargingStationsPerProvider(Providers provider) {
-        return chargingStationsRepository.list("provider", provider.getId());
+    public Set<Long> getListOfChargingStationsPerProvider(Providers provider) {
+        List<ChargingStationsEntity> chargingStationsEntityList = chargingStationsRepository.list("provider", provider.getId());
+        Set<Long> ids = new LinkedHashSet<>();
+        for (ChargingStationsEntity chargingStationsEntity : chargingStationsEntityList) {
+            ids.add(chargingStationsEntity.getId());
+        }
+        return ids;
     }
 }

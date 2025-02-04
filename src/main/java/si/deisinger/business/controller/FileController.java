@@ -132,7 +132,8 @@ public class FileController {
      * @return the number of stations for the specified provider.
      */
     public Integer getNumberOfStationsFromFile(Providers providers) {
-        LOG.info("Getting number of stations from file: currentInfoPerProvider.json for provider: " + providers.getProviderName());
+        LOG.info("Getting number of stations from db for {}", providers.getProviderName());
+
         Integer numberOfStationsOnline = null;
         try (FileInputStream fis = new FileInputStream("currentInfoPerProvider.json")) {
             JsonReader jsonReader = Json.createReader(fis);

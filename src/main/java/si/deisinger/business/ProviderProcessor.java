@@ -8,6 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
 import si.deisinger.business.controller.FileController;
+import si.deisinger.business.entity.ChargingStationsEntity;
+import si.deisinger.business.service.ChargingStationsService;
 import si.deisinger.providers.enums.Providers;
 import si.deisinger.providers.model.ampeco.AmpecoLocationPins;
 import si.deisinger.providers.model.avant2go.Avant2GoLocations;
@@ -30,13 +32,15 @@ public class ProviderProcessor {
 
     private final FileController fileController;
     private final ApiController apiController;
+    private final ChargingStationsService chargingStationsService;
 
     private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
-    public ProviderProcessor(FileController fileController, ApiController apiController) {
+    public ProviderProcessor(FileController fileController, ApiController apiController, ChargingStationsService chargingStationsService) {
         this.fileController = fileController;
         this.apiController = apiController;
+        this.chargingStationsService = chargingStationsService;
     }
 
     /**
@@ -48,13 +52,14 @@ public class ProviderProcessor {
      *         array of location classes for deserialization
      */
     public void checkProviderStations(Providers provider, Class<?>... locationClass) {
-        Object locationData = fetchLocationData(provider, locationClass[0]);
+        Object locationData = fetchLocationDataFromAPI(provider, locationClass[0]);
 
-        int fetchedStations = getNumberOfStations(locationData);
-        LOG.info("Fetched {} stations for provider: {}", fetchedStations, provider);
-        Set<Integer> currentStations = getStationIds(locationData);
+        int numberOfFetchedStations = getNumberOfStations(locationData);
+        LOG.info("Fetched {} stations for provider: {}", numberOfFetchedStations, provider);
+        Set<Integer> currentStationIds = getStationIds(locationData);
+        List<ChargingStationsEntity> numberOfStationsForProvider = chargingStationsService.getListOfChargingStationsPerProvider(provider);
         if (!provider.equals(Providers.AVANT2GO)) {
-            Set<Integer> newStations = findNewStations(provider, currentStations);
+            Set<Integer> newStations = findNewStations(provider, currentStationIds);
             if (newStations.isEmpty()) {
                 LOG.info("No new stations found for provider: {}", provider);
                 return;
@@ -62,12 +67,13 @@ public class ProviderProcessor {
             LOG.info("Found {} new stations for provider: {}", newStations.size(), provider);
             processNewStations(provider, locationData, newStations, locationClass);
         } else {
-            int size = currentStations.size();
+
+            List<ChargingStationsEntity> numberOfStationsForProviderq = chargingStationsService.getListOfChargingStationsPerProvider(provider.getId());
             Integer numberOfStationsInFile = fileController.getNumberOfStationsFromFile(provider);
 
-            if (size != numberOfStationsInFile) {
+            if (numberOfFetchedStations != numberOfStationsInFile) {
                 LOG.info("Change detected");
-                fileController.writeNewDataToJsonFile(provider, size, null);
+                fileController.writeNewDataToJsonFile(provider, numberOfFetchedStations, null);
                 fileController.writeNewStationsToFile(provider, locationData);
             } else {
                 LOG.info("No new stations found");
@@ -86,7 +92,7 @@ public class ProviderProcessor {
      *
      * @return deserialized location data
      */
-    private Object fetchLocationData(Providers provider, Class<?> locationClass) {
+    private Object fetchLocationDataFromAPI(Providers provider, Class<?> locationClass) {
         try {
             String apiResponse = apiController.getLocationsFromApi(provider);
             return OBJECT_MAPPER.readValue(apiResponse, locationClass);

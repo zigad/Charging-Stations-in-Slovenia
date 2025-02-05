@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/charging-stations-in-slovenia .
+# docker build -f src/main/docker/Dockerfile.native -t zigad/charging-stations-in-slovenia .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/charging-stations-in-slovenia
+# docker run -i --rm -p 8080:8080 zigad/charging-stations-in-slovenia
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.10

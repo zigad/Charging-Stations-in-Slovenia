@@ -45,6 +45,11 @@ public class PetrolLocations {
         public double gPSLongitude;
         @JsonProperty("GPSLatitude")
         public double gPSLatitude;
+
+        @Override
+        public String toString() {
+            return gPSLongitude + ", " + gPSLatitude;
+        }
     }
 
     public static class AccessType {
@@ -69,6 +74,11 @@ public class PetrolLocations {
         public String houseNumber;
         @JsonProperty("CityDistrictName")
         public String cityDistrictName;
+
+        @Override
+        public String toString() {
+            return streetName + " " + houseNumber + ", " + postNumber + " " + cityName + ", " + country.title;
+        }
     }
 
     public static class Country {
@@ -82,5 +92,9 @@ public class PetrolLocations {
         public String iSO3Code;
         @JsonProperty("Title")
         public String title;
+    }
+
+    public Long getId() {
+        return id;
     }
 }

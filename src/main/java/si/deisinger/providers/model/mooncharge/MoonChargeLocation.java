@@ -24,6 +24,11 @@ public class MoonChargeLocation {
         public double gPSLongitude;
         @JsonProperty("GPSLatitude")
         public double gPSLatitude;
+
+        @Override
+        public String toString() {
+            return gPSLongitude + ", " + gPSLatitude;
+        }
     }
 
     public static class AccessType {
@@ -48,6 +53,11 @@ public class MoonChargeLocation {
         public String houseNumber;
         @JsonProperty("CityDistrictName")
         public String cityDistrictName;
+
+        @Override
+        public String toString() {
+            return streetName + " " + houseNumber + ", " + postNumber + " " + cityName + ", " + country.title;
+        }
     }
 
     public static class Country {
@@ -66,5 +76,9 @@ public class MoonChargeLocation {
     public static class RoamingActor {
         @JsonProperty("Id")
         public int id;
+    }
+
+    public Long getId() {
+        return id;
     }
 }

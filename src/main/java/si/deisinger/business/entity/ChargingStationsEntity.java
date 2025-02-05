@@ -8,11 +8,11 @@ public class ChargingStationsEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(nullable = false)
+    @Column(name = "id", nullable = false)
     private Long id;
 
     @Column(name = "station_id")
-    private String stationId;
+    private Long stationId;
 
     @Column(name = "provider")
     private Integer provider;
@@ -26,6 +26,17 @@ public class ChargingStationsEntity {
     @Column(name = "location")
     private String location;
 
+    public ChargingStationsEntity() {
+    }
+
+    public ChargingStationsEntity(Long stationId, Integer provider, String friendlyName, String address, String location) {
+        this.stationId = stationId;
+        this.provider = provider;
+        this.friendlyName = friendlyName;
+        this.address = address;
+        this.location = location;
+    }
+
     public Long getId() {
         return id;
     }
@@ -34,11 +45,11 @@ public class ChargingStationsEntity {
         this.id = id;
     }
 
-    public String getStationId() {
+    public Long getStationId() {
         return stationId;
     }
 
-    public void setStationId(String stationId) {
+    public void setStationId(Long stationId) {
         this.stationId = stationId;
     }
 

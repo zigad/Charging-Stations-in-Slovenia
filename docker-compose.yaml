@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres:17.0-alpine
+    container_name: charging_stations_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: charging_stations
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  quarkus-app:
+    build:
+      context: .
+      dockerfile: src/main/docker/Dockerfile.jvm
+
+    container_name: charging_stations_service
+    restart: always
+    depends_on:
+      - database
+    environment:
+      PG_URL: jdbc:postgresql://database:5432/charging_stations
+      PG_USER: admin
+      PG_PASS: secret
+      CSS_MAIL_FROM: mail@example.com
+      CSS_MAIL_TO: mail@example.com
+      CSS_MAIL_HOST: smtp.example.com
+      CSS_MAIL_PORT: 465
+      CSS_MAIL_TLS: true
+      CSS_MAIL_MOCK: false
+      CSS_MAIL_USERNAME: mail@example.com
+      CSS_MAIL_PASSWORD: password
+
+volumes:
+  postgres_data:

@@ -1,0 +1,158 @@
+{
+  "locations" : [ {
+    "id" : 220209,
+    "name" : "Miegerer Straße 2",
+    "address" : "Miegerer Straße 2",
+    "location" : "46.6085030,14.3522110",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "534663",
+        "identifier" : "AT*KEL*E007*71277",
+        "networkId" : "2",
+        "maxPower" : 40000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "703",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*KEL*E007*71277",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*KEL*E007*71277",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2025-01-24 11:51:55.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 221899,
+    "name" : "Botićev trg bb",
+    "address" : "Botićev trg bb",
+    "location" : "45.8055110,15.9794730",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "421848",
+        "identifier" : "HR*HEPE01005*02*3",
+        "networkId" : "4",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "150",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*HEPE01005*02*3",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*HEPE01005*02*3",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "421849",
+        "identifier" : "HR*HEPE01005*02*2",
+        "networkId" : "5",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "150",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        }, {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*HEPE01005*02*2",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*HEPE01005*02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "421850",
+        "identifier" : "HR*HEPE01005*02*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "36",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*HEPE01005*02*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/HR*HEPE01005*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2025-02-06 05:29:11.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 221903,
+    "name" : "Hofrat-Renner-Weg 1",
+    "address" : "Hofrat-Renner-Weg 1",
+    "location" : "47.6418830,13.6198380",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "634220",
+        "identifier" : "AT*LAG*E1313*1",
+        "networkId" : "2",
+        "maxPower" : 150000,
+        "currentType" : "dc",
+        "status" : "charging",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "344",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*LAG*E1313*1",
+        "qrUrl" : "https://cp.charge.efrend.si/public/cs/AT*LAG*E1313*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2025-02-06 15:25:30.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

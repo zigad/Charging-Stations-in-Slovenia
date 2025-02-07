@@ -1,0 +1,95 @@
+{
+  "locations" : [ {
+    "id" : 222578,
+    "name" : "GL Charge Savska Loka 4",
+    "address" : "Savska Loka 4",
+    "location" : "46.2348934,14.3531884",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "645730",
+        "identifier" : "Roaming test 2 Type 2 Socket 1",
+        "networkId" : "2",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "out of order",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "649",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "Roaming test 2 Type 2 Socket 1",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/Roaming%20test%202%20Type%202%20Socket%201",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      }, {
+        "id" : "645731",
+        "identifier" : "Roaming test 2 Type 2 Socket 2",
+        "networkId" : "3",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "out of order",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : false,
+        "tariffId" : "649",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "socket",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "Roaming test 2 Type 2 Socket 2",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/Roaming%20test%202%20Type%202%20Socket%202",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2024-12-19 10:44:58.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 227952,
+    "name" : "Ziegelgasse 6",
+    "address" : "Ziegelgasse 6",
+    "location" : "47.1114070,15.7058990",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "650229",
+        "identifier" : "AT*POW*E02361",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "343",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02361",
+        "qrUrl" : "https://cp.emobility.gremonaelektriko.si/public/cs/AT*POW*E02361",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE,METER_VALUES",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2025-02-07 04:08:17.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

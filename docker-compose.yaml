@@ -7,10 +7,10 @@ services:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: secret
       POSTGRES_DB: charging_stations
-    ports:
-      - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - charging_stations_network
 
   charging_stations_service:
     build:
@@ -33,6 +33,12 @@ services:
       CSS_MAIL_MOCK: false
       CSS_MAIL_USERNAME: mail@example.com
       CSS_MAIL_PASSWORD: password
+    networks:
+      - charging_stations_network
 
 volumes:
   postgres_data:
+
+networks:
+  charging_stations_network:
+    driver: bridge

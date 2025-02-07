@@ -1,7 +1,5 @@
-version: '3.8'
-
 services:
-  database:
+  charging_stations_postgres:
     image: postgres:17.0-alpine
     container_name: charging_stations_postgres
     restart: always
@@ -14,7 +12,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
-  quarkus-app:
+  charging_stations_service:
     build:
       context: .
       dockerfile: src/main/docker/Dockerfile.jvm
@@ -22,9 +20,9 @@ services:
     container_name: charging_stations_service
     restart: always
     depends_on:
-      - database
+      - charging_stations_postgres
     environment:
-      PG_URL: jdbc:postgresql://database:5432/charging_stations
+      PG_URL: jdbc:postgresql://charging_stations_postgres:5432/charging_stations
       PG_USER: admin
       PG_PASS: secret
       CSS_MAIL_FROM: mail@example.com

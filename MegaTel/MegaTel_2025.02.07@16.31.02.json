@@ -1,0 +1,97 @@
+{
+  "locations" : [ {
+    "id" : 639157,
+    "name" : "Ziegelgasse 6 ",
+    "address" : "Ziegelgasse 6 ",
+    "location" : "47.1114070,15.7058990",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1232904",
+        "identifier" : "AT*POW*E02361",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "399",
+        "connectors" : [ {
+          "name" : "CCS 2",
+          "icon" : "ccs2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "AT*POW*E02361",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/AT*POW*E02361",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2025-02-07 04:24:23.000",
+    "timezone" : "Europe/Ljubljana"
+  }, {
+    "id" : 639343,
+    "name" : "Botićev trg bb",
+    "address" : "Botićev trg bb",
+    "location" : "45.8039970,15.9943190",
+    "zones" : [ {
+      "evses" : [ {
+        "id" : "1010392",
+        "identifier" : "HR*HEPE01005*02*2",
+        "networkId" : "1",
+        "maxPower" : 50000,
+        "currentType" : "dc",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "91",
+        "connectors" : [ {
+          "name" : "CHAdeMO",
+          "icon" : "chademo",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*HEPE01005*02*2",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR*HEPE01005*02*2",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    }, {
+      "evses" : [ {
+        "id" : "1010393",
+        "identifier" : "HR*HEPE01005*02*1",
+        "networkId" : "1",
+        "maxPower" : 22000,
+        "currentType" : "ac",
+        "status" : "available",
+        "managedByOperator" : true,
+        "reservationMinutes" : 0,
+        "isAvailable" : true,
+        "tariffId" : "90",
+        "connectors" : [ {
+          "name" : "Type 2",
+          "icon" : "type2",
+          "format" : "cable",
+          "status" : "active"
+        } ],
+        "roamingEvseId" : "HR*HEPE01005*02*1",
+        "qrUrl" : "https://cp.emobility.megatel.si/public/cs/HR*HEPE01005*02*1",
+        "capabilities" : "REMOTE_START_STOP_CAPABLE",
+        "hasParkingBarrier" : false,
+        "canReserve" : false,
+        "isTemporarilyUnavailable" : false,
+        "isLongTermUnavailable" : false
+      } ]
+    } ],
+    "updatedAt" : "2025-02-07 04:04:20.000",
+    "timezone" : "Europe/Ljubljana"
+  } ]
+}

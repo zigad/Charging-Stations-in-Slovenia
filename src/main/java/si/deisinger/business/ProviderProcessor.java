@@ -3,360 +3,304 @@ package si.deisinger.business;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import jakarta.enterprise.context.ApplicationScoped;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
-import si.deisinger.business.controller.FileController;
+import si.deisinger.business.controller.EmailController;
+import si.deisinger.business.entity.ChargingStationsEntity;
+import si.deisinger.business.repository.ChargingStationsRepository;
 import si.deisinger.providers.enums.Providers;
+import si.deisinger.providers.model.ampeco.AmpecoDetailedLocation;
 import si.deisinger.providers.model.ampeco.AmpecoLocationPins;
 import si.deisinger.providers.model.avant2go.Avant2GoLocations;
-import si.deisinger.providers.model.efrend.EfrendDetailedLocation;
-import si.deisinger.providers.model.efrend.EfrendLocationPins;
-import si.deisinger.providers.model.gremonaelektriko.GNEDetailedLocation;
-import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
 import si.deisinger.providers.model.implera.ImpleraLocations;
-import si.deisinger.providers.model.megatel.MegaTelDetailedLocation;
-import si.deisinger.providers.model.megatel.MegaTelLocationPins;
 import si.deisinger.providers.model.mooncharge.MoonChargeLocation;
 import si.deisinger.providers.model.petrol.PetrolLocations;
 
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
+/**
+ * Processor class to handle provider station operations such as fetching, processing, and storing data.
+ */
+@ApplicationScoped
 public class ProviderProcessor {
 
-	private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
-	private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+    private final ChargingStationsRepository chargingStationsRepository;
+    private final EmailController emailController;
+    private final ApiController apiController;
 
-	/**
-	 * This method checks for new Gremo Na Elektriko (GNE) stations and fetches details about them if there are any new stations.
-	 *
-	 * @param provider
-	 * 		An instance of the Providers class which contains details about the API to fetch data from
-	 * @throws RuntimeException
-	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
-	 */
-	public void checkGremoNaElektriko(Providers provider) {
-		GNELocationPins gneLocationPins;
-		try {
-			gneLocationPins = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), GNELocationPins.class);
-		} catch (JsonProcessingException e) {
-			LOG.error("Mapping to POJO failed");
-			throw new RuntimeException(e);
-		}
-		LOG.info("Fetched: " + gneLocationPins.pins.size() + " stations");
+    private static final Logger LOG = LoggerFactory.getLogger(ProviderProcessor.class);
+    private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 
-		Set<Integer> stationsAroundSlovenia = restrictToGeoLocation(gneLocationPins);
+    public ProviderProcessor(ChargingStationsRepository chargingStationsRepository, EmailController emailController, ApiController apiController) {
+        this.chargingStationsRepository = chargingStationsRepository;
+        this.emailController = emailController;
+        this.apiController = apiController;
+    }
 
-		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
+    /**
+     * Checks and processes provider stations.
+     *
+     * @param provider
+     *         the provider to process
+     * @param locationClass
+     *         the expected class type for deserialization
+     */
+    public void checkProviderStations(Providers provider, Class<?> locationClass) {
+        Object locationDataFromApi = fetchLocationDataFromAPI(provider, locationClass);
+        int numberOfStationsFromApi = getNumberOfStationsFromApi(locationDataFromApi);
+        LOG.info("Fetched {} stations for provider: {}", numberOfStationsFromApi, provider);
+        Set<Long> apiStationIds = getStationIdsFromApiData(locationDataFromApi);
 
-		if (!difference.isEmpty()) {
-			LOG.info("Found " + difference.size() + " new stations");
-			GNEDetailedLocation gneDetailedLocation;
-			try {
-				gneDetailedLocation = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), GNEDetailedLocation.class);
-			} catch (JsonProcessingException e) {
-				LOG.error("Mapping to POJO failed");
-				throw new RuntimeException(e);
-			}
-			LOG.info("Mapped " + gneDetailedLocation.locations.size() + " stations to POJO");
-			FileController.writeNewDataToJsonFile(provider, gneLocationPins.pins.size(), difference);
-			FileController.writeNewStationsToFile(provider, gneDetailedLocation);
-		} else {
-			LOG.info("No new stations found");
-		}
-	}
+        // For providers other than Avant2Go, compare API IDs with the ones in DB.
+        if (!provider.equals(Providers.AVANT2GO)) {
+            Set<Long> newStations = findNewStationIds(provider, apiStationIds);
+            if (newStations.isEmpty()) {
+                LOG.info("No new stations found for provider: {}", provider);
+                return;
+            }
+            LOG.info("Found {} new stations for provider: {}", newStations.size(), provider);
+            processNewStations(provider, locationDataFromApi, newStations);
+        }
+        // You can extend processing for AVANT2GO (or any other provider) here if needed.
+    }
 
-	/**
-	 * This method checks for new Petrol stations and fetches details about them if there are any new stations.
-	 *
-	 * @param provider
-	 * 		An instance of the Providers class which contains details about the API to fetch data from
-	 * @throws RuntimeException
-	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
-	 */
-	public void checkPetrol(Providers provider) {
-		PetrolLocations[] locations;
-		try {
-			locations = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), PetrolLocations[].class);
-		} catch (JsonProcessingException e) {
-			LOG.error("Mapping to POJO failed");
-			throw new RuntimeException(e);
-		}
-		LOG.info("Fetched: " + locations.length + " stations");
+    /**
+     * Fetches location data from the API and deserializes it.
+     *
+     * @param provider
+     *         the provider to fetch data for
+     * @param locationClass
+     *         the expected class type for deserialization
+     *
+     * @return the deserialized location data
+     */
+    private Object fetchLocationDataFromAPI(Providers provider, Class<?> locationClass) {
+        switch (provider) {
+            // For providers using Ampeco URLs, fetch two regions (west and east) then combine.
+            case GREMONAELEKTRIKO, MEGATEL, EFREND -> {
+                String queryParamsWest = "?includeAvailability=false&minLatitude=45.4215&minLongitude=13.3753&maxLatitude=46.8763&maxLongitude=14.5000&limit=5000";
+                String queryParamsEast = "?includeAvailability=false&minLatitude=45.4215&minLongitude=14.5000&maxLatitude=46.8763&maxLongitude=16.6106&limit=5000";
+                String locationsWest = apiController.getLocationsFromApi(provider, queryParamsWest);
+                String locationsEast = apiController.getLocationsFromApi(provider, queryParamsEast);
 
-		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
-		for (PetrolLocations location : locations) {
-			stationsAroundSlovenia.add(location.id);
-		}
+                AmpecoLocationPins pinsWest;
+                AmpecoLocationPins pinsEast;
+                try {
+                    pinsWest = (AmpecoLocationPins) OBJECT_MAPPER.readValue(locationsWest, locationClass);
+                    pinsEast = (AmpecoLocationPins) OBJECT_MAPPER.readValue(locationsEast, locationClass);
+                } catch (JsonProcessingException e) {
+                    throw new RuntimeException("Failed to parse Ampeco location pins", e);
+                }
 
-		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
+                // Ensure pins list is non-null
+                if (pinsWest.pins == null) {
+                    pinsWest.pins = new ArrayList<>();
+                }
+                if (pinsEast.pins != null) {
+                    pinsWest.pins.addAll(pinsEast.pins);
+                }
 
-		if (!difference.isEmpty()) {
-			LOG.info("Found " + difference.size() + " new stations");
-			List<PetrolLocations> newLocations = new ArrayList<>();
-			for (PetrolLocations location : locations) {
-				if (difference.contains(location.id)) {
-					newLocations.add(location);
-				}
-			}
-			LOG.info("Created list of stations");
-			FileController.writeNewDataToJsonFile(provider, locations.length, difference);
-			FileController.writeNewStationsToFile(provider, newLocations);
-		} else {
-			LOG.info("No new stations found");
-		}
-	}
+                // Fetch detailed data based on the combined set of IDs.
+                Set<Long> ids = pinsWest.pins.stream().map(pin -> pin.id).collect(Collectors.toCollection(LinkedHashSet::new));
+                return fetchDetailedLocationData(provider, ids);
+            }
+            default -> {
+                try {
+                    String apiResponse = apiController.getLocationsFromApi(provider, "");
+                    return OBJECT_MAPPER.readValue(apiResponse, locationClass);
+                } catch (JsonProcessingException e) {
+                    throw new RuntimeException("Failed to fetch location data for provider: " + provider, e);
+                }
+            }
+        }
+    }
 
-	/**
-	 * This method checks for new Moon Charge stations and fetches details about them if there are any new stations.
-	 *
-	 * @param provider
-	 * 		An instance of the Providers class which contains details about the API to fetch data from
-	 * @throws RuntimeException
-	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
-	 */
-	public void checkMoonCharge(Providers provider) {
-		MoonChargeLocation[] locations;
-		try {
-			locations = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), MoonChargeLocation[].class);
-		} catch (JsonProcessingException e) {
-			LOG.error("Mapping to POJO failed");
-			throw new RuntimeException(e);
-		}
-		LOG.info("Fetched: " + locations.length + " stations");
+    /**
+     * Finds new station IDs by comparing API data with IDs stored in the database.
+     *
+     * @param provider
+     *         the provider to process
+     * @param apiStationIds
+     *         the set of station IDs fetched from the API
+     *
+     * @return a set of new station IDs not yet stored in the database
+     */
+    private Set<Long> findNewStationIds(Providers provider, Set<Long> apiStationIds) {
+        Set<Long> dbStationIds = chargingStationsRepository.findStationIdsByProvider(provider);
+        LOG.info("Charging stations in DB: {}, Charging stations online: {}", dbStationIds.size(), apiStationIds.size());
+        return apiStationIds.stream().filter(id -> !dbStationIds.contains(id)).collect(Collectors.toCollection(LinkedHashSet::new));
+    }
 
-		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
-		for (MoonChargeLocation location : locations) {
-			stationsAroundSlovenia.add(location.id);
-		}
+    /**
+     * Processes new stations by filtering the fetched data and then saving and notifying via email.
+     *
+     * @param provider
+     *         the provider to process
+     * @param locationDataFromApi
+     *         the fetched location data
+     * @param newStations
+     *         the set of new station IDs
+     */
+    private void processNewStations(Providers provider, Object locationDataFromApi, Set<Long> newStations) {
+        if (locationDataFromApi instanceof AmpecoDetailedLocation ampecoDetailedLocation) {
+            // Retain only the new stations.
+            ampecoDetailedLocation.locations.removeIf(location -> !newStations.contains(location.id));
+            saveAmpecoChargingStationsToDb(ampecoDetailedLocation, provider);
+            sendEmailAboutNewChargingStations(ampecoDetailedLocation, provider);
+        } else if (locationDataFromApi instanceof PetrolLocations[] petrolLocations) {
+            List<PetrolLocations> filtered = filterLocationData(petrolLocations, newStations, PetrolLocations::getId);
+            saveChargingStationsToDb(filtered, petrol -> new ChargingStationsEntity(petrol.id, Providers.PETROL.getId(), petrol.friendlyName, petrol.address.toString(), petrol.access != null ? petrol.access.toString() : null));
+            sendEmailAboutNewChargingStations(filtered, provider);
+        } else if (locationDataFromApi instanceof MoonChargeLocation[] moonChargeLocations) {
+            List<MoonChargeLocation> filtered = filterLocationData(moonChargeLocations, newStations, MoonChargeLocation::getId);
+            saveChargingStationsToDb(filtered, moon -> new ChargingStationsEntity(moon.id, Providers.MOONCHARGE.getId(), moon.friendlyName, moon.address.toString(), moon.access != null ? moon.access.toString() : null));
+            sendEmailAboutNewChargingStations(filtered, provider);
+        } else {
+            LOG.warn("Processing for provider {} with data type {} is not implemented.", provider, locationDataFromApi.getClass().getSimpleName());
+        }
+    }
 
-		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
+    /**
+     * Sends an email notification with the new charging stations.
+     *
+     * @param detailedLocationData
+     *         the detailed location data to include in the email
+     * @param provider
+     *         the provider being processed
+     */
+    private void sendEmailAboutNewChargingStations(Object detailedLocationData, Providers provider) {
+        try {
+            String emailBody = OBJECT_MAPPER.writer().withDefaultPrettyPrinter().writeValueAsString(detailedLocationData);
+            emailController.sendMail(provider, emailBody);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException("Failed to serialize detailed location data for provider: " + provider, e);
+        }
+    }
 
-		if (!difference.isEmpty()) {
-			LOG.info("Found " + difference.size() + " new stations");
-			List<MoonChargeLocation> newLocations = new ArrayList<>();
-			for (MoonChargeLocation location : locations) {
-				if (difference.contains(location.id)) {
-					newLocations.add(location);
-				}
-			}
-			LOG.info("Created list of stations");
-			FileController.writeNewDataToJsonFile(provider, locations.length, difference);
-			FileController.writeNewStationsToFile(provider, newLocations);
-		} else {
-			LOG.info("No new stations found");
-		}
-	}
+    /**
+     * Saves Ampeco station data into the database.
+     *
+     * @param detailedLocationData
+     *         the detailed location data fetched from Ampeco
+     * @param provider
+     *         the provider being processed
+     */
+    private void saveAmpecoChargingStationsToDb(AmpecoDetailedLocation detailedLocationData, Providers provider) {
+        List<ChargingStationsEntity> entities = detailedLocationData.locations.stream().map(loc -> new ChargingStationsEntity(loc.id, provider.getId(), loc.name, loc.address, loc.location)).collect(Collectors.toList());
+        chargingStationsRepository.addChargingStationList(entities);
+    }
 
-	/**
-	 * This method checks for new Avant2Go stations and fetches details about them if there are any new stations.
-	 *
-	 * @param provider
-	 * 		An instance of the Providers class which contains details about the API to fetch data from
-	 * @throws RuntimeException
-	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
-	 */
-	public void checkAvant2Go(Providers provider) {
-		Avant2GoLocations locations;
-		try {
-			locations = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), Avant2GoLocations.class);
-		} catch (JsonProcessingException e) {
-			LOG.error("Mapping to POJO failed");
-			throw new RuntimeException(e);
-		}
-		LOG.info("Fetched: " + locations.results.size() + " stations");
+    /**
+     * Saves a list of charging station entities to the database using a provided mapping function.
+     *
+     * @param data
+     *         the list of location data objects
+     * @param mapper
+     *         a function that maps each object to a {@link ChargingStationsEntity}
+     * @param <T>
+     *         the type of location data
+     */
+    private <T> void saveChargingStationsToDb(List<T> data, Function<T, ChargingStationsEntity> mapper) {
+        List<ChargingStationsEntity> entities = data.stream().map(mapper).collect(Collectors.toList());
+        chargingStationsRepository.addChargingStationList(entities);
+    }
 
-		Integer numberOfStationsInFile = FileController.getNumberOfStationsFromFile(provider);
+    /**
+     * Fetches detailed location data for providers that use Ampeco URLs.
+     *
+     * @param provider
+     *         the provider being processed
+     * @param stationIds
+     *         the set of station IDs for which to fetch details
+     *
+     * @return the detailed location data
+     */
+    private AmpecoDetailedLocation fetchDetailedLocationData(Providers provider, Set<Long> stationIds) {
+        try {
+            // Instead of manual string concatenation, build a request payload via a Map.
+            Map<String, Object> locationsMap = new HashMap<>();
+            Map<String, Object> stationsMap = new LinkedHashMap<>();
+            stationIds.forEach(id -> stationsMap.put(String.valueOf(id), null));
+            locationsMap.put("locations", stationsMap);
+            String requestBody = OBJECT_MAPPER.writeValueAsString(locationsMap);
 
-		if (locations.results.size() != numberOfStationsInFile) {
-			LOG.info("Change detected");
-			FileController.writeNewDataToJsonFile(provider, locations.results.size(), null);
-			FileController.writeNewStationsToFile(provider, locations);
-		} else {
-			LOG.info("No new stations found");
-		}
-	}
+            String apiResponse = apiController.getAmpecoDetailedLocationsApi(requestBody, provider);
+            AmpecoDetailedLocation detailedLocation = OBJECT_MAPPER.readValue(apiResponse, AmpecoDetailedLocation.class);
+            // Filter out locations based on specific conditions.
+            detailedLocation.locations.removeIf(location -> location.zones.getFirst().evses.getFirst().roamingEvseId != null);
+            return detailedLocation;
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException("Failed to fetch detailed location data for provider: " + provider, e);
+        }
+    }
 
-	/**
-	 * This method checks for new EFrend stations and fetches details about them if there are any new stations.
-	 *
-	 * @param provider
-	 * 		An instance of the Providers class which contains details about the API to fetch data from
-	 * @throws RuntimeException
-	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
-	 */
-	public void checkEFrend(Providers provider) {
-		EfrendLocationPins efrendLocationPins;
-		try {
-			efrendLocationPins = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), EfrendLocationPins.class);
-		} catch (JsonProcessingException e) {
-			LOG.error("Mapping to POJO failed");
-			throw new RuntimeException(e);
-		}
-		LOG.info("Fetched: " + efrendLocationPins.pins.size() + " stations");
+    /**
+     * Filters an array of location data objects to include only those with IDs in the newStations set.
+     *
+     * @param locationData
+     *         the array of location data objects
+     * @param newStations
+     *         the set of new station IDs
+     * @param idExtractor
+     *         a function to extract the ID from a location data object
+     * @param <T>
+     *         the type of location data
+     *
+     * @return a list of filtered location data objects
+     */
+    private <T> List<T> filterLocationData(T[] locationData, Set<Long> newStations, Function<T, Long> idExtractor) {
+        return Arrays.stream(locationData).filter(location -> newStations.contains(idExtractor.apply(location))).collect(Collectors.toList());
+    }
 
-		Set<Integer> stationsAroundSlovenia = restrictToGeoLocation(efrendLocationPins);
+    /**
+     * Gets the number of stations from the location data.
+     *
+     * @param locationData
+     *         the location data object (its type defines how the count is computed)
+     *
+     * @return the number of stations
+     */
+    private int getNumberOfStationsFromApi(Object locationData) {
+        return switch (locationData) {
+            case AmpecoDetailedLocation detailed -> detailed.locations.size();
+            case PetrolLocations[] petrol -> petrol.length;
+            case MoonChargeLocation[] moon -> moon.length;
+            case Avant2GoLocations avant -> avant.results.size();
+            case ImpleraLocations implera -> implera.marker.size();
+            default -> throw new IllegalArgumentException("Unsupported location data type: " + (locationData != null ? locationData.getClass().getSimpleName() : "null"));
+        };
+    }
 
-		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
-
-		if (!difference.isEmpty()) {
-			LOG.info("Found " + difference.size() + " new stations");
-			EfrendDetailedLocation efrendDetailedLocation;
-			try {
-				efrendDetailedLocation = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), EfrendDetailedLocation.class);
-			} catch (JsonProcessingException e) {
-				LOG.error("Mapping to POJO failed");
-				throw new RuntimeException(e);
-			}
-			LOG.info("Mapped " + efrendDetailedLocation.locations.size() + " stations to POJO");
-			FileController.writeNewDataToJsonFile(provider, efrendLocationPins.pins.size(), difference);
-			FileController.writeNewStationsToFile(provider, efrendDetailedLocation);
-		} else {
-			LOG.info("No new stations found");
-		}
-	}
-
-	/**
-	 * This method checks for new MegaTel stations and fetches details about them if there are any new stations.
-	 *
-	 * @param provider
-	 * 		An instance of the Providers class which contains details about the API to fetch data from
-	 * @throws RuntimeException
-	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
-	 */
-	public void checkMegaTel(Providers provider) {
-		MegaTelLocationPins megaTelLocationPins;
-		try {
-			megaTelLocationPins = OBJECT_MAPPER.readValue(ApiController.getLocationsFromApi(provider), MegaTelLocationPins.class);
-		} catch (JsonProcessingException e) {
-			LOG.error("Mapping to POJO failed");
-			throw new RuntimeException(e);
-		}
-		LOG.info("Fetched: " + megaTelLocationPins.pins.size() + " stations");
-
-		Set<Integer> stationsAroundSlovenia = restrictToGeoLocation(megaTelLocationPins);
-
-		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
-
-		if (!difference.isEmpty()) {
-			LOG.info("Found " + difference.size() + " new stations");
-			MegaTelDetailedLocation megaTelDetailedLocation;
-			try {
-				megaTelDetailedLocation = OBJECT_MAPPER.readValue(ApiController.getAmpecoDetailedLocationsApi(buildPostRequestBody(difference), provider), MegaTelDetailedLocation.class);
-			} catch (JsonProcessingException e) {
-				LOG.error("Mapping to POJO failed");
-				throw new RuntimeException(e);
-			}
-			LOG.info("Mapped " + megaTelDetailedLocation.locations.size() + " stations to POJO");
-			FileController.writeNewDataToJsonFile(provider, megaTelLocationPins.pins.size(), difference);
-			FileController.writeNewStationsToFile(provider, megaTelDetailedLocation);
-		} else {
-			LOG.info("No new stations found");
-		}
-	}
-
-	/**
-	 * This method checks for new Implera stations and fetches details about them if there are any new stations.
-	 *
-	 * @param provider
-	 * 		An instance of the Providers class which contains details about the API to fetch data from
-	 * @throws RuntimeException
-	 * 		if there is an error in mapping the API response to a POJO or writing the data to a file
-	 */
-	public void checkImplera(Providers provider) {
-		ObjectMapper xmlMapper = new XmlMapper().configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-
-		ImpleraLocations impleraLocations;
-		try {
-			impleraLocations = xmlMapper.readValue(ApiController.getLocationsFromApi(provider), ImpleraLocations.class);
-		} catch (JsonProcessingException e) {
-			LOG.error("Mapping to POJO failed");
-			throw new RuntimeException(e);
-		}
-		LOG.info("Fetched: " + impleraLocations.marker.size() + " stations");
-
-		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
-		for (int i = 0; i < impleraLocations.marker.size(); i++) {
-			stationsAroundSlovenia.add(impleraLocations.marker.get(i).id);
-		}
-
-		Set<Integer> difference = checkDifference(provider, stationsAroundSlovenia);
-
-		if (!difference.isEmpty()) {
-			LOG.info("Found " + difference.size() + " new stations");
-			List<ImpleraLocations.marker> newLocations = new ArrayList<>();
-			for (int i = 0; i < impleraLocations.marker.size(); i++) {
-				if (difference.contains(impleraLocations.marker.get(i).id)) {
-					newLocations.add(impleraLocations.marker.get(i));
-				}
-			}
-			LOG.info("Created list of stations");
-			FileController.writeNewDataToJsonFile(provider, impleraLocations.marker.size(), difference);
-			FileController.writeNewStationsToFile(provider, newLocations);
-		} else {
-			LOG.info("No new stations found");
-		}
-	}
-
-	/**
-	 * Checks the difference between new and old station IDs of the given provider.
-	 *
-	 * @param provider
-	 * 		The provider for which to check the station IDs
-	 * @param stationsAroundSlovenia
-	 * 		The set of station IDs around Slovenia
-	 * @return The set of new station IDs
-	 */
-	private Set<Integer> checkDifference(Providers provider, Set<Integer> stationsAroundSlovenia) {
-		Set<Integer> oldStations = FileController.getStationIdsFromFile(provider);
-		Set<Integer> newStations = new LinkedHashSet<>(stationsAroundSlovenia);
-		LOG.info("Number of old stations: " + oldStations.size());
-		LOG.info("Number of new stations: " + newStations.size());
-		newStations.removeAll(oldStations);
-		return newStations;
-	}
-
-	/**
-	 * This method filters the station IDs from the `ampecoLocationPins` object that are within the geographical boundaries of Slovenia. The method only considers stations whose latitude starts with 45, 46 or 47 and longitude starts with 13, 14, 15, 16 or 17.
-	 *
-	 * @param ampecoLocationPins
-	 * 		The `AmpecoLocationPins` object containing information about all the stations.
-	 * @return A set of station IDs of the stations located within the geographical boundaries of Slovenia.
-	 */
-	private Set<Integer> restrictToGeoLocation(AmpecoLocationPins ampecoLocationPins) {
-		LOG.info("Starting to filter " + ampecoLocationPins.pins.size() + " stations near Slovenia");
-		Set<Integer> stationsAroundSlovenia = new LinkedHashSet<>();
-		for (int counter = 0; counter < ampecoLocationPins.pins.size(); counter++) {
-			try {
-				int lat = Integer.parseInt(ampecoLocationPins.pins.get(counter).geo.split(",")[0].substring(0, 2));
-				int lon = Integer.parseInt(ampecoLocationPins.pins.get(counter).geo.split(",")[1].substring(0, 2));
-				if ((lat == 45 || lat == 46 || lat == 47) && (lon == 13 || lon == 14 || lon == 15 || lon == 16 || lon == 17)) {
-					stationsAroundSlovenia.add(ampecoLocationPins.pins.get(counter).id);
-				}
-			} catch (NumberFormatException ignored) {
-			}
-		}
-		LOG.info("Stations filtered. Total number of stations around Slovenia: " + stationsAroundSlovenia.size());
-		return stationsAroundSlovenia;
-	}
-
-	/**
-	 * Builds the body of a post request by creating a JSON string with the specified new values.
-	 *
-	 * @param newValues
-	 * 		the new values to be included in the post request body
-	 * @return a string representing the post request body in JSON format
-	 */
-	private String buildPostRequestBody(Set<Integer> newValues) {
-		StringBuilder postRequestBody = new StringBuilder("{\"locations\": {");
-		for (Integer newValue : newValues) {
-			postRequestBody.append("\"").append(newValue).append("\": null,");
-		}
-		postRequestBody.deleteCharAt(postRequestBody.length() - 1).append("}}");
-		return postRequestBody.toString();
-	}
+    /**
+     * Extracts a set of station IDs from the location data.
+     *
+     * @param locationData
+     *         the location data object
+     *
+     * @return a set of station IDs
+     */
+    private Set<Long> getStationIdsFromApiData(Object locationData) {
+        Set<Long> stationIds = new LinkedHashSet<>();
+        switch (locationData) {
+            case AmpecoDetailedLocation detailed -> detailed.locations.forEach(loc -> stationIds.add(loc.id));
+            case PetrolLocations[] petrol -> {
+                for (PetrolLocations loc : petrol) {
+                    stationIds.add(loc.id);
+                }
+            }
+            case MoonChargeLocation[] moon -> {
+                for (MoonChargeLocation loc : moon) {
+                    stationIds.add(loc.id);
+                }
+            }
+            case Avant2GoLocations avant -> avant.results.forEach(result -> stationIds.add((long) result.hashCode()));
+            case ImpleraLocations implera -> implera.marker.forEach(marker -> stationIds.add(marker.id));
+            default -> throw new IllegalArgumentException("Unsupported location data type: " + (locationData != null ? locationData.getClass().getSimpleName() : "null"));
+        }
+        return stationIds;
+    }
 }

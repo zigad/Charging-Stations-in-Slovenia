@@ -1,0 +1,44 @@
+services:
+  charging_stations_postgres:
+    image: postgres:17.0-alpine
+    container_name: charging_stations_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: charging_stations
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - charging_stations_network
+
+  charging_stations_service:
+    build:
+      context: .
+      dockerfile: src/main/docker/Dockerfile.jvm
+
+    container_name: charging_stations_service
+    restart: always
+    depends_on:
+      - charging_stations_postgres
+    environment:
+      PG_URL: jdbc:postgresql://charging_stations_postgres:5432/charging_stations
+      PG_USER: admin
+      PG_PASS: secret
+      CSS_MAIL_FROM: mail@example.com
+      CSS_MAIL_TO: mail@example.com
+      CSS_MAIL_HOST: smtp.example.com
+      CSS_MAIL_PORT: 465
+      CSS_MAIL_TLS: true
+      CSS_MAIL_MOCK: false
+      CSS_MAIL_USERNAME: mail@example.com
+      CSS_MAIL_PASSWORD: password
+    networks:
+      - charging_stations_network
+
+volumes:
+  postgres_data:
+
+networks:
+  charging_stations_network:
+    driver: bridge

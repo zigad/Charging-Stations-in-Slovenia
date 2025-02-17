@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import si.deisinger.business.controller.ApiController;
 import si.deisinger.business.controller.EmailController;
 import si.deisinger.business.entity.ChargingStationsEntity;
+import si.deisinger.business.exceptions.JsonParsingException;
 import si.deisinger.business.repository.ChargingStationsRepository;
 import si.deisinger.providers.enums.Providers;
 import si.deisinger.providers.model.ampeco.AmpecoDetailedLocation;
@@ -20,6 +21,7 @@ import si.deisinger.providers.model.petrol.PetrolLocations;
 
 import java.util.*;
 import java.util.function.Function;
+import java.util.function.ToLongFunction;
 import java.util.stream.Collectors;
 
 /**
@@ -93,7 +95,7 @@ public class ProviderProcessor {
                     pinsWest = (AmpecoLocationPins) OBJECT_MAPPER.readValue(locationsWest, locationClass);
                     pinsEast = (AmpecoLocationPins) OBJECT_MAPPER.readValue(locationsEast, locationClass);
                 } catch (JsonProcessingException e) {
-                    throw new RuntimeException("Failed to parse Ampeco location pins", e);
+                    throw new JsonParsingException("Failed to parse Ampeco location pins", e);
                 }
 
                 // Ensure pins list is non-null
@@ -113,7 +115,7 @@ public class ProviderProcessor {
                     String apiResponse = apiController.getLocationsFromApi(provider, "");
                     return OBJECT_MAPPER.readValue(apiResponse, locationClass);
                 } catch (JsonProcessingException e) {
-                    throw new RuntimeException("Failed to fetch location data for provider: " + provider, e);
+                    throw new JsonParsingException("Failed to fetch location data for provider: " + provider, e);
                 }
             }
         }
@@ -146,21 +148,24 @@ public class ProviderProcessor {
      *         the set of new station IDs
      */
     private void processNewStations(Providers provider, Object locationDataFromApi, Set<Long> newStations) {
-        if (locationDataFromApi instanceof AmpecoDetailedLocation ampecoDetailedLocation) {
-            // Retain only the new stations.
-            ampecoDetailedLocation.locations.removeIf(location -> !newStations.contains(location.id));
-            saveAmpecoChargingStationsToDb(ampecoDetailedLocation, provider);
-            sendEmailAboutNewChargingStations(ampecoDetailedLocation, provider);
-        } else if (locationDataFromApi instanceof PetrolLocations[] petrolLocations) {
-            List<PetrolLocations> filtered = filterLocationData(petrolLocations, newStations, PetrolLocations::getId);
-            saveChargingStationsToDb(filtered, petrol -> new ChargingStationsEntity(petrol.id, Providers.PETROL.getId(), petrol.friendlyName, petrol.address.toString(), petrol.access != null ? petrol.access.toString() : null));
-            sendEmailAboutNewChargingStations(filtered, provider);
-        } else if (locationDataFromApi instanceof MoonChargeLocation[] moonChargeLocations) {
-            List<MoonChargeLocation> filtered = filterLocationData(moonChargeLocations, newStations, MoonChargeLocation::getId);
-            saveChargingStationsToDb(filtered, moon -> new ChargingStationsEntity(moon.id, Providers.MOONCHARGE.getId(), moon.friendlyName, moon.address.toString(), moon.access != null ? moon.access.toString() : null));
-            sendEmailAboutNewChargingStations(filtered, provider);
-        } else {
-            LOG.warn("Processing for provider {} with data type {} is not implemented.", provider, locationDataFromApi.getClass().getSimpleName());
+        switch (locationDataFromApi) {
+            case AmpecoDetailedLocation ampecoDetailedLocation -> {
+                // Retain only the new stations.
+                ampecoDetailedLocation.locations.removeIf(location -> !newStations.contains(location.id));
+                saveAmpecoChargingStationsToDb(ampecoDetailedLocation, provider);
+                sendEmailAboutNewChargingStations(ampecoDetailedLocation, provider);
+            }
+            case PetrolLocations[] petrolLocations -> {
+                List<PetrolLocations> filtered = filterLocationData(petrolLocations, newStations, PetrolLocations::getId);
+                saveChargingStationsToDb(filtered, petrol -> new ChargingStationsEntity(petrol.id, Providers.PETROL.getId(), petrol.friendlyName, petrol.address.toString(), petrol.access != null ? petrol.access.toString() : null));
+                sendEmailAboutNewChargingStations(filtered, provider);
+            }
+            case MoonChargeLocation[] moonChargeLocations -> {
+                List<MoonChargeLocation> filtered = filterLocationData(moonChargeLocations, newStations, MoonChargeLocation::getId);
+                saveChargingStationsToDb(filtered, moon -> new ChargingStationsEntity(moon.id, Providers.MOONCHARGE.getId(), moon.friendlyName, moon.address.toString(), moon.access != null ? moon.access.toString() : null));
+                sendEmailAboutNewChargingStations(filtered, provider);
+            }
+            case null, default -> LOG.warn("Processing for provider {} with data type {} is not implemented.", provider, Objects.requireNonNull(locationDataFromApi).getClass().getSimpleName());
         }
     }
 
@@ -177,7 +182,7 @@ public class ProviderProcessor {
             String emailBody = OBJECT_MAPPER.writer().withDefaultPrettyPrinter().writeValueAsString(detailedLocationData);
             emailController.sendMail(provider, emailBody);
         } catch (JsonProcessingException e) {
-            throw new RuntimeException("Failed to serialize detailed location data for provider: " + provider, e);
+            throw new JsonParsingException("Failed to serialize detailed location data for provider: " + provider, e);
         }
     }
 
@@ -190,7 +195,7 @@ public class ProviderProcessor {
      *         the provider being processed
      */
     private void saveAmpecoChargingStationsToDb(AmpecoDetailedLocation detailedLocationData, Providers provider) {
-        List<ChargingStationsEntity> entities = detailedLocationData.locations.stream().map(loc -> new ChargingStationsEntity(loc.id, provider.getId(), loc.name, loc.address, loc.location)).collect(Collectors.toList());
+        List<ChargingStationsEntity> entities = detailedLocationData.locations.stream().map(loc -> new ChargingStationsEntity(loc.id, provider.getId(), loc.name, loc.address, loc.location)).toList();
         chargingStationsRepository.addChargingStationList(entities);
     }
 
@@ -205,7 +210,7 @@ public class ProviderProcessor {
      *         the type of location data
      */
     private <T> void saveChargingStationsToDb(List<T> data, Function<T, ChargingStationsEntity> mapper) {
-        List<ChargingStationsEntity> entities = data.stream().map(mapper).collect(Collectors.toList());
+        List<ChargingStationsEntity> entities = data.stream().map(mapper).toList();
         chargingStationsRepository.addChargingStationList(entities);
     }
 
@@ -234,7 +239,7 @@ public class ProviderProcessor {
             detailedLocation.locations.removeIf(location -> location.zones.getFirst().evses.getFirst().roamingEvseId != null);
             return detailedLocation;
         } catch (JsonProcessingException e) {
-            throw new RuntimeException("Failed to fetch detailed location data for provider: " + provider, e);
+            throw new JsonParsingException("Failed to fetch detailed location data for provider: " + provider, e);
         }
     }
 
@@ -252,8 +257,8 @@ public class ProviderProcessor {
      *
      * @return a list of filtered location data objects
      */
-    private <T> List<T> filterLocationData(T[] locationData, Set<Long> newStations, Function<T, Long> idExtractor) {
-        return Arrays.stream(locationData).filter(location -> newStations.contains(idExtractor.apply(location))).collect(Collectors.toList());
+    private <T> List<T> filterLocationData(T[] locationData, Set<Long> newStations, ToLongFunction<T> idExtractor) {
+        return Arrays.stream(locationData).filter(location -> newStations.contains(idExtractor.applyAsLong(location))).toList();
     }
 
     /**
@@ -271,7 +276,7 @@ public class ProviderProcessor {
             case MoonChargeLocation[] moon -> moon.length;
             case Avant2GoLocations avant -> avant.results.size();
             case ImpleraLocations implera -> implera.marker.size();
-            default -> throw new IllegalArgumentException("Unsupported location data type: " + (locationData != null ? locationData.getClass().getSimpleName() : "null"));
+            default -> throw new IllegalArgumentException("Unsupported location data type: " + locationData.getClass().getSimpleName());
         };
     }
 
@@ -299,7 +304,7 @@ public class ProviderProcessor {
             }
             case Avant2GoLocations avant -> avant.results.forEach(result -> stationIds.add((long) result.hashCode()));
             case ImpleraLocations implera -> implera.marker.forEach(marker -> stationIds.add(marker.id));
-            default -> throw new IllegalArgumentException("Unsupported location data type: " + (locationData != null ? locationData.getClass().getSimpleName() : "null"));
+            default -> throw new IllegalArgumentException("Unsupported location data type: " + locationData.getClass().getSimpleName());
         }
         return stationIds;
     }

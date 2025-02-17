@@ -1,77 +1,98 @@
 package si.deisinger.business.controller;
 
+import jakarta.inject.Singleton;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.providers.enums.Providers;
 
 import java.io.IOException;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * Controller for interacting with external APIs. Provides methods for fetching location data and detailed data from APIs, including AMPECO-specific endpoints.
+ */
+@Singleton
 public class ApiController {
 
-	private static final Logger LOG = LoggerFactory.getLogger(ApiController.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ApiController.class);
+    private static final HttpClient HTTP_CLIENT = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).build();
 
-	/**
-	 * Gets the location data from a specified API.
-	 *
-	 * @param providers
-	 * 		the API to get the location data from
-	 * @return the location data in a string format
-	 * @throws RuntimeException
-	 * 		if there is an IOException or InterruptedException while sending the API request
-	 */
-	public static String getLocationsFromApi(Providers providers) {
-		LOG.info("Getting API data for provider: {}", providers.getProviderName());
-		HttpClient client = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).build();
-		HttpRequest request = HttpRequest.newBuilder().version(HttpClient.Version.HTTP_2).uri(URI.create(providers.getUrl())).build();
-		HttpResponse<String> response;
-		try {
-			response = client.send(request, HttpResponse.BodyHandlers.ofString());
-		} catch (IOException | InterruptedException e) {
-			LOG.error("Error getting API data for provider: {}", providers.getProviderName(), e);
-			throw new RuntimeException(e);
-		}
-		LOG.info("Received API data for provider: {}", providers.getProviderName());
-		LOG.debug("Response body: {}", response.body());
-		return response.body();
-	}
+    /**
+     * Fetches location data from the specified API provider.
+     *
+     * @param provider
+     *         the API provider from which to fetch location data
+     * @param parameters
+     *         additional URL parameters for the request
+     *
+     * @return the location data as a string
+     *
+     * @throws IllegalStateException
+     *         if an error occurs while sending the API request
+     */
+    public String getLocationsFromApi(Providers provider, String parameters) {
+        String url = provider.getUrl() + parameters;
+        LOG.info("Fetching location data from provider: {} using URL: {}", provider.getProviderName(), url);
+        HttpRequest request = HttpRequest.newBuilder().uri(URI.create(url)).GET().build();
+        return sendRequest(request, provider.getProviderName(), "location data");
+    }
 
-	/**
-	 * Gets detailed location data from the AMPECO API.
-	 *
-	 * @param postRequestBody
-	 * 		the body of the POST request to send to the API
-	 * @param providers
-	 * 		the API to get the detailed location data from
-	 * @return the detailed location data in a string format
-	 * @throws RuntimeException
-	 * 		if there is a URISyntaxException or if there is an IOException or InterruptedException while sending the API request
-	 */
-	public static String getAmpecoDetailedLocationsApi(String postRequestBody, Providers providers) {
-		LOG.info("*AMPECO Only*");
-		LOG.info("Getting detailed location data from AMPECO API");
-		HttpClient client = HttpClient.newBuilder().version(HttpClient.Version.HTTP_2).build();
-		HttpRequest request;
-		try {
-			request = HttpRequest.newBuilder(new URI(providers.getAmpecoUrl())).version(HttpClient.Version.HTTP_2).header("Content-Type", "application/json").POST(HttpRequest.BodyPublishers.ofString(postRequestBody, StandardCharsets.UTF_8)).build();
-		} catch (URISyntaxException e) {
-			LOG.error("Error getting detailed location data from AMPECO API", e);
-			throw new RuntimeException(e);
-		}
-		HttpResponse<String> response;
-		try {
-			response = client.send(request, HttpResponse.BodyHandlers.ofString());
-		} catch (IOException | InterruptedException e) {
-			LOG.error("Error getting detailed location data from AMPECO API", e);
-			throw new RuntimeException(e);
-		}
-		LOG.info("Received detailed location data from AMPECO API");
-		LOG.debug("Response body: {}", response.body());
-		return response.body();
-	}
+    /**
+     * Fetches detailed location data from the AMPECO API.
+     *
+     * @param postRequestBody
+     *         the JSON body of the POST request
+     * @param provider
+     *         the API provider containing AMPECO-specific endpoint details
+     *
+     * @return the detailed location data as a string
+     *
+     * @throws IllegalStateException
+     *         if an error occurs while sending the API request
+     */
+    public String getAmpecoDetailedLocationsApi(String postRequestBody, Providers provider) {
+        String url = provider.getAmpecoUrl().orElseThrow(() -> new IllegalArgumentException("No Ampeco URL available for provider: " + provider.getProviderName()));
+        LOG.info("Fetching detailed location data from AMPECO API for provider: {} using URL: {}", provider.getProviderName(), url);
+        HttpRequest request = HttpRequest.newBuilder().uri(URI.create(url)).header("Content-Type", "application/json").POST(HttpRequest.BodyPublishers.ofString(postRequestBody, StandardCharsets.UTF_8)).build();
+        return sendRequest(request, provider.getProviderName(), "detailed location data from AMPECO API");
+    }
+
+    /**
+     * Sends the provided HTTP request and returns the response body if the request is successful. It also verifies that the HTTP status code indicates success (i.e. 2xx).
+     *
+     * @param request
+     *         the HTTP request to send
+     * @param providerName
+     *         the provider's name (used for logging)
+     * @param dataDescription
+     *         a brief description of the data being fetched (used for logging)
+     *
+     * @return the response body as a string
+     *
+     * @throws IllegalStateException
+     *         if the request is interrupted, fails due to an I/O error, or returns a non-success status code
+     */
+    private String sendRequest(HttpRequest request, String providerName, String dataDescription) {
+        try {
+            HttpResponse<String> response = HTTP_CLIENT.send(request, HttpResponse.BodyHandlers.ofString());
+            if (response.statusCode() < 200 || response.statusCode() >= 300) {
+                throw new IllegalStateException("Non-success HTTP status " + response.statusCode() + " when fetching " + dataDescription + " data for provider: " + providerName + ". Response body: " + response.body());
+            }
+            LOG.info("Successfully fetched {} for provider: {}", dataDescription, providerName);
+            if (LOG.isDebugEnabled()) {
+                LOG.debug("Response body: {}", response.body());
+            }
+            return response.body();
+        } catch (InterruptedException e) {
+            // Preserve the interrupt status and handle the interruption appropriately.
+            Thread.currentThread().interrupt();
+            throw new IllegalStateException("Request interrupted while fetching " + dataDescription + " for provider: " + providerName, e);
+        } catch (IOException e) {
+            throw new IllegalStateException("I/O error while fetching " + dataDescription + " for provider: " + providerName, e);
+        }
+    }
 }

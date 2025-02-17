@@ -45,10 +45,8 @@ public class Scheduler {
                     case MOONCHARGE -> providerProcessor.checkProviderStations(provider, MoonChargeLocation[].class);
                     case EFREND -> providerProcessor.checkProviderStations(provider, EfrendLocationPins.class);
                     case MEGATEL -> providerProcessor.checkProviderStations(provider, MegaTelLocationPins.class);
-                    case IMPLERA, AVANT2GO -> {
-                        // Not implemented due to SSL issues. Skip processing.
-                        LOG.info("Provider {} is disabled (not implemented)", provider.getProviderName());
-                    }
+                    case IMPLERA, AVANT2GO -> // Not implemented due to SSL issues. Skip processing.
+                            LOG.info("Provider {} is disabled (not implemented)", provider.getProviderName());
                     default -> throw new UnsupportedProviderException("Unexpected provider: " + provider);
                 }
             } catch (Exception e) {

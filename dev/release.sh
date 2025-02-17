@@ -54,11 +54,6 @@ echo "Setting next development version: $nextDevVersion"
 git commit -a -m "Set next development version: $nextDevVersion"
 git push origin develop
 
-# Cleanup
-echo "Deleting release branch"
-git branch -d "release/$version"
-git push origin --delete "release/$version"
-
 # Build and push Docker image
 echo "Building Docker image for version: $version"
 docker build -f src/main/docker/Dockerfile.jvm -t "$projectName:$version" --platform=linux/amd64 .

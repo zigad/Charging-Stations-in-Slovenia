@@ -80,20 +80,19 @@ public class ApiController {
         try {
             HttpResponse<String> response = HTTP_CLIENT.send(request, HttpResponse.BodyHandlers.ofString());
             if (response.statusCode() < 200 || response.statusCode() >= 300) {
-                LOG.error("Non-success HTTP status {} when fetching {} for provider: {}. Response body: {}", response.statusCode(), dataDescription, providerName, response.body());
-                throw new IllegalStateException("Non-success HTTP status: " + response.statusCode());
+                throw new IllegalStateException("Non-success HTTP status " + response.statusCode() + " when fetching " + dataDescription + " data for provider: " + providerName + ". Response body: " + response.body());
             }
             LOG.info("Successfully fetched {} for provider: {}", dataDescription, providerName);
-            LOG.debug("Response body: {}", response.body());
+            if (LOG.isDebugEnabled()) {
+                LOG.debug("Response body: {}", response.body());
+            }
             return response.body();
         } catch (InterruptedException e) {
             // Preserve the interrupt status and handle the interruption appropriately.
             Thread.currentThread().interrupt();
-            LOG.error("Request interrupted while fetching {} for provider: {}", dataDescription, providerName, e);
-            throw new IllegalStateException("Interrupted while fetching " + dataDescription, e);
+            throw new IllegalStateException("Request interrupted while fetching " + dataDescription + " for provider: " + providerName, e);
         } catch (IOException e) {
-            LOG.error("I/O error while fetching {} for provider: {}", dataDescription, providerName, e);
-            throw new IllegalStateException("I/O error while fetching " + dataDescription, e);
+            throw new IllegalStateException("I/O error while fetching " + dataDescription + " for provider: " + providerName, e);
         }
     }
 }

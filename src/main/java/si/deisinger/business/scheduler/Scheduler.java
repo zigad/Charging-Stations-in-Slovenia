@@ -5,8 +5,8 @@ import jakarta.enterprise.context.ApplicationScoped;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import si.deisinger.business.ProviderProcessor;
+import si.deisinger.business.exceptions.UnsupportedProviderException;
 import si.deisinger.providers.enums.Providers;
-import si.deisinger.providers.model.avant2go.Avant2GoLocations;
 import si.deisinger.providers.model.efrend.EfrendLocationPins;
 import si.deisinger.providers.model.gremonaelektriko.GNELocationPins;
 import si.deisinger.providers.model.megatel.MegaTelLocationPins;
@@ -43,14 +43,11 @@ public class Scheduler {
                     case GREMONAELEKTRIKO -> providerProcessor.checkProviderStations(provider, GNELocationPins.class);
                     case PETROL -> providerProcessor.checkProviderStations(provider, PetrolLocations[].class);
                     case MOONCHARGE -> providerProcessor.checkProviderStations(provider, MoonChargeLocation[].class);
-                    case AVANT2GO -> providerProcessor.checkProviderStations(provider, Avant2GoLocations.class);
                     case EFREND -> providerProcessor.checkProviderStations(provider, EfrendLocationPins.class);
                     case MEGATEL -> providerProcessor.checkProviderStations(provider, MegaTelLocationPins.class);
-                    case IMPLERA -> {
-                        // Not implemented due to SSL issues. Skip processing.
-                        LOG.info("Provider {} is disabled (not implemented)", provider.getProviderName());
-                    }
-                    default -> throw new IllegalStateException("Unexpected provider: " + provider);
+                    case IMPLERA, AVANT2GO -> // Not implemented due to SSL issues. Skip processing.
+                            LOG.info("Provider {} is disabled (not implemented)", provider.getProviderName());
+                    default -> throw new UnsupportedProviderException("Unexpected provider: " + provider);
                 }
             } catch (Exception e) {
                 // Log error and continue with the next provider

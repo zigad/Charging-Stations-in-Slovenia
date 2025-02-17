@@ -50,7 +50,7 @@ git push origin develop
 # Set next development version
 nextDevVersion=$(echo $version | awk -F. '{print $1"."$2"."$3+1"-SNAPSHOT"}')
 echo "Setting next development version: $nextDevVersion"
-./mvnw org.codehaus.mojo:versions-maven-plugin:2.10.0:set -DnewVersion=$nextDevVersion -DgenerateBackupPoms=false
+./mvnw org.codehaus.mojo:versions-maven-plugin:2.18.0:set -DnewVersion=$nextDevVersion -DgenerateBackupPoms=false
 git commit -a -m "Set next development version: $nextDevVersion"
 git push origin develop
 

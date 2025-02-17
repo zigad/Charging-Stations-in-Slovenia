@@ -10,10 +10,14 @@ echo "Current project version: $currentVersion. Enter the new release version:"
 read version
 
 # Ensure version format is valid
-if [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-    echo "Error: Version format must be X.Y.Z (e.g., 1.2.3)"
+if [[ ! "$version" =~ ^v?[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+    echo "Error: Version must be in the format vX.Y.Z or X.Y.Z (e.g., v1.2.3 or 1.2.3)"
     exit 1
 fi
+
+# Ensure the 'v' prefix
+version=${version#v}  # Remove 'v' if present
+version="v$version"   # Always add 'v' prefix
 
 # Ensure Docker is running
 if ! docker info &>/dev/null; then
@@ -36,12 +40,12 @@ echo "Setting project version to: $version"
 
 # Commit and push the release branch
 echo "Committing version change: $projectName"
-git commit -a -m "Prepare release v$version"
+git commit -a -m "Prepare release $version"
 git push origin "release/$version"
 
 # Create PR to merge release/$version into master
 echo "Creating PR: release/$version → master"
-gh pr create --base master --head release/$version --title "Release v$version" --body "Merging release v$version into master"
+gh pr create --base master --head release/$version --title "Release $version" --body "Merging release $version into master"
 
 echo "Waiting for PR approval before proceeding..."
 read -p "Press Enter when the PR is merged into master..."
@@ -50,14 +54,14 @@ read -p "Press Enter when the PR is merged into master..."
 echo "Merging release/$version into master"
 git checkout master
 git pull origin master
-git merge --no-ff "release/$version" -m "Release v$version"
-git tag -a "v$version" -m "$projectName v$version"
+git merge --no-ff "release/$version" -m "Release $version"
+git tag -a "$version" -m "$projectName $version"
 git push origin master
-git push origin "v$version"
+git push origin "$version"
 
 # Create PR to merge master back into develop
 echo "Creating PR: master → develop"
-gh pr create --base develop --head master --title "Sync master to develop (Release v$version)" --body "Merging release v$version back to develop"
+gh pr create --base develop --head master --title "Sync master to develop (Release $version)" --body "Merging release $version back to develop"
 
 echo "Waiting for PR approval before proceeding..."
 read -p "Press Enter when the PR is merged into develop..."
@@ -78,11 +82,11 @@ git branch -d "release/$version"
 git push origin --delete "release/$version"
 
 # Build Docker image
-echo "Building Docker image for version: v$version"
-docker build -f src/main/docker/Dockerfile.jvm -t $projectName":v$version" --platform=linux/amd64 .
+echo "Building Docker image for version: $version"
+docker build -f src/main/docker/Dockerfile.jvm -t $projectName":$version" --platform=linux/amd64 .
 
 # Push Docker image to registry
-echo "Pushing Docker image for version: v$version"
-docker push $projectName":v$version"
+echo "Pushing Docker image for version: $version"
+docker push $projectName":$version"
 
-echo "🎉 Release process for v$version completed successfully! 🎉"
+echo "🎉 Release process for $version completed successfully! 🎉"

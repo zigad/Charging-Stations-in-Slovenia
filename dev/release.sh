@@ -37,27 +37,30 @@ git checkout master
 git pull --rebase origin master  # Ensure master is up to date
 git merge --no-ff "release/$version" -m "Release $version"
 git tag -a "$version" -m "$projectName $version"
-git push origin master --force
-git push origin "$version" --force
-
-# Merge master into develop
-echo "Merging master into develop"
-git checkout develop
-git pull --rebase origin develop  # Ensure develop is up to date
-git merge --no-ff master -m "Sync master to develop (Release $version)"
-git push origin develop --force
+git push origin master
+git push origin "$version"
 
 # Set next development version
 nextDevVersion=$(echo $version | awk -F. '{print $1"."$2"."$3+1"-SNAPSHOT"}')
 echo "Setting next development version: $nextDevVersion"
 ./mvnw org.codehaus.mojo:versions-maven-plugin:2.18.0:set -DnewVersion=$nextDevVersion -DgenerateBackupPoms=false
 git commit -a -m "Set next development version: $nextDevVersion"
-git push origin develop --force
+git push origin master
 
 # Build and push Docker image
 echo "Building Docker image for version: $version"
 docker build -f src/main/docker/Dockerfile.jvm -t "$projectName:$version" --platform=linux/amd64 .
 echo "Pushing Docker image for version: $version"
 docker push "$projectName:$version"
+
+echo "Do you want to build this version as latest and push it to Docker?"
+read pushLatest
+
+if [ "${pushLatest,,}" = "y" ]; then
+  echo "Building latest Docker image"
+  docker build -f src/main/docker/Dockerfile.jvm -t "$projectName:latest" --platform=linux/amd64 .
+  echo "Pushing latest Docker image"
+  docker push "$projectName:latest"
+fi
 
 echo "✅ Release $version completed and pushed to Docker repo."

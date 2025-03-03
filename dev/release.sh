@@ -53,10 +53,10 @@ docker build -f src/main/docker/Dockerfile.jvm -t "$projectName:$version" --plat
 echo "Pushing Docker image for version: $version"
 docker push "$projectName:$version"
 
-echo "Do you want to build this version as latest and push it to Docker?"
+echo "Do you want to build this version as latest and push it to Docker? (y)"
 read pushLatest
 
-if [ "${pushLatest,,}" = "y" ]; then
+if [[ "$pushLatest" =~ ^[Yy]$ ]]; then
   echo "Building latest Docker image"
   docker build -f src/main/docker/Dockerfile.jvm -t "$projectName:latest" --platform=linux/amd64 .
   echo "Pushing latest Docker image"

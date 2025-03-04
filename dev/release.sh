@@ -40,13 +40,6 @@ git tag -a "$version" -m "$projectName $version"
 git push origin master
 git push origin "$version"
 
-# Set next development version
-nextDevVersion=$(echo $version | awk -F. '{print $1"."$2"."$3+1"-SNAPSHOT"}')
-echo "Setting next development version: $nextDevVersion"
-./mvnw org.codehaus.mojo:versions-maven-plugin:2.18.0:set -DnewVersion=$nextDevVersion -DgenerateBackupPoms=false
-git commit -a -m "Set next development version: $nextDevVersion"
-git push origin master
-
 # Build and push Docker image
 echo "Building Docker image for version: $version"
 docker build -f src/main/docker/Dockerfile.jvm -t "$projectName:$version" --platform=linux/amd64 .
@@ -62,5 +55,12 @@ if [[ "$pushLatest" =~ ^[Yy]$ ]]; then
   echo "Pushing latest Docker image"
   docker push "$projectName:latest"
 fi
+
+# Set next development version
+nextDevVersion=$(echo $version | awk -F. '{print $1"."$2"."$3+1"-SNAPSHOT"}')
+echo "Setting next development version: $nextDevVersion"
+./mvnw org.codehaus.mojo:versions-maven-plugin:2.18.0:set -DnewVersion=$nextDevVersion -DgenerateBackupPoms=false
+git commit -a -m "Set next development version: $nextDevVersion"
+git push origin master
 
 echo "✅ Release $version completed and pushed to Docker repo."

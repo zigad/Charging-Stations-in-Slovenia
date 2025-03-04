@@ -36,7 +36,7 @@ echo "Merging release/$version into master"
 git checkout master
 git pull --rebase origin master  # Ensure master is up to date
 git merge --no-ff "release/$version" -m "Release $version"
-git tag -a "$version" -m "$projectName $version"
+git tag -s -a "$version" -m "$projectName $version"
 git push origin master
 git push origin "$version"
 

@@ -41,6 +41,8 @@ git push origin master
 git push origin "$version"
 
 # Build and push Docker image
+echo "Cleaning and packaging service"
+./mvnw clean package
 echo "Building Docker image for version: $version"
 docker build -f src/main/docker/Dockerfile.jvm -t "$projectName:$version" --platform=linux/amd64 .
 echo "Pushing Docker image for version: $version"

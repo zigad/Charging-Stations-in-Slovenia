@@ -1,5 +1,6 @@
 package si.deisinger.business.controller;
 
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
@@ -10,6 +11,7 @@ import si.deisinger.business.repository.ChargingStationsRepository;
 import java.util.List;
 import java.util.Optional;
 
+@ApplicationScoped
 @Path("/stations")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
@@ -46,6 +48,7 @@ public class ChargingStationsController {
         Optional<ChargingStationsEntity> existingStation = repository.findByIdOptional(id);
         if (existingStation.isPresent()) {
             ChargingStationsEntity station = existingStation.get();
+            station.setStationId(updatedStation.getStationId());
             station.setProvider(updatedStation.getProvider());
             station.setFriendlyName(updatedStation.getFriendlyName());
             station.setAddress(updatedStation.getAddress());

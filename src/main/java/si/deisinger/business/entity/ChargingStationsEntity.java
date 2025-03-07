@@ -37,8 +37,36 @@ public class ChargingStationsEntity {
         this.location = location;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public Long getStationId() {
         return stationId;
+    }
+
+    public void setStationId(Long stationId) {
+        this.stationId = stationId;
+    }
+
+    public Integer getProvider() {
+        return provider;
+    }
+
+    public void setProvider(Integer provider) {
+        this.provider = provider;
+    }
+
+    public String getFriendlyName() {
+        return friendlyName;
+    }
+
+    public void setFriendlyName(String friendlyName) {
+        this.friendlyName = friendlyName;
     }
 
     public String getAddress() {
@@ -49,4 +77,11 @@ public class ChargingStationsEntity {
         this.address = address;
     }
 
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
 }
